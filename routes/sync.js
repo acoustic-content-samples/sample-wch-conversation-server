@@ -22,7 +22,6 @@ const router = express.Router();
 const syncLogic = require('../lib/sync');
 
 router.get('/intents', function(req, resp) {
-console.log('syncLogic', syncLogic)
   syncLogic.push({
     from: syncLogic.WCS,
     to: syncLogic.WCH
