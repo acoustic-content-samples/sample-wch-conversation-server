@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+const app = require('../app'),
+      appEnv = app.get('appEnv');
+
+var server = app.listen(appEnv.port, appEnv.bind, function() {
+  console.log(`Server started at ${appEnv.bind}:${appEnv.port}`);
+});

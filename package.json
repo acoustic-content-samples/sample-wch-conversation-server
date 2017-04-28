@@ -1,0 +1,44 @@
+{
+  "name": "wch-conversation-integration-server",
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node bin/www",
+    "test": "node mocha ",
+    "addService": "cf cups CHATBOT_CONFIG -p \"wchtenant, wchusr, wchpwd, wcs_workspace \""
+  },
+  "dependencies": {
+    "cfenv": "^1.0.4",
+    "express": "^4.15.2",
+    "sample-wch-node-connector": "^0.3.3",
+    "watson-developer-cloud": "^2.30.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-eslint": "^1.0.0",
+    "gulp-file-include": "^0.13.7",
+    "gulp-if": "^1.2.5",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sass-lint": "^1.1.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-svgstore": "^6.1.0",
+    "gulp-uglify": "^1.2.0",
+    "mocha": "^3.1.2",
+    "modularscale-sass": "^2.1.1",
+    "node-sass-import-once": "^1.2.0",
+    "should": "^11.1.1"
+  },
+  "repository": {
+    "git": "https://github.ibm.com/sterbling/wch-conversation-integration-server"
+  },
+  "engines": {
+    "node": "6.x"
+  }
+}

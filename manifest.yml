@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  buildpack: nodejs_buildpack
+  instances: 1
+  domain: stage1.eu-gb.mybluemix.net
+  name: wch-conv-int-srv
+  host: wch-conv-int-srv
+  disk_quota: 1024M
+  services: 
+    - CHATBOT_CONFIG
+    - wch_conversation
+
