@@ -18,6 +18,7 @@
 'use strict';
 
 const express = require('express');
+const chatRoutes = require('./routes/chat');
 const syncRoutes = require('./routes/sync');
 const path = require('path');
 
@@ -37,10 +38,7 @@ Environment: ${(appEnv.isLocal) ? "local" : "bluemix"}`
 
 app.set('appEnv', appEnv);
 
-app.get('/', function(req, res, next) {
-  res.send({'Ayayay':'dasd'});
-});
-
+app.use('/chat', chatRoutes);
 app.use('/sync', syncRoutes);
 
 /// catch 404 and forward to error handler

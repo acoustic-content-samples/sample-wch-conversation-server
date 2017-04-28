@@ -21,28 +21,40 @@ const router = express.Router();
 
 const syncLogic = require('../lib/sync');
 
-router.get('/intents', function(req, resp) {
+router.post('/', function(req, resp) {
   syncLogic.push({
     from: syncLogic.WCS,
-    to: syncLogic.WCH
-  }).then(status => resp.send(status));
-  // conversation.message({
-  // input: { text: '' },
-  // workspace_id: 'bba2bb71-5b1d-482c-bee9-db752c8c46a9'
-  //  }, function(err, response) {
-  //      if (err) {
-  //        console.error(err);
-  //      } else {
-  //        console.log(JSON.stringify(response, null, 2));
-  //        resp.json(response);
-  //      }
-  // });
-
-  
+    to: syncLogic.WCH,
+    type: 'force',
+    elements: 'all',
+  }).then(status => resp.send('Sync All Successful!'));
 });
 
-router.post('/', function(req, resp) {
-  resp.send('Sync!');
+router.post('/intents', function(req, resp) {
+  syncLogic.push({
+    from: syncLogic.WCS,
+    to: syncLogic.WCH,
+    type: 'force',
+    elements: 'intents',
+  }).then(status => resp.send('Sync All Successful!'));  
+});
+
+router.post('/entities', function(req, resp) {
+  syncLogic.push({
+    from: syncLogic.WCS,
+    to: syncLogic.WCH,
+    type: 'force',
+    elements: 'entities',
+  }).then(status => resp.send('Sync All Successful!'));  
+});
+
+router.post('/taxonomies', function(req, resp) {
+  syncLogic.push({
+    from: syncLogic.WCH,
+    to: syncLogic.WCS,
+    type: 'force',
+    elements: 'all',
+  }).then(status => resp.send('Sync All Successful!'));  
 });
 
 router.get('/ping', function(req, resp) {
