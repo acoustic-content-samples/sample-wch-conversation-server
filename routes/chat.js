@@ -20,11 +20,61 @@ const express = require('express');
 const router = express.Router();
 
 const conversation = require('../lib/conversation');
+const wch = require('../lib/wch').delivery;
 
-router.post('/message', function(req, resp) {
-  resp.
-  status(201).
-  send('pong');
+function postMessage(params) {
+  return new Promise((res, rej) => {
+    conversation.message({
+      workspace_id: conversation.workspace_en,
+      export: true,
+      input: {text: params.input},
+      context: params.context
+    }, 
+    (err, resp) => {
+      if(err) {
+        console.log(err);
+        rej(err);
+      }
+      res(resp);
+    });
+  }); 
+}
+
+// Process the conversation response.
+function processResponse(response) {
+  return new Promise((res, rej) => {
+    let textKey = response.output.text[0];
+    let queryParams = {
+      query:'classification:content'
+    };
+
+    wch.search.query(queryParams).
+    then(res).
+    catch(rej);
+  });
+}
+
+function getNodeOutputText(resp) {
+  return new Promise((res, rej) => {
+    console.log(resp.output.text[0]);
+    res(resp);
+  });
+}
+
+router.post('/message', function(req, resp, next) {
+  console.log("reqBody ", req.body);
+
+  postMessage(req.body).
+  then(getNodeOutputText).
+  then(processResponse).
+  then(result => {
+    resp.
+    status(200).
+    json(result);
+  }).
+  catch(err => {
+    next(err);
+  });
 });
 
 router.get('/ping', function(req, resp) {

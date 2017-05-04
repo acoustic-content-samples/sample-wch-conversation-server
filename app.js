@@ -18,6 +18,7 @@
 'use strict';
 
 const express = require('express');
+const bodyParser  = require('body-parser');
 const chatRoutes = require('./routes/chat');
 const syncRoutes = require('./routes/sync');
 const path = require('path');
@@ -37,6 +38,8 @@ Environment: ${(appEnv.isLocal) ? "local" : "bluemix"}`
 );
 
 app.set('appEnv', appEnv);
+
+app.use(bodyParser.json());
 
 app.use('/chat', chatRoutes);
 app.use('/sync', syncRoutes);
