@@ -23,17 +23,24 @@ const syncLogic = require('../lib/sync');
 
 router.post('/', function(req, resp) {
   syncLogic.push({
-    from: syncLogic.WCS,
-    to: syncLogic.WCH,
+    fromSys: syncLogic.WCS,
+    toSys: syncLogic.WCH,
     type: 'force',
     elements: 'all',
-  }).then(status => resp.send('Sync All Successful!'));
+  }).then(status => resp.send(status));
+});
+
+router.post('/init', function(req, resp) {
+  syncLogic.init({
+    fromSys: syncLogic.WCS,
+    toSys: syncLogic.WCH,
+  }).then(status => resp.send(status));
 });
 
 router.post('/intents', function(req, resp) {
   syncLogic.push({
-    from: syncLogic.WCS,
-    to: syncLogic.WCH,
+    fromSys: syncLogic.WCS,
+    toSys: syncLogic.WCH,
     type: 'force',
     elements: 'intents',
   }).then(status => resp.send('Sync All Successful!'));  
@@ -41,8 +48,8 @@ router.post('/intents', function(req, resp) {
 
 router.post('/entities', function(req, resp) {
   syncLogic.push({
-    from: syncLogic.WCS,
-    to: syncLogic.WCH,
+    fromSys: syncLogic.WCS,
+    toSys: syncLogic.WCH,
     type: 'force',
     elements: 'entities',
   }).then(status => resp.send('Sync All Successful!'));  
@@ -50,8 +57,8 @@ router.post('/entities', function(req, resp) {
 
 router.post('/taxonomies', function(req, resp) {
   syncLogic.push({
-    from: syncLogic.WCH,
-    to: syncLogic.WCS,
+    fromSys: syncLogic.WCH,
+    toSys: syncLogic.WCS,
     type: 'force',
     elements: 'all',
   }).then(status => resp.send('Sync All Successful!'));  
