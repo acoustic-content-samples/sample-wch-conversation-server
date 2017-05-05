@@ -37,32 +37,13 @@ router.post('/init', function(req, resp) {
   }).then(status => resp.send(status));
 });
 
-router.post('/intents', function(req, resp) {
+router.post('/push', function(req, resp) {
   syncLogic.push({
     fromSys: syncLogic.WCS,
     toSys: syncLogic.WCH,
-    type: 'force',
-    elements: 'intents',
-  }).then(status => resp.send('Sync All Successful!'));  
+  }).then(status => resp.send(status));
 });
 
-router.post('/entities', function(req, resp) {
-  syncLogic.push({
-    fromSys: syncLogic.WCS,
-    toSys: syncLogic.WCH,
-    type: 'force',
-    elements: 'entities',
-  }).then(status => resp.send('Sync All Successful!'));  
-});
-
-router.post('/taxonomies', function(req, resp) {
-  syncLogic.push({
-    fromSys: syncLogic.WCH,
-    toSys: syncLogic.WCS,
-    type: 'force',
-    elements: 'all',
-  }).then(status => resp.send('Sync All Successful!'));  
-});
 
 router.get('/ping', function(req, resp) {
   resp.
