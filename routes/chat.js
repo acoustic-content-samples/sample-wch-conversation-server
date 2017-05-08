@@ -43,20 +43,25 @@ function postMessage(params) {
 // Process the conversation response.
 function processResponse(response) {
   return new Promise((res, rej) => {
+    let { context, output } = response;
     let textKey = response.output.text[0];
+    // q=classification:content&fq=categoryLeaves:mrwatson&fq=categoryLeaves:ConversationStart&fl=*
     let queryParams = {
-      query:'classification:content'
+      query:'classification:content',
+      facetquery: [`categoryLeaves:${context.chatbotpersona}`, `categoryLeaves:${output.nodes_visited[output.nodes_visited.length-1]}`]
     };
 
     wch.search.query(queryParams).
-    then(res).
+    then(searchresult => {
+      console.log(searchresult)
+      res({response, searchresult});
+    }).
     catch(rej);
   });
 }
 
 function getNodeOutputText(resp) {
   return new Promise((res, rej) => {
-    console.log(resp.output.text[0]);
     res(resp);
   });
 }
