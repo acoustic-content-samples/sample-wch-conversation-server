@@ -24,6 +24,7 @@ const syncRoutes = require('./routes/sync');
 const path = require('path');
 
 const appEnv = require('./lib/env');
+const bots = require('./lib/bots');
 
 // create a new express server
 const app = express();
@@ -40,6 +41,8 @@ Environment: ${(appEnv.isLocal) ? "local" : "bluemix"}`
 app.set('appEnv', appEnv);
 
 app.use(bodyParser.json());
+
+bots(app);
 
 app.use('/chat', chatRoutes);
 app.use('/sync', syncRoutes);
