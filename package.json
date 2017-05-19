@@ -16,7 +16,7 @@
     "cfenv": "^1.0.4",
     "express": "^4.15.2",
     "handlebars": "^4.0.8",
-    "sample-wch-node-connector": "^0.5.0",
+    "sample-wch-node-connector": "^0.6.1",
     "watson-developer-cloud": "^2.30.0"
   },
   "devDependencies": {
