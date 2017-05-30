@@ -1,5 +1,5 @@
 /**
- * Copyright 2015 IBM Corp. All Rights Reserved.
+ * Copyright 2017 IBM Corp. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,9 +17,10 @@
 /* jslint node: true, esversion: 6 */
 'use strict';
 
+const debug = require('debug')('wchbotserver:app');
+
 const express = require('express');
 const bodyParser  = require('body-parser');
-const chatRoutes = require('./routes/chat');
 const syncRoutes = require('./routes/sync');
 const path = require('path');
 
@@ -29,11 +30,10 @@ const bots = require('./lib/bots');
 // create a new express server
 const app = express();
 
-const debug = true;
-const logErr = (err) => {if (debug) console.error(err); throw err;}
-const logTrace = (value) => {console.error(value); return value;}
+const logErr = (err) => {debug(err); throw err;}
+const logTrace = (value) => {debug(value); return value;}
 
-console.log(
+debug(
 `Starting Server...
 Environment: ${(appEnv.isLocal) ? "local" : "bluemix"}`
 );
@@ -44,7 +44,6 @@ app.use(bodyParser.json());
 
 bots(app);
 
-app.use('/chat', chatRoutes);
 app.use('/sync', syncRoutes);
 
 /// catch 404 and forward to error handler
