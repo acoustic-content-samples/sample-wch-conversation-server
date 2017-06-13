@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-const app = require('../app'),
-      appEnv = app.get('appEnv');
+const debug = require('debug')('wchbotserver:www');
+const app = require('../app');
+const creds = app.get('appEnv').credentials;
 
-var server = app.listen(appEnv.port, appEnv.bind, function() {
-  console.log(`Server started at ${appEnv.bind}:${appEnv.port}`);
+var server = app.listen(creds.port, creds.bind, function() {
+  debug(`Server started at ${creds.bind}:${creds.port}`);
 });
