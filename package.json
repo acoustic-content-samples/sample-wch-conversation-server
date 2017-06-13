@@ -7,7 +7,9 @@
     "dev": "gulp nodemon",
     "devDebug": "set DEBUG_COLORS=true&&set DEBUG=wchbotserver:*,-wchbotserver:templating&& gulp nodemon",
     "test": "node mocha ",
-    "addService": "cf cups CHATBOT_CONFIG -p \"wchtenant, wchusr, wchpwd, wcs_workspace \""
+    "addGeoSrv": "bx cf cups geolocationservice -p \"key\"",
+    "addWchSrv": "bx cf cups wch_config -p \"tenantid\", \"username\", \"password\", \"baseurl\", \"hosturl\"",
+    "addBotSrv": "bx cf cups bot_config -p \"profcontent, mrwatson, slacktoken, oauthtoken, clientid, clientsecret, verificationtoken\""
   },
   "dependencies": {
     "@google/maps": "^0.3.1",
