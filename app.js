@@ -41,11 +41,15 @@ Environment: ${(appEnv.isLocal) ? "local" : "bluemix"}`
 app.set('appEnv', appEnv);
 
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
 
+debug('Configured bots');
 bots(app);
 
+debug('Configured sync');
 app.use('/sync', syncRoutes);
 
+debug('Configured error handling');
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
@@ -59,20 +63,22 @@ let errorHandler;
 if (app.get('appEnv').isLocal === true) {
   // Error Handler: Development 
   errorHandler = function(err, req, res, next) {
-      res.status(err.status || 500);
-      res.send({
-          message: err.message,
-          error: err
-      });
+    debug('Error handler %o', err);
+    res.status(err.status || 500);
+    res.send({
+        message: err.message,
+        error: err
+    });
   };
 } else {
   // Error Handler: Production
   errorHandler = function(err, req, res, next) {
-      res.status(err.status || 500);
-      res.send({
-          message: err.message,
-          error: {}
-      });
+    debug('Error handler %o', err);
+    res.status(err.status || 500);
+    res.send({
+        message: err.message,
+        error: {}
+    });
   };
 }
 

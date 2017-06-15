@@ -18,11 +18,10 @@
 /* jslint node: true, esversion: 6 */
 'use strict';
 
-const debug = require('debug')('www');
-
+const debug = require('debug')('wchbotserver:www');
 const app = require('../app');
-const appEnv = app.get('appEnv');
+const creds = app.get('appEnv').credentials;
 
-var server = app.listen(appEnv.port, appEnv.bind, () => {
-  debug(`Server started at ${appEnv.bind}:${appEnv.port}`);
+var server = app.listen(creds.port, creds.bind, function() {
+  debug(`Server started at ${creds.bind}:${creds.port}`);
 });

@@ -8,7 +8,9 @@
     "devDebug": "set DEBUG_COLORS=true&&set DEBUG=wchbotserver:*,-wchbotserver:templating&& gulp dev",
     "test": "node mocha ",
     "eslint": "gulp eslint",
-    "addService": "cf cups CHATBOT_CONFIG -p \"wchtenant, wchusr, wchpwd, wcs_workspace \""
+    "addGeoSrv": "bx cf cups geolocationservice -p \"key\"",
+    "addWchSrv": "bx cf cups wch_config -p \"tenantid\", \"username\", \"password\", \"baseurl\", \"hosturl\"",
+    "addBotSrv": "bx cf cups bot_config -p \"profcontent, mrwatson, clientid, clientsecret, verificationtoken\""
   },
   "dependencies": {
     "@google/maps": "^0.3.1",
