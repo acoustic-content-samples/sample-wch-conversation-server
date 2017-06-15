@@ -51,6 +51,7 @@ var dirs = {
       'app.js',
       'lib/**/*.js',
       'src/**/*.js',
+      'routes/**/*.js',
       '!src/**/*.min.js'
     ],
     'uglify': [
@@ -313,3 +314,5 @@ gulp.task('watch', ['eslint:watch', 'uglify:watch', 'sass:watch', 'images:watch'
 gulp.task('default', ['browser-sync', 'build', 'watch']);
 
 gulp.task("svg", ["minimizeSvgs", "buildSvgSprite"]); 
+
+gulp.task("dev", ['eslint:watch', 'nodemon']); 

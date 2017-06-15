@@ -4,9 +4,10 @@
   "private": false,
   "scripts": {
     "start": "node bin/www",
-    "dev": "gulp nodemon",
-    "devDebug": "set DEBUG_COLORS=true&&set DEBUG=wchbotserver:*,-wchbotserver:templating&& gulp nodemon",
+    "dev": "gulp dev",
+    "devDebug": "set DEBUG_COLORS=true&&set DEBUG=wchbotserver:*,-wchbotserver:templating&& gulp dev",
     "test": "node mocha ",
+    "eslint": "gulp eslint",
     "addService": "cf cups CHATBOT_CONFIG -p \"wchtenant, wchusr, wchpwd, wcs_workspace \""
   },
   "dependencies": {

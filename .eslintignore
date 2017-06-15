@@ -1,0 +1,13 @@
+# But not in docs/_js/examples/*
+docs/_js/*.js
+docs/js/
+docs/_site/
+# gems
+docs/vendor/bundle/
+# Ignore built files.
+build/
+coverage/
+scripts/bench/benchmarks/**/*.js
+scripts/bench/remote-repo/
+vendor/*
+**/node_modules
