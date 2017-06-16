@@ -10,7 +10,7 @@
     "eslint": "gulp eslint",
     "addGeoSrv": "bx cf cups geolocationservice -p \"key\"",
     "addWchSrv": "bx cf cups wch_config -p \"tenantid\", \"username\", \"password\", \"baseurl\", \"hosturl\"",
-    "addBotSrv": "bx cf cups bot_config -p \"profcontent, mrwatson, slacktoken, oauthtoken, clientid, clientsecret, verificationtoken\"",
+    "addBotSrv": "bx cf cups bot_config -p \"slacktoken, clientid, clientsecret, verificationtoken\"",
     "addDBSrv": "bx cf cups db_config -p \"mongoUri\""
   },
   "dependencies": {
