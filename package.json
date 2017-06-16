@@ -10,13 +10,15 @@
     "eslint": "gulp eslint",
     "addGeoSrv": "bx cf cups geolocationservice -p \"key\"",
     "addWchSrv": "bx cf cups wch_config -p \"tenantid\", \"username\", \"password\", \"baseurl\", \"hosturl\"",
-    "addBotSrv": "bx cf cups bot_config -p \"profcontent, mrwatson, clientid, clientsecret, verificationtoken\""
+    "addBotSrv": "bx cf cups bot_config -p \"profcontent, mrwatson, slacktoken, oauthtoken, clientid, clientsecret, verificationtoken\"",
+    "addDBSrv": "bx cf cups db_config -p \"mongoUri\""
   },
   "dependencies": {
     "@google/maps": "^0.3.1",
     "body-parser": "^1.17.1",
     "botkit": "^0.5.4",
     "botkit-middleware-watson": "^1.3.1",
+    "botkit-storage-mongo": "^1.0.6",
     "cfenv": "^1.0.4",
     "debug": "^2.6.8",
     "express": "^4.15.2",

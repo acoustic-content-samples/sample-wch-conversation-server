@@ -10,6 +10,7 @@ applications:
   services: 
     - bot_config
     - wch_config
+    - db_config
     - wch-conversation
     - wch-toneanalyzer
 
