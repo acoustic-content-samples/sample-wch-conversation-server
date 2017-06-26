@@ -32,6 +32,8 @@ In order to use the sample out-of-the box please make sure to name the  services
 - Conversation Service name : `wch-conversation`
 - Tone Analyzer Service name : `wch-toneanalyzer`
 
+![Bluemix Services Image](/docs/4%20-%20Created%20Services.PNG?raw=true)
+
 ### Gather all credentials
 1. Watson Content Hub - Login into your tenant. Click on your name and open 'Hub Setup'. There you find your API URL and Tenant Id. 
 2. Watson Conversation Service - [Follow the instructions in the official documentation on how to get the service credentials][bluemixapi]
@@ -57,7 +59,7 @@ git clone https://github.com/ibm-wch/sample-wch-conversation-integration-server.
 
 5. **Done.** Enjoy the demo. Feel free to make changes and create your own chatbot!  
 
-###Resources
+### Resources
 
 API Explorer reference documentation: https://developer.ibm.com/api/view/id-618
 
