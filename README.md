@@ -49,11 +49,7 @@ In order to use the sample out-of-the box please make sure to name the  services
 git clone https://github.com/ibm-wch/sample-wch-conversation-integration-server.git
 ```
 
-2. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run setupSample`. This will ask for all possible credentials and afterwards initializes the Watson Conversation Service and Watson Content Hub with the sample dialog and the required content types.
-
- If you just want to setup the credentials simply run `npm run setuplocal` or you can use `dch_vcap_sample.json` as a reference and fill in the parameters manually.
-
- *NOTE:* If you are not interessted in the slack integration of this sample you can omit the bot_config completely.
+2. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run setupSample`. This will ask for all possible credentials and afterwards initializes the Watson Conversation Service and Watson Content Hub with the sample dialog and the required content types.<br/><br/>If you just want to setup the credentials simply run `npm run setuplocal` or you can use `dch_vcap_sample.json` as a reference and fill in the parameters manually.<br/><br/>*NOTE:* If you are not interessted in the slack integration of this sample you can omit the bot_config completely.
 
 3. **[Optional]** If you want to start the server call `npm run devDebug` for a nodemon server with tracing enabled for the complete application. If you don't want tracing enabled simply run `npm run dev`. After startup you should be able to call the endpoint `/rasp/message` and get a JSON response containing a text field with the answer.
 
