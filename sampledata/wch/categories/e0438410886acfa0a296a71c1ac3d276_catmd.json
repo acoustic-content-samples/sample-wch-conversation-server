@@ -1,0 +1,30 @@
+{
+  "id": "e0438410886acfa0a296a71c1ac3d276",
+  "rev": "4-7ed95ed86259daa9660a3797d640d1e5",
+  "name": "frustrated",
+  "classification": "category",
+  "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
+  "parent": "cf7d502a106a0de68cb1414df0eabbeb",
+  "ancestorIds": [
+    "cf7d502a106a0de68cb1414df0ea8b7a",
+    "cf7d502a106a0de68cb1414df0eabbeb"
+  ],
+  "namePath": [
+    "emotion",
+    "toneanalyzer",
+    "frustrated"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0ea8b7a"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/e0438410886acfa0a296a71c1ac3d276"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0eabbeb"
+    }
+  },
+  "created": "2017-05-10T10:51:30.638Z",
+  "lastModified": "2017-05-10T10:54:30.371Z"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "afdb08f3-4859-447a-a88f-20f35009d631",
+  "rev": "16-ef45e0eac2d524e1321c9d161370f7a6",
+  "name": "Follow up - Username",
+  "description": "",
+  "classification": "content",
+  "typeId": "f9147be3-09bd-47a1-94b9-22e5e4cac6c1",
+  "locale": "en-US",
+  "lastModified": "2017-06-21T11:06:25.926Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-17T13:48:57.944Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "action": {
+      "elementType": "category",
+      "categoryIds": [
+        "d32ac974bbe1173f5a1b0fd5b64efba4"
+      ]
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference",
+      "value": {
+        "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85"
+      }
+    },
+    "text": {
+      "elementType": "text",
+      "value": "I think we are talking for the first time. Is it okay to ask for you name?"
+    }
+  }
+}

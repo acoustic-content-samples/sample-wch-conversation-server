@@ -1,0 +1,59 @@
+{
+  "id": "8f23e2b8-f14a-47c6-a398-1eae842da27d",
+  "rev": "44-25f7493284f7df4eaffe8fc91033c386",
+  "name": "General -  What is Content Hub",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-06-08T13:42:13.171Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-10T10:46:18.523Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Watson Content Hub is a cloud-era, headless CMS that helps you publish great content to any channel from mobile apps to billboards.\n{{#if (eq watsonData.context.clienttype 'slack')}}- _By the way I'm also fueled on Content Hub_{{else}}- By the way I'm also fueled on Content Hub{{/if}}"
+    },
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": [
+        "cf7d502a106a0de68cb1414df0ead390"
+      ]
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438"
+      ]
+    },
+    "attachmentquery": {
+      "elementType": "text",
+      "value": "name:\"Attachment - WCH Marketplace\""
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a190b5b",
+        "574f55ebf39a12c6f50b96f04326171a"
+      ]
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

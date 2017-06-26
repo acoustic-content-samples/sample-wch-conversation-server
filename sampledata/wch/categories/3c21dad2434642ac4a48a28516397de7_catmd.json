@@ -1,0 +1,28 @@
+{
+  "id": "3c21dad2434642ac4a48a28516397de7",
+  "rev": "1-dba1de2822dae45677f9389ccb9531fd",
+  "name": "howto",
+  "classification": "category",
+  "taxonomy": "6e4827e8e902ad7f810cb8c2a52b03e9",
+  "parent": "6e4827e8e902ad7f810cb8c2a52b03e9",
+  "ancestorIds": [
+    "6e4827e8e902ad7f810cb8c2a52b03e9"
+  ],
+  "namePath": [
+    "intents",
+    "howto"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516397de7"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
+    }
+  },
+  "created": "2017-05-05T15:01:22.624Z",
+  "lastModified": "2017-05-05T15:01:22.624Z"
+}

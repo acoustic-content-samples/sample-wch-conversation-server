@@ -1,0 +1,28 @@
+{
+  "id": "f08c09393f588be1e49ab2090302026b",
+  "rev": "1-f1a1cff8d3cea1226f7f10848c127d68",
+  "name": "chitchat",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "3c21dad2434642ac4a48a28516393082",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082"
+  ],
+  "namePath": [
+    "entities",
+    "chitchat"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/f08c09393f588be1e49ab2090302026b"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    }
+  },
+  "created": "2017-05-31T11:18:49.050Z",
+  "lastModified": "2017-05-31T11:18:49.050Z"
+}

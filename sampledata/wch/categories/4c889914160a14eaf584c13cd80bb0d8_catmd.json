@@ -1,0 +1,30 @@
+{
+  "id": "4c889914160a14eaf584c13cd80bb0d8",
+  "rev": "1-5a63c2534395e2632cf2f9c4262edadf",
+  "name": "Sennheiser HD 205",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "4c889914160a14eaf584c13cd80b178d",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "4c889914160a14eaf584c13cd80b178d"
+  ],
+  "namePath": [
+    "entities",
+    "product",
+    "Sennheiser HD 205"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd80bb0d8"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd80b178d"
+    }
+  },
+  "created": "2017-05-05T15:01:24.689Z",
+  "lastModified": "2017-05-05T15:01:24.689Z"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "0b386251-5c24-4efa-85eb-321f0cc9cdcf",
+  "rev": "24-5717ff248ae46808d71d90f3b9359474",
+  "name": "General - Information no product or feature",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-15T18:32:09.803Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-09T09:31:49.256Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "status": "ready",
+  "elements": {
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "I understand that you are interessted in some information. But the topics you've mentioned are nothing I'm an epxert in. So sadly I cannot answer you question. However if you want to ask me something about Watson Content Hub and it's features go ahead."
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "574f55ebf39a12c6f50b96f04325f166",
+        "8db75208957eb15dd42544d160fdbcc4"
+      ]
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

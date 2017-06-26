@@ -1,0 +1,72 @@
+{
+  "id": "e45861eb-eca0-495b-bb09-fb3840b85cea",
+  "rev": "11-437a4840a0c6221f43eed0b18d87ccec",
+  "name": "Attachment - Nice Day",
+  "description": "",
+  "classification": "content",
+  "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+  "locale": "en-US",
+  "lastModified": "2017-06-08T14:40:47.977Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-12T12:53:49.176Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "image_url": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=1bdd94512c4e329c56491614690feb94&a=dd45ea3d-9662-43df-b81e-22c8b6a024a2",
+          "source": "/authoring/v1/resources/1bdd94512c4e329c56491614690feb94"
+        }
+      },
+      "asset": {
+        "id": "dd45ea3d-9662-43df-b81e-22c8b6a024a2",
+        "resourceUri": "/authoring/v1/resources/1bdd94512c4e329c56491614690feb94",
+        "fileName": "giphy-tumblr.gif",
+        "fileSize": 1049311,
+        "mediaType": "image/gif"
+      }
+    },
+    "color": {
+      "elementType": "text"
+    },
+    "footer": {
+      "elementType": "text",
+      "value": "via giphy"
+    },
+    "author_icon": {
+      "elementType": "image"
+    },
+    "title": {
+      "elementType": "link"
+    },
+    "ts": {
+      "elementType": "datetime"
+    },
+    "footer_icon": {
+      "elementType": "image"
+    },
+    "fields": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Have a good day"
+    },
+    "author": {
+      "elementType": "link"
+    },
+    "fallback": {
+      "elementType": "text"
+    },
+    "thumb_url": {
+      "elementType": "image"
+    },
+    "pretext": {
+      "elementType": "text"
+    }
+  }
+}

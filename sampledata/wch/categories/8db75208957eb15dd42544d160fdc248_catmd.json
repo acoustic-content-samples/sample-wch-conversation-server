@@ -1,0 +1,30 @@
+{
+  "id": "8db75208957eb15dd42544d160fdc248",
+  "rev": "1-a1a6788e3c6df7e20ec3764ed38a87d2",
+  "name": "Loop until",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "ce2d39d2e87c6de66277ee9d4a18d0d2",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "ce2d39d2e87c6de66277ee9d4a18d0d2"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Information",
+    "Loop until"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/8db75208957eb15dd42544d160fdc248"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18d0d2"
+    }
+  },
+  "created": "2017-05-15T18:01:47.550Z",
+  "lastModified": "2017-05-15T18:01:47.550Z"
+}

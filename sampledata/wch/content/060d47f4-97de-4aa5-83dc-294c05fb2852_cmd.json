@@ -1,0 +1,53 @@
+{
+  "id": "060d47f4-97de-4aa5-83dc-294c05fb2852",
+  "rev": "14-7837067e58ce5168195d9c86c3bb68ed",
+  "name": "Follow up Mr Watson - Username",
+  "description": "",
+  "classification": "content",
+  "typeId": "f9147be3-09bd-47a1-94b9-22e5e4cac6c1",
+  "locale": "en-US",
+  "lastModified": "2017-06-08T15:21:49.378Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-06-07T16:26:56.373Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "text": {
+      "elementType": "text",
+      "value": "We have the pleasure to talk for the first time. Is it okay to ask for you name?"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "action": {
+      "elementType": "category",
+      "categoryIds": [
+        "d32ac974bbe1173f5a1b0fd5b64efba4"
+      ]
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": [
+        "d332127df4c37b2d4632699e7e16bccc"
+      ]
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference",
+      "value": {
+        "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85"
+      }
+    }
+  }
+}

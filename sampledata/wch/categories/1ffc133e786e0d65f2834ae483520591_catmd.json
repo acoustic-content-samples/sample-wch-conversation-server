@@ -1,0 +1,30 @@
+{
+  "id": "1ffc133e786e0d65f2834ae483520591",
+  "rev": "1-c75e5ca3a327a64523c71ce2e2014031",
+  "name": "Axians IT",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "6e4827e8e902ad7f810cb8c2a52b3f53"
+  ],
+  "namePath": [
+    "entities",
+    "companyname",
+    "Axians IT"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/1ffc133e786e0d65f2834ae483520591"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
+    }
+  },
+  "created": "2017-05-17T09:24:02.966Z",
+  "lastModified": "2017-05-17T09:24:02.966Z"
+}

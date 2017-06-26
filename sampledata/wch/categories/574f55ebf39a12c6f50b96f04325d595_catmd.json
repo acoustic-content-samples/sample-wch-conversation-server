@@ -1,0 +1,30 @@
+{
+  "id": "574f55ebf39a12c6f50b96f04325d595",
+  "rev": "1-b3c57cddb52b8d63d7215a8f2a927992",
+  "name": "Response Other Welcome",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "b84c6bad3cad3ec6ffff23c78e0f3fe1",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "b84c6bad3cad3ec6ffff23c78e0f3fe1"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Welcome",
+    "Response Other Welcome"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/574f55ebf39a12c6f50b96f04325d595"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/b84c6bad3cad3ec6ffff23c78e0f3fe1"
+    }
+  },
+  "created": "2017-05-15T18:01:49.067Z",
+  "lastModified": "2017-05-15T18:01:49.067Z"
+}

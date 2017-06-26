@@ -1,0 +1,30 @@
+{
+  "id": "d32ac974bbe1173f5a1b0fd5b63d1a7b",
+  "rev": "1-f78c1e6f8ec9ab09c3c2ed70a552e3de",
+  "name": "eBlueprint",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "6e4827e8e902ad7f810cb8c2a52b3f53"
+  ],
+  "namePath": [
+    "entities",
+    "companyname",
+    "eBlueprint"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/d32ac974bbe1173f5a1b0fd5b63d1a7b"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
+    }
+  },
+  "created": "2017-05-17T09:24:02.466Z",
+  "lastModified": "2017-05-17T09:24:02.466Z"
+}

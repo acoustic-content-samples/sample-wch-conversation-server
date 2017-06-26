@@ -1,0 +1,28 @@
+{
+  "id": "ce2d39d2e87c6de66277ee9d4a18d961",
+  "rev": "1-356245740b07a2ab8fbf4300b78e1456",
+  "name": "Switch Persona",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "efb4eb204170385dab6c56b4db05b958",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Switch Persona"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18d961"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    }
+  },
+  "created": "2017-05-15T18:01:46.585Z",
+  "lastModified": "2017-05-15T18:01:46.585Z"
+}

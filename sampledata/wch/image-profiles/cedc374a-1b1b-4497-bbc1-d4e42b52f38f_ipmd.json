@@ -1,0 +1,18 @@
+{
+  "id": "cedc374a-1b1b-4497-bbc1-d4e42b52f38f",
+  "rev": "2-1992b5ea7dcf2c70c945a4bd075dee4c",
+  "name": "Thumbnail",
+  "classification": "image-profile",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-10T09:17:39.089Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-05-10T09:17:47.310Z",
+  "dimensions": [
+    {
+      "label": "thumb",
+      "key": "thumb",
+      "width": 75,
+      "height": 75
+    }
+  ]
+}

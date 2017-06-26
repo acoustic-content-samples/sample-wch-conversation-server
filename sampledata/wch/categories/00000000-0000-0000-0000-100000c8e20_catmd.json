@@ -1,0 +1,30 @@
+{
+  "id": "00000000-0000-0000-0000-100000c8e20",
+  "rev": "1-fba681b8dba69fd1922c3649bcc8f3e3",
+  "name": "Rights managed",
+  "creatorId": "IBM",
+  "permanent": true,
+  "classification": "category",
+  "taxonomy": "00000000-0000-0000-0000-000000c8e20",
+  "parent": "00000000-0000-0000-0000-000000c8e20",
+  "ancestorIds": [
+    "00000000-0000-0000-0000-000000c8e20"
+  ],
+  "namePath": [
+    "Usage rights",
+    "Rights managed"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/00000000-0000-0000-0000-000000c8e20"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/00000000-0000-0000-0000-100000c8e20"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/00000000-0000-0000-0000-000000c8e20"
+    }
+  },
+  "created": "2017-06-26T09:12:47.465Z",
+  "lastModified": "2017-06-26T09:12:47.465Z"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2a5ffd97-d283-4eaf-abf4-489016a7a495",
+  "rev": "11-a820ec719b92a9df33dfc9c5f57b091f",
+  "name": "MrWatson - Set Name",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-06-08T13:36:58.673Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-06-08T13:34:08.688Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": [
+        "d332127df4c37b2d4632699e7e16bccc"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "{{watsonData.context.username}}... what a stylish name. But now let's get started!"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "d32ac974bbe1173f5a1b0fd5b64ebe3a"
+      ]
+    }
+  }
+}

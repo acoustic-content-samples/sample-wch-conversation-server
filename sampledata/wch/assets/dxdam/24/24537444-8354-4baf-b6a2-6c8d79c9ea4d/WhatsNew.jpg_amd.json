@@ -1,0 +1,105 @@
+{
+  "mediaType": "image/jpeg",
+  "name": "WhatsNew.jpg",
+  "path": "/dxdam/24/24537444-8354-4baf-b6a2-6c8d79c9ea4d/WhatsNew.jpg",
+  "digest": "DakKJJMV+gTK22LQAt5bdQ==",
+  "assetType": "image",
+  "lastModified": "2017-05-15T12:10:33.383Z",
+  "description": "Abstract shot of crystal and glass",
+  "tags": {
+    "values": [
+      "media:ice",
+      "classification:curtain",
+      "media:glass",
+      "media:footage still",
+      "media:crystal",
+      "classification:screen",
+      "media:light",
+      "media:nobody",
+      "classification:voile fabric",
+      "media:background",
+      "classification:fabric",
+      "classification:pink color",
+      "media:abstract",
+      "classification:cornice (building)",
+      "classification:framework",
+      "media:conceptual",
+      "classification:lambrequin (decorative hanginga of building)",
+      "classification:purple color",
+      "media:concept",
+      "classification:Tyrian purple color"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:curtain",
+      "classification:screen",
+      "classification:voile fabric",
+      "classification:fabric",
+      "classification:lambrequin (decorative hanginga of building)",
+      "classification:cornice (building)",
+      "classification:framework",
+      "classification:Tyrian purple color",
+      "classification:purple color",
+      "classification:pink color"
+    ]
+  },
+  "altText": "Abstract shot of crystal and glass",
+  "categoryIds": [],
+  "fileName": "WhatsNew.jpg",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "2-5768b1cfa2df613889c0238b9a8488f9",
+  "cognitive": {
+    "classifications": [
+      "curtain",
+      "screen",
+      "voile fabric",
+      "fabric",
+      "lambrequin (decorative hanginga of building)",
+      "cornice (building)",
+      "framework",
+      "Tyrian purple color",
+      "purple color",
+      "pink color"
+    ],
+    "faces": [],
+    "status": "complete"
+  },
+  "id": "24537444-8354-4baf-b6a2-6c8d79c9ea4d",
+  "resource": "8cf2dbe2bce72db71a3a4b96b4e86e30",
+  "fileSize": 67759,
+  "status": "ready",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "renditions": {
+    "default": {
+      "id": "r=8cf2dbe2bce72db71a3a4b96b4e86e30&a=24537444-8354-4baf-b6a2-6c8d79c9ea4d",
+      "source": "/authoring/v1/resources/8cf2dbe2bce72db71a3a4b96b4e86e30"
+    }
+  },
+  "metadata": {
+    "width": 1487,
+    "height": 149,
+    "creator": "Jupiterimages",
+    "date": "2008-07-16T00:00",
+    "description": "Abstract shot of crystal and glass",
+    "publisher": "Getty Images",
+    "rights": "&#169 Getty Images",
+    "source": "Photos.com",
+    "subject": [
+      "abstract",
+      "background",
+      "concept",
+      "conceptual",
+      "crystal",
+      "footage still",
+      "glass",
+      "ice",
+      "light",
+      "nobody"
+    ],
+    "title": "89677102",
+    "headline": "Abstract shot of crystal and glass"
+  },
+  "classification": "asset",
+  "created": "2017-05-15T12:10:31.229Z"
+}

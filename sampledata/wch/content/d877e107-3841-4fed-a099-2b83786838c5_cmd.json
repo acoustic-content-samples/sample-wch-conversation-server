@@ -1,0 +1,100 @@
+{
+  "id": "d877e107-3841-4fed-a099-2b83786838c5",
+  "rev": "26-cb7fbb70cb9d5c1cc8148b3e3f8a524a",
+  "name": "Attachment - WCH Marketplace",
+  "description": "",
+  "classification": "content",
+  "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+  "locale": "en-US",
+  "lastModified": "2017-06-08T13:51:29.928Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-10T10:59:35.139Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "image_url": {
+      "elementType": "image"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Create, manage, and deliver engaging and relevant customer experience with our cloud-based, cognitive-powered content management service."
+    },
+    "color": {
+      "elementType": "text",
+      "value": "#36a64f"
+    },
+    "title": {
+      "elementType": "link",
+      "linkURL": "https://www.ibm.com/us-en/marketplace/cloud-cms-solution",
+      "linkText": "Watson Content Hub Marketplace",
+      "linkDescription": "Linkout to Watson Content Hub Marketplace site. Visit for more information."
+    },
+    "author": {
+      "elementType": "link",
+      "linkText": "ibm.com",
+      "linkURL": "https://www.ibm.com"
+    },
+    "ts": {
+      "elementType": "datetime"
+    },
+    "footer_icon": {
+      "elementType": "image"
+    },
+    "fallback": {
+      "elementType": "text",
+      "value": "{{#if (ne watsonData.context.clienttype 'slack')}} . For more information search for Watson Content Hub in your browser. {{else}} Find more information about Watson Content Hub here: https://www.ibm.com/us-en/marketplace/cloud-cms-solution{{/if}}"
+    },
+    "fields": {
+      "elementType": "text"
+    },
+    "author_icon": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=cf7d502a106a0de68cb1414df0ec2f56&a=436d1d7c-8751-4bcf-8169-652f47d63efa",
+          "source": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec2f56"
+        },
+        "icon": {
+          "renditionId": "a6434ef6-4b5b-4683-bb61-b7466e59b6a7",
+          "source": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec2f56?resize=16px:16px&crop=16:16;0,0"
+        }
+      },
+      "asset": {
+        "id": "436d1d7c-8751-4bcf-8169-652f47d63efa",
+        "resourceUri": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec2f56",
+        "fileName": "bee_128.png",
+        "fileSize": 1077,
+        "mediaType": "image/png"
+      }
+    },
+    "footer": {
+      "elementType": "text"
+    },
+    "thumb_url": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=cf7d502a106a0de68cb1414df0ec4563&a=57388d0c-72eb-4b03-afa6-315fe79cbb78",
+          "source": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec4563"
+        },
+        "thumb": {
+          "renditionId": "322e5e76-c8a6-4885-bf2f-4a6ef2cbe426",
+          "source": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec4563?resize=81px:75px&crop=75:75;3,0"
+        }
+      },
+      "asset": {
+        "id": "57388d0c-72eb-4b03-afa6-315fe79cbb78",
+        "resourceUri": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec4563",
+        "fileName": "Watson_Avatar_Pos_BluePurple_RGB.png",
+        "fileSize": 28262,
+        "mediaType": "image/png"
+      }
+    },
+    "pretext": {
+      "elementType": "text",
+      "value": "If you want to have more information check out the IBM Marketplace:"
+    }
+  }
+}

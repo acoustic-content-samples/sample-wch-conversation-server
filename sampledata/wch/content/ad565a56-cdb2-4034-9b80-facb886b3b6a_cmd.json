@@ -1,0 +1,53 @@
+{
+  "id": "ad565a56-cdb2-4034-9b80-facb886b3b6a",
+  "rev": "11-cb0d8c6c8697899de90b52290e26e37d",
+  "name": "General - Info Feature \"Viewer Role\" for WCH",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-15T18:25:33.426Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-09T09:26:05.406Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [
+    "user:Jan 2017"
+  ],
+  "status": "ready",
+  "elements": {
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ]
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "text": {
+      "elementType": "text",
+      "value": "We added a \"viewer\" role to Content Hub that enables a user to access the WCH authoring APIs in a read-only mode. It's now possible to add these users via the user management screens in WCH."
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "4c889914160a14eaf584c13cd80ba66d"
+      ]
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

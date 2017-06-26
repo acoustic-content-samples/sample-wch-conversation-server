@@ -1,0 +1,28 @@
+{
+  "id": "d81cb8b6923bb2f2ef3eb20a1fe1ee7d",
+  "rev": "1-e0d28015a848df76445712b6c4a0d2f7",
+  "name": "How to",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "efb4eb204170385dab6c56b4db05b958",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "How to"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/d81cb8b6923bb2f2ef3eb20a1fe1ee7d"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    }
+  },
+  "created": "2017-05-16T09:02:08.388Z",
+  "lastModified": "2017-05-16T09:02:08.388Z"
+}

@@ -63,6 +63,15 @@
             "label": "user-provided",
             "name": "bot_config",
             "tags": []
+        },
+        {
+            "credentials": {
+                "key": "<apiKey to Geolocation API>"
+            },
+            "syslog_drain_url": "",
+            "label": "user-provided",
+            "name": "geo_config",
+            "tags": []
         }
     ]
 }

@@ -1,0 +1,20 @@
+{
+  "scale": 0.4032258064516129,
+  "locationY": 0,
+  "height": 75,
+  "locationX": 3,
+  "rev": "1-2cbc1f1dd231eba77bd4a5b1dac52004",
+  "id": "322e5e76-c8a6-4885-bf2f-4a6ef2cbe426",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/png",
+    "height": 186,
+    "fileName": "Watson_Avatar_Pos_BluePurple_RGB.png",
+    "id": "57388d0c-72eb-4b03-afa6-315fe79cbb78",
+    "resource": "cf7d502a106a0de68cb1414df0ec4563",
+    "fileSize": 28262,
+    "width": 200
+  },
+  "width": 75,
+  "created": "2017-05-10T11:43:57.239Z"
+}

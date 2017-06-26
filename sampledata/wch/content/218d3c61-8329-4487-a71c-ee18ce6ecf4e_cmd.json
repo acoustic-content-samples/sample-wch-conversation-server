@@ -1,0 +1,60 @@
+{
+  "id": "218d3c61-8329-4487-a71c-ee18ce6ecf4e",
+  "rev": "25-7ce27adc5f2258e13b2bf38e72033159",
+  "name": "MTL - Introduction Mr Watson",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-06-16T12:38:42.555Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-06-16T12:36:43.946Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": [
+        "d332127df4c37b2d4632699e7e16bccc"
+      ]
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18f25b",
+        "b84c6bad3cad3ec6ffff23c78e0f1682"
+      ]
+    },
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "text": {
+      "elementType": "text",
+      "value": "I'm a business bot fluent in the language of Watson Content Hub. I see you are currently in my business location (Böblingen). Enjoy your stay."
+    },
+    "location": {
+      "elementType": "location",
+      "latitude": 48.6662305,
+      "longitude": 9.039273
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "040ea6e1-5ea4-40ef-b968-92e703a3c741"
+      ]
+    }
+  }
+}

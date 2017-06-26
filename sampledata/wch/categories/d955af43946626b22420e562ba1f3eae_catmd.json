@@ -1,0 +1,30 @@
+{
+  "id": "d955af43946626b22420e562ba1f3eae",
+  "rev": "1-7cc8cc5a3a6f756d6baebb4762355362",
+  "name": "headless cms",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "e152fe15128e5128b939da7cab2689ac",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "e152fe15128e5128b939da7cab2689ac"
+  ],
+  "namePath": [
+    "entities",
+    "producttype",
+    "headless cms"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/d955af43946626b22420e562ba1f3eae"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/e152fe15128e5128b939da7cab2689ac"
+    }
+  },
+  "created": "2017-05-05T15:01:24.981Z",
+  "lastModified": "2017-05-05T15:01:24.981Z"
+}

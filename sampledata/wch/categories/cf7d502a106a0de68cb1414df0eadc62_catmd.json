@@ -1,0 +1,30 @@
+{
+  "id": "cf7d502a106a0de68cb1414df0eadc62",
+  "rev": "1-8cb42d75f576455211fbdbec7974feb7",
+  "name": "surprised",
+  "classification": "category",
+  "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
+  "parent": "c6aa112a19b1d19eac233bf583cb2cb9",
+  "ancestorIds": [
+    "cf7d502a106a0de68cb1414df0ea8b7a",
+    "c6aa112a19b1d19eac233bf583cb2cb9"
+  ],
+  "namePath": [
+    "emotion",
+    "basic",
+    "surprised"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0ea8b7a"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0eadc62"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/c6aa112a19b1d19eac233bf583cb2cb9"
+    }
+  },
+  "created": "2017-05-10T10:54:47.305Z",
+  "lastModified": "2017-05-10T10:54:47.305Z"
+}

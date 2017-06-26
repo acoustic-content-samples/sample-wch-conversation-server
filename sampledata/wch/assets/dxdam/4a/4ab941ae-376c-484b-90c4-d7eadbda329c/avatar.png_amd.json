@@ -1,0 +1,57 @@
+{
+  "mediaType": "image/png",
+  "name": "avatar.png",
+  "path": "/dxdam/4a/4ab941ae-376c-484b-90c4-d7eadbda329c/avatar.png",
+  "digest": "tUGmMNGHPAUEIDDA27BAyA==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-06-22T07:17:43.918Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:coal black color",
+      "classification:black color"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:coal black color",
+      "classification:black color"
+    ]
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "avatar.png",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "2-cbfe0dc1a35ad9b0947023c5c54d5e4c",
+  "cognitive": {
+    "classifications": [
+      "coal black color",
+      "black color"
+    ],
+    "faces": [],
+    "colors": {
+      "darkMuted": "#040404"
+    },
+    "status": "complete"
+  },
+  "id": "4ab941ae-376c-484b-90c4-d7eadbda329c",
+  "resource": "747217a959fc4f3ecaf23241dfb52f47",
+  "fileSize": 21252,
+  "status": "ready",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "renditions": {
+    "default": {
+      "id": "r=747217a959fc4f3ecaf23241dfb52f47&a=4ab941ae-376c-484b-90c4-d7eadbda329c",
+      "source": "/authoring/v1/resources/747217a959fc4f3ecaf23241dfb52f47"
+    }
+  },
+  "metadata": {
+    "width": 660,
+    "height": 660
+  },
+  "classification": "asset",
+  "created": "2017-06-22T07:17:41.480Z"
+}

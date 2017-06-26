@@ -1,0 +1,20 @@
+{
+  "scale": 0.08472222222222223,
+  "locationY": 4,
+  "height": 317,
+  "locationX": 0,
+  "rev": "1-bbc7f3fe4e7ef7857f4c6ac7c33c64d5",
+  "id": "35876cdb-a0b6-4477-af50-e7ccc45557c2",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/jpeg",
+    "height": 3840,
+    "fileName": "DeathtoStock_ModernWorkshop-05.jpg",
+    "id": "b7352928-d542-4e31-9535-d7d1d2da0496",
+    "resource": "4c0f14b676992d1aad1b66930148728d",
+    "fileSize": 18409809,
+    "width": 5760
+  },
+  "width": 488,
+  "created": "2017-06-15T08:16:30.442Z"
+}

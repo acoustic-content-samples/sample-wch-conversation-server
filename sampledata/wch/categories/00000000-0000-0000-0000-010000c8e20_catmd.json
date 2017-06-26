@@ -1,0 +1,32 @@
+{
+  "id": "00000000-0000-0000-0000-010000c8e20",
+  "rev": "1-506f34922c8dbc5995ddabdfa378607c",
+  "name": "Time frame",
+  "creatorId": "IBM",
+  "permanent": true,
+  "classification": "category",
+  "taxonomy": "00000000-0000-0000-0000-000000c8e20",
+  "parent": "00000000-0000-0000-0000-100000c8e20",
+  "ancestorIds": [
+    "00000000-0000-0000-0000-000000c8e20",
+    "00000000-0000-0000-0000-100000c8e20"
+  ],
+  "namePath": [
+    "Usage rights",
+    "Rights managed",
+    "Time frame"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/00000000-0000-0000-0000-000000c8e20"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/00000000-0000-0000-0000-010000c8e20"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/00000000-0000-0000-0000-100000c8e20"
+    }
+  },
+  "created": "2017-06-26T09:12:47.519Z",
+  "lastModified": "2017-06-26T09:12:47.519Z"
+}

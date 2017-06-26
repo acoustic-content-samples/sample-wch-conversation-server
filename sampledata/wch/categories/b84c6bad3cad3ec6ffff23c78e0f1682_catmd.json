@@ -1,0 +1,28 @@
+{
+  "id": "b84c6bad3cad3ec6ffff23c78e0f1682",
+  "rev": "1-4336847e506318a6a27699146077e5e5",
+  "name": "Introduction",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "efb4eb204170385dab6c56b4db05b958",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Introduction"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/b84c6bad3cad3ec6ffff23c78e0f1682"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    }
+  },
+  "created": "2017-05-15T18:01:46.204Z",
+  "lastModified": "2017-05-15T18:01:46.204Z"
+}

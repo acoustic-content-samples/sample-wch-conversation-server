@@ -1,0 +1,24 @@
+{
+  "id": "a8d11b26-ba72-4792-a49c-47b92649b99e",
+  "rev": "8-4548b3d9157ad99fb24570708e6dff97",
+  "name": "TileProfile",
+  "classification": "image-profile",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-03T07:32:39.758Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-05-03T07:34:36.387Z",
+  "dimensions": [
+    {
+      "label": "x2",
+      "key": "x2",
+      "width": 488,
+      "height": 317
+    },
+    {
+      "label": "x1",
+      "key": "x1",
+      "width": 244,
+      "height": 158
+    }
+  ]
+}

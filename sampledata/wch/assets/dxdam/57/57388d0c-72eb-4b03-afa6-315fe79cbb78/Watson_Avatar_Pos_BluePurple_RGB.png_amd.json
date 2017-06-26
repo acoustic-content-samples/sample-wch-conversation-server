@@ -1,0 +1,72 @@
+{
+  "mediaType": "image/png",
+  "name": "Watson_Avatar_Pos_BluePurple_RGB.png",
+  "path": "/dxdam/57/57388d0c-72eb-4b03-afa6-315fe79cbb78/Watson_Avatar_Pos_BluePurple_RGB.png",
+  "digest": "o4T0C+9xpAoMOcHzJ20jow==",
+  "assetType": "image",
+  "lastModified": "2017-05-10T11:43:58.093Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:indigo color",
+      "classification:neon lamp",
+      "classification:lamp",
+      "classification:microorganism",
+      "classification:figure",
+      "classification:cell",
+      "classification:circle",
+      "classification:device",
+      "classification:purplish blue color"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:circle",
+      "classification:figure",
+      "classification:neon lamp",
+      "classification:lamp",
+      "classification:device",
+      "classification:cell",
+      "classification:microorganism",
+      "classification:indigo color",
+      "classification:purplish blue color"
+    ]
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "Watson_Avatar_Pos_BluePurple_RGB.png",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "2-27071d1c41b39468ca5ea42ab811b5a4",
+  "cognitive": {
+    "classifications": [
+      "circle",
+      "figure",
+      "neon lamp",
+      "lamp",
+      "device",
+      "cell",
+      "microorganism",
+      "indigo color",
+      "purplish blue color"
+    ],
+    "faces": [],
+    "status": "complete"
+  },
+  "id": "57388d0c-72eb-4b03-afa6-315fe79cbb78",
+  "resource": "cf7d502a106a0de68cb1414df0ec4563",
+  "fileSize": 28262,
+  "status": "ready",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "renditions": {
+    "default": {
+      "id": "r=cf7d502a106a0de68cb1414df0ec4563&a=57388d0c-72eb-4b03-afa6-315fe79cbb78",
+      "source": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec4563"
+    }
+  },
+  "metadata": {
+    "width": 200,
+    "height": 186
+  },
+  "classification": "asset",
+  "created": "2017-05-10T11:43:55.446Z"
+}

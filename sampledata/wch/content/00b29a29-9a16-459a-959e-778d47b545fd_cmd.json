@@ -1,0 +1,56 @@
+{
+  "id": "00b29a29-9a16-459a-959e-778d47b545fd",
+  "rev": "14-d5f654469eb7edb45f93bdd3e1fa5a48",
+  "name": "MTL - Goodbye",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-31T07:59:25.992Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-19T13:25:42.409Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text",
+      "value": "name:\"Attachment - Nice Day\""
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": [
+        "cf7d502a106a0de68cb1414df0ead390"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Have a good day in the IBM Lab in Böblingen! Enjoy the rest of the conference."
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location",
+      "latitude": 48.6662305,
+      "longitude": 9.039273
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18e524"
+      ]
+    }
+  }
+}

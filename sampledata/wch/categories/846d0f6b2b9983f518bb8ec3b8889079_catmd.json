@@ -1,0 +1,32 @@
+{
+  "id": "846d0f6b2b9983f518bb8ec3b8889079",
+  "rev": "1-696d73a01dbde34a74198a0957db6554",
+  "name": "Thank you geolocation",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "8beddf153d3ed094db767438ac753160",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "c318f70605280fdefd04c4302e9b7ccf",
+    "8beddf153d3ed094db767438ac753160"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Set geolocation",
+    "Enter Geolocation",
+    "Thank you geolocation"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/846d0f6b2b9983f518bb8ec3b8889079"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/8beddf153d3ed094db767438ac753160"
+    }
+  },
+  "created": "2017-05-18T14:44:45.885Z",
+  "lastModified": "2017-05-18T14:44:45.885Z"
+}

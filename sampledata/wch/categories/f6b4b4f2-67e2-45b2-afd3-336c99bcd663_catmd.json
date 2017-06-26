@@ -1,0 +1,31 @@
+{
+  "id": "f6b4b4f2-67e2-45b2-afd3-336c99bcd663",
+  "rev": "1-7045e3a974de69e9c9ffa6953e84854f",
+  "name": "Missunderstading",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "3da58ac3-ec04-4911-8ab6-60ccfbf5485a",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "3da58ac3-ec04-4911-8ab6-60ccfbf5485a"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Negative Message",
+    "Missunderstading"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/f6b4b4f2-67e2-45b2-afd3-336c99bcd663"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/3da58ac3-ec04-4911-8ab6-60ccfbf5485a"
+    }
+  },
+  "created": "2017-06-16T12:58:00.618Z",
+  "lastModified": "2017-06-16T12:58:00.618Z"
+}

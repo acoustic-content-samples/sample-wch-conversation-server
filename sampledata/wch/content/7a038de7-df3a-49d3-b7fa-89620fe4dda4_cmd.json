@@ -1,0 +1,56 @@
+{
+  "id": "7a038de7-df3a-49d3-b7fa-89620fe4dda4",
+  "rev": "48-f8cd10ba148c582e8d4ef4bed21a9007",
+  "name": "General - Give Productinformation Watson Content Hub",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-15T18:27:52.746Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-10T09:25:13.683Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": [
+        "cf7d502a106a0de68cb1414df0ead390"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "There are plenty of things I know about Watson Content Hub. Just to give you an idea what's currently going on:"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "attachmentquery": {
+      "elementType": "text",
+      "value": "tags:(*\"whatsnewapril2017\")"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "d332127df4c37b2d4632699e7e16b8a7"
+      ]
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "d81cb8b6923bb2f2ef3eb20a1f15c6a7"
+      ]
+    }
+  }
+}

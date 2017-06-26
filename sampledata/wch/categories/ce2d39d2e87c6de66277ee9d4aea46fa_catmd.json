@@ -1,0 +1,32 @@
+{
+  "id": "ce2d39d2e87c6de66277ee9d4aea46fa",
+  "rev": "1-1169b9aa005b9653cbf6419535ae9785",
+  "name": "Response Howto Too Many Products",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "b84c6bad3cad3ec6ffff23c78edfda24",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "d81cb8b6923bb2f2ef3eb20a1fe1ee7d",
+    "b84c6bad3cad3ec6ffff23c78edfda24"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "How to",
+    "Verify Howto",
+    "Response Howto Too Many Products"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4aea46fa"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/b84c6bad3cad3ec6ffff23c78edfda24"
+    }
+  },
+  "created": "2017-05-16T09:02:10.093Z",
+  "lastModified": "2017-05-16T09:02:10.093Z"
+}

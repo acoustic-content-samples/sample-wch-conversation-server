@@ -1,0 +1,18 @@
+{
+  "scale": 0.4066666666666667,
+  "locationY": 102,
+  "height": 158,
+  "locationX": 0,
+  "rev": "1-f311a8d8e1e1e5a50888b00b00bd5426",
+  "id": "7e0178c3-f188-4351-a6ee-cef8acb55757",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/png",
+    "fileName": "black-watch.png",
+    "id": "bd87bc71-9c76-46b3-85af-4d83c9747837",
+    "resource": "053ce162363e88d2795b01bc48c7f110",
+    "fileSize": 150033
+  },
+  "width": 244,
+  "created": "2017-05-03T08:33:22.820Z"
+}

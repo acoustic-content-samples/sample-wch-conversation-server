@@ -1,0 +1,54 @@
+{
+  "id": "f3ecd275-497f-475e-a549-1f232d4b9cbe",
+  "rev": "23-5d7fc5dd09572240417ff3b41dc9d754",
+  "name": "General - WCH Key Features",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-17T14:38:19.357Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-12T12:25:18.121Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Here's what I found."
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "02f066c403ff7ee38a0e52b28ac7aad4",
+        "6e4827e8e902ad7f810cb8c2a52c1b57"
+      ]
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "attachmentquery": {
+      "elementType": "text",
+      "value": "name:(\"Attachment - Key Features Short\"^10 \"Attachment - WCH Marketplace\")"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "e152fe15128e5128b939da7cab27122e",
+  "rev": "1-411956dcf130d588743485c5c07a7a49",
+  "name": "critical fixes",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "fad37b71f9f5935f82913edeb90f78b1",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "fad37b71f9f5935f82913edeb90f78b1"
+  ],
+  "namePath": [
+    "entities",
+    "feature",
+    "critical fixes"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/e152fe15128e5128b939da7cab27122e"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb90f78b1"
+    }
+  },
+  "created": "2017-05-05T15:01:24.063Z",
+  "lastModified": "2017-05-05T15:01:24.063Z"
+}

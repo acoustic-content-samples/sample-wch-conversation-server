@@ -1,0 +1,17 @@
+{
+  "id": "3c21dad2434642ac4a48a28516393082",
+  "rev": "1-3bfbf1f9044c69892d4f6a33af0b4225",
+  "name": "entities",
+  "classification": "taxonomy",
+  "firstClassFor": null,
+  "namePath": [
+    "entities"
+  ],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    }
+  },
+  "created": "2017-05-05T15:01:22.298Z",
+  "lastModified": "2017-05-05T15:01:22.298Z"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5c0ae4f7-36ec-4bc5-91d9-f8b63b5b3dc4",
+  "rev": "10-b684ccfc18299547f87829d12ee8599a",
+  "name": "General - Positive Response",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-06-16T12:54:29.871Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-06-16T12:53:22.423Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "{{watsonData.input.text}}!"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "18c30f2c-057d-4ce0-9b70-511281edaeea"
+      ]
+    }
+  }
+}

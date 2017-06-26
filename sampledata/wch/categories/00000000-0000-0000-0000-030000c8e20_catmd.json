@@ -1,0 +1,32 @@
+{
+  "id": "00000000-0000-0000-0000-030000c8e20",
+  "rev": "1-2615f396d8a0a8b4420e3257713dc018",
+  "name": "Media",
+  "creatorId": "IBM",
+  "permanent": true,
+  "classification": "category",
+  "taxonomy": "00000000-0000-0000-0000-000000c8e20",
+  "parent": "00000000-0000-0000-0000-100000c8e20",
+  "ancestorIds": [
+    "00000000-0000-0000-0000-000000c8e20",
+    "00000000-0000-0000-0000-100000c8e20"
+  ],
+  "namePath": [
+    "Usage rights",
+    "Rights managed",
+    "Media"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/00000000-0000-0000-0000-000000c8e20"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/00000000-0000-0000-0000-030000c8e20"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/00000000-0000-0000-0000-100000c8e20"
+    }
+  },
+  "created": "2017-06-26T09:12:47.356Z",
+  "lastModified": "2017-06-26T09:12:47.356Z"
+}

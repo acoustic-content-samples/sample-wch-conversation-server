@@ -1,0 +1,17 @@
+{
+  "id": "8db75208957eb15dd42544d1603c503c",
+  "rev": "2-5cbda4448eb439c6dccffb3869fdba42",
+  "name": "actions",
+  "classification": "taxonomy",
+  "firstClassFor": null,
+  "namePath": [
+    "actions"
+  ],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/categories/8db75208957eb15dd42544d1603c503c"
+    }
+  },
+  "created": "2017-05-12T16:21:35.409Z",
+  "lastModified": "2017-05-12T16:21:39.576Z"
+}

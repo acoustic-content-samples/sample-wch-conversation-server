@@ -1,0 +1,50 @@
+{
+  "id": "193bbb44-7af9-4c93-a54c-1f69ace30466",
+  "rev": "24-59cdf79766a2e993dc9005d2d669e847",
+  "name": "General - Feature information CORS",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-15T18:34:08.741Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-09T14:37:55.615Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "status": "ready",
+  "elements": {
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "fad37b71f9f5935f82913edeb90fff3e"
+      ]
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "b84c6bad3cad3ec6ffff23c78e0f833b"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "So you are interessted in CORS whitelisting. Currently I only now about Watson Content Hub who offers such a feature. If you want to get more information just ask for cors whitelisting for watson content hub."
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

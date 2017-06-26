@@ -1,0 +1,30 @@
+{
+  "id": "fad37b71f9f5935f82913edeb9102b29",
+  "rev": "1-3a081fbf0d853daee091ca012db842b0",
+  "name": "cms",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "e152fe15128e5128b939da7cab2689ac",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "e152fe15128e5128b939da7cab2689ac"
+  ],
+  "namePath": [
+    "entities",
+    "producttype",
+    "cms"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb9102b29"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/e152fe15128e5128b939da7cab2689ac"
+    }
+  },
+  "created": "2017-05-05T15:01:24.976Z",
+  "lastModified": "2017-05-05T15:01:24.976Z"
+}

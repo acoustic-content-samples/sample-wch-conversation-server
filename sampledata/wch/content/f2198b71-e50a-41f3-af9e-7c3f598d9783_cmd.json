@@ -1,0 +1,59 @@
+{
+  "id": "f2198b71-e50a-41f3-af9e-7c3f598d9783",
+  "rev": "12-4ca4b5e3ae55bcc7f0c9207aabdd1556",
+  "name": "Mr Watson - Anything Else",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-06-07T16:19:12.260Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-06-07T16:08:12.124Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": [
+        "cf7d502a106a0de68cb1414df0eadc62"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "I'm sorry. That's not my business area. I'm an expert in Watson Content Hub."
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "attachment": {
+      "elementType": "reference",
+      "value": {
+        "id": "07fe1c0f-7433-46c1-bf1b-8f51b00a65d5"
+      }
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": [
+        "d332127df4c37b2d4632699e7e16bccc"
+      ]
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "efb4eb204170385dab6c56b4db060bc8"
+      ]
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

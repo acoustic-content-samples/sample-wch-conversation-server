@@ -1,0 +1,50 @@
+{
+  "id": "f5feb4a8-b948-409d-a240-e251dbf460ff",
+  "rev": "16-7f9550e77face19d41aea3950a444f03",
+  "name": "General - Set Name",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-31T12:40:15.459Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-17T13:55:51.064Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "text": {
+      "elementType": "text",
+      "value": "Welcome {{watsonData.context.username}}! Really like your name. But now let's get started!"
+    },
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "d32ac974bbe1173f5a1b0fd5b64ebe3a"
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "mediaType": "image/png",
+  "name": "dxwch.PNG",
+  "path": "/dxdam/a8/a838ebe7-625f-49ac-ac42-88319ff076e1/dxwch.PNG",
+  "digest": "nDDEDWK3qe+fiuV/F6eUVg==",
+  "assetType": "image",
+  "lastModified": "2017-05-16T12:45:08.634Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:electronic device",
+      "classification:web site",
+      "classification:flash memory",
+      "classification:fastener",
+      "classification:machine",
+      "classification:memory device",
+      "classification:computer",
+      "classification:clip",
+      "classification:dongle (flash drive)",
+      "classification:device",
+      "classification:magnifier",
+      "classification:jade green color",
+      "classification:emerald color"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:web site",
+      "classification:computer",
+      "classification:machine",
+      "classification:device",
+      "classification:flash memory",
+      "classification:memory device",
+      "classification:clip",
+      "classification:fastener",
+      "classification:dongle (flash drive)",
+      "classification:electronic device",
+      "classification:magnifier",
+      "classification:emerald color",
+      "classification:jade green color"
+    ]
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "dxwch.PNG",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "2-01f69a076f0a3af4f52def753d836c84",
+  "cognitive": {
+    "classifications": [
+      "web site",
+      "computer",
+      "machine",
+      "device",
+      "flash memory",
+      "memory device",
+      "clip",
+      "fastener",
+      "dongle (flash drive)",
+      "electronic device",
+      "magnifier",
+      "emerald color",
+      "jade green color"
+    ],
+    "faces": [],
+    "status": "complete"
+  },
+  "id": "a838ebe7-625f-49ac-ac42-88319ff076e1",
+  "resource": "44ca9e606b6576694bdbea223a017a38",
+  "fileSize": 138350,
+  "status": "ready",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "renditions": {
+    "default": {
+      "id": "r=44ca9e606b6576694bdbea223a017a38&a=a838ebe7-625f-49ac-ac42-88319ff076e1",
+      "source": "/authoring/v1/resources/44ca9e606b6576694bdbea223a017a38"
+    }
+  },
+  "metadata": {
+    "width": 1388,
+    "height": 783
+  },
+  "classification": "asset",
+  "created": "2017-05-16T12:45:06.484Z"
+}

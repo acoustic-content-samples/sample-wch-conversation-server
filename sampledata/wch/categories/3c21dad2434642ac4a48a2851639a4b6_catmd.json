@@ -1,0 +1,28 @@
+{
+  "id": "3c21dad2434642ac4a48a2851639a4b6",
+  "rev": "1-649bc2b450a0c70c7252bec0c0a4c950",
+  "name": "funky",
+  "classification": "category",
+  "taxonomy": "6e4827e8e902ad7f810cb8c2a52b03e9",
+  "parent": "6e4827e8e902ad7f810cb8c2a52b03e9",
+  "ancestorIds": [
+    "6e4827e8e902ad7f810cb8c2a52b03e9"
+  ],
+  "namePath": [
+    "intents",
+    "funky"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a2851639a4b6"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
+    }
+  },
+  "created": "2017-05-05T15:01:22.773Z",
+  "lastModified": "2017-05-05T15:01:22.773Z"
+}

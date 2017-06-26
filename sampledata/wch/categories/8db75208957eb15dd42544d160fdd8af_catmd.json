@@ -1,0 +1,32 @@
+{
+  "id": "8db75208957eb15dd42544d160fdd8af",
+  "rev": "1-2ecdfb69d4cb083ef73c97cce88d60ae",
+  "name": "Response Pitch No Entities",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "b84c6bad3cad3ec6ffff23c78e0f9144",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "b84c6bad3cad3ec6ffff23c78e0f5715",
+    "b84c6bad3cad3ec6ffff23c78e0f9144"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Pitch",
+    "Verify Pitch",
+    "Response Pitch No Entities"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/8db75208957eb15dd42544d160fdd8af"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/b84c6bad3cad3ec6ffff23c78e0f9144"
+    }
+  },
+  "created": "2017-05-15T18:01:49.328Z",
+  "lastModified": "2017-05-15T18:01:49.328Z"
+}

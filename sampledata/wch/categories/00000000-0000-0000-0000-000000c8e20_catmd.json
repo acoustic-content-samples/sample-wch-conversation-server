@@ -1,0 +1,21 @@
+{
+  "id": "00000000-0000-0000-0000-000000c8e20",
+  "rev": "1-4c94afafddef968ff86aa2b76b8d643c",
+  "name": "Usage rights",
+  "creatorId": "IBM",
+  "permanent": true,
+  "classification": "taxonomy",
+  "firstClassFor": [
+    ""
+  ],
+  "namePath": [
+    "Usage rights"
+  ],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/categories/00000000-0000-0000-0000-000000c8e20"
+    }
+  },
+  "created": "2017-06-26T09:12:47.563Z",
+  "lastModified": "2017-06-26T09:12:47.563Z"
+}

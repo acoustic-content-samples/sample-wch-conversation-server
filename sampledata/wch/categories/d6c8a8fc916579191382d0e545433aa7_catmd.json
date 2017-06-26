@@ -1,0 +1,30 @@
+{
+  "id": "d6c8a8fc916579191382d0e545433aa7",
+  "rev": "1-a7875010347d971d41604ea0bfdf8512",
+  "name": "HELM AG",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "6e4827e8e902ad7f810cb8c2a52b3f53"
+  ],
+  "namePath": [
+    "entities",
+    "companyname",
+    "HELM AG"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/d6c8a8fc916579191382d0e545433aa7"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
+    }
+  },
+  "created": "2017-05-17T09:24:02.598Z",
+  "lastModified": "2017-05-17T09:24:02.598Z"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "c7445795-d072-4dfe-a2d4-a17b74b4d0b1",
+  "rev": "32-9dd2ea47f13ea882bf62faabfd5de865",
+  "name": "Dr Hub - Conversation Start",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-15T18:36:30.476Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-09T09:05:13.589Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "status": "ready",
+  "elements": {
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": [
+        "c88e2d8ea1537ef5b266774eea047223"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Greetings! I'm Dr Hub. How can I connect you with the right information? Just ask me things about features of Watson Content Hub. Or let me know if you are interessted into a deeper diskussion of what Content Hub actually is. By the way - if you don't like my persona you can always switch between me and my colleagues Mr Watson and Professor Content."
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "b84c6bad3cad3ec6ffff23c78e0f3fe1"
+      ]
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

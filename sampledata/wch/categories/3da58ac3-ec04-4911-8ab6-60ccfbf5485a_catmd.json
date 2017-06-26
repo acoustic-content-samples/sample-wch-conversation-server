@@ -1,0 +1,29 @@
+{
+  "id": "3da58ac3-ec04-4911-8ab6-60ccfbf5485a",
+  "rev": "1-907d2a390a75e13f132e90c32f1fa9af",
+  "name": "Negative Message",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "efb4eb204170385dab6c56b4db05b958",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Negative Message"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/3da58ac3-ec04-4911-8ab6-60ccfbf5485a"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    }
+  },
+  "created": "2017-06-16T12:50:28.271Z",
+  "lastModified": "2017-06-16T12:50:28.271Z"
+}

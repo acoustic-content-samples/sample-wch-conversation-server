@@ -1,0 +1,20 @@
+{
+  "scale": 0.03547671840354767,
+  "locationY": 2,
+  "height": 16,
+  "locationX": 0,
+  "rev": "1-1ca11702fedf872360104a20e60f1acc",
+  "id": "f31b4edd-5e71-4d75-9da0-b46a39fb9a1a",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/jpeg",
+    "height": 563,
+    "fileName": "asd.jpg",
+    "id": "2bcd23a4-07e8-4e61-8a3e-6fe4239a921f",
+    "resource": "bb27319177a166ae627605947cfed095",
+    "fileSize": 124733,
+    "width": 451
+  },
+  "width": 16,
+  "created": "2017-05-15T12:00:17.871Z"
+}

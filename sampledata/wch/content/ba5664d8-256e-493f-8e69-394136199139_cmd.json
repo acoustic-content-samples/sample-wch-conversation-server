@@ -1,0 +1,50 @@
+{
+  "id": "ba5664d8-256e-493f-8e69-394136199139",
+  "rev": "13-2b6c74291bcb1765b980f2597055a6c2",
+  "name": "General - Change name",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-31T09:40:40.010Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-17T13:54:25.443Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "d6c8a8fc916579191382d0e545543a92"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Great. Just tell me your name and only your name."
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "464cccb3d4ddc13c9a93ed0253061519",
+  "rev": "1-e199417218fbe24c2ea6eb65f227a87b",
+  "name": "developer",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "f08c09393f588be1e49ab2090302026b",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "f08c09393f588be1e49ab2090302026b"
+  ],
+  "namePath": [
+    "entities",
+    "chitchat",
+    "developer"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/464cccb3d4ddc13c9a93ed0253061519"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/f08c09393f588be1e49ab2090302026b"
+    }
+  },
+  "created": "2017-05-31T11:18:51.651Z",
+  "lastModified": "2017-05-31T11:18:51.651Z"
+}

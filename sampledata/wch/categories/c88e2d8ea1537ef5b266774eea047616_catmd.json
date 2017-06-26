@@ -1,0 +1,30 @@
+{
+  "id": "c88e2d8ea1537ef5b266774eea047616",
+  "rev": "1-804139250abc5f4bd29a307e19f2ef1b",
+  "name": "profcontent",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "c4eb325d2ee45480559aa0840409bbfe",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "c4eb325d2ee45480559aa0840409bbfe"
+  ],
+  "namePath": [
+    "entities",
+    "persona",
+    "profcontent"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/c88e2d8ea1537ef5b266774eea047616"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/c4eb325d2ee45480559aa0840409bbfe"
+    }
+  },
+  "created": "2017-05-08T11:37:17.067Z",
+  "lastModified": "2017-05-08T11:37:17.067Z"
+}

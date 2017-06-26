@@ -1,0 +1,17 @@
+{
+  "id": "6e4827e8e902ad7f810cb8c2a52b03e9",
+  "rev": "1-e63cd55db1d7101495d2f7c8d062d216",
+  "name": "intents",
+  "classification": "taxonomy",
+  "firstClassFor": null,
+  "namePath": [
+    "intents"
+  ],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
+    }
+  },
+  "created": "2017-05-05T15:01:22.326Z",
+  "lastModified": "2017-05-05T15:01:22.326Z"
+}

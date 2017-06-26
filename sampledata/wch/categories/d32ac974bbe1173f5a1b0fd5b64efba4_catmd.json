@@ -1,0 +1,28 @@
+{
+  "id": "d32ac974bbe1173f5a1b0fd5b64efba4",
+  "rev": "1-6819960680ed928a998340313bd06c65",
+  "name": "followupusername",
+  "classification": "category",
+  "taxonomy": "8db75208957eb15dd42544d1603c503c",
+  "parent": "8db75208957eb15dd42544d1603c503c",
+  "ancestorIds": [
+    "8db75208957eb15dd42544d1603c503c"
+  ],
+  "namePath": [
+    "actions",
+    "followupusername"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/8db75208957eb15dd42544d1603c503c"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/d32ac974bbe1173f5a1b0fd5b64efba4"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/8db75208957eb15dd42544d1603c503c"
+    }
+  },
+  "created": "2017-05-17T13:50:13.033Z",
+  "lastModified": "2017-05-17T13:50:13.033Z"
+}

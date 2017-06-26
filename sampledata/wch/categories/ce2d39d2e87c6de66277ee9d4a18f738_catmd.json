@@ -1,0 +1,30 @@
+{
+  "id": "ce2d39d2e87c6de66277ee9d4a18f738",
+  "rev": "1-3e662428947b7084c9a67001d9bfd633",
+  "name": "Do Count",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "d81cb8b6923bb2f2ef3eb20a1f15a204",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "d81cb8b6923bb2f2ef3eb20a1f15a204"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "How many",
+    "Do Count"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18f738"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/d81cb8b6923bb2f2ef3eb20a1f15a204"
+    }
+  },
+  "created": "2017-05-15T18:01:47.264Z",
+  "lastModified": "2017-05-15T18:01:47.264Z"
+}

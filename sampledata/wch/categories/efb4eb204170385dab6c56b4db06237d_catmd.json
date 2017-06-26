@@ -1,0 +1,28 @@
+{
+  "id": "efb4eb204170385dab6c56b4db06237d",
+  "rev": "1-fc775340c6cebd11d2b28a2661d0a95e",
+  "name": "Keep in touch",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "efb4eb204170385dab6c56b4db05b958",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Keep in touch"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db06237d"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    }
+  },
+  "created": "2017-05-15T18:01:46.603Z",
+  "lastModified": "2017-05-15T18:01:46.603Z"
+}

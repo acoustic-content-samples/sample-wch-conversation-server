@@ -1,0 +1,50 @@
+{
+  "id": "304270e4-8a98-46da-8ad0-80a91eb82e64",
+  "rev": "13-5314b5d5bfec6758d1cf4e358178319f",
+  "name": "Development - Push to WCH",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-31T11:52:25.211Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-31T11:50:24.143Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce9a3da6fd420f106a8d20fa67ec96f3"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Pushed your changes to Watson Content Hub! :ok_hand:"
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "description": ""
+}

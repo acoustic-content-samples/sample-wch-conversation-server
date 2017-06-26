@@ -1,0 +1,30 @@
+{
+  "id": "b84c6bad3cad3ec6ffff23c78ee5660c",
+  "rev": "1-79ade27f007209919213adaf6d5c8eec",
+  "name": "integration",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "4c889914160a14eaf584c13cd8f38d3a",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "4c889914160a14eaf584c13cd8f38d3a"
+  ],
+  "namePath": [
+    "entities",
+    "adjective",
+    "integration"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/b84c6bad3cad3ec6ffff23c78ee5660c"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd8f38d3a"
+    }
+  },
+  "created": "2017-05-16T10:40:40.042Z",
+  "lastModified": "2017-05-16T10:40:40.042Z"
+}

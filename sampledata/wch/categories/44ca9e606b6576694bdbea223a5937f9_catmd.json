@@ -1,0 +1,30 @@
+{
+  "id": "44ca9e606b6576694bdbea223a5937f9",
+  "rev": "1-b4d02e06c671daf048f7efff1e198e3b",
+  "name": "Daimler AG",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "6e4827e8e902ad7f810cb8c2a52b3f53"
+  ],
+  "namePath": [
+    "entities",
+    "companyname",
+    "Daimler AG"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/44ca9e606b6576694bdbea223a5937f9"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
+    }
+  },
+  "created": "2017-05-17T09:24:02.444Z",
+  "lastModified": "2017-05-17T09:24:02.444Z"
+}

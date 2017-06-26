@@ -1,0 +1,30 @@
+{
+  "id": "d32ac974bbe1173f5a1b0fd5b64ebe3a",
+  "rev": "1-ae233b6eb59921d991ba57db0fad6f94",
+  "name": "Set Name",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "d6c8a8fc916579191382d0e545543a92",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "d6c8a8fc916579191382d0e545543a92"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Change Name",
+    "Set Name"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/d32ac974bbe1173f5a1b0fd5b64ebe3a"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/d6c8a8fc916579191382d0e545543a92"
+    }
+  },
+  "created": "2017-05-17T13:48:14.382Z",
+  "lastModified": "2017-05-17T13:48:14.382Z"
+}

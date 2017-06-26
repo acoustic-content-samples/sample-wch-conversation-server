@@ -1,0 +1,28 @@
+{
+  "id": "c88e2d8ea1537ef5b266774eea0463c1",
+  "rev": "1-b2dd7a472ec2ecddf34d9e11f4e00d66",
+  "name": "switchpersona",
+  "classification": "category",
+  "taxonomy": "6e4827e8e902ad7f810cb8c2a52b03e9",
+  "parent": "6e4827e8e902ad7f810cb8c2a52b03e9",
+  "ancestorIds": [
+    "6e4827e8e902ad7f810cb8c2a52b03e9"
+  ],
+  "namePath": [
+    "intents",
+    "switchpersona"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/c88e2d8ea1537ef5b266774eea0463c1"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
+    }
+  },
+  "created": "2017-05-08T11:37:16.298Z",
+  "lastModified": "2017-05-08T11:37:16.298Z"
+}

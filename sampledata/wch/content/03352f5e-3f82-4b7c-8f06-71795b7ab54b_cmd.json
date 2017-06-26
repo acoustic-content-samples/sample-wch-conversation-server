@@ -1,0 +1,47 @@
+{
+  "id": "03352f5e-3f82-4b7c-8f06-71795b7ab54b",
+  "rev": "21-9a76d029abd0d76eb955ddd2f6c96e0e",
+  "name": "General - No Follow Up",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-15T18:17:48.162Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-15T09:24:12.907Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "574f55ebf39a12c6f50b96f043260e59"
+      ]
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Too bad. But if you should change your mind let me now. My team would be happy to stay in touch with you."
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

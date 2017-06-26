@@ -1,0 +1,28 @@
+{
+  "id": "6e4827e8e902ad7f810cb8c2a52b3f53",
+  "rev": "1-efe7abf1f9a003035dce496552b8ef39",
+  "name": "companyname",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "3c21dad2434642ac4a48a28516393082",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082"
+  ],
+  "namePath": [
+    "entities",
+    "companyname"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    }
+  },
+  "created": "2017-05-05T15:01:22.583Z",
+  "lastModified": "2017-05-05T15:01:22.583Z"
+}

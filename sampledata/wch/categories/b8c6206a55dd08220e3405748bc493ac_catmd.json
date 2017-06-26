@@ -1,0 +1,28 @@
+{
+  "id": "b8c6206a55dd08220e3405748bc493ac",
+  "rev": "1-79c9977e7c85bb97219f73ec6179f38f",
+  "name": "introduction",
+  "classification": "category",
+  "taxonomy": "6e4827e8e902ad7f810cb8c2a52b03e9",
+  "parent": "6e4827e8e902ad7f810cb8c2a52b03e9",
+  "ancestorIds": [
+    "6e4827e8e902ad7f810cb8c2a52b03e9"
+  ],
+  "namePath": [
+    "intents",
+    "introduction"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/b8c6206a55dd08220e3405748bc493ac"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
+    }
+  },
+  "created": "2017-05-12T12:05:33.667Z",
+  "lastModified": "2017-05-12T12:05:33.667Z"
+}

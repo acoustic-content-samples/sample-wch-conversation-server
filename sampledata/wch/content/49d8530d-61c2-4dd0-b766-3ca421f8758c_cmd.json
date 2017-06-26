@@ -1,0 +1,50 @@
+{
+  "id": "49d8530d-61c2-4dd0-b766-3ca421f8758c",
+  "rev": "12-e77fc4329ff1400087831b1938290fee",
+  "name": "Follow up keep in touch",
+  "description": "",
+  "classification": "content",
+  "typeId": "f9147be3-09bd-47a1-94b9-22e5e4cac6c1",
+  "locale": "en-US",
+  "lastModified": "2017-06-14T06:55:55.172Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-12T16:35:03.314Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "action": {
+      "elementType": "category",
+      "categoryIds": [
+        "8cf2dbe2bce72db71a3a4b96b4527f95"
+      ]
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference",
+      "value": {
+        "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85"
+      }
+    },
+    "text": {
+      "elementType": "text",
+      "value": "You have a lot of questions about WCH. We should stay in touch.  I would love to keep you up to date around the topic of Watson Content Hub."
+    }
+  }
+}

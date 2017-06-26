@@ -1,0 +1,75 @@
+{
+  "mediaType": "image/png",
+  "name": "black-watch.png",
+  "path": "/dxdam/bd/bd87bc71-9c76-46b3-85af-4d83c9747837/black-watch.png",
+  "digest": "syowSaZlhpP3FHz57gWUgA==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-06-22T07:30:13.120Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:electronic device",
+      "classification:computer mouse",
+      "classification:push button",
+      "classification:mouse button",
+      "classification:coal black color",
+      "classification:electric switch",
+      "classification:device",
+      "classification:gray color",
+      "classification:controller"
+    ],
+    "declined": [],
+    "suggested": [
+      "classification:computer mouse",
+      "classification:electronic device",
+      "classification:device",
+      "classification:mouse button",
+      "classification:push button",
+      "classification:electric switch",
+      "classification:controller",
+      "classification:coal black color",
+      "classification:gray color"
+    ],
+    "analysis": "complete"
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "black-watch.png",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "4-87b0b58b1b710b5c317199e84ac5892d",
+  "cognitive": {
+    "classifications": [
+      "computer mouse",
+      "electronic device",
+      "device",
+      "mouse button",
+      "push button",
+      "electric switch",
+      "controller",
+      "coal black color",
+      "gray color"
+    ],
+    "faces": [],
+    "status": "complete"
+  },
+  "id": "bd87bc71-9c76-46b3-85af-4d83c9747837",
+  "resource": "053ce162363e88d2795b01bc48c7f110",
+  "fileSize": 150033,
+  "status": "ready",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "renditions": {
+    "default": {
+      "id": "r=053ce162363e88d2795b01bc48c7f110&a=bd87bc71-9c76-46b3-85af-4d83c9747837",
+      "source": "/authoring/v1/resources/053ce162363e88d2795b01bc48c7f110"
+    }
+  },
+  "metadata": {
+    "width": 600,
+    "height": 1132
+  },
+  "classification": "asset",
+  "created": "2017-05-03T08:32:47.818Z"
+}

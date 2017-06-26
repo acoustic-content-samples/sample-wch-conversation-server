@@ -1,0 +1,60 @@
+{
+  "id": "844f9245-abac-4e9b-ad8e-f1694dca796a",
+  "rev": "17-89ae72011cbecc165b1c2095a29271bd",
+  "name": "General - WCH Key Features Details",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-30T07:37:41.030Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-17T09:21:17.351Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Cool - I also like to get a detail view on things."
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "attachment": {
+      "elementType": "reference",
+      "value": {
+        "id": "a4d0f567-3480-4a6b-a6f4-f7b6bc1176a7"
+      }
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "44ca9e606b6576694bdbea223a59887c"
+      ]
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "02f066c403ff7ee38a0e52b28ac7aad4",
+        "6e4827e8e902ad7f810cb8c2a52c1b57",
+        "1ffc133e786e0d65f2834ae48351f865"
+      ]
+    }
+  }
+}

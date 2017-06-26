@@ -1,0 +1,28 @@
+{
+  "id": "e0438410886acfa0a296a71c1acbef21",
+  "rev": "1-be60880c7f4430271d025d97cea4085f",
+  "name": "adjectives",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "3c21dad2434642ac4a48a28516393082",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082"
+  ],
+  "namePath": [
+    "entities",
+    "adjectives"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/e0438410886acfa0a296a71c1acbef21"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    }
+  },
+  "created": "2017-05-10T15:07:44.703Z",
+  "lastModified": "2017-05-10T15:07:44.703Z"
+}

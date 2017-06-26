@@ -1,0 +1,28 @@
+{
+  "id": "d6c8a8fc916579191382d0e545543a92",
+  "rev": "1-283edab6fed303af0f236287d620741d",
+  "name": "Change Name",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "efb4eb204170385dab6c56b4db05b958",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Change Name"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/d6c8a8fc916579191382d0e545543a92"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    }
+  },
+  "created": "2017-05-17T13:48:13.592Z",
+  "lastModified": "2017-05-17T13:48:13.592Z"
+}

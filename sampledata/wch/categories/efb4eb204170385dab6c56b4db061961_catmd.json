@@ -1,0 +1,28 @@
+{
+  "id": "efb4eb204170385dab6c56b4db061961",
+  "rev": "1-6c85ff47756be1d65fb01e40a7188cae",
+  "name": "Get Funky",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "efb4eb204170385dab6c56b4db05b958",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Get Funky"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db061961"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    }
+  },
+  "created": "2017-05-15T18:01:46.472Z",
+  "lastModified": "2017-05-15T18:01:46.472Z"
+}

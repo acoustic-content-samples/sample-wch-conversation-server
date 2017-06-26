@@ -1,0 +1,47 @@
+{
+  "id": "0dc11ccd-b72c-4d5a-adc0-2eb2c38e18f2",
+  "rev": "8-c89270bde894fd39405d7b60023bb1d7",
+  "name": "General - Thank you geolocation",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-18T14:49:18.811Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-18T14:47:22.441Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "846d0f6b2b9983f518bb8ec3b8889079"
+      ]
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "I just saved your geolocation. Thank you {{#if watsonData.context.username}}{{watsonData.context.username}}{{/if}}."
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

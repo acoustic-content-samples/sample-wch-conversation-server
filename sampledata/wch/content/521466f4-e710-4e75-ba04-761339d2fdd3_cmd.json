@@ -1,0 +1,56 @@
+{
+  "id": "521466f4-e710-4e75-ba04-761339d2fdd3",
+  "rev": "7-35cd6509ba729fd2f5ac0ea268e75134",
+  "name": "General - Continous Feature Updates",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-31T13:09:28.121Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-31T13:08:49.341Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [
+    "user:Jan 2017"
+  ],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "e122ae67d0597f8a98838921ce3e35e6"
+      ]
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ]
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "With agile delivery via the cloud, new innovations in Watson Content Hub are never far away. Updates as often as daily ensure your platform is constantly improving."
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

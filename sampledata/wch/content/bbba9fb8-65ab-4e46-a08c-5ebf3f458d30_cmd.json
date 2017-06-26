@@ -1,0 +1,47 @@
+{
+  "id": "bbba9fb8-65ab-4e46-a08c-5ebf3f458d30",
+  "rev": "24-3739895a6b999cb317297070cade08f4",
+  "name": "General - Information missing entites",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-15T18:32:35.559Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-09T09:07:41.309Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "status": "ready",
+  "elements": {
+    "text": {
+      "elementType": "text",
+      "value": "I understand that you are interessted in some information. But I couldn't understand the product or feature you are interessted in. So please tell me the product or feature you want to talk about."
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "8db75208957eb15dd42544d160fdbcc4"
+      ]
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

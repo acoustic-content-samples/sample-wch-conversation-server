@@ -1,0 +1,30 @@
+{
+  "id": "d32ac974bbe1173f5a1b0fd5b63d4ee2",
+  "rev": "1-62dbe4f4e52187e7c4845225c29277f9",
+  "name": "MMI Consult",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "6e4827e8e902ad7f810cb8c2a52b3f53"
+  ],
+  "namePath": [
+    "entities",
+    "companyname",
+    "MMI Consult"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/d32ac974bbe1173f5a1b0fd5b63d4ee2"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
+    }
+  },
+  "created": "2017-05-17T09:24:02.789Z",
+  "lastModified": "2017-05-17T09:24:02.789Z"
+}

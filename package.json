@@ -8,6 +8,8 @@
     "devDebug": "set DEBUG_COLORS=true&&set DEBUG=wchbotserver:*,-wchbotserver:templating&& gulp dev",
     "test": "node mocha ",
     "eslint": "gulp eslint",
+    "setupLocal": "node setup init",
+    "setupSample": "node setup init --sample-setup",
     "addGeoSrv": "bx cf cups geo_config -p \"key\"",
     "addWchSrv": "bx cf cups wch_config -p \"tenantid\", \"username\", \"password\", \"baseurl\", \"hosturl\"",
     "addBotSrv": "bx cf cups bot_config -p \"clientid, clientsecret, verificationtoken\"",
@@ -29,6 +31,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.8.2",
+    "commander": "^2.10.0",
     "glob": "^7.1.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
@@ -47,7 +50,9 @@
     "mocha": "^3.1.2",
     "modularscale-sass": "^2.1.1",
     "node-sass-import-once": "^1.2.0",
-    "should": "^11.1.1"
+    "prompt": "^1.0.0",
+    "should": "^11.1.1",
+    "wchtools-cli": "^1.2.1"
   },
   "repository": {
     "git": "https://github.ibm.com/sterbling/wch-conversation-integration-server"

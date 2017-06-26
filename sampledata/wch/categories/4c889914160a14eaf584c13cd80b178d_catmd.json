@@ -1,0 +1,28 @@
+{
+  "id": "4c889914160a14eaf584c13cd80b178d",
+  "rev": "1-7b5ab94d6133dcff5abfbb105d4b1d41",
+  "name": "product",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "3c21dad2434642ac4a48a28516393082",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082"
+  ],
+  "namePath": [
+    "entities",
+    "product"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd80b178d"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    }
+  },
+  "created": "2017-05-05T15:01:22.787Z",
+  "lastModified": "2017-05-05T15:01:22.787Z"
+}

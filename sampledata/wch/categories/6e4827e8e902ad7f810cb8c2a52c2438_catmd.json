@@ -1,0 +1,30 @@
+{
+  "id": "6e4827e8e902ad7f810cb8c2a52c2438",
+  "rev": "1-ea2b0cb10eedde1ca7623dfe2a31206b",
+  "name": "Watson Content Hub",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "4c889914160a14eaf584c13cd80b178d",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "4c889914160a14eaf584c13cd80b178d"
+  ],
+  "namePath": [
+    "entities",
+    "product",
+    "Watson Content Hub"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52c2438"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd80b178d"
+    }
+  },
+  "created": "2017-05-05T15:01:24.675Z",
+  "lastModified": "2017-05-05T15:01:24.675Z"
+}

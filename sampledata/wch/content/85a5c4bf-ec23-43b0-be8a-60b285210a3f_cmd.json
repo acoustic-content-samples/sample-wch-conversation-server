@@ -1,0 +1,47 @@
+{
+  "id": "85a5c4bf-ec23-43b0-be8a-60b285210a3f",
+  "rev": "15-692619a7686bc30cf61dc1d53ae96855",
+  "name": "General - Enter geolocation",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-18T14:46:04.780Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-18T14:44:55.250Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "8beddf153d3ed094db767438ac753160"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Please enter the place or adress where you currently at. Please only give in the name and nothing else. Otherwise I will have a hard time identifiying your location."
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "description": ""
+}

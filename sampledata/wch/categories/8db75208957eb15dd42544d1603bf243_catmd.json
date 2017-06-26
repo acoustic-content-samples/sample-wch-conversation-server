@@ -1,0 +1,30 @@
+{
+  "id": "8db75208957eb15dd42544d1603bf243",
+  "rev": "1-03702afc54e6b92a9fcb5327accc6ba5",
+  "name": "microsites",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "fad37b71f9f5935f82913edeb90f78b1",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "fad37b71f9f5935f82913edeb90f78b1"
+  ],
+  "namePath": [
+    "entities",
+    "feature",
+    "microsites"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/8db75208957eb15dd42544d1603bf243"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb90f78b1"
+    }
+  },
+  "created": "2017-05-12T16:19:48.240Z",
+  "lastModified": "2017-05-12T16:19:48.240Z"
+}

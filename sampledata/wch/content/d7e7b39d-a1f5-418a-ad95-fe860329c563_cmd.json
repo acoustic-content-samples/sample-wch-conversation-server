@@ -1,0 +1,51 @@
+{
+  "id": "d7e7b39d-a1f5-418a-ad95-fe860329c563",
+  "rev": "12-d0aca060299f58ad9bb05ef826fb8a02",
+  "name": "General - Thank you",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-15T18:34:52.135Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-12T12:21:21.350Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": [
+        "cf7d502a106a0de68cb1414df0ead390"
+      ]
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "text": {
+      "elementType": "text",
+      "value": "You’re welcome. Happy to help"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "8db75208957eb15dd42544d160fda028"
+      ]
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

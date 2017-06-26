@@ -1,0 +1,30 @@
+{
+  "id": "4c889914160a14eaf584c13cd80b844d",
+  "rev": "1-a109775916ebd2c653736c17bfb454eb",
+  "name": "locale for content items",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "fad37b71f9f5935f82913edeb90f78b1",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "fad37b71f9f5935f82913edeb90f78b1"
+  ],
+  "namePath": [
+    "entities",
+    "feature",
+    "locale for content items"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd80b844d"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb90f78b1"
+    }
+  },
+  "created": "2017-05-05T15:01:24.227Z",
+  "lastModified": "2017-05-05T15:01:24.227Z"
+}

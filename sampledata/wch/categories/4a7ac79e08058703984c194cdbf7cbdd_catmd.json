@@ -1,0 +1,32 @@
+{
+  "id": "4a7ac79e08058703984c194cdbf7cbdd",
+  "rev": "1-2dfede5aef07a6b9e4761da6ffbb5621",
+  "name": "Not my name",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "d32ac974bbe1173f5a1b0fd5b64ebe3a",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "d6c8a8fc916579191382d0e545543a92",
+    "d32ac974bbe1173f5a1b0fd5b64ebe3a"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Change Name",
+    "Set Name",
+    "Not my name"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/4a7ac79e08058703984c194cdbf7cbdd"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/d32ac974bbe1173f5a1b0fd5b64ebe3a"
+    }
+  },
+  "created": "2017-05-31T09:49:29.533Z",
+  "lastModified": "2017-05-31T09:49:29.533Z"
+}

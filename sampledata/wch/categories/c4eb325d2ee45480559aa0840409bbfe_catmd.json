@@ -1,0 +1,28 @@
+{
+  "id": "c4eb325d2ee45480559aa0840409bbfe",
+  "rev": "1-93b585db601a26502de701bf2e3160e8",
+  "name": "persona",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "3c21dad2434642ac4a48a28516393082",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082"
+  ],
+  "namePath": [
+    "entities",
+    "persona"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/c4eb325d2ee45480559aa0840409bbfe"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    }
+  },
+  "created": "2017-05-08T11:37:16.062Z",
+  "lastModified": "2017-05-08T11:37:16.062Z"
+}

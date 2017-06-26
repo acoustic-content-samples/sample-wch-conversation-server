@@ -1,0 +1,34 @@
+{
+  "id": "00000000-0000-0000-0000-023000c8e20",
+  "rev": "1-b63ef1707d1839aaef49bfce8fa742c7",
+  "name": "Public relations",
+  "creatorId": "IBM",
+  "permanent": true,
+  "classification": "category",
+  "taxonomy": "00000000-0000-0000-0000-000000c8e20",
+  "parent": "00000000-0000-0000-0000-020000c8e20",
+  "ancestorIds": [
+    "00000000-0000-0000-0000-000000c8e20",
+    "00000000-0000-0000-0000-100000c8e20",
+    "00000000-0000-0000-0000-020000c8e20"
+  ],
+  "namePath": [
+    "Usage rights",
+    "Rights managed",
+    "Usage realm",
+    "Public relations"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/00000000-0000-0000-0000-000000c8e20"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/00000000-0000-0000-0000-023000c8e20"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/00000000-0000-0000-0000-020000c8e20"
+    }
+  },
+  "created": "2017-06-26T09:12:47.442Z",
+  "lastModified": "2017-06-26T09:12:47.442Z"
+}

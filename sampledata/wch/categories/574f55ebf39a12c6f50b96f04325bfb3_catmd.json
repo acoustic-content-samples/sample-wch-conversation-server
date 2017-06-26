@@ -1,0 +1,30 @@
+{
+  "id": "574f55ebf39a12c6f50b96f04325bfb3",
+  "rev": "1-c914d326124df39bed18bd97d9550ddf",
+  "name": "Prepare Do Pitch",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "b84c6bad3cad3ec6ffff23c78e0f5715",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "b84c6bad3cad3ec6ffff23c78e0f5715"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Pitch",
+    "Prepare Do Pitch"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/574f55ebf39a12c6f50b96f04325bfb3"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/b84c6bad3cad3ec6ffff23c78e0f5715"
+    }
+  },
+  "created": "2017-05-15T18:01:48.054Z",
+  "lastModified": "2017-05-15T18:01:48.054Z"
+}

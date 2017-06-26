@@ -1,0 +1,82 @@
+{
+  "id": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "rev": "40-4de3b30135c021ed34941a2ac8ddfd80",
+  "name": "OutputText",
+  "classification": "content-type",
+  "description": "Type for general textoutput for the chatbot solution based on WCH. Use the node taxonomy to specify for which dialog nodes this text can be used.",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-04T11:48:19.177Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-05-30T07:36:05.224Z",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "Text",
+      "key": "text",
+      "required": true,
+      "displayType": "multiLine",
+      "displayHeight": 5
+    },
+    {
+      "elementType": "toggle",
+      "label": "Attachments",
+      "key": "attachments",
+      "statement": "Response with attachments"
+    },
+    {
+      "elementType": "text",
+      "label": "AttachmentQuery",
+      "key": "attachmentquery"
+    },
+    {
+      "elementType": "reference",
+      "label": "Attachment",
+      "key": "attachment",
+      "restrictTypes": [
+        {
+          "id": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19"
+        }
+      ]
+    },
+    {
+      "elementType": "category",
+      "label": "Node",
+      "key": "node",
+      "restrictedParents": [
+        "efb4eb204170385dab6c56b4db05b958"
+      ]
+    },
+    {
+      "elementType": "category",
+      "label": "Persona",
+      "key": "persona",
+      "required": false,
+      "restrictedParents": [
+        "c4eb325d2ee45480559aa0840409bbfe"
+      ]
+    },
+    {
+      "elementType": "category",
+      "label": "Filter",
+      "key": "filter",
+      "restrictedParents": [
+        "3c21dad2434642ac4a48a28516393082"
+      ]
+    },
+    {
+      "elementType": "category",
+      "label": "Emotion",
+      "key": "emotion",
+      "restrictedParents": [
+        "cf7d502a106a0de68cb1414df0ea8b7a"
+      ]
+    },
+    {
+      "elementType": "location",
+      "label": "Location",
+      "key": "location"
+    }
+  ]
+}

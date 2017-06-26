@@ -1,0 +1,30 @@
+{
+  "id": "0ead55de6d1ea6a33aae4a5b6b4835ac",
+  "rev": "1-14e8c701120e5671e02585351715aec0",
+  "name": "esciris",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "6e4827e8e902ad7f810cb8c2a52b3f53"
+  ],
+  "namePath": [
+    "entities",
+    "companyname",
+    "esciris"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/0ead55de6d1ea6a33aae4a5b6b4835ac"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
+    }
+  },
+  "created": "2017-05-17T09:24:02.759Z",
+  "lastModified": "2017-05-17T09:24:02.759Z"
+}

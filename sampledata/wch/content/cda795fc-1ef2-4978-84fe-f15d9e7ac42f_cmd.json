@@ -1,0 +1,49 @@
+{
+  "id": "cda795fc-1ef2-4978-84fe-f15d9e7ac42f",
+  "rev": "19-95767651b1b299bb84952297ee915d2e",
+  "name": "General - How To Verify Too Many Products",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-16T09:11:10.731Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-16T09:05:06.610Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "b84c6bad3cad3ec6ffff23c78edfda24",
+        "ce2d39d2e87c6de66277ee9d4aea46fa"
+      ]
+    },
+    "attachmentquery": {
+      "elementType": "text",
+      "value": "name:\"Attachment - WCH Expert\""
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Sorry at the moment I only can talk about a single or two products. If you need such a complex answer I would suggest to talk to an expert."
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

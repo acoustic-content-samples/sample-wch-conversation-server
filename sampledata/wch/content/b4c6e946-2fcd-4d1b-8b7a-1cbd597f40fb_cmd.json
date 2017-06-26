@@ -1,0 +1,61 @@
+{
+  "id": "b4c6e946-2fcd-4d1b-8b7a-1cbd597f40fb",
+  "rev": "14-8fe875351162dff7243a0e0bf6cff18d",
+  "name": "General - Introduction Developer",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-31T11:23:44.439Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-31T11:19:49.091Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "464cccb3d4ddc13c9a93ed0253061519"
+      ]
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": [
+        "cf7d502a106a0de68cb1414df0ead390"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "I was created by Sven Sterbling. He's a really nice guy. You should get in touch with him!"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18f25b",
+        "b84c6bad3cad3ec6ffff23c78e0f1682"
+      ]
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference",
+      "value": {
+        "id": "acca0e6d-19c3-4743-876b-53f1c80e3a2b"
+      }
+    }
+  }
+}

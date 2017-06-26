@@ -1,0 +1,79 @@
+{
+  "mediaType": "image/png",
+  "name": "DrHub.PNG",
+  "path": "/dxdam/df/df0b0e06-40c4-45a1-8d93-4b0fe45679fe/DrHub.PNG",
+  "digest": "dF/LkkK0qcQ8IgnfhXwUgw==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-06-13T15:11:37.318Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:light brown color",
+      "classification:memory device",
+      "classification:CD-R",
+      "classification:optical disk",
+      "classification:reddish orange color",
+      "classification:device",
+      "classification:audio CD",
+      "classification:CD-ROM"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:optical disk",
+      "classification:memory device",
+      "classification:device",
+      "classification:CD-ROM",
+      "classification:CD-R",
+      "classification:audio CD",
+      "classification:light brown color",
+      "classification:reddish orange color"
+    ]
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "DrHub.PNG",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "2-86997369c5063adc2029b08442c72bd7",
+  "cognitive": {
+    "classifications": [
+      "optical disk",
+      "memory device",
+      "device",
+      "CD-ROM",
+      "CD-R",
+      "audio CD",
+      "light brown color",
+      "reddish orange color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#845a1f",
+      "muted": "#a5885e",
+      "darkVibrant": "#844c0c",
+      "darkMuted": "#4c345c",
+      "lightMuted": "#acacac"
+    },
+    "status": "complete"
+  },
+  "id": "df0b0e06-40c4-45a1-8d93-4b0fe45679fe",
+  "resource": "9640eebbb53e5fca55c5d49a0e1f806a",
+  "fileSize": 37952,
+  "status": "ready",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "renditions": {
+    "default": {
+      "id": "r=9640eebbb53e5fca55c5d49a0e1f806a&a=df0b0e06-40c4-45a1-8d93-4b0fe45679fe",
+      "source": "/authoring/v1/resources/9640eebbb53e5fca55c5d49a0e1f806a"
+    }
+  },
+  "metadata": {
+    "width": 394,
+    "height": 563
+  },
+  "classification": "asset",
+  "created": "2017-06-13T15:11:32.988Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "c6aa112a19b1d19eac233bf583cb0a1b",
+  "rev": "2-ce7c0133e82147a577668c36bc090949",
+  "name": "excited",
+  "classification": "category",
+  "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
+  "parent": "cf7d502a106a0de68cb1414df0eabbeb",
+  "ancestorIds": [
+    "cf7d502a106a0de68cb1414df0ea8b7a",
+    "cf7d502a106a0de68cb1414df0eabbeb"
+  ],
+  "namePath": [
+    "emotion",
+    "toneanalyzer",
+    "excited"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0ea8b7a"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/c6aa112a19b1d19eac233bf583cb0a1b"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0eabbeb"
+    }
+  },
+  "created": "2017-05-10T10:53:45.405Z",
+  "lastModified": "2017-05-10T10:54:31.556Z"
+}

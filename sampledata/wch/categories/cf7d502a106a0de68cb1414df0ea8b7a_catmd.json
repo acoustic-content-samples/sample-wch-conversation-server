@@ -1,0 +1,17 @@
+{
+  "id": "cf7d502a106a0de68cb1414df0ea8b7a",
+  "rev": "2-f04c30c4c50a99aae56cc3c349b8cc83",
+  "name": "emotion",
+  "classification": "taxonomy",
+  "firstClassFor": null,
+  "namePath": [
+    "emotion"
+  ],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0ea8b7a"
+    }
+  },
+  "created": "2017-05-10T10:51:30.260Z",
+  "lastModified": "2017-05-10T10:51:36.427Z"
+}

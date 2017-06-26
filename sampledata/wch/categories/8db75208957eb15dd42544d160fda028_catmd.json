@@ -1,0 +1,28 @@
+{
+  "id": "8db75208957eb15dd42544d160fda028",
+  "rev": "1-a2df6fd8cc74421dc6f3a8c95ab9a860",
+  "name": "You are Welcome",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "efb4eb204170385dab6c56b4db05b958",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "You are Welcome"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/8db75208957eb15dd42544d160fda028"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    }
+  },
+  "created": "2017-05-15T18:01:46.503Z",
+  "lastModified": "2017-05-15T18:01:46.503Z"
+}

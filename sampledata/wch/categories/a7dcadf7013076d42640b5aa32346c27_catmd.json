@@ -1,0 +1,30 @@
+{
+  "id": "a7dcadf7013076d42640b5aa32346c27",
+  "rev": "1-8c93c8128b07382989e7acd2aad2c9c3",
+  "name": "different",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "d32ac974bbe1173f5a1b0fd5b63cf1d2",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "d32ac974bbe1173f5a1b0fd5b63cf1d2"
+  ],
+  "namePath": [
+    "entities",
+    "difference",
+    "different"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/a7dcadf7013076d42640b5aa32346c27"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/d32ac974bbe1173f5a1b0fd5b63cf1d2"
+    }
+  },
+  "created": "2017-05-17T09:24:00.940Z",
+  "lastModified": "2017-05-17T09:24:00.940Z"
+}

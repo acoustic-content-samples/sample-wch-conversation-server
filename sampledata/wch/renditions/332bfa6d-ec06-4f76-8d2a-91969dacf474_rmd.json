@@ -1,0 +1,20 @@
+{
+  "scale": 0.10980966325036604,
+  "locationY": 0,
+  "height": 75,
+  "locationX": 19,
+  "rev": "1-1387b3677d74d2766a155608cb85d377",
+  "id": "332bfa6d-ec06-4f76-8d2a-91969dacf474",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/jpeg",
+    "height": 683,
+    "fileName": "IMG-20170405-WA0000.jpg",
+    "id": "4a34ef63-af71-4ae4-bfe8-591d3a8b01a0",
+    "resource": "574f55ebf39a12c6f50b96f043fbea84",
+    "fileSize": 45972,
+    "width": 1024
+  },
+  "width": 75,
+  "created": "2017-05-16T09:35:05.513Z"
+}

@@ -40,3 +40,5 @@ jspm_packages
 
 #creds
 dch_vcap.json
+
+.wchtoolshashes

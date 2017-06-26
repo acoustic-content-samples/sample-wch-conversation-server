@@ -1,0 +1,32 @@
+{
+  "id": "efb4eb204170385dab6c56b4db065b61",
+  "rev": "1-ab79634ad18aa499cea167b74bf8ae25",
+  "name": "node_26_1493210230194",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "d81cb8b6923bb2f2ef3eb20a1f15c058",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "d81cb8b6923bb2f2ef3eb20a1f15a204",
+    "d81cb8b6923bb2f2ef3eb20a1f15c058"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "How many",
+    "Verify How many",
+    "node_26_1493210230194"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db065b61"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/d81cb8b6923bb2f2ef3eb20a1f15c058"
+    }
+  },
+  "created": "2017-05-15T18:01:50.075Z",
+  "lastModified": "2017-05-15T18:01:50.075Z"
+}

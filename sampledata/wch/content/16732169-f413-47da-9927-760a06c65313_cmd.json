@@ -1,0 +1,53 @@
+{
+  "id": "16732169-f413-47da-9927-760a06c65313",
+  "rev": "24-3a27c4915243c99989af66d7536558ee",
+  "name": "General - Ask for feedback",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-06-16T13:00:18.150Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-06-16T12:58:16.499Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "12e08736-c18a-44c8-8dcc-f22bd224355a"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Okay. Sorry to hear. I try to improve based on your feedback. Since this is a demo there is currently no feedback system in place. However my creator would be happy for direct feedback!"
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference",
+      "value": {
+        "id": "acca0e6d-19c3-4743-876b-53f1c80e3a2b"
+      }
+    }
+  },
+  "description": ""
+}

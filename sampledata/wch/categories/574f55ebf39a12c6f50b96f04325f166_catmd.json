@@ -1,0 +1,32 @@
+{
+  "id": "574f55ebf39a12c6f50b96f04325f166",
+  "rev": "1-6e7c121f82d140414f918dc91d42841a",
+  "name": "Resp Info Missing ProdFeat",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "8db75208957eb15dd42544d160fdbcc4",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "ce2d39d2e87c6de66277ee9d4a18d0d2",
+    "8db75208957eb15dd42544d160fdbcc4"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Information",
+    "Verify Information",
+    "Resp Info Missing ProdFeat"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/574f55ebf39a12c6f50b96f04325f166"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/8db75208957eb15dd42544d160fdbcc4"
+    }
+  },
+  "created": "2017-05-15T18:01:50.374Z",
+  "lastModified": "2017-05-15T18:01:50.374Z"
+}

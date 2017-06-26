@@ -1,0 +1,30 @@
+{
+  "id": "e6ef8b49bf960412d31d1d3bd2ab561b",
+  "rev": "1-e602a1d0353b4b1e420a69d152fb7b90",
+  "name": "rest api",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "fad37b71f9f5935f82913edeb90f78b1",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "fad37b71f9f5935f82913edeb90f78b1"
+  ],
+  "namePath": [
+    "entities",
+    "feature",
+    "rest api"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/e6ef8b49bf960412d31d1d3bd2ab561b"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb90f78b1"
+    }
+  },
+  "created": "2017-05-12T12:05:34.371Z",
+  "lastModified": "2017-05-12T12:05:34.371Z"
+}

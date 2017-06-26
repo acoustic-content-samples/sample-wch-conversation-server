@@ -1,0 +1,30 @@
+{
+  "id": "cf7d502a106a0de68cb1414df0ead390",
+  "rev": "2-ad51c3e446f22994cd5d690dad2d8776",
+  "name": "joy",
+  "classification": "category",
+  "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
+  "parent": "c6aa112a19b1d19eac233bf583cb2cb9",
+  "ancestorIds": [
+    "cf7d502a106a0de68cb1414df0ea8b7a",
+    "c6aa112a19b1d19eac233bf583cb2cb9"
+  ],
+  "namePath": [
+    "emotion",
+    "basic",
+    "joy"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0ea8b7a"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0ead390"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/c6aa112a19b1d19eac233bf583cb2cb9"
+    }
+  },
+  "created": "2017-05-10T10:54:39.952Z",
+  "lastModified": "2017-05-10T10:56:24.453Z"
+}

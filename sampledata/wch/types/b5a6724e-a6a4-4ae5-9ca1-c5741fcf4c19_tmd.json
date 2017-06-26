@@ -1,0 +1,136 @@
+{
+  "id": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+  "rev": "42-5173d821ca36edb08e09bb71d7aa9c66",
+  "name": "Attachment",
+  "classification": "content-type",
+  "description": "",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-10T09:08:24.339Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-13T07:06:34.734Z",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "fallback",
+      "key": "fallback",
+      "helpText": "A plain-text summary of the attachment. This text will be used in clients that don't show formatted text (eg. IRC, mobile notifications) and should not contain any markup."
+    },
+    {
+      "elementType": "text",
+      "label": "color",
+      "key": "color",
+      "helpText": "Like traffic signals, color-coding messages can quickly communicate intent and help separate them from the flow of other messages in the timeline.\n\nAn optional value that can either be one of good, warning, danger, or any hex color code (eg. #439FE0). This value is used to color the border along the left side of the message attachment."
+    },
+    {
+      "elementType": "text",
+      "label": "pretext",
+      "key": "pretext",
+      "helpText": "This is optional text that appears above the message attachment block."
+    },
+    {
+      "elementType": "link",
+      "label": "author",
+      "key": "author",
+      "helpText": "The author parameters will display a small section at the top of a message attachment that can contain the following fields:\n\nSmall text used to display the author's name.\n\nA valid URL that will hyperlink the author_name text mentioned above. Will only work if author_name is present."
+    },
+    {
+      "elementType": "image",
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif"
+      ],
+      "label": "author_icon",
+      "key": "author_icon",
+      "helpText": "A valid URL that displays a small 16x16px image to the left of the author_name text. Will only work if author_name is present.",
+      "imageProfileId": "203ff451-9175-465e-950c-db708e1d1273"
+    },
+    {
+      "elementType": "link",
+      "label": "title",
+      "key": "title",
+      "helpText": "The title is displayed as larger, bold text near the top of a message attachment. By passing a valid URL in the title_link parameter (optional), the title text will be hyperlinked."
+    },
+    {
+      "elementType": "text",
+      "label": "text",
+      "key": "text",
+      "helpText": "This is the main text in a message attachment, and can contain standard message markup. The content will automatically collapse if it contains 700+ characters or 5+ linebreaks, and will display a \"Show more...\" link to expand the content. Links posted in the text field will not unfurl.",
+      "displayType": "multiLine"
+    },
+    {
+      "elementType": "image",
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif",
+        "svg"
+      ],
+      "label": "image_url",
+      "key": "image_url",
+      "helpText": "A valid URL to an image file that will be displayed inside a message attachment. We currently support the following formats: GIF, JPEG, PNG, and BMP.\n\nLarge images will be resized to a maximum width of 400px or a maximum height of 500px, while still maintaining the original aspect ratio."
+    },
+    {
+      "elementType": "image",
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif"
+      ],
+      "label": "thumb_url",
+      "key": "thumb_url",
+      "helpText": "A valid URL to an image file that will be displayed as a thumbnail on the right side of a message attachment. We currently support the following formats: GIF, JPEG, PNG, and BMP.\n\nThe thumbnail's longest dimension will be scaled down to 75px while maintaining the aspect ratio of the image. The filesize of the image must also be less than 500 KB.\n\nFor best results, please use images that are already 75px by 75px.",
+      "imageProfileId": "cedc374a-1b1b-4497-bbc1-d4e42b52f38f"
+    },
+    {
+      "elementType": "text",
+      "label": "footer",
+      "key": "footer",
+      "helpText": "Add some brief text to help contextualize and identify an attachment. Limited to 300 characters, and may be truncated further when displayed to users in environments with limited screen real estate.",
+      "maxLength": 300
+    },
+    {
+      "elementType": "image",
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif"
+      ],
+      "label": "footer_icon",
+      "key": "footer_icon",
+      "helpText": "To render a small icon beside your footer text, provide a publicly accessible URL string in the footer_icon field. You must also provide a footer for the field to be recognized.\n\nWe'll render what you provide at 16px by 16px. It's best to use an image that is similarly sized.",
+      "imageProfileId": "203ff451-9175-465e-950c-db708e1d1273"
+    },
+    {
+      "elementType": "text",
+      "label": "fields",
+      "key": "fields",
+      "helpText": "Fields are defined as an array, and hashes contained within it will be displayed in a table inside the message attachment."
+    },
+    {
+      "elementType": "text",
+      "fieldLabel": "Text",
+      "label": "callback_id",
+      "key": "callback_id"
+    },
+    {
+      "elementType": "text",
+      "label": "action",
+      "key": "action",
+      "displayType": "multiLine",
+      "displayHeight": 15
+    },
+    {
+      "elementType": "datetime",
+      "label": "ts",
+      "key": "ts",
+      "helpText": "Does your attachment relate to something happening at a specific time?\n\nBy providing the ts field with an integer value in \"epoch time\", the attachment will display an additional timestamp value as part of the attachment's footer.\n\nUse ts when referencing articles or happenings. Your message will have its own timestamp when published.\n\nExample: Providing 123456789 would result in a rendered timestamp of Nov 29th, 1973."
+    }
+  ]
+}

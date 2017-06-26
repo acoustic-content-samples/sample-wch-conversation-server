@@ -1,0 +1,74 @@
+{
+  "mediaType": "image/png",
+  "name": "MrWatson.PNG",
+  "path": "/dxdam/8c/8c290073-6365-4400-8dce-40e286667e50/MrWatson.PNG",
+  "digest": "ZOwE8bUn5nU6mKKKC8TP0w==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-06-13T15:11:37.214Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:ultramarine color",
+      "classification:electrical device",
+      "classification:audio system",
+      "classification:device",
+      "classification:purplish blue color",
+      "classification:loudspeaker"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:loudspeaker",
+      "classification:electrical device",
+      "classification:device",
+      "classification:audio system",
+      "classification:ultramarine color",
+      "classification:purplish blue color"
+    ]
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "MrWatson.PNG",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "2-06db270ce36d4c354ab7a54320f7d745",
+  "cognitive": {
+    "classifications": [
+      "loudspeaker",
+      "electrical device",
+      "device",
+      "audio system",
+      "ultramarine color",
+      "purplish blue color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#62aaf2",
+      "muted": "#818182",
+      "darkVibrant": "#223c5a",
+      "darkMuted": "#343434",
+      "lightVibrant": "#8abcec",
+      "lightMuted": "#aab7c4"
+    },
+    "status": "complete"
+  },
+  "id": "8c290073-6365-4400-8dce-40e286667e50",
+  "resource": "594de312a358103a58cfbc16312831d8",
+  "fileSize": 30012,
+  "status": "ready",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "renditions": {
+    "default": {
+      "id": "r=594de312a358103a58cfbc16312831d8&a=8c290073-6365-4400-8dce-40e286667e50",
+      "source": "/authoring/v1/resources/594de312a358103a58cfbc16312831d8"
+    }
+  },
+  "metadata": {
+    "width": 401,
+    "height": 399
+  },
+  "classification": "asset",
+  "created": "2017-06-13T15:11:34.876Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "9fe150ace0bb1393a3f0f485ef21bff3",
+  "rev": "1-7c28916e65fcc094f35950022b0348fb",
+  "name": "Jump to Set Name",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "4a7ac79e08058703984c194cdbf7cbdd",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "d6c8a8fc916579191382d0e545543a92",
+    "d32ac974bbe1173f5a1b0fd5b64ebe3a",
+    "4a7ac79e08058703984c194cdbf7cbdd"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Change Name",
+    "Set Name",
+    "Not my name",
+    "Jump to Set Name"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/9fe150ace0bb1393a3f0f485ef21bff3"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/4a7ac79e08058703984c194cdbf7cbdd"
+    }
+  },
+  "created": "2017-05-31T09:49:30.147Z",
+  "lastModified": "2017-05-31T09:49:30.147Z"
+}

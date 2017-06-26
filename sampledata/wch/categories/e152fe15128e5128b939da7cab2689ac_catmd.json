@@ -1,0 +1,28 @@
+{
+  "id": "e152fe15128e5128b939da7cab2689ac",
+  "rev": "1-307eaaf3a90a3a9d550b3aad6383b31f",
+  "name": "producttype",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "3c21dad2434642ac4a48a28516393082",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082"
+  ],
+  "namePath": [
+    "entities",
+    "producttype"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/e152fe15128e5128b939da7cab2689ac"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    }
+  },
+  "created": "2017-05-05T15:01:22.866Z",
+  "lastModified": "2017-05-05T15:01:22.866Z"
+}

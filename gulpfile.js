@@ -315,4 +315,4 @@ gulp.task('default', ['browser-sync', 'build', 'watch']);
 
 gulp.task("svg", ["minimizeSvgs", "buildSvgSprite"]); 
 
-gulp.task("dev", ['eslint:watch', 'nodemon']); 
+gulp.task("dev", ['eslint:watch', 'nodemon']);

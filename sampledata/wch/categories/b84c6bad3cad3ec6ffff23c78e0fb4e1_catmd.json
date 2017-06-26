@@ -1,0 +1,32 @@
+{
+  "id": "b84c6bad3cad3ec6ffff23c78e0fb4e1",
+  "rev": "1-d3206e000a5d7971c09d4bf1f1f974d3",
+  "name": "Response Persona No Entities",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "d81cb8b6923bb2f2ef3eb20a1f15e10d",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "ce2d39d2e87c6de66277ee9d4a18d961",
+    "d81cb8b6923bb2f2ef3eb20a1f15e10d"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Switch Persona",
+    "Verify Persona",
+    "Response Persona No Entities"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/b84c6bad3cad3ec6ffff23c78e0fb4e1"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/d81cb8b6923bb2f2ef3eb20a1f15e10d"
+    }
+  },
+  "created": "2017-05-15T18:01:50.782Z",
+  "lastModified": "2017-05-15T18:01:50.782Z"
+}

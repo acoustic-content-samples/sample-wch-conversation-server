@@ -1,0 +1,30 @@
+{
+  "id": "7504596e6cd657bca7efb383bfffb061",
+  "rev": "3-eaf8a507c2ca9d15df47d3ed32771f08",
+  "name": "sympathetic",
+  "classification": "category",
+  "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
+  "parent": "cf7d502a106a0de68cb1414df0eabbeb",
+  "ancestorIds": [
+    "cf7d502a106a0de68cb1414df0ea8b7a",
+    "cf7d502a106a0de68cb1414df0eabbeb"
+  ],
+  "namePath": [
+    "emotion",
+    "toneanalyzer",
+    "sympathetic"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0ea8b7a"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/7504596e6cd657bca7efb383bfffb061"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0eabbeb"
+    }
+  },
+  "created": "2017-05-10T10:53:54.828Z",
+  "lastModified": "2017-05-10T10:54:25.178Z"
+}

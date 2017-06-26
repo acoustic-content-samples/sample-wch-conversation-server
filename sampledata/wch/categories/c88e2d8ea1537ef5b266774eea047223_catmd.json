@@ -1,0 +1,30 @@
+{
+  "id": "c88e2d8ea1537ef5b266774eea047223",
+  "rev": "1-005b46770744c30831354875e8e0e8e2",
+  "name": "drhub",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "c4eb325d2ee45480559aa0840409bbfe",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "c4eb325d2ee45480559aa0840409bbfe"
+  ],
+  "namePath": [
+    "entities",
+    "persona",
+    "drhub"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/c88e2d8ea1537ef5b266774eea047223"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/c4eb325d2ee45480559aa0840409bbfe"
+    }
+  },
+  "created": "2017-05-08T11:37:16.986Z",
+  "lastModified": "2017-05-08T11:37:16.986Z"
+}

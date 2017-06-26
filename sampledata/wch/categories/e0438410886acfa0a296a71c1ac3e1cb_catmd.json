@@ -1,0 +1,30 @@
+{
+  "id": "e0438410886acfa0a296a71c1ac3e1cb",
+  "rev": "2-16d995d0e373c9c77036489cd25d536f",
+  "name": "polite",
+  "classification": "category",
+  "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
+  "parent": "cf7d502a106a0de68cb1414df0eabbeb",
+  "ancestorIds": [
+    "cf7d502a106a0de68cb1414df0ea8b7a",
+    "cf7d502a106a0de68cb1414df0eabbeb"
+  ],
+  "namePath": [
+    "emotion",
+    "toneanalyzer",
+    "polite"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0ea8b7a"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/e0438410886acfa0a296a71c1ac3e1cb"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0eabbeb"
+    }
+  },
+  "created": "2017-05-10T10:53:47.872Z",
+  "lastModified": "2017-05-10T10:54:26.910Z"
+}

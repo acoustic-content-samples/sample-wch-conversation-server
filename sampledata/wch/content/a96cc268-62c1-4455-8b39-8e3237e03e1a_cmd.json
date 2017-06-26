@@ -1,0 +1,56 @@
+{
+  "id": "a96cc268-62c1-4455-8b39-8e3237e03e1a",
+  "rev": "12-cbbf353ee077f4b17befab7952697ca6",
+  "name": "ProfContent - Anything Else",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-06-07T16:08:08.033Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-15T18:15:22.137Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": [
+        "cf7d502a106a0de68cb1414df0eadc62"
+      ]
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": [
+        "c88e2d8ea1537ef5b266774eea047616"
+      ]
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "efb4eb204170385dab6c56b4db060bc8"
+      ]
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "I'm sorry. I haven't done any research in this area. Try to ask me about Watson Content Hub."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "9a71fcc9-1e20-40d0-a93f-64567079e0cf",
+  "rev": "23-a7e1ca5d241e743b7bc91d6ca9a0e6ab",
+  "name": "General - Pitch No Entitites",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-15T18:34:35.492Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-15T11:12:41.348Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "I understand you are looking for information about something. But I didn't get the what of your question. Maybe try some short keywords. This helps me understand your question."
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "8db75208957eb15dd42544d160fdbcc4"
+      ]
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

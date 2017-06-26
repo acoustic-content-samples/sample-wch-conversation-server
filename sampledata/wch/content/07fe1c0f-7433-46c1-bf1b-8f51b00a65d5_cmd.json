@@ -1,0 +1,74 @@
+{
+  "id": "07fe1c0f-7433-46c1-bf1b-8f51b00a65d5",
+  "rev": "9-5e213540da958e74d27901117ddcdb11",
+  "name": "Attachment - None of my business",
+  "description": "",
+  "classification": "content",
+  "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+  "locale": "en-US",
+  "lastModified": "2017-06-07T16:18:35.113Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-06-07T16:10:03.973Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "footer": {
+      "elementType": "text",
+      "value": "via content hub"
+    },
+    "color": {
+      "elementType": "text"
+    },
+    "author_icon": {
+      "elementType": "image"
+    },
+    "title": {
+      "elementType": "link"
+    },
+    "ts": {
+      "elementType": "datetime"
+    },
+    "footer_icon": {
+      "elementType": "image"
+    },
+    "fields": {
+      "elementType": "text"
+    },
+    "fallback": {
+      "elementType": "text"
+    },
+    "author": {
+      "elementType": "link",
+      "linkURL": "https://giphy.com/gifs/mrw-imgur-pictures-EZYQjm1uPrXGg/",
+      "linkText": "Giphy",
+      "linkDescription": "Giphy"
+    },
+    "thumb_url": {
+      "elementType": "image"
+    },
+    "text": {
+      "elementType": "text"
+    },
+    "image_url": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=a36c719d2f58e8fdac80f6c2fd57f9b8&a=b4b49086-09be-4e4d-9021-ba5d8b33710a",
+          "source": "/authoring/v1/resources/a36c719d2f58e8fdac80f6c2fd57f9b8"
+        }
+      },
+      "asset": {
+        "id": "b4b49086-09be-4e4d-9021-ba5d8b33710a",
+        "resourceUri": "/authoring/v1/resources/a36c719d2f58e8fdac80f6c2fd57f9b8",
+        "fileName": "noneofmybusiness.gif",
+        "fileSize": 759174,
+        "mediaType": "image/gif"
+      }
+    },
+    "pretext": {
+      "elementType": "text"
+    }
+  }
+}

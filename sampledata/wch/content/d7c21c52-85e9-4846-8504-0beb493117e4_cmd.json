@@ -1,0 +1,57 @@
+{
+  "id": "d7c21c52-85e9-4846-8504-0beb493117e4",
+  "rev": "23-92bed510b45f2ff7ca6de2e5c8690988",
+  "name": "MrWatson - Hi again",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-06-16T12:40:12.971Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-06-13T15:37:25.337Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "status": "ready",
+  "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": [
+        "d332127df4c37b2d4632699e7e16bccc"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Hi again. {{#if watsonData.context.username}}{{watsonData.context.username}} just tell me your business needs.{{else}}What's on the agenda today?{{/if}}"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "b84c6bad3cad3ec6ffff23c78e0f3fe1",
+        "574f55ebf39a12c6f50b96f04325d595"
+      ]
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference",
+      "value": {
+        "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scale": 0.11363636363636363,
+  "locationY": 0,
+  "height": 75,
+  "locationX": 0,
+  "rev": "1-b7876ac7de82bf465dca19cd0a39062a",
+  "id": "78dc010f-ef7f-43e0-9109-56d0957f17f8",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/png",
+    "height": 660,
+    "fileName": "avatar.png",
+    "id": "4ab941ae-376c-484b-90c4-d7eadbda329c",
+    "resource": "747217a959fc4f3ecaf23241dfb52f47",
+    "fileSize": 21252,
+    "width": 660
+  },
+  "width": 75,
+  "created": "2017-06-22T07:17:41.849Z"
+}

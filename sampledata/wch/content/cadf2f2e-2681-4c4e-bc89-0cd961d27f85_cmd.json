@@ -1,0 +1,68 @@
+{
+  "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85",
+  "rev": "18-b5e368be5d07cb58314b73e1b8c569f1",
+  "name": "Attachment - Yes No",
+  "description": "",
+  "classification": "content",
+  "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+  "locale": "en-US",
+  "lastModified": "2017-06-14T06:52:45.246Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-06-08T14:58:01.180Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "fallback": {
+      "elementType": "text",
+      "value": "Please answer with yes or no. (Or ignore the request)"
+    },
+    "action": {
+      "elementType": "text",
+      "value": "[\n  {\n      \"name\": \"yes\",\n      \"text\": \"Yes\",\n      \"style\":\"primary\",\n      \"type\": \"button\",\n      \"value\": \"Yes\"\n  },\n  {\n      \"name\": \"No\",\n      \"text\": \"No\",\n      \"style\": \"danger\",\n      \"type\": \"button\",\n      \"value\": \"No\"\n  }\n]"
+    },
+    "image_url": {
+      "elementType": "image"
+    },
+    "author_icon": {
+      "elementType": "image"
+    },
+    "title": {
+      "elementType": "link",
+      "linkText": "Your Answer"
+    },
+    "ts": {
+      "elementType": "datetime"
+    },
+    "footer_icon": {
+      "elementType": "image"
+    },
+    "fields": {
+      "elementType": "text"
+    },
+    "author": {
+      "elementType": "link"
+    },
+    "color": {
+      "elementType": "text",
+      "value": "#36A64F"
+    },
+    "thumb_url": {
+      "elementType": "image"
+    },
+    "footer": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text"
+    },
+    "callback_id": {
+      "elementType": "text",
+      "value": "yes_no"
+    },
+    "pretext": {
+      "elementType": "text"
+    }
+  }
+}

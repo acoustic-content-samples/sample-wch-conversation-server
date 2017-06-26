@@ -1,0 +1,32 @@
+{
+  "id": "d81cb8b6923bb2f2ef3eb20a1f160238",
+  "rev": "1-5ee0b2c0156bd4e400ae128482ef9e3d",
+  "name": "Response Ask for Details",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "d81cb8b6923bb2f2ef3eb20a1f15d86a",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "b84c6bad3cad3ec6ffff23c78e0f5715",
+    "d81cb8b6923bb2f2ef3eb20a1f15d86a"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Pitch",
+    "Customer shows interest",
+    "Response Ask for Details"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/d81cb8b6923bb2f2ef3eb20a1f160238"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/d81cb8b6923bb2f2ef3eb20a1f15d86a"
+    }
+  },
+  "created": "2017-05-15T18:01:49.721Z",
+  "lastModified": "2017-05-15T18:01:49.721Z"
+}

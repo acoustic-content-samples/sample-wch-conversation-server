@@ -1,0 +1,30 @@
+{
+  "id": "36bc671ee4c021ad592d6b4174e5c6ea",
+  "rev": "3-9db625c9aeed82086a42d191f25a3907",
+  "name": "sad",
+  "classification": "category",
+  "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
+  "parent": "cf7d502a106a0de68cb1414df0eabbeb",
+  "ancestorIds": [
+    "cf7d502a106a0de68cb1414df0ea8b7a",
+    "cf7d502a106a0de68cb1414df0eabbeb"
+  ],
+  "namePath": [
+    "emotion",
+    "toneanalyzer",
+    "sad"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0ea8b7a"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/36bc671ee4c021ad592d6b4174e5c6ea"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0eabbeb"
+    }
+  },
+  "created": "2017-05-10T10:53:39.053Z",
+  "lastModified": "2017-05-10T10:54:25.178Z"
+}

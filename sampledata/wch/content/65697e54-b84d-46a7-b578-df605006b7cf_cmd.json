@@ -1,0 +1,53 @@
+{
+  "id": "65697e54-b84d-46a7-b578-df605006b7cf",
+  "rev": "20-5325879a1d0724f33ca1f33dc3fdda5a",
+  "name": "General - What can you do",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-06-16T13:13:08.228Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-06-16T13:11:15.105Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a193f34",
+        "d81cb8b6923bb2f2ef3eb20a1f15c6a7"
+      ]
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "efbe6fad-15c7-4a40-9098-9f108eb371fc"
+      ]
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "I'm currently capable to talk about Watson Content Hub and it's key features. Plus I know a little about the integration of WCH with DX. Since this is a demo I'm not an expert in the other areas :cry:"
+    }
+  },
+  "description": ""
+}

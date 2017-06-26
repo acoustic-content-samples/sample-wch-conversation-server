@@ -1,0 +1,30 @@
+{
+  "id": "d32ac974bbe1173f5a1b0fd5b63d804d",
+  "rev": "1-d2c4339ecf30c8d02ab035ebcee64fc1",
+  "name": "TIM Consulting",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "6e4827e8e902ad7f810cb8c2a52b3f53"
+  ],
+  "namePath": [
+    "entities",
+    "companyname",
+    "TIM Consulting"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/d32ac974bbe1173f5a1b0fd5b63d804d"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
+    }
+  },
+  "created": "2017-05-17T09:24:02.891Z",
+  "lastModified": "2017-05-17T09:24:02.891Z"
+}

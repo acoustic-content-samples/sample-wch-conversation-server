@@ -1,0 +1,97 @@
+{
+  "mediaType": "image/gif",
+  "name": "giphy-tumblr.gif",
+  "path": "/dxdam/dd/dd45ea3d-9662-43df-b81e-22c8b6a024a2/giphy-tumblr.gif",
+  "digest": "974vJIpuVFUJ6kaojeUlBA==",
+  "assetType": "image",
+  "lastModified": "2017-06-08T14:40:44.688Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:mammal",
+      "classification:young",
+      "classification:carnivore",
+      "classification:Maltese dog",
+      "classification:domestic cat",
+      "classification:Persian cat",
+      "classification:small dog",
+      "classification:dog",
+      "classification:Angora cat",
+      "classification:pup",
+      "classification:feline",
+      "classification:domestic animal",
+      "classification:cat",
+      "classification:alabaster color",
+      "classification:animal"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:Angora cat",
+      "classification:domestic cat",
+      "classification:cat",
+      "classification:feline",
+      "classification:carnivore",
+      "classification:mammal",
+      "classification:animal",
+      "classification:Maltese dog",
+      "classification:small dog",
+      "classification:dog",
+      "classification:domestic animal",
+      "classification:Persian cat",
+      "classification:pup",
+      "classification:young",
+      "classification:alabaster color"
+    ]
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "giphy-tumblr.gif",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "2-0ec9f9799a99fac54f17f5c3e6e9f46a",
+  "cognitive": {
+    "classifications": [
+      "Angora cat",
+      "domestic cat",
+      "cat",
+      "feline",
+      "carnivore",
+      "mammal",
+      "animal",
+      "Maltese dog",
+      "small dog",
+      "dog",
+      "domestic animal",
+      "Persian cat",
+      "pup",
+      "young",
+      "alabaster color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#6d5434",
+      "muted": "#6f5740",
+      "darkVibrant": "#63472b",
+      "darkMuted": "#6b4c34",
+      "lightMuted": "#a8b8bc"
+    },
+    "status": "complete"
+  },
+  "id": "dd45ea3d-9662-43df-b81e-22c8b6a024a2",
+  "resource": "1bdd94512c4e329c56491614690feb94",
+  "fileSize": 1049311,
+  "status": "ready",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "renditions": {
+    "default": {
+      "id": "r=1bdd94512c4e329c56491614690feb94&a=dd45ea3d-9662-43df-b81e-22c8b6a024a2",
+      "source": "/authoring/v1/resources/1bdd94512c4e329c56491614690feb94"
+    }
+  },
+  "metadata": {
+    "width": 250,
+    "height": 204
+  },
+  "classification": "asset",
+  "created": "2017-06-08T14:40:41.287Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3c21dad2434642ac4a48a285163a334f",
+  "rev": "1-8a8b928acb3cf9799359fb64d62b79c7",
+  "name": "asset size increase",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "fad37b71f9f5935f82913edeb90f78b1",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "fad37b71f9f5935f82913edeb90f78b1"
+  ],
+  "namePath": [
+    "entities",
+    "feature",
+    "asset size increase"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a285163a334f"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb90f78b1"
+    }
+  },
+  "created": "2017-05-05T15:01:23.983Z",
+  "lastModified": "2017-05-05T15:01:23.983Z"
+}

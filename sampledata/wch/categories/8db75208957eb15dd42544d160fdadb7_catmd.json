@@ -1,0 +1,28 @@
+{
+  "id": "8db75208957eb15dd42544d160fdadb7",
+  "rev": "1-5c3d870cb752434d2427e3c5e4d6518c",
+  "name": "Play media",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "efb4eb204170385dab6c56b4db05b958",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Play media"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/8db75208957eb15dd42544d160fdadb7"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    }
+  },
+  "created": "2017-05-15T18:01:46.608Z",
+  "lastModified": "2017-05-15T18:01:46.608Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "8db75208957eb15dd42544d160fe038a",
+  "rev": "1-72a40a9b1ae6611c224b2e1a48547514",
+  "name": "Response Give Single Featureinfo about Product",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "ce2d39d2e87c6de66277ee9d4a18fe1e",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "ce2d39d2e87c6de66277ee9d4a18d0d2",
+    "ce2d39d2e87c6de66277ee9d4a18fe1e"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Information",
+    "Give Featureinformation about Product",
+    "Response Give Single Featureinfo about Product"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/8db75208957eb15dd42544d160fe038a"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18fe1e"
+    }
+  },
+  "created": "2017-05-15T18:01:52.121Z",
+  "lastModified": "2017-05-15T18:01:52.121Z"
+}

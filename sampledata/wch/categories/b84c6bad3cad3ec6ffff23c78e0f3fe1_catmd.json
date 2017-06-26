@@ -1,0 +1,28 @@
+{
+  "id": "b84c6bad3cad3ec6ffff23c78e0f3fe1",
+  "rev": "1-1619d8e44a967690dc22fe11f9ad3596",
+  "name": "Welcome",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "efb4eb204170385dab6c56b4db05b958",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Welcome"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/b84c6bad3cad3ec6ffff23c78e0f3fe1"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    }
+  },
+  "created": "2017-05-15T18:01:46.447Z",
+  "lastModified": "2017-05-15T18:01:46.447Z"
+}

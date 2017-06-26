@@ -1,0 +1,56 @@
+{
+  "id": "dcef22e7-119c-4206-b850-937f62611a63",
+  "rev": "9-9cdc293108f58aef7273cb3460de0d91",
+  "name": "General - Cognitive Tagging",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-31T13:03:34.466Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-31T13:02:13.607Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [
+    "user:Jan 2017"
+  ],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ]
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Work with Watson to augment your content meta-data and make it much easier to find just what you need. When you upload content, Watson analyzes it and proposes tags from a library of thousands of concepts, objects, colors, ages, genders, etc."
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "6e4827e8e902ad7f810cb8c2a52c230e"
+      ]
+    }
+  }
+}

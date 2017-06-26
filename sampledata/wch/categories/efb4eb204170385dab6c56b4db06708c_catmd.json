@@ -1,0 +1,32 @@
+{
+  "id": "efb4eb204170385dab6c56b4db06708c",
+  "rev": "1-23f27d84c35b90db8146c5a84dcbd3b8",
+  "name": "Response Persona Slack",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "d81cb8b6923bb2f2ef3eb20a1f15e10d",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "ce2d39d2e87c6de66277ee9d4a18d961",
+    "d81cb8b6923bb2f2ef3eb20a1f15e10d"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Switch Persona",
+    "Verify Persona",
+    "Response Persona Slack"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db06708c"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/d81cb8b6923bb2f2ef3eb20a1f15e10d"
+    }
+  },
+  "created": "2017-05-15T18:01:50.732Z",
+  "lastModified": "2017-05-15T18:01:50.732Z"
+}

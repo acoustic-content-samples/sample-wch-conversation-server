@@ -1,0 +1,60 @@
+{
+  "mediaType": "image/jpeg",
+  "name": "IMG-20170405-WA0000.jpg",
+  "path": "/dxdam/4a/4a34ef63-af71-4ae4-bfe8-591d3a8b01a0/IMG-20170405-WA0000.jpg",
+  "digest": "iKNsFawWdGfzHKaZnQIbrw==",
+  "assetType": "image",
+  "lastModified": "2017-05-16T09:35:08.714Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:person",
+      "classification:people",
+      "classification:careerist",
+      "face:Male"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:person",
+      "classification:people",
+      "classification:careerist",
+      "face:Male"
+    ]
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "IMG-20170405-WA0000.jpg",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "2-87dfd610d4ee210f2558f4dd67f929aa",
+  "cognitive": {
+    "classifications": [
+      "person",
+      "people",
+      "careerist"
+    ],
+    "faces": [
+      {
+        "gender": "Male"
+      }
+    ],
+    "status": "complete"
+  },
+  "id": "4a34ef63-af71-4ae4-bfe8-591d3a8b01a0",
+  "resource": "574f55ebf39a12c6f50b96f043fbea84",
+  "fileSize": 45972,
+  "status": "ready",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "renditions": {
+    "default": {
+      "id": "r=574f55ebf39a12c6f50b96f043fbea84&a=4a34ef63-af71-4ae4-bfe8-591d3a8b01a0",
+      "source": "/authoring/v1/resources/574f55ebf39a12c6f50b96f043fbea84"
+    }
+  },
+  "metadata": {
+    "width": 1024,
+    "height": 683
+  },
+  "classification": "asset",
+  "created": "2017-05-16T09:35:04.953Z"
+}

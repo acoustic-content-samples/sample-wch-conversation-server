@@ -1,0 +1,32 @@
+{
+  "id": "d81cb8b6923bb2f2ef3eb20a1f1608d3",
+  "rev": "1-308c63b2bb6daf974984adbbf6be5b64",
+  "name": "Verify Email",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "efb4eb204170385dab6c56b4db0649bf",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "efb4eb204170385dab6c56b4db06237d",
+    "efb4eb204170385dab6c56b4db0649bf"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Keep in touch",
+    "Enter Email",
+    "Verify Email"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/d81cb8b6923bb2f2ef3eb20a1f1608d3"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db0649bf"
+    }
+  },
+  "created": "2017-05-15T18:01:51.801Z",
+  "lastModified": "2017-05-15T18:01:51.801Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6e4827e8e902ad7f810cb8c2a52c230e",
+  "rev": "1-65ffbc049289f06d5b3b01f62c13d19a",
+  "name": "watson tagging",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "fad37b71f9f5935f82913edeb90f78b1",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "fad37b71f9f5935f82913edeb90f78b1"
+  ],
+  "namePath": [
+    "entities",
+    "feature",
+    "watson tagging"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52c230e"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb90f78b1"
+    }
+  },
+  "created": "2017-05-05T15:01:24.384Z",
+  "lastModified": "2017-05-05T15:01:24.384Z"
+}

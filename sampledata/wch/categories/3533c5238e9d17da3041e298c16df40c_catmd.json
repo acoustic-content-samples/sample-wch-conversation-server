@@ -1,0 +1,32 @@
+{
+  "id": "3533c5238e9d17da3041e298c16df40c",
+  "rev": "1-d77120785c54692c077db5e37f8f248f",
+  "name": "Response Pitch Multiple Products",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "ce2d39d2e87c6de66277ee9d4a190b5b",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "b84c6bad3cad3ec6ffff23c78e0f5715",
+    "ce2d39d2e87c6de66277ee9d4a190b5b"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Pitch",
+    "Do Pitch",
+    "Response Pitch Multiple Products"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/3533c5238e9d17da3041e298c16df40c"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a190b5b"
+    }
+  },
+  "created": "2017-05-18T09:20:12.832Z",
+  "lastModified": "2017-05-18T09:20:12.832Z"
+}

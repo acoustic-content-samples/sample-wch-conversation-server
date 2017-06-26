@@ -1,0 +1,80 @@
+{
+  "mediaType": "image/png",
+  "name": "ProfContent.PNG",
+  "path": "/dxdam/ae/ae0a2253-d8e2-48e0-92d3-481cc8468ed2/ProfContent.PNG",
+  "digest": "efQ4PMMOx4u1nNezFhGP3Q==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-06-13T15:11:35.633Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:fastener",
+      "classification:sage green color",
+      "classification:memory device",
+      "classification:washer",
+      "classification:optical disk",
+      "classification:device",
+      "classification:diskette",
+      "classification:jade green color"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:diskette",
+      "classification:memory device",
+      "classification:device",
+      "classification:optical disk",
+      "classification:washer",
+      "classification:fastener",
+      "classification:jade green color",
+      "classification:sage green color"
+    ]
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "ProfContent.PNG",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "2-79155b36119a0e8e9d86c4c6f03c476e",
+  "cognitive": {
+    "classifications": [
+      "diskette",
+      "memory device",
+      "device",
+      "optical disk",
+      "washer",
+      "fastener",
+      "jade green color",
+      "sage green color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#ac34b8",
+      "muted": "#5ea698",
+      "darkVibrant": "#098470",
+      "darkMuted": "#35585f",
+      "lightVibrant": "#d4a4d8",
+      "lightMuted": "#9cccc4"
+    },
+    "status": "complete"
+  },
+  "id": "ae0a2253-d8e2-48e0-92d3-481cc8468ed2",
+  "resource": "594de312a358103a58cfbc1631282177",
+  "fileSize": 31090,
+  "status": "ready",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "renditions": {
+    "default": {
+      "id": "r=594de312a358103a58cfbc1631282177&a=ae0a2253-d8e2-48e0-92d3-481cc8468ed2",
+      "source": "/authoring/v1/resources/594de312a358103a58cfbc1631282177"
+    }
+  },
+  "metadata": {
+    "width": 400,
+    "height": 397
+  },
+  "classification": "asset",
+  "created": "2017-06-13T15:11:33.197Z"
+}

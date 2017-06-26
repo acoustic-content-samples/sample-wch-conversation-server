@@ -1,0 +1,51 @@
+{
+  "id": "bdcdc607-dd0b-4a62-a928-2c6baf593222",
+  "rev": "27-72f39ac90ba3c6c14f44c2d9ae6e9271",
+  "name": "General - Negative Response Name",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-06-22T10:21:26.513Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-17T13:51:43.148Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Too bad. But I understand that you are concerned about your privacy... then I probaply should not mention that I really like cookies{{#if (eq watsonData.context.clienttype 'slack')}}  :cookie::cookie::cookie:{{else}}.{{/if}}"
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "1ffc133e786e0d65f2834ae483637fee"
+      ]
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "mediaType": "image/jpeg",
+  "name": "photo.jpg",
+  "path": "/dxdam/8b/8bae924e-7211-4c68-a9f7-1c50b218d34c/photo.jpg",
+  "digest": "HtU4FfZ1X7vptPOPGeZH4A==",
+  "assetType": "image",
+  "lastModified": "2017-05-15T12:23:20.591Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:person",
+      "classification:sociologist",
+      "classification:adult person",
+      "classification:reddish orange color"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:person",
+      "classification:sociologist",
+      "classification:adult person",
+      "classification:reddish orange color"
+    ]
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "photo.jpg",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "2-b572e89f9868f2bdd9ba5e6caed9560a",
+  "cognitive": {
+    "classifications": [
+      "person",
+      "sociologist",
+      "adult person",
+      "reddish orange color"
+    ],
+    "faces": [],
+    "status": "complete"
+  },
+  "id": "8bae924e-7211-4c68-a9f7-1c50b218d34c",
+  "resource": "8cf2dbe2bce72db71a3a4b96b4e9b0b7",
+  "fileSize": 20706,
+  "status": "ready",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "renditions": {
+    "default": {
+      "id": "r=8cf2dbe2bce72db71a3a4b96b4e9b0b7&a=8bae924e-7211-4c68-a9f7-1c50b218d34c",
+      "source": "/authoring/v1/resources/8cf2dbe2bce72db71a3a4b96b4e9b0b7"
+    }
+  },
+  "metadata": {
+    "width": 155,
+    "height": 155
+  },
+  "classification": "asset",
+  "created": "2017-05-15T12:23:18.063Z"
+}

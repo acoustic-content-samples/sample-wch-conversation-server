@@ -1,0 +1,30 @@
+{
+  "id": "44ca9e606b6576694bdbea223a6c41c1",
+  "rev": "1-8bab1cfdde2082df4e892b486eacd326",
+  "name": "cool",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "4c889914160a14eaf584c13cd8f38d3a",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "4c889914160a14eaf584c13cd8f38d3a"
+  ],
+  "namePath": [
+    "entities",
+    "adjective",
+    "cool"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/44ca9e606b6576694bdbea223a6c41c1"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd8f38d3a"
+    }
+  },
+  "created": "2017-05-17T13:48:13.629Z",
+  "lastModified": "2017-05-17T13:48:13.629Z"
+}

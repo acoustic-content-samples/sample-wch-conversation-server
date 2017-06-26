@@ -1,0 +1,30 @@
+{
+  "id": "d332127df4c37b2d4632699e7e16bccc",
+  "rev": "1-5a3567b08fcd4b6ab2d8d3d9b8606f67",
+  "name": "mrwatson",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "c4eb325d2ee45480559aa0840409bbfe",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "c4eb325d2ee45480559aa0840409bbfe"
+  ],
+  "namePath": [
+    "entities",
+    "persona",
+    "mrwatson"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/d332127df4c37b2d4632699e7e16bccc"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/c4eb325d2ee45480559aa0840409bbfe"
+    }
+  },
+  "created": "2017-05-08T11:37:17.056Z",
+  "lastModified": "2017-05-08T11:37:17.056Z"
+}

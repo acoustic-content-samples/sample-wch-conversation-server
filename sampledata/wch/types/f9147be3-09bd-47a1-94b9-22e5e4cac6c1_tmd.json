@@ -1,0 +1,74 @@
+{
+  "id": "f9147be3-09bd-47a1-94b9-22e5e4cac6c1",
+  "rev": "18-a076c063c5f78c0f4317aef4791f863b",
+  "name": "Followup",
+  "classification": "content-type",
+  "description": "",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-12T16:33:06.529Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-08T15:01:38.791Z",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "Text",
+      "key": "text",
+      "required": true,
+      "displayType": "multiLine",
+      "displayHeight": 5
+    },
+    {
+      "elementType": "toggle",
+      "label": "Attachments",
+      "key": "attachments",
+      "statement": "Response with attachments"
+    },
+    {
+      "elementType": "text",
+      "label": "AttachmentQuery",
+      "key": "attachmentquery"
+    },
+    {
+      "elementType": "reference",
+      "label": "Attachment",
+      "key": "attachment",
+      "restrictTypes": [
+        {
+          "id": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19"
+        }
+      ]
+    },
+    {
+      "elementType": "category",
+      "label": "Action",
+      "key": "action",
+      "restrictedParents": [
+        "8db75208957eb15dd42544d1603c503c"
+      ],
+      "required": true
+    },
+    {
+      "elementType": "category",
+      "label": "Persona",
+      "key": "persona",
+      "restrictedParents": [
+        "c4eb325d2ee45480559aa0840409bbfe"
+      ]
+    },
+    {
+      "elementType": "category",
+      "label": "Emotion",
+      "key": "emotion",
+      "restrictedParents": [
+        "cf7d502a106a0de68cb1414df0ea8b7a"
+      ]
+    },
+    {
+      "elementType": "location",
+      "label": "Location",
+      "key": "location"
+    }
+  ]
+}

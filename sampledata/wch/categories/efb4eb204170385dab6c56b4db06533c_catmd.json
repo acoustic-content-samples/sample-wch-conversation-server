@@ -1,0 +1,30 @@
+{
+  "id": "efb4eb204170385dab6c56b4db06533c",
+  "rev": "1-0c93bad81326c5c17b96556c364d2e7b",
+  "name": "Already gave contact details",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "efb4eb204170385dab6c56b4db06237d",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "efb4eb204170385dab6c56b4db06237d"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Keep in touch",
+    "Already gave contact details"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db06533c"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db06237d"
+    }
+  },
+  "created": "2017-05-15T18:01:48.737Z",
+  "lastModified": "2017-05-15T18:01:48.737Z"
+}

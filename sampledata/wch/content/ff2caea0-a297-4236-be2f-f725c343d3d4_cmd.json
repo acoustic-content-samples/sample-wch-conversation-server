@@ -1,0 +1,50 @@
+{
+  "id": "ff2caea0-a297-4236-be2f-f725c343d3d4",
+  "rev": "12-5e3ffe57f81ecd89ac1fc224e979b4d2",
+  "name": "General - Input Email",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en-US",
+  "lastModified": "2017-05-15T18:48:04.291Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-05-15T18:45:24.317Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "efb4eb204170385dab6c56b4db0649bf"
+      ]
+    },
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": [
+        "e0438410886acfa0a296a71c1ac41e7d"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Great! Please only say your email address. My developer was too lazy to implement a filter method :cry:"
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "location": {
+      "elementType": "location"
+    }
+  }
+}
