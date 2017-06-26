@@ -9,16 +9,7 @@ The value of this solution is simple and powerful: We let the Watson Conversatio
 
 | Watson Conversation Service | Watson Content Hub |
 |---|---|
-|  - Defines the conversational structure
-   - Manages the state of conversations
-   - "State Machine"
-   - Unaware of the actual response content
-   - Possibility to add custom actions | 
-   - Have rich content capablities
-   - Reusable content in other applications
-   - "Chross-Channel"
-   - Adapt to various outout mediums (e.g. Screen, Audio, Text)
-   - Use the context information from the conversation service for dynamic content  |
+|  <ul><li>Defines the conversational structure</li><li>Manages the state of conversations</li><li>"State Machine"</li><li>Unaware of the actual response content</li><li>Possibility to add custom actions</li></ul> | <ul><li>Have rich content capablities</li><li>Reusable content in other applications</li><li>"Chross-Channel"</li><li>Adapt to various outout mediums (e.g. Screen, Audio, Text)</li><li>Use the context information from the conversation service for dynamic content</li></ul> |
 
 ## Setup
 
@@ -59,10 +50,10 @@ git clone https://github.com/ibm-wch/sample-wch-conversation-integration-server.
 ```
 
 2. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run setupSample`. This will ask for all possible credentials and afterwards initializes the Watson Conversation Service and Watson Content Hub with the sample dialog and the required content types.
- 
-If you just want to setup the credentials simply run `npm run setuplocal` or you can use `dch_vcap_sample.json` as a reference and fill in the parameters manually.
 
-*NOTE:* If you are not interessted in the slack integration of this sample you can omit the bot_config completely.
+ If you just want to setup the credentials simply run `npm run setuplocal` or you can use `dch_vcap_sample.json` as a reference and fill in the parameters manually.
+
+ *NOTE:* If you are not interessted in the slack integration of this sample you can omit the bot_config completely.
 
 3. **[Optional]** If you want to start the server call `npm run devDebug` for a nodemon server with tracing enabled for the complete application. If you don't want tracing enabled simply run `npm run dev`. After startup you should be able to call the endpoint `/rasp/message` and get a JSON response containing a text field with the answer.
 
