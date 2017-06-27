@@ -1,6 +1,6 @@
 {
   "id": "00000000-0000-0000-0000-000000c8e20",
-  "rev": "1-4c94afafddef968ff86aa2b76b8d643c",
+  "rev": "1-29a2471a66a0f7613c527b9eabd34206",
   "name": "Usage rights",
   "creatorId": "IBM",
   "permanent": true,
@@ -16,6 +16,6 @@
       "href": "/authoring/v1/categories/00000000-0000-0000-0000-000000c8e20"
     }
   },
-  "created": "2017-06-26T09:12:47.563Z",
-  "lastModified": "2017-06-26T09:12:47.563Z"
+  "created": "2017-06-26T12:01:58.945Z",
+  "lastModified": "2017-06-26T12:01:58.945Z"
 }

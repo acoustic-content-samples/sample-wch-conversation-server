@@ -7,63 +7,48 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-13T15:11:37.318Z",
+  "lastModified": "2017-06-27T11:38:13.588Z",
   "description": "",
   "tags": {
     "values": [
+      "classification:olive green color",
+      "classification:O ring",
+      "classification:pale yellow color",
+      "classification:fastener",
       "classification:light brown color",
+      "classification:push button",
       "classification:memory device",
+      "classification:mask",
+      "classification:restraint (chains)",
       "classification:CD-R",
+      "classification:washer",
+      "classification:snap fastener",
       "classification:optical disk",
       "classification:reddish orange color",
+      "classification:electric switch",
       "classification:device",
+      "classification:doorbell",
       "classification:audio CD",
-      "classification:CD-ROM"
+      "classification:controller",
+      "classification:CD-ROM",
+      "classification:eye mask"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:optical disk",
-      "classification:memory device",
-      "classification:device",
-      "classification:CD-ROM",
-      "classification:CD-R",
-      "classification:audio CD",
-      "classification:light brown color",
-      "classification:reddish orange color"
-    ]
+    "analysis": "pending"
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "DrHub.PNG",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "rev": "2-86997369c5063adc2029b08442c72bd7",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "7-5885c1cefefaf70b1c2fc723815de7d5",
   "cognitive": {
-    "classifications": [
-      "optical disk",
-      "memory device",
-      "device",
-      "CD-ROM",
-      "CD-R",
-      "audio CD",
-      "light brown color",
-      "reddish orange color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#845a1f",
-      "muted": "#a5885e",
-      "darkVibrant": "#844c0c",
-      "darkMuted": "#4c345c",
-      "lightMuted": "#acacac"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "df0b0e06-40c4-45a1-8d93-4b0fe45679fe",
   "resource": "9640eebbb53e5fca55c5d49a0e1f806a",
   "fileSize": 37952,
   "status": "ready",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "renditions": {
     "default": {
       "id": "r=9640eebbb53e5fca55c5d49a0e1f806a&a=df0b0e06-40c4-45a1-8d93-4b0fe45679fe",
@@ -75,5 +60,19 @@
     "height": 563
   },
   "classification": "asset",
-  "created": "2017-06-13T15:11:32.988Z"
+  "created": "2017-06-27T11:38:13.588Z",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "categories": [],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/df0b0e06-40c4-45a1-8d93-4b0fe45679fe"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/9640eebbb53e5fca55c5d49a0e1f806a.PNG"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/9640eebbb53e5fca55c5d49a0e1f806a?fit=inside%7C220:145"
+    }
+  }
 }

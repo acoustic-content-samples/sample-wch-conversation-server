@@ -1,15 +1,14 @@
 {
   "id": "45d9dc80-3d97-4331-80a7-4d4f5444533c",
-  "rev": "12-f2c355669b06c53097f7de3b24f53f18",
   "name": "General -  Pitch Difference DX & WCH",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-18T09:20:40.667Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-17T11:01:09.683Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:25.329Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:25.329Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -27,6 +26,10 @@
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a190b5b",
         "3533c5238e9d17da3041e298c16df40c"
+      ],
+      "categories": [
+        "dialog_nodes/Pitch/Do Pitch",
+        "dialog_nodes/Pitch/Do Pitch/Response Pitch Multiple Products"
       ]
     },
     "emotion": {
@@ -50,7 +53,16 @@
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "8cf2dbe2bce72db71a3a4b96b4e9ecd7",
         "d955af43946626b22420e562ba1f3162"
+      ],
+      "categories": [
+        "entities/product/Watson Content Hub",
+        "entities/adjective/difference",
+        "entities/product/IBM Digital Experience"
       ]
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-f252f40521d5d7fb3cec910391436e79"
 }

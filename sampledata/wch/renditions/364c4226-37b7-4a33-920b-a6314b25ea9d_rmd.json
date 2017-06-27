@@ -3,16 +3,18 @@
   "locationY": 49,
   "height": 317,
   "locationX": 46,
-  "rev": "1-e328ab2bf4ea5d72a8409c7c29c4f56c",
   "id": "364c4226-37b7-4a33-920b-a6314b25ea9d",
   "classification": "rendition",
   "asset": {
     "mediaType": "image/jpeg",
+    "height": 2000,
     "fileName": "1375035821.jpg",
     "id": "399ebd01-e071-4731-8876-d2937ff923d2",
     "resource": "ef58d4aac834e9aa6fce7ce541e4dd73",
-    "fileSize": 431969
+    "fileSize": 431969,
+    "width": 1308
   },
   "width": 488,
-  "created": "2017-05-03T08:35:50.525Z"
+  "created": "2017-06-27T11:38:18.046Z",
+  "rev": "5-2475496129ceaed3d60098579d0efced"
 }

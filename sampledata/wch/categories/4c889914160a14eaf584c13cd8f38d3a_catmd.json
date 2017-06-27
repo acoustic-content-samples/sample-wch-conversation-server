@@ -1,7 +1,8 @@
 {
   "id": "4c889914160a14eaf584c13cd8f38d3a",
-  "rev": "1-797e1c3933731cbf2cc5f23c9f28a2a7",
+  "rev": "5-c47295da584454e1b71ea64663cdc459",
   "name": "adjective",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "3c21dad2434642ac4a48a28516393082",
@@ -23,6 +24,6 @@
       "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
     }
   },
-  "created": "2017-05-08T11:37:16.256Z",
-  "lastModified": "2017-05-08T11:37:16.256Z"
+  "created": "2017-06-27T11:34:38.530Z",
+  "lastModified": "2017-06-27T11:34:38.530Z"
 }

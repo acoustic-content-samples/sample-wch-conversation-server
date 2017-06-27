@@ -26,7 +26,7 @@ const exec = require('child_process').exec;
 const cfenv = require('cfenv');
 const dch_vcap_local = require('./dch_vcap');
 const dch_vcap_new = require('./dch_vcap_sample');
-
+const app_settings_new = require('./app_settings');
 
 // Load the local credentials file
 const env = cfenv.getAppEnv({
@@ -270,6 +270,8 @@ function setupBot({predefined, vcap}) {
         },
         verificationtoken: {
         },
+        redirectUri: {
+        },
         profcontent: {
           required: false
         }
@@ -316,7 +318,7 @@ return new Promise((resolve, reject) => {
 
 function storeNewFile(fileContent) {
   return new Promise((resolve, reject) => {
-    fs.writeFile('./dch_vcap.json', JSON.stringify(fileContent, null, 1), err => err ? reject(err) : resolve());
+    fs.writeFile(path.join(__dirname, 'dch_vcap.json'), JSON.stringify(fileContent, null, 1), err => err ? reject(err) : resolve());
   });
 }
 
@@ -331,12 +333,30 @@ program
   then(storeNewFile).
   catch(errLogger).
   then(() => {
-    if(program['sample-setup']) {
-      exec('node', [path.join('.','sampledata','samplesetup.js'), 'init', '--all'], function () {
+    if(program.sampleSetup) {
+        console.log(
+`############################
+  Setup Sample
+############################`
+      );
+      console.log('Note: This might take a while. So sit back and relax :)');
+      let child = exec(`node ${path.join(__dirname, 'sampledata', 'samplesetup.js')} init --all`);
+
+      child.stdout.on('data', function (data) {
+        console.log('stdout: ' + data);
+      });
+
+      child.stderr.on('data', function (data) {
+       console.log('stderr: ' + data);
+      });
+
+      child.on('close', function (code) {
         console.log('All done :)');
         console.log('Have fun and goodbye!');
+        console.log('Exit Code: ', code);
         process.exit(0);
       });
+
     } else {
       console.log('All done :)');
       console.log('Have fun and goodbye!');

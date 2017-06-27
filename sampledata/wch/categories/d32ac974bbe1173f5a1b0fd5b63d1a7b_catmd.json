@@ -1,7 +1,8 @@
 {
   "id": "d32ac974bbe1173f5a1b0fd5b63d1a7b",
-  "rev": "1-f78c1e6f8ec9ab09c3c2ed70a552e3de",
+  "rev": "5-9d9693eb40491aff19f58b2050197a2a",
   "name": "eBlueprint",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
     }
   },
-  "created": "2017-05-17T09:24:02.466Z",
-  "lastModified": "2017-05-17T09:24:02.466Z"
+  "created": "2017-06-27T11:36:51.550Z",
+  "lastModified": "2017-06-27T11:36:51.550Z"
 }

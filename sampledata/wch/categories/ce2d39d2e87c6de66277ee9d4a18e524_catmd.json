@@ -1,7 +1,8 @@
 {
   "id": "ce2d39d2e87c6de66277ee9d4a18e524",
-  "rev": "1-a08e75b924c8234f3d0b12cd52573422",
+  "rev": "5-3d5dfc23c54e216cba3147beb9863c6a",
   "name": "Goodybe",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "efb4eb204170385dab6c56b4db05b958",
@@ -23,6 +24,6 @@
       "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
     }
   },
-  "created": "2017-05-15T18:01:46.644Z",
-  "lastModified": "2017-05-15T18:01:46.644Z"
+  "created": "2017-06-27T11:33:53.346Z",
+  "lastModified": "2017-06-27T11:33:53.346Z"
 }

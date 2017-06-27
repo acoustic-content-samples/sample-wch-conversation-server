@@ -1,15 +1,14 @@
 {
   "id": "7a78b903-83bf-487f-aa17-f3bf1120cd12",
-  "rev": "12-4daf81a800b583c1d5f75dfa12fba816",
   "name": "Attachment - Introducing the IBM Watson Content Hub Conversion Tools",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
   "locale": "en-US",
-  "lastModified": "2017-06-02T09:24:08.006Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-15T12:22:09.062Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:26.133Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:26.133Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [
     "user:whatsnewapril2017"
   ],
@@ -79,5 +78,9 @@
     "pretext": {
       "elementType": "text"
     }
-  }
+  },
+  "type": "Attachment",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-1b593aa16aaedcac671f947a71fe0657"
 }

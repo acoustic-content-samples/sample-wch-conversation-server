@@ -1,15 +1,14 @@
 {
   "id": "844f9245-abac-4e9b-ad8e-f1694dca796a",
-  "rev": "17-89ae72011cbecc165b1c2095a29271bd",
   "name": "General - WCH Key Features Details",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-30T07:37:41.030Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-17T09:21:17.351Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:30.260Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:30.260Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -32,13 +31,20 @@
     "attachment": {
       "elementType": "reference",
       "value": {
-        "id": "a4d0f567-3480-4a6b-a6f4-f7b6bc1176a7"
+        "id": "a4d0f567-3480-4a6b-a6f4-f7b6bc1176a7",
+        "name": "Attachment - Key Features Long",
+        "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+        "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+        "status": "ready"
       }
     },
     "node": {
       "elementType": "category",
       "categoryIds": [
         "44ca9e606b6576694bdbea223a59887c"
+      ],
+      "categories": [
+        "dialog_nodes/Information/Give Featureinformation about Product/Give details Featureinformation about Product"
       ]
     },
     "emotion": {
@@ -54,7 +60,17 @@
         "02f066c403ff7ee38a0e52b28ac7aad4",
         "6e4827e8e902ad7f810cb8c2a52c1b57",
         "1ffc133e786e0d65f2834ae48351f865"
+      ],
+      "categories": [
+        "entities/product/Watson Content Hub",
+        "entities/adjective/important",
+        "entities/feature/features",
+        "entities/adjective/detailed"
       ]
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-b5306bde625d290fe6509d4b4feedb2f"
 }

@@ -1,7 +1,8 @@
 {
   "id": "a7dcadf7013076d42640b5aa32349fcd",
-  "rev": "1-553765bd8ef099a4193a6da994e6a5f5",
+  "rev": "5-8a6da313db6659d31ef8599e4aa6c9ac",
   "name": "UWE Roland",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
     }
   },
-  "created": "2017-05-17T09:24:02.907Z",
-  "lastModified": "2017-05-17T09:24:02.907Z"
+  "created": "2017-06-27T11:35:40.285Z",
+  "lastModified": "2017-06-27T11:35:40.285Z"
 }

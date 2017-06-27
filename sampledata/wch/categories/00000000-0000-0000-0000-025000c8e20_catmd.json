@@ -1,6 +1,6 @@
 {
   "id": "00000000-0000-0000-0000-025000c8e20",
-  "rev": "1-c14b1d178990dbef42c9a0ae6c92ed07",
+  "rev": "1-03cfe7738ba34c8c78a4320abf13d169",
   "name": "Editorial",
   "creatorId": "IBM",
   "permanent": true,
@@ -29,6 +29,6 @@
       "href": "/authoring/v1/categories/00000000-0000-0000-0000-020000c8e20"
     }
   },
-  "created": "2017-06-26T09:12:47.282Z",
-  "lastModified": "2017-06-26T09:12:47.282Z"
+  "created": "2017-06-26T12:01:58.756Z",
+  "lastModified": "2017-06-26T12:01:58.756Z"
 }

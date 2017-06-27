@@ -1,15 +1,14 @@
 {
   "id": "1d1f145f-7671-4dfc-af11-7abbf6cbb2fb",
-  "rev": "13-77abc12752a4ca77dfc3552fdad688ad",
   "name": "General - Email Thank you",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-15T18:44:25.655Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-15T09:08:01.105Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:24.523Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:24.523Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -18,6 +17,9 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a194e64"
+      ],
+      "categories": [
+        "dialog_nodes/Keep in touch/Enter Email/Keep in Touch Thanks"
       ]
     },
     "attachmentquery": {
@@ -43,5 +45,9 @@
       "elementType": "text",
       "value": "Thank you for your e-mail adress. You will hear from us soon."
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-cbe25d8e135183c54a9a46d1686e1307"
 }

@@ -1,7 +1,8 @@
 {
   "id": "d81cb8b6923bb2f2ef3eb20a1f15c6a7",
-  "rev": "1-1db6e944f6a315d85cf24e40dd2dab6e",
+  "rev": "5-8af154d5b1ce7e6f386a48a1b4e20ac7",
   "name": "Give Productinformation",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "ce2d39d2e87c6de66277ee9d4a18d0d2",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18d0d2"
     }
   },
-  "created": "2017-05-15T18:01:47.515Z",
-  "lastModified": "2017-05-15T18:01:47.515Z"
+  "created": "2017-06-27T11:37:17.523Z",
+  "lastModified": "2017-06-27T11:37:17.523Z"
 }

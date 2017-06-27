@@ -1,7 +1,8 @@
 {
   "id": "3c21dad2434642ac4a48a285163a3853",
-  "rev": "1-1d37a18de9134616f2e4a8dc5d222d4c",
+  "rev": "5-b09b5ca7673267433cec4a395625d237",
   "name": "add user",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "fad37b71f9f5935f82913edeb90f78b1",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb90f78b1"
     }
   },
-  "created": "2017-05-05T15:01:24.109Z",
-  "lastModified": "2017-05-05T15:01:24.109Z"
+  "created": "2017-06-27T11:35:48.926Z",
+  "lastModified": "2017-06-27T11:35:48.926Z"
 }

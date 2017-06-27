@@ -1,7 +1,8 @@
 {
   "id": "d81cb8b6923bb2f2ef3eb20a1f15e10d",
-  "rev": "1-b8f6fda16c5a1a93b17d3323f35f3502",
+  "rev": "5-a38e7b90637fa86600ab7ae57d64f4e2",
   "name": "Verify Persona",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "ce2d39d2e87c6de66277ee9d4a18d961",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18d961"
     }
   },
-  "created": "2017-05-15T18:01:48.413Z",
-  "lastModified": "2017-05-15T18:01:48.413Z"
+  "created": "2017-06-27T11:37:20.278Z",
+  "lastModified": "2017-06-27T11:37:20.278Z"
 }

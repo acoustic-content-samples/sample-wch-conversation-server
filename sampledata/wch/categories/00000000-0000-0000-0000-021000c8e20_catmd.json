@@ -1,6 +1,6 @@
 {
   "id": "00000000-0000-0000-0000-021000c8e20",
-  "rev": "1-eb4f8d260d62b4956889b7fc5b5c45fa",
+  "rev": "1-168475758d952731015a0fe99448c2e3",
   "name": "Advertising",
   "creatorId": "IBM",
   "permanent": true,
@@ -29,6 +29,6 @@
       "href": "/authoring/v1/categories/00000000-0000-0000-0000-020000c8e20"
     }
   },
-  "created": "2017-06-26T09:12:47.208Z",
-  "lastModified": "2017-06-26T09:12:47.208Z"
+  "created": "2017-06-26T12:01:58.707Z",
+  "lastModified": "2017-06-26T12:01:58.707Z"
 }

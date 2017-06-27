@@ -1,7 +1,8 @@
 {
   "id": "c6aa112a19b1d19eac233bf583cb0a1b",
-  "rev": "2-ce7c0133e82147a577668c36bc090949",
+  "rev": "5-5d67a64b53fb2c4c2f01c6dbc84848b7",
   "name": "excited",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
   "parent": "cf7d502a106a0de68cb1414df0eabbeb",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0eabbeb"
     }
   },
-  "created": "2017-05-10T10:53:45.405Z",
-  "lastModified": "2017-05-10T10:54:31.556Z"
+  "created": "2017-06-27T11:36:10.762Z",
+  "lastModified": "2017-06-27T11:36:10.762Z"
 }

@@ -1,8 +1,8 @@
 {
   "id": "efbe6fad-15c7-4a40-9098-9f108eb371fc",
-  "rev": "1-7a7cc744a39988067d7d25cc02f9b832",
+  "rev": "5-495665162036b14d8bba388b7c5b5a29",
   "name": "WCHChatbot",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "4c889914160a14eaf584c13cd80b178d",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd80b178d"
     }
   },
-  "created": "2017-06-16T13:10:48.153Z",
-  "lastModified": "2017-06-16T13:10:48.153Z"
+  "created": "2017-06-27T11:35:12.890Z",
+  "lastModified": "2017-06-27T11:35:12.890Z"
 }

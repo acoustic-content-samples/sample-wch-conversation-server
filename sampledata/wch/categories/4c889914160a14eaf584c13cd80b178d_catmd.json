@@ -1,7 +1,8 @@
 {
   "id": "4c889914160a14eaf584c13cd80b178d",
-  "rev": "1-7b5ab94d6133dcff5abfbb105d4b1d41",
+  "rev": "5-2d5ad688b6b9449a99c7b64cd77e50b7",
   "name": "product",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "3c21dad2434642ac4a48a28516393082",
@@ -23,6 +24,6 @@
       "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
     }
   },
-  "created": "2017-05-05T15:01:22.787Z",
-  "lastModified": "2017-05-05T15:01:22.787Z"
+  "created": "2017-06-27T11:34:37.104Z",
+  "lastModified": "2017-06-27T11:34:37.104Z"
 }

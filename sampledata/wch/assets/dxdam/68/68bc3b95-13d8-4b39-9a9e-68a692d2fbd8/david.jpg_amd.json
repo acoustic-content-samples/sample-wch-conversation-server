@@ -3,57 +3,41 @@
   "name": "david.jpg",
   "path": "/dxdam/68/68bc3b95-13d8-4b39-9a9e-68a692d2fbd8/david.jpg",
   "digest": "KxGAYyV6hPw6BDQoZ2Y9tQ==",
+  "usageRights": {
+    "categories": []
+  },
   "assetType": "image",
-  "lastModified": "2017-05-15T12:08:01.312Z",
+  "lastModified": "2017-06-27T11:38:11.026Z",
   "description": "",
   "tags": {
     "values": [
       "classification:mustachio",
       "classification:black color",
+      "classification:ash grey color",
       "classification:people",
+      "classification:soul patch facial hair",
+      "classification:stubble",
       "classification:person",
       "face:18-24",
-      "face:Male"
+      "face:Male",
+      "classification:pompadour hairstyle"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:mustachio",
-      "classification:person",
-      "classification:people",
-      "classification:black color",
-      "face:Male",
-      "face:18-24"
-    ]
+    "analysis": "pending"
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "david.jpg",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "rev": "2-268ff2876d2e430189a3f55586354362",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "7-0384551f401dfb9570a9c80a0a3a3870",
   "cognitive": {
-    "classifications": [
-      "mustachio",
-      "person",
-      "people",
-      "black color"
-    ],
-    "faces": [
-      {
-        "gender": "Male",
-        "age": {
-          "minimum": 18,
-          "maximum": 24
-        }
-      }
-    ],
-    "status": "complete"
+    "status": "pending"
   },
   "id": "68bc3b95-13d8-4b39-9a9e-68a692d2fbd8",
   "resource": "1374e5d8b4dd44d8f257d88a73f092fb",
   "fileSize": 20490,
   "status": "ready",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "renditions": {
     "default": {
       "id": "r=1374e5d8b4dd44d8f257d88a73f092fb&a=68bc3b95-13d8-4b39-9a9e-68a692d2fbd8",
@@ -65,5 +49,19 @@
     "height": 155
   },
   "classification": "asset",
-  "created": "2017-05-15T12:07:58.935Z"
+  "created": "2017-06-27T11:38:11.026Z",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "categories": [],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/68bc3b95-13d8-4b39-9a9e-68a692d2fbd8"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/1374e5d8b4dd44d8f257d88a73f092fb.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/1374e5d8b4dd44d8f257d88a73f092fb?fit=inside%7C220:145"
+    }
+  }
 }

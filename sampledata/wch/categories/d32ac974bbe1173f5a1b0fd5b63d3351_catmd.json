@@ -1,7 +1,8 @@
 {
   "id": "d32ac974bbe1173f5a1b0fd5b63d3351",
-  "rev": "1-1451130055ff0f52ed627eee8ee3f4f9",
+  "rev": "5-7c618632a2dc68ba185945d4c85a317f",
   "name": "Benteler Business Services",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
     }
   },
-  "created": "2017-05-17T09:24:02.615Z",
-  "lastModified": "2017-05-17T09:24:02.615Z"
+  "created": "2017-06-27T11:36:54.561Z",
+  "lastModified": "2017-06-27T11:36:54.561Z"
 }

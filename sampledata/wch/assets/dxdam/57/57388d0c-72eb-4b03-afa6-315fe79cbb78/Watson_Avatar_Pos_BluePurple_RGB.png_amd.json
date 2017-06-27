@@ -3,8 +3,11 @@
   "name": "Watson_Avatar_Pos_BluePurple_RGB.png",
   "path": "/dxdam/57/57388d0c-72eb-4b03-afa6-315fe79cbb78/Watson_Avatar_Pos_BluePurple_RGB.png",
   "digest": "o4T0C+9xpAoMOcHzJ20jow==",
+  "usageRights": {
+    "categories": []
+  },
   "assetType": "image",
-  "lastModified": "2017-05-10T11:43:58.093Z",
+  "lastModified": "2017-06-27T11:38:10.994Z",
   "description": "",
   "tags": {
     "values": [
@@ -13,50 +16,30 @@
       "classification:lamp",
       "classification:microorganism",
       "classification:figure",
+      "classification:blue color",
+      "classification:sphere",
       "classification:cell",
       "classification:circle",
       "classification:device",
-      "classification:purplish blue color"
+      "classification:purplish blue color",
+      "classification:emerald color"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:circle",
-      "classification:figure",
-      "classification:neon lamp",
-      "classification:lamp",
-      "classification:device",
-      "classification:cell",
-      "classification:microorganism",
-      "classification:indigo color",
-      "classification:purplish blue color"
-    ]
+    "analysis": "pending"
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "Watson_Avatar_Pos_BluePurple_RGB.png",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "rev": "2-27071d1c41b39468ca5ea42ab811b5a4",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "7-c1d021e1be058d42a433c68cec28143f",
   "cognitive": {
-    "classifications": [
-      "circle",
-      "figure",
-      "neon lamp",
-      "lamp",
-      "device",
-      "cell",
-      "microorganism",
-      "indigo color",
-      "purplish blue color"
-    ],
-    "faces": [],
-    "status": "complete"
+    "status": "pending"
   },
   "id": "57388d0c-72eb-4b03-afa6-315fe79cbb78",
   "resource": "cf7d502a106a0de68cb1414df0ec4563",
   "fileSize": 28262,
   "status": "ready",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "renditions": {
     "default": {
       "id": "r=cf7d502a106a0de68cb1414df0ec4563&a=57388d0c-72eb-4b03-afa6-315fe79cbb78",
@@ -68,5 +51,19 @@
     "height": 186
   },
   "classification": "asset",
-  "created": "2017-05-10T11:43:55.446Z"
+  "created": "2017-06-27T11:38:10.994Z",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "categories": [],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/57388d0c-72eb-4b03-afa6-315fe79cbb78"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec4563.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec4563?fit=inside%7C220:145"
+    }
+  }
 }

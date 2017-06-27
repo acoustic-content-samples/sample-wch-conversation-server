@@ -1,7 +1,8 @@
 {
   "id": "cf7d502a106a0de68cb1414df0eade2f",
-  "rev": "1-7d706ea7ab416dd5fa93a605639c8950",
+  "rev": "5-25b9c49c22b02285466c6b29f55a6dfb",
   "name": "fear",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
   "parent": "c6aa112a19b1d19eac233bf583cb2cb9",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/c6aa112a19b1d19eac233bf583cb2cb9"
     }
   },
-  "created": "2017-05-10T10:54:50.435Z",
-  "lastModified": "2017-05-10T10:54:50.435Z"
+  "created": "2017-06-27T11:36:45.886Z",
+  "lastModified": "2017-06-27T11:36:45.886Z"
 }

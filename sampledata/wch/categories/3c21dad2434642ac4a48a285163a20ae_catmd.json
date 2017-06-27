@@ -1,7 +1,8 @@
 {
   "id": "3c21dad2434642ac4a48a285163a20ae",
-  "rev": "1-72cd99c7a42670fb1c0548d15ed200e9",
+  "rev": "5-edbec8f2467b843d2fd00854d4c91b9f",
   "name": "IBM",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
     }
   },
-  "created": "2017-05-05T15:01:23.658Z",
-  "lastModified": "2017-05-05T15:01:23.658Z"
+  "created": "2017-06-27T11:36:05.697Z",
+  "lastModified": "2017-06-27T11:36:05.697Z"
 }

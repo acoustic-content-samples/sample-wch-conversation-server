@@ -1,15 +1,14 @@
 {
   "id": "218d3c61-8329-4487-a71c-ee18ce6ecf4e",
-  "rev": "25-7ce27adc5f2258e13b2bf38e72033159",
   "name": "MTL - Introduction Mr Watson",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-06-16T12:38:42.555Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-06-16T12:36:43.946Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:24.535Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:24.535Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -24,6 +23,9 @@
       "elementType": "category",
       "categoryIds": [
         "d332127df4c37b2d4632699e7e16bccc"
+      ],
+      "categories": [
+        "entities/persona/mrwatson"
       ]
     },
     "node": {
@@ -31,6 +33,10 @@
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18f25b",
         "b84c6bad3cad3ec6ffff23c78e0f1682"
+      ],
+      "categories": [
+        "dialog_nodes/Introduction/Response Introduction",
+        "dialog_nodes/Introduction"
       ]
     },
     "emotion": {
@@ -54,7 +60,14 @@
       "elementType": "category",
       "categoryIds": [
         "040ea6e1-5ea4-40ef-b968-92e703a3c741"
+      ],
+      "categories": [
+        "entities/chitchat/you"
       ]
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-21697e9e679e09c59a4fa03305d17c39"
 }

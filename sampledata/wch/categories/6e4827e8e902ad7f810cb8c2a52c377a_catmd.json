@@ -1,7 +1,8 @@
 {
   "id": "6e4827e8e902ad7f810cb8c2a52c377a",
-  "rev": "1-1b9dd408141b22a86ac2ab055185602c",
+  "rev": "5-d446bde6af95c98aea1e6aeaca9bfb6b",
   "name": "headset",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "e152fe15128e5128b939da7cab2689ac",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/e152fe15128e5128b939da7cab2689ac"
     }
   },
-  "created": "2017-05-05T15:01:24.980Z",
-  "lastModified": "2017-05-05T15:01:24.980Z"
+  "created": "2017-06-27T11:35:08.708Z",
+  "lastModified": "2017-06-27T11:35:08.708Z"
 }

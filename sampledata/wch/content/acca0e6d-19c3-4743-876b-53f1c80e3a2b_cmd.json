@@ -1,15 +1,14 @@
 {
   "id": "acca0e6d-19c3-4743-876b-53f1c80e3a2b",
-  "rev": "19-7202f8574975e89ba316bdcf3060b6fa",
   "name": "Attachment - WCH Expert",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
   "locale": "en-US",
-  "lastModified": "2017-06-02T09:23:21.534Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-16T09:07:40.223Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:27.372Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:27.372Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -94,5 +93,9 @@
     "pretext": {
       "elementType": "text"
     }
-  }
+  },
+  "type": "Attachment",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-fc88764e9b5ec0b6d7d26c7bd02bcb40"
 }

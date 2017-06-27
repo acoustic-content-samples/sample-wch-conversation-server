@@ -1,7 +1,8 @@
 {
   "id": "fad37b71f9f5935f82913edeb90ff0cd",
-  "rev": "1-865fa66f8aaa6cb19f18efa9d43c002b",
+  "rev": "5-e60008266c011516a69174de8b051faa",
   "name": "card view",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "fad37b71f9f5935f82913edeb90f78b1",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb90f78b1"
     }
   },
-  "created": "2017-05-05T15:01:23.982Z",
-  "lastModified": "2017-05-05T15:01:23.982Z"
+  "created": "2017-06-27T11:34:54.669Z",
+  "lastModified": "2017-06-27T11:34:54.669Z"
 }

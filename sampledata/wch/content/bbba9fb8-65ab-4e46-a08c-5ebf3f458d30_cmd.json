@@ -1,15 +1,14 @@
 {
   "id": "bbba9fb8-65ab-4e46-a08c-5ebf3f458d30",
-  "rev": "24-3739895a6b999cb317297070cade08f4",
   "name": "General - Information missing entites",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-15T18:32:35.559Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-09T09:07:41.309Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:27.629Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:27.629Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "status": "ready",
   "elements": {
@@ -24,6 +23,9 @@
       "elementType": "category",
       "categoryIds": [
         "8db75208957eb15dd42544d160fdbcc4"
+      ],
+      "categories": [
+        "dialog_nodes/Information/Verify Information"
       ]
     },
     "persona": {
@@ -43,5 +45,9 @@
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-4b8ea05cd710b30792720b7a648f1b90"
 }

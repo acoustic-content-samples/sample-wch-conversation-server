@@ -1,12 +1,14 @@
 {
   "id": "203ff451-9175-465e-950c-db708e1d1273",
-  "rev": "3-364a854961ed51c791373c011d57215f",
+  "rev": "5-d9053e60e26860f28e1d61738d9f3a56",
   "name": "Icons",
   "classification": "image-profile",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "creator": "Sven Sterbling",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "created": "2017-05-10T09:17:11.967Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "lastModified": "2017-05-10T09:17:26.729Z",
+  "lastModifier": "Sven Sterbling",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "lastModified": "2017-06-27T11:33:17.470Z",
   "dimensions": [
     {
       "label": "icon",

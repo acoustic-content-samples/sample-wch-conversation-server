@@ -1,15 +1,14 @@
 {
   "id": "2614722b-a15c-4b45-9af0-4390e2b45f1a",
-  "rev": "25-f53fe36e4beadd57c8b32c83de12a6ac",
   "name": "General - Info Feature UI Enhancements for WCH",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-31T13:02:10.631Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-09T09:21:03.122Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:24.546Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:24.546Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [
     "user:Jan 2017"
   ],
@@ -22,6 +21,9 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ],
+      "categories": [
+        "dialog_nodes/Information/Give Featureinformation about Product"
       ]
     },
     "persona": {
@@ -46,11 +48,19 @@
       "categoryIds": [
         "4c889914160a14eaf584c13cd80b9c88",
         "6e4827e8e902ad7f810cb8c2a52c2438"
+      ],
+      "categories": [
+        "entities/feature/ui enhancements",
+        "entities/product/Watson Content Hub"
       ]
     },
     "text": {
       "elementType": "text",
       "value": "We cleaned up a lot of things we'd carried over from go-live. The most visible addition is that we added search boxes to more screens so now you can search for content types and users inside of the WCH user interface."
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-0723286533c6a6f11a930b7ad5ee6c07"
 }

@@ -1,15 +1,14 @@
 {
   "id": "d877e107-3841-4fed-a099-2b83786838c5",
-  "rev": "26-cb7fbb70cb9d5c1cc8148b3e3f8a524a",
   "name": "Attachment - WCH Marketplace",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
   "locale": "en-US",
-  "lastModified": "2017-06-08T13:51:29.928Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-10T10:59:35.139Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:28.877Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:28.877Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -96,5 +95,9 @@
       "elementType": "text",
       "value": "If you want to have more information check out the IBM Marketplace:"
     }
-  }
+  },
+  "type": "Attachment",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-714023a8539baeeee133bd5d4be40572"
 }

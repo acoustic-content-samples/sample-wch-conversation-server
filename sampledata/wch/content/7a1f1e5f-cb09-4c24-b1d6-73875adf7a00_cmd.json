@@ -1,15 +1,14 @@
 {
   "id": "7a1f1e5f-cb09-4c24-b1d6-73875adf7a00",
-  "rev": "19-4dbb111395ec7f379101ec884c71ec6b",
   "name": "MTL -  What is Content Hub",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-19T11:55:12.667Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-18T15:26:53.143Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:26.129Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:26.129Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -18,12 +17,18 @@
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0ead390"
+      ],
+      "categories": [
+        "emotion/basic/joy"
       ]
     },
     "filter": {
       "elementType": "category",
       "categoryIds": [
         "6e4827e8e902ad7f810cb8c2a52c2438"
+      ],
+      "categories": [
+        "entities/product/Watson Content Hub"
       ]
     },
     "attachmentquery": {
@@ -47,6 +52,10 @@
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a190b5b",
         "574f55ebf39a12c6f50b96f04326171a"
+      ],
+      "categories": [
+        "dialog_nodes/Pitch/Do Pitch",
+        "dialog_nodes/Pitch/Do Pitch/Response Pitch Single Product"
       ]
     },
     "location": {
@@ -54,5 +63,9 @@
       "latitude": 48.6662305,
       "longitude": 9.039273
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-eae9887b25b08ab51cab1d00c5727db8"
 }

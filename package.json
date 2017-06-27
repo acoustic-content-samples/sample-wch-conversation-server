@@ -13,7 +13,7 @@
     "setupSample": "node setup init --sample-setup",
     "addGeoSrv": "bx cf cups geo_config -p \"key\"",
     "addWchSrv": "bx cf cups wch_config -p \"tenantid\", \"username\", \"password\", \"baseurl\", \"hosturl\"",
-    "addBotSrv": "bx cf cups bot_config -p \"clientid, clientsecret, verificationtoken\"",
+    "addBotSrv": "bx cf cups bot_config -p \"clientid, clientsecret, verificationtoken, redirectUri\"",
     "addDBSrv": "bx cf cups db_config -p \"mongoUri\""
   },
   "dependencies": {

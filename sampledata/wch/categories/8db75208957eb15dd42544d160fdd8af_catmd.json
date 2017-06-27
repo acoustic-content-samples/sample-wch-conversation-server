@@ -1,7 +1,8 @@
 {
   "id": "8db75208957eb15dd42544d160fdd8af",
-  "rev": "1-2ecdfb69d4cb083ef73c97cce88d60ae",
+  "rev": "5-c9ef626a524c29a06fede2a366644289",
   "name": "Response Pitch No Entities",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "b84c6bad3cad3ec6ffff23c78e0f9144",
@@ -27,6 +28,6 @@
       "href": "/authoring/v1/categories/b84c6bad3cad3ec6ffff23c78e0f9144"
     }
   },
-  "created": "2017-05-15T18:01:49.328Z",
-  "lastModified": "2017-05-15T18:01:49.328Z"
+  "created": "2017-06-27T11:37:52.034Z",
+  "lastModified": "2017-06-27T11:37:52.034Z"
 }

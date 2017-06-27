@@ -1,7 +1,8 @@
 {
   "id": "efb4eb204170385dab6c56b4db06708c",
-  "rev": "1-23f27d84c35b90db8146c5a84dcbd3b8",
+  "rev": "5-0da9e093967c15d09c0bf0555dc9315e",
   "name": "Response Persona Slack",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "d81cb8b6923bb2f2ef3eb20a1f15e10d",
@@ -27,6 +28,6 @@
       "href": "/authoring/v1/categories/d81cb8b6923bb2f2ef3eb20a1f15e10d"
     }
   },
-  "created": "2017-05-15T18:01:50.732Z",
-  "lastModified": "2017-05-15T18:01:50.732Z"
+  "created": "2017-06-27T11:37:57.791Z",
+  "lastModified": "2017-06-27T11:37:57.791Z"
 }

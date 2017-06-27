@@ -1,15 +1,14 @@
 {
   "id": "8ef4d88a-fa9a-4c86-b51e-fcb5fb9a0b32",
-  "rev": "9-acfd7df031e194dbe2ee0df0dcfa98ea",
   "name": "General - Info Feature Infrastructure enhancements for WCH",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-15T18:26:00.385Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-09T09:27:59.197Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:26.546Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:26.546Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [
     "user:Jan 2017"
   ],
@@ -26,6 +25,9 @@
       "elementType": "category",
       "categoryIds": [
         "8db75208957eb15dd42544d160fe038a"
+      ],
+      "categories": [
+        "dialog_nodes/Information/Give Featureinformation about Product/Response Give Single Featureinfo about Product"
       ]
     },
     "filter": {
@@ -33,6 +35,10 @@
       "categoryIds": [
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "fad37b71f9f5935f82913edeb910079f"
+      ],
+      "categories": [
+        "entities/product/Watson Content Hub",
+        "entities/feature/infrastructure enhancements"
       ]
     },
     "text": {
@@ -49,5 +55,9 @@
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-c2f6e1f2cd4088985ddca4a8c1c343fc"
 }

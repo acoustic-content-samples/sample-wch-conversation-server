@@ -1,7 +1,8 @@
 {
   "id": "b84c6bad3cad3ec6ffff23c78e0f9ce6",
-  "rev": "1-ad00fc2f19032828ce126137023542dd",
+  "rev": "5-6cfb8ed4a271c810992b38d4037ffc21",
   "name": "Do Switch Persona",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "ce2d39d2e87c6de66277ee9d4a18d961",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18d961"
     }
   },
-  "created": "2017-05-15T18:01:48.441Z",
-  "lastModified": "2017-05-15T18:01:48.441Z"
+  "created": "2017-06-27T11:35:57.113Z",
+  "lastModified": "2017-06-27T11:35:57.113Z"
 }

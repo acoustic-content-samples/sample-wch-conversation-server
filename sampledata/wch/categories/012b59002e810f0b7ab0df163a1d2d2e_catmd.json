@@ -1,7 +1,8 @@
 {
   "id": "012b59002e810f0b7ab0df163a1d2d2e",
-  "rev": "1-2eff619564b2dc678d5c3ac48ee5eaa7",
+  "rev": "5-bff8c5d9634621b049dfa1d86ebc3675",
   "name": "improvements",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "4c889914160a14eaf584c13cd8f38d3a",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd8f38d3a"
     }
   },
-  "created": "2017-05-31T13:14:13.247Z",
-  "lastModified": "2017-05-31T13:14:13.247Z"
+  "created": "2017-06-27T11:37:13.310Z",
+  "lastModified": "2017-06-27T11:37:13.310Z"
 }

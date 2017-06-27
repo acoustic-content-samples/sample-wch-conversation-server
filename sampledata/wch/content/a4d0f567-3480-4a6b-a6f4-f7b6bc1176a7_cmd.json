@@ -1,15 +1,14 @@
 {
   "id": "a4d0f567-3480-4a6b-a6f4-f7b6bc1176a7",
-  "rev": "25-9cbe29ce438068ce0c7e6146847ec52a",
   "name": "Attachment - Key Features Long",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
   "locale": "en-US",
-  "lastModified": "2017-05-24T20:49:08.349Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-15T11:22:21.010Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:26.968Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:26.968Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -56,5 +55,9 @@
     "text": {
       "elementType": "text"
     }
-  }
+  },
+  "type": "Attachment",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-6aad0a0004d11b14aad3826cefa1e1b1"
 }

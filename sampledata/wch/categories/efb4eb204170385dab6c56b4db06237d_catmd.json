@@ -1,7 +1,8 @@
 {
   "id": "efb4eb204170385dab6c56b4db06237d",
-  "rev": "1-fc775340c6cebd11d2b28a2661d0a95e",
+  "rev": "5-1bab4f44a11f068dc7538d9ec6363dac",
   "name": "Keep in touch",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "efb4eb204170385dab6c56b4db05b958",
@@ -23,6 +24,6 @@
       "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
     }
   },
-  "created": "2017-05-15T18:01:46.603Z",
-  "lastModified": "2017-05-15T18:01:46.603Z"
+  "created": "2017-06-27T11:34:28.492Z",
+  "lastModified": "2017-06-27T11:34:28.492Z"
 }

@@ -1,7 +1,8 @@
 {
   "id": "efb4eb204170385dab6c56b4db061961",
-  "rev": "1-6c85ff47756be1d65fb01e40a7188cae",
+  "rev": "5-5c469c2db09bb125c877e6b0fe41ee04",
   "name": "Get Funky",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "efb4eb204170385dab6c56b4db05b958",
@@ -23,6 +24,6 @@
       "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
     }
   },
-  "created": "2017-05-15T18:01:46.472Z",
-  "lastModified": "2017-05-15T18:01:46.472Z"
+  "created": "2017-06-27T11:34:35.497Z",
+  "lastModified": "2017-06-27T11:34:35.497Z"
 }

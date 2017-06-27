@@ -1,7 +1,8 @@
 {
   "id": "574f55ebf39a12c6f50b96f04325f166",
-  "rev": "1-6e7c121f82d140414f918dc91d42841a",
+  "rev": "5-eb8e21f9ac11b9b43dde3bbf3b66b67d",
   "name": "Resp Info Missing ProdFeat",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "8db75208957eb15dd42544d160fdbcc4",
@@ -27,6 +28,6 @@
       "href": "/authoring/v1/categories/8db75208957eb15dd42544d160fdbcc4"
     }
   },
-  "created": "2017-05-15T18:01:50.374Z",
-  "lastModified": "2017-05-15T18:01:50.374Z"
+  "created": "2017-06-27T11:37:25.988Z",
+  "lastModified": "2017-06-27T11:37:25.988Z"
 }

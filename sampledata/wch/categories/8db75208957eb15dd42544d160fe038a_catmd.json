@@ -1,7 +1,8 @@
 {
   "id": "8db75208957eb15dd42544d160fe038a",
-  "rev": "1-72a40a9b1ae6611c224b2e1a48547514",
+  "rev": "5-216fb7d0add2429c1e6627d3f3374194",
   "name": "Response Give Single Featureinfo about Product",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "ce2d39d2e87c6de66277ee9d4a18fe1e",
@@ -27,6 +28,6 @@
       "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18fe1e"
     }
   },
-  "created": "2017-05-15T18:01:52.121Z",
-  "lastModified": "2017-05-15T18:01:52.121Z"
+  "created": "2017-06-27T11:37:45.741Z",
+  "lastModified": "2017-06-27T11:37:45.741Z"
 }

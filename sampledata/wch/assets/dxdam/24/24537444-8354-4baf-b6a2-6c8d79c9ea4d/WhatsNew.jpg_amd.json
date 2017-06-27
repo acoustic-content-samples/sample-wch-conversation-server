@@ -3,8 +3,11 @@
   "name": "WhatsNew.jpg",
   "path": "/dxdam/24/24537444-8354-4baf-b6a2-6c8d79c9ea4d/WhatsNew.jpg",
   "digest": "DakKJJMV+gTK22LQAt5bdQ==",
+  "usageRights": {
+    "categories": []
+  },
   "assetType": "image",
-  "lastModified": "2017-05-15T12:10:33.383Z",
+  "lastModified": "2017-06-27T11:38:13.903Z",
   "description": "Abstract shot of crystal and glass",
   "tags": {
     "values": [
@@ -21,55 +24,32 @@
       "classification:fabric",
       "classification:pink color",
       "media:abstract",
+      "classification:vein",
       "classification:cornice (building)",
       "classification:framework",
       "media:conceptual",
+      "classification:person",
       "classification:lambrequin (decorative hanginga of building)",
       "classification:purple color",
       "media:concept",
       "classification:Tyrian purple color"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:curtain",
-      "classification:screen",
-      "classification:voile fabric",
-      "classification:fabric",
-      "classification:lambrequin (decorative hanginga of building)",
-      "classification:cornice (building)",
-      "classification:framework",
-      "classification:Tyrian purple color",
-      "classification:purple color",
-      "classification:pink color"
-    ]
+    "analysis": "pending"
   },
   "altText": "Abstract shot of crystal and glass",
   "categoryIds": [],
   "fileName": "WhatsNew.jpg",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "rev": "2-5768b1cfa2df613889c0238b9a8488f9",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "7-f17763eb81ad738eae87bc14165be6b6",
   "cognitive": {
-    "classifications": [
-      "curtain",
-      "screen",
-      "voile fabric",
-      "fabric",
-      "lambrequin (decorative hanginga of building)",
-      "cornice (building)",
-      "framework",
-      "Tyrian purple color",
-      "purple color",
-      "pink color"
-    ],
-    "faces": [],
-    "status": "complete"
+    "status": "pending"
   },
   "id": "24537444-8354-4baf-b6a2-6c8d79c9ea4d",
   "resource": "8cf2dbe2bce72db71a3a4b96b4e86e30",
   "fileSize": 67759,
   "status": "ready",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "renditions": {
     "default": {
       "id": "r=8cf2dbe2bce72db71a3a4b96b4e86e30&a=24537444-8354-4baf-b6a2-6c8d79c9ea4d",
@@ -101,5 +81,19 @@
     "headline": "Abstract shot of crystal and glass"
   },
   "classification": "asset",
-  "created": "2017-05-15T12:10:31.229Z"
+  "created": "2017-06-27T11:38:13.903Z",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "categories": [],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/24537444-8354-4baf-b6a2-6c8d79c9ea4d"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/8cf2dbe2bce72db71a3a4b96b4e86e30.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/8cf2dbe2bce72db71a3a4b96b4e86e30?fit=inside%7C220:145"
+    }
+  }
 }

@@ -1,7 +1,8 @@
 {
   "id": "e152fe15128e5128b939da7cab2729e8",
-  "rev": "1-2e56368171786a8215362463ae396390",
+  "rev": "5-4a707407490ea1da08b5a3bdc5569e05",
   "name": "federated authentication",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "fad37b71f9f5935f82913edeb90f78b1",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb90f78b1"
     }
   },
-  "created": "2017-05-05T15:01:24.197Z",
-  "lastModified": "2017-05-05T15:01:24.197Z"
+  "created": "2017-06-27T11:35:32.702Z",
+  "lastModified": "2017-06-27T11:35:32.702Z"
 }

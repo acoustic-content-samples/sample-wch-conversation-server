@@ -1,7 +1,8 @@
 {
   "id": "574f55ebf39a12c6f50b96f043f7458a",
-  "rev": "1-c65f79ef97aeed20d9966a1fc05c8374",
+  "rev": "5-3ad1fbf88b4f1b211a2cf8dcc5c4f200",
   "name": "Response Howto No Product",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "b84c6bad3cad3ec6ffff23c78edfda24",
@@ -27,6 +28,6 @@
       "href": "/authoring/v1/categories/b84c6bad3cad3ec6ffff23c78edfda24"
     }
   },
-  "created": "2017-05-16T09:02:09.997Z",
-  "lastModified": "2017-05-16T09:02:09.997Z"
+  "created": "2017-06-27T11:37:44.333Z",
+  "lastModified": "2017-06-27T11:37:44.333Z"
 }

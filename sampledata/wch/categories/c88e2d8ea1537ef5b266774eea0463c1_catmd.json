@@ -1,7 +1,8 @@
 {
   "id": "c88e2d8ea1537ef5b266774eea0463c1",
-  "rev": "1-b2dd7a472ec2ecddf34d9e11f4e00d66",
+  "rev": "5-00da3abe5a3c9ea8d96a97919490fbd7",
   "name": "switchpersona",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "6e4827e8e902ad7f810cb8c2a52b03e9",
   "parent": "6e4827e8e902ad7f810cb8c2a52b03e9",
@@ -23,6 +24,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
     }
   },
-  "created": "2017-05-08T11:37:16.298Z",
-  "lastModified": "2017-05-08T11:37:16.298Z"
+  "created": "2017-06-27T11:33:58.193Z",
+  "lastModified": "2017-06-27T11:33:58.193Z"
 }

@@ -1,7 +1,8 @@
 {
   "id": "ce2d39d2e87c6de66277ee9d4aea2a59",
-  "rev": "1-a2f7e54d7543f7427de36883ab35b947",
+  "rev": "5-61d1332077898fabb5927f28a7978cf2",
   "name": "Do Howto",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "d81cb8b6923bb2f2ef3eb20a1fe1ee7d",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/d81cb8b6923bb2f2ef3eb20a1fe1ee7d"
     }
   },
-  "created": "2017-05-16T09:02:09.148Z",
-  "lastModified": "2017-05-16T09:02:09.148Z"
+  "created": "2017-06-27T11:36:33.251Z",
+  "lastModified": "2017-06-27T11:36:33.251Z"
 }

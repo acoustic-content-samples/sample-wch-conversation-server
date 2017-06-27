@@ -1,15 +1,14 @@
 {
   "id": "e41fd7e2-3349-4eeb-92ca-7877689f362d",
-  "rev": "7-9b9ea412d1e49cf4453107bae6a533a4",
   "name": "General - Web Application Hosting",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-31T13:16:46.034Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-31T13:14:51.516Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:28.861Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:28.861Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [
     "user:Jan 2017"
   ],
@@ -25,6 +24,9 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ],
+      "categories": [
+        "dialog_nodes/Information/Give Featureinformation about Product"
       ]
     },
     "filter": {
@@ -33,6 +35,11 @@
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "3c21dad2434642ac4a48a285163a4c2c",
         "8db75208957eb15dd42544d1603bf243"
+      ],
+      "categories": [
+        "entities/product/Watson Content Hub",
+        "entities/feature/web app hosting",
+        "entities/feature/microsites"
       ]
     },
     "persona": {
@@ -53,5 +60,9 @@
       "elementType": "text",
       "value": "Manage web assets inside of content hub and publish them to our CDN without needing to configure a separate web server."
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-63a60ed11884d946c6a6d27fa55b9032"
 }

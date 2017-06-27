@@ -1,45 +1,49 @@
 {
   "id": "902d4728-7821-483c-bc0e-6a69cc0952dc",
-  "rev": "15-fdaf9cb2efa8f69426d502ced545f51e",
   "name": "General - Goodbye",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-31T12:42:06.385Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-12T12:49:19.329Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:30.279Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:30.279Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
-    "attachment": {
-      "elementType": "reference"
-    },
-    "attachmentquery": {
-      "elementType": "text",
-      "value": "name:\"Attachment - Nice Day\""
-    },
     "attachments": {
       "elementType": "toggle",
       "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
     },
     "emotion": {
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0ead390"
+      ],
+      "categories": [
+        "emotion/basic/joy"
       ]
+    },
+    "attachment": {
+      "elementType": "reference",
+      "value": {
+        "id": "e45861eb-eca0-495b-bb09-fb3840b85cea",
+        "name": "Attachment - Nice Day",
+        "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+        "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+        "status": "ready"
+      }
     },
     "persona": {
       "elementType": "category"
     },
     "filter": {
       "elementType": "category"
-    },
-    "text": {
-      "elementType": "text",
-      "value": "Have a good day{{#if watsonData.context.username}} {{watsonData.context.username}}{{/if}}! Hope to hear from you soon"
     },
     "location": {
       "elementType": "location"
@@ -48,7 +52,18 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18e524"
+      ],
+      "categories": [
+        "dialog_nodes/Goodybe"
       ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Have a good day{{#if watsonData.context.username}} {{watsonData.context.username}}{{/if}}! Hope to hear from you soon"
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "7-47bce54a54ae0ea1e01f28f92d59b2da"
 }

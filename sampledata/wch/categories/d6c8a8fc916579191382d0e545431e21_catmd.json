@@ -1,7 +1,8 @@
 {
   "id": "d6c8a8fc916579191382d0e545431e21",
-  "rev": "1-720a08ee1fcc2963b856f3e7327be13e",
+  "rev": "5-ac49c61de45fe999f571a7611e5936b5",
   "name": "IBM Commerce Cloud",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "4c889914160a14eaf584c13cd80b178d",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd80b178d"
     }
   },
-  "created": "2017-05-17T09:24:01.986Z",
-  "lastModified": "2017-05-17T09:24:01.986Z"
+  "created": "2017-06-27T11:37:09.032Z",
+  "lastModified": "2017-06-27T11:37:09.032Z"
 }

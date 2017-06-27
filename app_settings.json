@@ -1,0 +1,28 @@
+{
+ "geolocationservice": {
+  "enabled": true
+ },
+ "bot_config": {
+  "enabled": {
+   "developermode": false,
+   "raspberry": true,
+   "slack": true
+  },
+  "icons": {
+   "mrwatson": "https://my6.digitalexperience.ibm.com/8f032d79-a358-4825-af1b-d6cc169692c6/dxdam/8c/8c290073-6365-4400-8dce-40e286667e50/MrWatson.PNG",
+   "profcontent": "",
+   "drhub": ""
+  }
+ },
+ "wch_config": {
+  "caching": true
+ },
+ "wch_conversation": {
+  "workspace_id": {
+   "en": "d83559af-6684-4c87-9b1d-97aef0f4fab1"
+  }
+ },
+ "wch_toneanalyzer": {
+  "enabled": true
+ }
+}

@@ -1,7 +1,8 @@
 {
   "id": "e152fe15128e5128b939da7cab267359",
-  "rev": "1-f3885299de06ed83cd8c260d402dcc54",
+  "rev": "5-37f7d748a0c7c9fc078e5f212662a8fe",
   "name": "playmedia",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "6e4827e8e902ad7f810cb8c2a52b03e9",
   "parent": "6e4827e8e902ad7f810cb8c2a52b03e9",
@@ -23,6 +24,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
     }
   },
-  "created": "2017-05-05T15:01:22.814Z",
-  "lastModified": "2017-05-05T15:01:22.814Z"
+  "created": "2017-06-27T11:33:33.793Z",
+  "lastModified": "2017-06-27T11:33:33.793Z"
 }

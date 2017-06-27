@@ -1,12 +1,14 @@
 {
   "id": "cedc374a-1b1b-4497-bbc1-d4e42b52f38f",
-  "rev": "2-1992b5ea7dcf2c70c945a4bd075dee4c",
+  "rev": "5-98e74e5f6bba211d748072bc02e063fb",
   "name": "Thumbnail",
   "classification": "image-profile",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "creator": "Sven Sterbling",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "created": "2017-05-10T09:17:39.089Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "lastModified": "2017-05-10T09:17:47.310Z",
+  "lastModifier": "Sven Sterbling",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "lastModified": "2017-06-27T11:33:17.625Z",
   "dimensions": [
     {
       "label": "thumb",

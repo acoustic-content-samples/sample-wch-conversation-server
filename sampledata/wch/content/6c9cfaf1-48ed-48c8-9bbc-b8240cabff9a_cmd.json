@@ -1,15 +1,14 @@
 {
   "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a",
-  "rev": "19-019fdbe58422b0a47eed3d7d797a6bc6",
   "name": "Attachment - StartingPoints",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
   "locale": "en-US",
-  "lastModified": "2017-06-14T06:50:38.404Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-06-13T15:31:40.395Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:25.903Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:25.903Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -62,5 +61,9 @@
       "elementType": "text",
       "value": "[\n  {\n      \"name\": \"What is WCH\",\n      \"text\": \"What is WCH\",\n      \"type\": \"button\",\n      \"value\": \"What is WCH\"\n  },\n  {\n      \"name\": \"Integration with DX\",\n      \"text\": \"Integration with DX\",\n      \"type\": \"button\",\n      \"value\": \"How do I integrate DX with WCH?\"\n  }\n]"
     }
-  }
+  },
+  "type": "Attachment",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-b72e8dba713f8b1d459e5ad6c59aac65"
 }

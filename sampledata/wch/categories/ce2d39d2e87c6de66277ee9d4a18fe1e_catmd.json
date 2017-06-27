@@ -1,7 +1,8 @@
 {
   "id": "ce2d39d2e87c6de66277ee9d4a18fe1e",
-  "rev": "1-b28746c24801b1a54c57263ed2e52cd1",
+  "rev": "5-8e0ab5909447ad4a116b8fe10498a74a",
   "name": "Give Featureinformation about Product",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "ce2d39d2e87c6de66277ee9d4a18d0d2",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18d0d2"
     }
   },
-  "created": "2017-05-15T18:01:47.590Z",
-  "lastModified": "2017-05-15T18:01:47.590Z"
+  "created": "2017-06-27T11:36:24.937Z",
+  "lastModified": "2017-06-27T11:36:24.937Z"
 }

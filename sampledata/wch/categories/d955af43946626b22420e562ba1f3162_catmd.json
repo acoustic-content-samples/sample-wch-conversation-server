@@ -1,7 +1,8 @@
 {
   "id": "d955af43946626b22420e562ba1f3162",
-  "rev": "1-5a4668d18b9d74a90dbd3881e6fffe2f",
+  "rev": "5-a69ff9d05e954f0f618e0bc1248faf2f",
   "name": "IBM Digital Experience",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "4c889914160a14eaf584c13cd80b178d",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd80b178d"
     }
   },
-  "created": "2017-05-05T15:01:24.681Z",
-  "lastModified": "2017-05-05T15:01:24.681Z"
+  "created": "2017-06-27T11:36:34.635Z",
+  "lastModified": "2017-06-27T11:36:34.635Z"
 }

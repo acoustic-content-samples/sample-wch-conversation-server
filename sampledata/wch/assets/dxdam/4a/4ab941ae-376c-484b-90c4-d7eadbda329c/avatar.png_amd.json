@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-22T07:17:43.918Z",
+  "lastModified": "2017-06-27T11:38:11.068Z",
   "description": "",
   "tags": {
     "values": [
@@ -15,33 +15,21 @@
       "classification:black color"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:coal black color",
-      "classification:black color"
-    ]
+    "analysis": "pending"
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "avatar.png",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "rev": "2-cbfe0dc1a35ad9b0947023c5c54d5e4c",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "7-24ee1df68e80e7cf4d2f435840a6be23",
   "cognitive": {
-    "classifications": [
-      "coal black color",
-      "black color"
-    ],
-    "faces": [],
-    "colors": {
-      "darkMuted": "#040404"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "4ab941ae-376c-484b-90c4-d7eadbda329c",
   "resource": "747217a959fc4f3ecaf23241dfb52f47",
   "fileSize": 21252,
   "status": "ready",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "renditions": {
     "default": {
       "id": "r=747217a959fc4f3ecaf23241dfb52f47&a=4ab941ae-376c-484b-90c4-d7eadbda329c",
@@ -53,5 +41,19 @@
     "height": 660
   },
   "classification": "asset",
-  "created": "2017-06-22T07:17:41.480Z"
+  "created": "2017-06-27T11:38:11.068Z",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "categories": [],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/4ab941ae-376c-484b-90c4-d7eadbda329c"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/747217a959fc4f3ecaf23241dfb52f47.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/747217a959fc4f3ecaf23241dfb52f47?fit=inside%7C220:145"
+    }
+  }
 }

@@ -3,11 +3,17 @@
   "name": "1375035821.jpg",
   "path": "/dxdam/39/399ebd01-e071-4731-8876-d2937ff923d2/1375035821.jpg",
   "digest": "wUqn66I0KOxAa5SakIxj7g==",
+  "usageRights": {
+    "categories": []
+  },
   "assetType": "image",
-  "lastModified": "2017-05-03T08:35:30.596Z",
+  "lastModified": "2017-06-27T11:38:12.993Z",
   "description": "runner - woman running",
   "tags": {
     "values": [
+      "classification:alizarine red color",
+      "classification:sportswear",
+      "classification:dress",
       "classification:woman",
       "classification:female",
       "classification:young girl",
@@ -19,47 +25,21 @@
       "classification:claret red color"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:dumbbell",
-      "classification:bellyband",
-      "classification:young girl",
-      "classification:girl",
-      "classification:woman",
-      "classification:female",
-      "classification:person",
-      "classification:claret red color",
-      "face:Female"
-    ]
+    "analysis": "pending"
   },
   "altText": "runner - woman running",
   "categoryIds": [],
   "fileName": "1375035821.jpg",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "rev": "2-1e055eaf67effec22da2924f6c6e65b7",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "7-80bfb41ff1d5a64f029f48c0341bfa3c",
   "cognitive": {
-    "classifications": [
-      "dumbbell",
-      "bellyband",
-      "young girl",
-      "girl",
-      "woman",
-      "female",
-      "person",
-      "claret red color"
-    ],
-    "faces": [
-      {
-        "gender": "Female"
-      }
-    ],
-    "status": "complete"
+    "status": "pending"
   },
   "id": "399ebd01-e071-4731-8876-d2937ff923d2",
   "resource": "ef58d4aac834e9aa6fce7ce541e4dd73",
   "fileSize": 431969,
   "status": "ready",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "renditions": {
     "default": {
       "id": "r=ef58d4aac834e9aa6fce7ce541e4dd73&a=399ebd01-e071-4731-8876-d2937ff923d2",
@@ -77,5 +57,19 @@
     "title": "137503582"
   },
   "classification": "asset",
-  "created": "2017-05-03T08:35:30.596Z"
+  "created": "2017-06-27T11:38:12.993Z",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "categories": [],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/399ebd01-e071-4731-8876-d2937ff923d2"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/ef58d4aac834e9aa6fce7ce541e4dd73.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/ef58d4aac834e9aa6fce7ce541e4dd73?fit=inside%7C220:145"
+    }
+  }
 }

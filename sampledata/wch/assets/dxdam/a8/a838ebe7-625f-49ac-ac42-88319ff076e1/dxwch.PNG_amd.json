@@ -3,12 +3,16 @@
   "name": "dxwch.PNG",
   "path": "/dxdam/a8/a838ebe7-625f-49ac-ac42-88319ff076e1/dxwch.PNG",
   "digest": "nDDEDWK3qe+fiuV/F6eUVg==",
+  "usageRights": {
+    "categories": []
+  },
   "assetType": "image",
-  "lastModified": "2017-05-16T12:45:08.634Z",
+  "lastModified": "2017-06-27T11:38:12.328Z",
   "description": "",
   "tags": {
     "values": [
       "classification:electronic device",
+      "classification:electrical device",
       "classification:web site",
       "classification:flash memory",
       "classification:fastener",
@@ -17,58 +21,29 @@
       "classification:computer",
       "classification:clip",
       "classification:dongle (flash drive)",
+      "classification:calculator",
+      "classification:electric battery",
       "classification:device",
       "classification:magnifier",
       "classification:jade green color",
       "classification:emerald color"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:web site",
-      "classification:computer",
-      "classification:machine",
-      "classification:device",
-      "classification:flash memory",
-      "classification:memory device",
-      "classification:clip",
-      "classification:fastener",
-      "classification:dongle (flash drive)",
-      "classification:electronic device",
-      "classification:magnifier",
-      "classification:emerald color",
-      "classification:jade green color"
-    ]
+    "analysis": "pending"
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "dxwch.PNG",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "rev": "2-01f69a076f0a3af4f52def753d836c84",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "7-4059ba0239a79ae4a4278590162d011c",
   "cognitive": {
-    "classifications": [
-      "web site",
-      "computer",
-      "machine",
-      "device",
-      "flash memory",
-      "memory device",
-      "clip",
-      "fastener",
-      "dongle (flash drive)",
-      "electronic device",
-      "magnifier",
-      "emerald color",
-      "jade green color"
-    ],
-    "faces": [],
-    "status": "complete"
+    "status": "pending"
   },
   "id": "a838ebe7-625f-49ac-ac42-88319ff076e1",
   "resource": "44ca9e606b6576694bdbea223a017a38",
   "fileSize": 138350,
   "status": "ready",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "renditions": {
     "default": {
       "id": "r=44ca9e606b6576694bdbea223a017a38&a=a838ebe7-625f-49ac-ac42-88319ff076e1",
@@ -80,5 +55,19 @@
     "height": 783
   },
   "classification": "asset",
-  "created": "2017-05-16T12:45:06.484Z"
+  "created": "2017-06-27T11:38:12.328Z",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "categories": [],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/a838ebe7-625f-49ac-ac42-88319ff076e1"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/44ca9e606b6576694bdbea223a017a38.PNG"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/44ca9e606b6576694bdbea223a017a38?fit=inside%7C220:145"
+    }
+  }
 }

@@ -1,7 +1,8 @@
 {
   "id": "574f55ebf39a12c6f50b96f04325bfb3",
-  "rev": "1-c914d326124df39bed18bd97d9550ddf",
+  "rev": "5-118d85f07e227cbf47f6e96beed78416",
   "name": "Prepare Do Pitch",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "b84c6bad3cad3ec6ffff23c78e0f5715",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/b84c6bad3cad3ec6ffff23c78e0f5715"
     }
   },
-  "created": "2017-05-15T18:01:48.054Z",
-  "lastModified": "2017-05-15T18:01:48.054Z"
+  "created": "2017-06-27T11:34:47.644Z",
+  "lastModified": "2017-06-27T11:34:47.644Z"
 }

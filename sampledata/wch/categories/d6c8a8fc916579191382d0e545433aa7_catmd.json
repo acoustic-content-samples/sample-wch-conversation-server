@@ -1,7 +1,8 @@
 {
   "id": "d6c8a8fc916579191382d0e545433aa7",
-  "rev": "1-a7875010347d971d41604ea0bfdf8512",
+  "rev": "5-46152f1f728f169eb856d934c71a0ecd",
   "name": "HELM AG",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
     }
   },
-  "created": "2017-05-17T09:24:02.598Z",
-  "lastModified": "2017-05-17T09:24:02.598Z"
+  "created": "2017-06-27T11:37:10.482Z",
+  "lastModified": "2017-06-27T11:37:10.482Z"
 }

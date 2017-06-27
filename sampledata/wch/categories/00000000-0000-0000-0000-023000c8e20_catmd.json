@@ -1,6 +1,6 @@
 {
   "id": "00000000-0000-0000-0000-023000c8e20",
-  "rev": "1-b63ef1707d1839aaef49bfce8fa742c7",
+  "rev": "1-ad7c27ce41df787eed44302641ce559c",
   "name": "Public relations",
   "creatorId": "IBM",
   "permanent": true,
@@ -29,6 +29,6 @@
       "href": "/authoring/v1/categories/00000000-0000-0000-0000-020000c8e20"
     }
   },
-  "created": "2017-06-26T09:12:47.442Z",
-  "lastModified": "2017-06-26T09:12:47.442Z"
+  "created": "2017-06-26T12:01:58.867Z",
+  "lastModified": "2017-06-26T12:01:58.867Z"
 }

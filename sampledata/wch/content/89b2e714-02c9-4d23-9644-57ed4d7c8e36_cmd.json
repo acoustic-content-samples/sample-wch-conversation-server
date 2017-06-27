@@ -1,15 +1,14 @@
 {
   "id": "89b2e714-02c9-4d23-9644-57ed4d7c8e36",
-  "rev": "46-8dd894f19c207b56b6efbebc59834b75",
   "name": "General -  Pitch Why should I care about Watson Content Hub?",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-17T10:57:59.224Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-17T10:46:49.041Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:26.534Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:26.534Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -31,12 +30,19 @@
       "categoryIds": [
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "02f066c403ff7ee38a0e52b28ac7aad4"
+      ],
+      "categories": [
+        "entities/product/Watson Content Hub",
+        "entities/adjective/important"
       ]
     },
     "node": {
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a190b5b"
+      ],
+      "categories": [
+        "dialog_nodes/Pitch/Do Pitch"
       ]
     },
     "emotion": {
@@ -50,5 +56,9 @@
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-de490b7a88f6057cd7755da581e0efca"
 }

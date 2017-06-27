@@ -1,7 +1,8 @@
 {
   "id": "c88e2d8ea1537ef5b266774eea047223",
-  "rev": "1-005b46770744c30831354875e8e0e8e2",
+  "rev": "5-e1622e1b02a51ca6366a449d8f827335",
   "name": "drhub",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "c4eb325d2ee45480559aa0840409bbfe",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/c4eb325d2ee45480559aa0840409bbfe"
     }
   },
-  "created": "2017-05-08T11:37:16.986Z",
-  "lastModified": "2017-05-08T11:37:16.986Z"
+  "created": "2017-06-27T11:36:14.841Z",
+  "lastModified": "2017-06-27T11:36:14.841Z"
 }

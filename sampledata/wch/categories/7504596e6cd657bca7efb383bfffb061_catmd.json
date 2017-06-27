@@ -1,7 +1,8 @@
 {
   "id": "7504596e6cd657bca7efb383bfffb061",
-  "rev": "3-eaf8a507c2ca9d15df47d3ed32771f08",
+  "rev": "5-d4d9fe61e5396f4dfb00b10b3b9daecb",
   "name": "sympathetic",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
   "parent": "cf7d502a106a0de68cb1414df0eabbeb",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0eabbeb"
     }
   },
-  "created": "2017-05-10T10:53:54.828Z",
-  "lastModified": "2017-05-10T10:54:25.178Z"
+  "created": "2017-06-27T11:35:10.086Z",
+  "lastModified": "2017-06-27T11:35:10.086Z"
 }

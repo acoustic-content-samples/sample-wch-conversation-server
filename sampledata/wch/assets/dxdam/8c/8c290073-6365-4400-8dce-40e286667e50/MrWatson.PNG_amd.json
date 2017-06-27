@@ -7,58 +7,42 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-13T15:11:37.214Z",
+  "lastModified": "2017-06-27T11:38:10.938Z",
   "description": "",
   "tags": {
     "values": [
       "classification:ultramarine color",
+      "classification:electronic device",
       "classification:electrical device",
+      "classification:indigo color",
+      "classification:trackball",
       "classification:audio system",
+      "classification:push button",
+      "classification:blue color",
+      "classification:bell push (button)",
+      "classification:electric switch",
       "classification:device",
+      "classification:doorbell",
+      "classification:controller",
       "classification:purplish blue color",
       "classification:loudspeaker"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:loudspeaker",
-      "classification:electrical device",
-      "classification:device",
-      "classification:audio system",
-      "classification:ultramarine color",
-      "classification:purplish blue color"
-    ]
+    "analysis": "pending"
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "MrWatson.PNG",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "rev": "2-06db270ce36d4c354ab7a54320f7d745",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "7-721c2a2ec4276d012a1723913658ea8d",
   "cognitive": {
-    "classifications": [
-      "loudspeaker",
-      "electrical device",
-      "device",
-      "audio system",
-      "ultramarine color",
-      "purplish blue color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#62aaf2",
-      "muted": "#818182",
-      "darkVibrant": "#223c5a",
-      "darkMuted": "#343434",
-      "lightVibrant": "#8abcec",
-      "lightMuted": "#aab7c4"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "id": "8c290073-6365-4400-8dce-40e286667e50",
   "resource": "594de312a358103a58cfbc16312831d8",
   "fileSize": 30012,
   "status": "ready",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "renditions": {
     "default": {
       "id": "r=594de312a358103a58cfbc16312831d8&a=8c290073-6365-4400-8dce-40e286667e50",
@@ -70,5 +54,19 @@
     "height": 399
   },
   "classification": "asset",
-  "created": "2017-06-13T15:11:34.876Z"
+  "created": "2017-06-27T11:38:10.938Z",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "categories": [],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/8c290073-6365-4400-8dce-40e286667e50"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/594de312a358103a58cfbc16312831d8.PNG"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/594de312a358103a58cfbc16312831d8?fit=inside%7C220:145"
+    }
+  }
 }

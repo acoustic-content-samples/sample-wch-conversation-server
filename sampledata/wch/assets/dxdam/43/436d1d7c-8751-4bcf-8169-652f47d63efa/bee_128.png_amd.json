@@ -3,48 +3,47 @@
   "name": "bee_128.png",
   "path": "/dxdam/43/436d1d7c-8751-4bcf-8169-652f47d63efa/bee_128.png",
   "digest": "rbuD8SSezoKS1mIDOI79WA==",
+  "usageRights": {
+    "categories": []
+  },
   "assetType": "image",
-  "lastModified": "2017-05-10T11:40:59.102Z",
+  "lastModified": "2017-06-27T11:38:13.448Z",
   "description": "",
   "tags": {
     "values": [
+      "classification:nematode worm",
       "classification:black color",
+      "classification:optical device",
+      "classification:whistle",
+      "classification:musical instrument",
+      "classification:worm",
+      "classification:filament",
+      "classification:ring",
+      "classification:invertebrate",
       "classification:coal black color",
       "classification:crown",
+      "classification:person",
       "classification:headdress",
-      "classification:tiara"
+      "classification:monocle",
+      "classification:tiara",
+      "classification:animal"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:crown",
-      "classification:tiara",
-      "classification:headdress",
-      "classification:black color",
-      "classification:coal black color"
-    ]
+    "analysis": "pending"
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "bee_128.png",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "rev": "2-2fdc82c0f62b042f56ac39a4492b6ac7",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "7-da1de8badef28bc34bfb32a416fdeb25",
   "cognitive": {
-    "classifications": [
-      "crown",
-      "tiara",
-      "headdress",
-      "black color",
-      "coal black color"
-    ],
-    "faces": [],
-    "status": "complete"
+    "status": "pending"
   },
   "id": "436d1d7c-8751-4bcf-8169-652f47d63efa",
   "resource": "cf7d502a106a0de68cb1414df0ec2f56",
   "fileSize": 1077,
   "status": "ready",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "renditions": {
     "default": {
       "id": "r=cf7d502a106a0de68cb1414df0ec2f56&a=436d1d7c-8751-4bcf-8169-652f47d63efa",
@@ -56,5 +55,19 @@
     "height": 128
   },
   "classification": "asset",
-  "created": "2017-05-10T11:40:57.017Z"
+  "created": "2017-06-27T11:38:13.448Z",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "categories": [],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/436d1d7c-8751-4bcf-8169-652f47d63efa"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec2f56.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec2f56"
+    }
+  }
 }

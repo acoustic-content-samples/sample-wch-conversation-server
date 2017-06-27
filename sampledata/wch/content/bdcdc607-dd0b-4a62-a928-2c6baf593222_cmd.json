@@ -1,15 +1,14 @@
 {
   "id": "bdcdc607-dd0b-4a62-a928-2c6baf593222",
-  "rev": "27-72f39ac90ba3c6c14f44c2d9ae6e9271",
   "name": "General - Negative Response Name",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-06-22T10:21:26.513Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-17T13:51:43.148Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:27.707Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:27.707Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -39,6 +38,9 @@
       "elementType": "category",
       "categoryIds": [
         "1ffc133e786e0d65f2834ae483637fee"
+      ],
+      "categories": [
+        "dialog_nodes/Welcome/Negative Response Name"
       ]
     },
     "emotion": {
@@ -47,5 +49,9 @@
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-c1a6bf9544c974b8c2fb2c6fcbaa5cde"
 }

@@ -1,15 +1,14 @@
 {
   "id": "434a087c-537f-4dfa-9b9f-980d154e9108",
-  "rev": "13-710effdd6a7c4606a57a7d9a2a091ac8",
   "name": "ProfContent - Anything Else MTL",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-19T11:55:00.277Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-11T06:48:37.095Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:25.282Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:25.282Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -21,18 +20,27 @@
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0ead390"
+      ],
+      "categories": [
+        "emotion/basic/joy"
       ]
     },
     "persona": {
       "elementType": "category",
       "categoryIds": [
         "c88e2d8ea1537ef5b266774eea047616"
+      ],
+      "categories": [
+        "entities/persona/profcontent"
       ]
     },
     "node": {
       "elementType": "category",
       "categoryIds": [
         "efb4eb204170385dab6c56b4db060bc8"
+      ],
+      "categories": [
+        "dialog_nodes/anything_else"
       ]
     },
     "filter": {
@@ -51,5 +59,9 @@
       "elementType": "text",
       "value": "I'm sorry. I don't understand! Sometimes I have an easier time with a few simple keywords.\nBut I since you are talking to me at the Meet the Lab Event in Böblingen you could also try to chat with a real expert."
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-940a0270f204357e88eddd3d43a4fb0c"
 }

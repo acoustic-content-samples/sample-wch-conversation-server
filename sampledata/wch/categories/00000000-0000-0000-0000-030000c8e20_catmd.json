@@ -1,6 +1,6 @@
 {
   "id": "00000000-0000-0000-0000-030000c8e20",
-  "rev": "1-2615f396d8a0a8b4420e3257713dc018",
+  "rev": "1-0e9d11f71a6d3c2d5a86d41a20e83263",
   "name": "Media",
   "creatorId": "IBM",
   "permanent": true,
@@ -27,6 +27,6 @@
       "href": "/authoring/v1/categories/00000000-0000-0000-0000-100000c8e20"
     }
   },
-  "created": "2017-06-26T09:12:47.356Z",
-  "lastModified": "2017-06-26T09:12:47.356Z"
+  "created": "2017-06-26T12:01:58.801Z",
+  "lastModified": "2017-06-26T12:01:58.801Z"
 }

@@ -1,7 +1,8 @@
 {
   "id": "d81cb8b6923bb2f2ef3eb20a1fe1ee7d",
-  "rev": "1-e0d28015a848df76445712b6c4a0d2f7",
+  "rev": "5-570e7a58b56999c5b794aae67d245965",
   "name": "How to",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "efb4eb204170385dab6c56b4db05b958",
@@ -23,6 +24,6 @@
       "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
     }
   },
-  "created": "2017-05-16T09:02:08.388Z",
-  "lastModified": "2017-05-16T09:02:08.388Z"
+  "created": "2017-06-27T11:33:38.012Z",
+  "lastModified": "2017-06-27T11:33:38.012Z"
 }

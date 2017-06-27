@@ -21,6 +21,7 @@
 
 const cfenv = require('cfenv');
 const dch_vcap_local = require('../dch_vcap');
+const app_settings = require('../app_settings');
 const wchpush = require('wchtools-cli/commands/push');
 const conversation = require('../lib/conversation');
 const sync = require('../lib/sync');
@@ -35,7 +36,7 @@ program
   .option('-A, --all', 'Setup sample data on all backends')
   .option('-w, --wch', 'Setup the sample content for Watson Content Hub')
   .option('-s, --wch-no-sample-content', 'Setup the Watson Content Hub with the bare minimum to create a chatbot')
-  .option('-c, --wcs', 'Setup the sample dialog for Watson Conversation Service');
+  .option('-c, --wcs', 'Setup the sample dialog for Watson Conversation Service')
   .option('-r, --node-red', 'Setup the sample flow for NODE-RED');
 
 program.on('--help', function(){
@@ -82,7 +83,7 @@ program
 
       let pushArgs = [
         process.argv[0], process.argv[1], 
-        "push", "-v", (wch-no-sample-content) ? "-tiCr" : "--all-authoring", 
+        "push", "-v", "-I", (program.wchNoSampleContent) ? "-tiCr" : "--all-authoring", 
         "--user", username, 
         "--password", password, 
         "--url", baseurl, 
@@ -96,21 +97,18 @@ program
 
     // Setup Watson Conversation Service
     if(program.all || program.wcs) {
-      let file = fs.readFileSync(credsPath);
       let workspace = JSON.parse(fs.readFileSync(path.join(__dirname, "wcs", "workspace.json")));
-      conversation.updateWorkspace (workspace,  
+      conversation.createWorkspace( workspace,  
         (err, resp) => {
           if(err) {
-            throw new Error(err);
+            console.log("An Error occured: ", err);
+            process.exit(1);
           }
-          console.log(resp);
+          console.log("Created Workspace with ID: ", resp.workspace_id);
+          app_settings.wch_conversation.workspace_id.en = resp.workspace_id;
+          fs.writeFileSync(path.join(__dirname, '..', 'app_settings.json'), JSON.stringify(app_settings, null, 1));
         }
       );
-    }
-
-    // Create Sync between WCH & WCS
-    if(program.all || (program.wcs && program.wch)) {
-      sync.push({});
     }
 
     // Setup Node Red

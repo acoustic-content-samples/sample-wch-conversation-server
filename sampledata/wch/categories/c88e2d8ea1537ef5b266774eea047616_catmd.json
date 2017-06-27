@@ -1,7 +1,8 @@
 {
   "id": "c88e2d8ea1537ef5b266774eea047616",
-  "rev": "1-804139250abc5f4bd29a307e19f2ef1b",
+  "rev": "5-afadc8ebba5ceb835604233c46faff92",
   "name": "profcontent",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "c4eb325d2ee45480559aa0840409bbfe",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/c4eb325d2ee45480559aa0840409bbfe"
     }
   },
-  "created": "2017-05-08T11:37:17.067Z",
-  "lastModified": "2017-05-08T11:37:17.067Z"
+  "created": "2017-06-27T11:36:16.614Z",
+  "lastModified": "2017-06-27T11:36:16.614Z"
 }

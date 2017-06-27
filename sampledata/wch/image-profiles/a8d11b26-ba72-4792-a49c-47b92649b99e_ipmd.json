@@ -1,12 +1,14 @@
 {
   "id": "a8d11b26-ba72-4792-a49c-47b92649b99e",
-  "rev": "8-4548b3d9157ad99fb24570708e6dff97",
+  "rev": "5-c57b5c507e7d79e3bddbfd8de6613157",
   "name": "TileProfile",
   "classification": "image-profile",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "creator": "Sven Sterbling",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "created": "2017-05-03T07:32:39.758Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "lastModified": "2017-05-03T07:34:36.387Z",
+  "lastModifier": "Sven Sterbling",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "lastModified": "2017-06-27T11:33:17.693Z",
   "dimensions": [
     {
       "label": "x2",

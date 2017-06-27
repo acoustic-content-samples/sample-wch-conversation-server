@@ -1,0 +1,56 @@
+{
+  "mediaType": "image/gif",
+  "name": "NoneBusiness_Optimized.gif",
+  "path": "/dxdam/b0/b0693a2f-2046-4d2d-b72f-86c8c297dbba/NoneBusiness_Optimized.gif",
+  "digest": "jj0x0N4OwnCtKCbEyUBBpQ==",
+  "usageRights": {
+    "categories": []
+  },
+  "assetType": "image",
+  "lastModified": "2017-06-27T11:38:17.121Z",
+  "description": "",
+  "tags": {
+    "values": [],
+    "declined": [],
+    "analysis": "pending"
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "NoneBusiness_Optimized.gif",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "7-476442524b71e85ac15cd6dcb68d63d5",
+  "cognitive": {
+    "status": "pending"
+  },
+  "id": "b0693a2f-2046-4d2d-b72f-86c8c297dbba",
+  "resource": "2417da654a78e706247033d519ff2370",
+  "fileSize": 2079804,
+  "status": "ready",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "renditions": {
+    "default": {
+      "id": "r=2417da654a78e706247033d519ff2370&a=b0693a2f-2046-4d2d-b72f-86c8c297dbba",
+      "source": "/authoring/v1/resources/2417da654a78e706247033d519ff2370"
+    }
+  },
+  "metadata": {
+    "width": 320,
+    "height": 180
+  },
+  "classification": "asset",
+  "created": "2017-06-27T11:38:17.121Z",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "categories": [],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/b0693a2f-2046-4d2d-b72f-86c8c297dbba"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/2417da654a78e706247033d519ff2370.gif"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/2417da654a78e706247033d519ff2370?fit=inside%7C220:145"
+    }
+  }
+}

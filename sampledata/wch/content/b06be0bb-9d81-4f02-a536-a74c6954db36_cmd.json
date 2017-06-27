@@ -1,14 +1,13 @@
 {
   "id": "b06be0bb-9d81-4f02-a536-a74c6954db36",
-  "rev": "20-f103ef9edc04ec3bb4b9725a17ec3eca",
   "name": "General - How To Verify No Entities",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-16T09:05:03.153Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-16T09:03:26.574Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:27.248Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:27.248Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -41,8 +40,16 @@
       "categoryIds": [
         "b84c6bad3cad3ec6ffff23c78edfda24",
         "1a8292531759e8dfc15895bd23d23d8b"
+      ],
+      "categories": [
+        "dialog_nodes/How to/Verify Howto",
+        "dialog_nodes/How to/Verify Howto/Response Howto No Entities"
       ]
     }
   },
-  "description": ""
+  "description": "",
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-18f6ac3edf43719a7e0450a57d5e047e"
 }

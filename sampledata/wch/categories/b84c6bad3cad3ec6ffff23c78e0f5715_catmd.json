@@ -1,7 +1,8 @@
 {
   "id": "b84c6bad3cad3ec6ffff23c78e0f5715",
-  "rev": "1-e5d9a0df630daac61375ac106c96f34e",
+  "rev": "5-e21e75d14e78e6be0e9f085c46c3533d",
   "name": "Pitch",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "efb4eb204170385dab6c56b4db05b958",
@@ -23,6 +24,6 @@
       "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
     }
   },
-  "created": "2017-05-15T18:01:46.613Z",
-  "lastModified": "2017-05-15T18:01:46.613Z"
+  "created": "2017-06-27T11:34:15.077Z",
+  "lastModified": "2017-06-27T11:34:15.077Z"
 }

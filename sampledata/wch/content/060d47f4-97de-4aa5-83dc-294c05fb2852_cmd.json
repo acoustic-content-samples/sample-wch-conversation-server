@@ -1,15 +1,14 @@
 {
   "id": "060d47f4-97de-4aa5-83dc-294c05fb2852",
-  "rev": "14-7837067e58ce5168195d9c86c3bb68ed",
   "name": "Follow up Mr Watson - Username",
   "description": "",
   "classification": "content",
   "typeId": "f9147be3-09bd-47a1-94b9-22e5e4cac6c1",
   "locale": "en-US",
-  "lastModified": "2017-06-08T15:21:49.378Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-06-07T16:26:56.373Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:30.173Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:30.173Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -29,12 +28,18 @@
       "elementType": "category",
       "categoryIds": [
         "d32ac974bbe1173f5a1b0fd5b64efba4"
+      ],
+      "categories": [
+        "actions/followupusername"
       ]
     },
     "persona": {
       "elementType": "category",
       "categoryIds": [
         "d332127df4c37b2d4632699e7e16bccc"
+      ],
+      "categories": [
+        "entities/persona/mrwatson"
       ]
     },
     "emotion": {
@@ -46,8 +51,16 @@
     "attachment": {
       "elementType": "reference",
       "value": {
-        "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85"
+        "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85",
+        "name": "Attachment - Yes No",
+        "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+        "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+        "status": "ready"
       }
     }
-  }
+  },
+  "type": "Followup",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-31aae9ffe408bb3e8096940af832bf67"
 }

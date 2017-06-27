@@ -1,7 +1,8 @@
 {
   "id": "4a7ac79e08058703984c194cdbf7cbdd",
-  "rev": "1-2dfede5aef07a6b9e4761da6ffbb5621",
+  "rev": "5-80f0d635970b912a64f94c5c5d6d9d05",
   "name": "Not my name",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "d32ac974bbe1173f5a1b0fd5b64ebe3a",
@@ -27,6 +28,6 @@
       "href": "/authoring/v1/categories/d32ac974bbe1173f5a1b0fd5b64ebe3a"
     }
   },
-  "created": "2017-05-31T09:49:29.533Z",
-  "lastModified": "2017-05-31T09:49:29.533Z"
+  "created": "2017-06-27T11:38:03.537Z",
+  "lastModified": "2017-06-27T11:38:03.537Z"
 }

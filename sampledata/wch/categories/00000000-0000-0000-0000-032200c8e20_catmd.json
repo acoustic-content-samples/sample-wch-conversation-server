@@ -1,6 +1,6 @@
 {
   "id": "00000000-0000-0000-0000-032200c8e20",
-  "rev": "1-c585086a5d269d2f712c0bf1d5ac2c4d",
+  "rev": "1-0aaf2ecc80b1ab8f78367e200d423ceb",
   "name": "Mobile app",
   "creatorId": "IBM",
   "permanent": true,
@@ -31,6 +31,6 @@
       "href": "/authoring/v1/categories/00000000-0000-0000-0000-032000c8e20"
     }
   },
-  "created": "2017-06-26T09:12:47.375Z",
-  "lastModified": "2017-06-26T09:12:47.375Z"
+  "created": "2017-06-26T12:01:58.814Z",
+  "lastModified": "2017-06-26T12:01:58.814Z"
 }

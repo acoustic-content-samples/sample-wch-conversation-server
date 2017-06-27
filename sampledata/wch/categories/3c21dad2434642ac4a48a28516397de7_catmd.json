@@ -1,7 +1,8 @@
 {
   "id": "3c21dad2434642ac4a48a28516397de7",
-  "rev": "1-dba1de2822dae45677f9389ccb9531fd",
+  "rev": "5-7dc32d4d310c923cc6433095df24c7d1",
   "name": "howto",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "6e4827e8e902ad7f810cb8c2a52b03e9",
   "parent": "6e4827e8e902ad7f810cb8c2a52b03e9",
@@ -23,6 +24,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
     }
   },
-  "created": "2017-05-05T15:01:22.624Z",
-  "lastModified": "2017-05-05T15:01:22.624Z"
+  "created": "2017-06-27T11:34:06.571Z",
+  "lastModified": "2017-06-27T11:34:06.571Z"
 }

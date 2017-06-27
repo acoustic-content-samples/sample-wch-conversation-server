@@ -3,45 +3,37 @@
   "name": "photo.jpg",
   "path": "/dxdam/8b/8bae924e-7211-4c68-a9f7-1c50b218d34c/photo.jpg",
   "digest": "HtU4FfZ1X7vptPOPGeZH4A==",
+  "usageRights": {
+    "categories": []
+  },
   "assetType": "image",
-  "lastModified": "2017-05-15T12:23:20.591Z",
+  "lastModified": "2017-06-27T11:38:12.183Z",
   "description": "",
   "tags": {
     "values": [
-      "classification:person",
+      "classification:alizarine red color",
       "classification:sociologist",
       "classification:adult person",
-      "classification:reddish orange color"
+      "classification:person",
+      "classification:reddish orange color",
+      "classification:brick red color"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:person",
-      "classification:sociologist",
-      "classification:adult person",
-      "classification:reddish orange color"
-    ]
+    "analysis": "pending"
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "photo.jpg",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "rev": "2-b572e89f9868f2bdd9ba5e6caed9560a",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "7-69033c6e4f275a59704b788d29f490d9",
   "cognitive": {
-    "classifications": [
-      "person",
-      "sociologist",
-      "adult person",
-      "reddish orange color"
-    ],
-    "faces": [],
-    "status": "complete"
+    "status": "pending"
   },
   "id": "8bae924e-7211-4c68-a9f7-1c50b218d34c",
   "resource": "8cf2dbe2bce72db71a3a4b96b4e9b0b7",
   "fileSize": 20706,
   "status": "ready",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "renditions": {
     "default": {
       "id": "r=8cf2dbe2bce72db71a3a4b96b4e9b0b7&a=8bae924e-7211-4c68-a9f7-1c50b218d34c",
@@ -53,5 +45,19 @@
     "height": 155
   },
   "classification": "asset",
-  "created": "2017-05-15T12:23:18.063Z"
+  "created": "2017-06-27T11:38:12.183Z",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "categories": [],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/8bae924e-7211-4c68-a9f7-1c50b218d34c"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/8cf2dbe2bce72db71a3a4b96b4e9b0b7.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/8cf2dbe2bce72db71a3a4b96b4e9b0b7?fit=inside%7C220:145"
+    }
+  }
 }

@@ -1,6 +1,6 @@
 {
   "id": "00000000-0000-0000-0000-032000c8e20",
-  "rev": "1-8c010f4ba72c65fabd54ae597cfb5b3c",
+  "rev": "1-9431fc3c963dbdabaad5decf9a537d62",
   "name": "Digital",
   "creatorId": "IBM",
   "permanent": true,
@@ -29,6 +29,6 @@
       "href": "/authoring/v1/categories/00000000-0000-0000-0000-030000c8e20"
     }
   },
-  "created": "2017-06-26T09:12:47.252Z",
-  "lastModified": "2017-06-26T09:12:47.252Z"
+  "created": "2017-06-26T12:01:58.739Z",
+  "lastModified": "2017-06-26T12:01:58.739Z"
 }

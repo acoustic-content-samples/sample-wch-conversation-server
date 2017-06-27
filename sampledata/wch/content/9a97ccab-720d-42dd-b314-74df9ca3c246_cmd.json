@@ -1,15 +1,14 @@
 {
   "id": "9a97ccab-720d-42dd-b314-74df9ca3c246",
-  "rev": "12-6da0ffb5e9941fbcd7f4db5859b5c030",
   "name": "General - Set Name 2",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-31T09:43:27.436Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-31T09:42:28.596Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:26.849Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:26.849Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -44,7 +43,14 @@
       "elementType": "category",
       "categoryIds": [
         "d32ac974bbe1173f5a1b0fd5b64ebe3a"
+      ],
+      "categories": [
+        "dialog_nodes/Change Name/Set Name"
       ]
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-f418c0b7fb9ca8a1c7b2d4d057694271"
 }

@@ -1,15 +1,14 @@
 {
   "id": "d7e7b39d-a1f5-418a-ad95-fe860329c563",
-  "rev": "12-d0aca060299f58ad9bb05ef826fb8a02",
   "name": "General - Thank you",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-15T18:34:52.135Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-12T12:21:21.350Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:28.461Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:28.461Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -21,6 +20,9 @@
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0ead390"
+      ],
+      "categories": [
+        "emotion/basic/joy"
       ]
     },
     "persona": {
@@ -42,10 +44,17 @@
       "elementType": "category",
       "categoryIds": [
         "8db75208957eb15dd42544d160fda028"
+      ],
+      "categories": [
+        "dialog_nodes/You are Welcome"
       ]
     },
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-26636ebc66bf3b15dca1305bedc37675"
 }

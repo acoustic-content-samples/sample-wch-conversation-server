@@ -1,7 +1,8 @@
 {
   "id": "574f55ebf39a12c6f50b96f04326171a",
-  "rev": "4-2d705ff74dc3a91c11f4c213b799ce67",
+  "rev": "5-93651f59ade21b3da8edf54cdfc60479",
   "name": "Response Pitch Single Product",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "ce2d39d2e87c6de66277ee9d4a190b5b",
@@ -27,6 +28,6 @@
       "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a190b5b"
     }
   },
-  "created": "2017-05-15T18:01:51.085Z",
-  "lastModified": "2017-05-18T09:20:12.831Z"
+  "created": "2017-06-27T11:37:30.200Z",
+  "lastModified": "2017-06-27T11:37:30.200Z"
 }

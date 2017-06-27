@@ -1,15 +1,14 @@
 {
   "id": "00b29a29-9a16-459a-959e-778d47b545fd",
-  "rev": "14-d5f654469eb7edb45f93bdd3e1fa5a48",
   "name": "MTL - Goodbye",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-31T07:59:25.992Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-19T13:25:42.409Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:23.794Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:23.794Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -29,6 +28,9 @@
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0ead390"
+      ],
+      "categories": [
+        "emotion/basic/joy"
       ]
     },
     "text": {
@@ -50,7 +52,14 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18e524"
+      ],
+      "categories": [
+        "dialog_nodes/Goodybe"
       ]
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "6-ec1e3968dea6209c4df864080f2fd6ae"
 }

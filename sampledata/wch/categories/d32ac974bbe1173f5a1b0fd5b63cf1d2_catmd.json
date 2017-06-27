@@ -1,7 +1,8 @@
 {
   "id": "d32ac974bbe1173f5a1b0fd5b63cf1d2",
-  "rev": "1-b49dbf3354b1fefad627e3fea1555cf2",
+  "rev": "5-95fe3d527acd4a17bee26292b5479a7e",
   "name": "difference",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "3c21dad2434642ac4a48a28516393082",
@@ -23,6 +24,6 @@
       "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
     }
   },
-  "created": "2017-05-17T09:24:00.646Z",
-  "lastModified": "2017-05-17T09:24:00.646Z"
+  "created": "2017-06-27T11:33:44.958Z",
+  "lastModified": "2017-06-27T11:33:44.958Z"
 }

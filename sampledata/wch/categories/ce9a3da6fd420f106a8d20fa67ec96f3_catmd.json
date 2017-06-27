@@ -1,7 +1,8 @@
 {
   "id": "ce9a3da6fd420f106a8d20fa67ec96f3",
-  "rev": "1-73fe457fcc05b13520fda01256eb5e43",
+  "rev": "5-ab15ec286d3d24ae0ba90c42f2a00c36",
   "name": "Developer Sync WCH",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "efb4eb204170385dab6c56b4db05b958",
@@ -23,6 +24,6 @@
       "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
     }
   },
-  "created": "2017-05-31T11:49:58.897Z",
-  "lastModified": "2017-05-31T11:49:58.897Z"
+  "created": "2017-06-27T11:33:50.636Z",
+  "lastModified": "2017-06-27T11:33:50.636Z"
 }

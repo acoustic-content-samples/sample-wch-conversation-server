@@ -1,15 +1,14 @@
 {
   "id": "d7c21c52-85e9-4846-8504-0beb493117e4",
-  "rev": "23-92bed510b45f2ff7ca6de2e5c8690988",
   "name": "MrWatson - Hi again",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-06-16T12:40:12.971Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-06-13T15:37:25.337Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:28.462Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:28.462Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "status": "ready",
   "elements": {
@@ -24,6 +23,9 @@
       "elementType": "category",
       "categoryIds": [
         "d332127df4c37b2d4632699e7e16bccc"
+      ],
+      "categories": [
+        "entities/persona/mrwatson"
       ]
     },
     "text": {
@@ -35,6 +37,10 @@
       "categoryIds": [
         "b84c6bad3cad3ec6ffff23c78e0f3fe1",
         "574f55ebf39a12c6f50b96f04325d595"
+      ],
+      "categories": [
+        "dialog_nodes/Welcome",
+        "dialog_nodes/Welcome/Response Other Welcome"
       ]
     },
     "filter": {
@@ -50,8 +56,16 @@
     "attachment": {
       "elementType": "reference",
       "value": {
-        "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a"
+        "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a",
+        "name": "Attachment - StartingPoints",
+        "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+        "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+        "status": "ready"
       }
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-65790f06d5b6628f66bc10d026ec433f"
 }

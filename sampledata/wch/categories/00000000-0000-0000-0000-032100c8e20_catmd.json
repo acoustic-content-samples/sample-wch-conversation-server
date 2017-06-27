@@ -1,6 +1,6 @@
 {
   "id": "00000000-0000-0000-0000-032100c8e20",
-  "rev": "1-aa15f81f104a54a79235584234c2ca53",
+  "rev": "1-0e4c7043f582c0a83aa61cdd422198a3",
   "name": "Email",
   "creatorId": "IBM",
   "permanent": true,
@@ -31,6 +31,6 @@
       "href": "/authoring/v1/categories/00000000-0000-0000-0000-032000c8e20"
     }
   },
-  "created": "2017-06-26T09:12:47.298Z",
-  "lastModified": "2017-06-26T09:12:47.298Z"
+  "created": "2017-06-26T12:01:58.772Z",
+  "lastModified": "2017-06-26T12:01:58.772Z"
 }

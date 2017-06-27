@@ -1,14 +1,13 @@
 {
   "id": "85a5c4bf-ec23-43b0-be8a-60b285210a3f",
-  "rev": "15-692619a7686bc30cf61dc1d53ae96855",
   "name": "General - Enter geolocation",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-18T14:46:04.780Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-18T14:44:55.250Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:26.200Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:26.200Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -20,6 +19,9 @@
       "elementType": "category",
       "categoryIds": [
         "8beddf153d3ed094db767438ac753160"
+      ],
+      "categories": [
+        "dialog_nodes/Set geolocation/Enter Geolocation"
       ]
     },
     "text": {
@@ -43,5 +45,9 @@
       "elementType": "location"
     }
   },
-  "description": ""
+  "description": "",
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-e78c5e118af36bee9582fa024d1cddfc"
 }

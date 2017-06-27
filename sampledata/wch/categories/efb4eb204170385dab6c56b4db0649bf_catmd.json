@@ -1,7 +1,8 @@
 {
   "id": "efb4eb204170385dab6c56b4db0649bf",
-  "rev": "1-8c5aa8e76d756decbd0c6ae6a555644a",
+  "rev": "5-e182ade9fbe6a64c3fa334a88d743720",
   "name": "Enter Email",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "efb4eb204170385dab6c56b4db06237d",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db06237d"
     }
   },
-  "created": "2017-05-15T18:01:48.693Z",
-  "lastModified": "2017-05-15T18:01:48.693Z"
+  "created": "2017-06-27T11:35:21.605Z",
+  "lastModified": "2017-06-27T11:35:21.605Z"
 }

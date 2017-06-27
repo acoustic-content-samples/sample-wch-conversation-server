@@ -7,59 +7,41 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-22T07:30:13.120Z",
+  "lastModified": "2017-06-27T11:38:14.902Z",
   "description": "",
   "tags": {
     "values": [
       "classification:electronic device",
+      "classification:ash grey color",
+      "classification:satellite receiver",
       "classification:computer mouse",
+      "classification:modem",
       "classification:push button",
       "classification:mouse button",
       "classification:coal black color",
+      "classification:breathalyzer",
       "classification:electric switch",
       "classification:device",
       "classification:gray color",
-      "classification:controller"
+      "classification:controller",
+      "classification:radio/tv set"
     ],
     "declined": [],
-    "suggested": [
-      "classification:computer mouse",
-      "classification:electronic device",
-      "classification:device",
-      "classification:mouse button",
-      "classification:push button",
-      "classification:electric switch",
-      "classification:controller",
-      "classification:coal black color",
-      "classification:gray color"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "black-watch.png",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "rev": "4-87b0b58b1b710b5c317199e84ac5892d",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "7-3fcd6dee782862b4e7248051ccca8f4c",
   "cognitive": {
-    "classifications": [
-      "computer mouse",
-      "electronic device",
-      "device",
-      "mouse button",
-      "push button",
-      "electric switch",
-      "controller",
-      "coal black color",
-      "gray color"
-    ],
-    "faces": [],
-    "status": "complete"
+    "status": "pending"
   },
   "id": "bd87bc71-9c76-46b3-85af-4d83c9747837",
   "resource": "053ce162363e88d2795b01bc48c7f110",
   "fileSize": 150033,
   "status": "ready",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "renditions": {
     "default": {
       "id": "r=053ce162363e88d2795b01bc48c7f110&a=bd87bc71-9c76-46b3-85af-4d83c9747837",
@@ -71,5 +53,19 @@
     "height": 1132
   },
   "classification": "asset",
-  "created": "2017-05-03T08:32:47.818Z"
+  "created": "2017-06-27T11:38:14.902Z",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "categories": [],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/bd87bc71-9c76-46b3-85af-4d83c9747837"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/053ce162363e88d2795b01bc48c7f110.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/053ce162363e88d2795b01bc48c7f110?fit=inside%7C220:145"
+    }
+  }
 }

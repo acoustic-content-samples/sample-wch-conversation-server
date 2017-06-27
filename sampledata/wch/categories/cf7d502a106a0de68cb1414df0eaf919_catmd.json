@@ -1,7 +1,8 @@
 {
   "id": "cf7d502a106a0de68cb1414df0eaf919",
-  "rev": "1-78edcbe8163039d9ac1b9dd93861116f",
+  "rev": "5-8d5bc2bf468c873886fa05e55432de60",
   "name": "anger",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
   "parent": "c6aa112a19b1d19eac233bf583cb2cb9",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/c6aa112a19b1d19eac233bf583cb2cb9"
     }
   },
-  "created": "2017-05-10T10:56:39.608Z",
-  "lastModified": "2017-05-10T10:56:39.608Z"
+  "created": "2017-06-27T11:36:47.244Z",
+  "lastModified": "2017-06-27T11:36:47.244Z"
 }

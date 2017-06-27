@@ -1,14 +1,13 @@
 {
   "id": "16732169-f413-47da-9927-760a06c65313",
-  "rev": "24-3a27c4915243c99989af66d7536558ee",
   "name": "General - Ask for feedback",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-06-16T13:00:18.150Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-06-16T12:58:16.499Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:30.173Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:30.173Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -24,6 +23,9 @@
       "elementType": "category",
       "categoryIds": [
         "12e08736-c18a-44c8-8dcc-f22bd224355a"
+      ],
+      "categories": [
+        "dialog_nodes/Negative Message/Ask for feedback..."
       ]
     },
     "text": {
@@ -45,9 +47,17 @@
     "attachment": {
       "elementType": "reference",
       "value": {
-        "id": "acca0e6d-19c3-4743-876b-53f1c80e3a2b"
+        "id": "acca0e6d-19c3-4743-876b-53f1c80e3a2b",
+        "name": "Attachment - WCH Expert",
+        "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+        "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+        "status": "ready"
       }
     }
   },
-  "description": ""
+  "description": "",
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-1e9c542d97ce0736ffc9f162f3579588"
 }

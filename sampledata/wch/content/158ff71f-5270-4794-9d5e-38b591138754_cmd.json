@@ -1,15 +1,14 @@
 {
   "id": "158ff71f-5270-4794-9d5e-38b591138754",
-  "rev": "22-5b071205357a59b50007ed57659532ef",
   "name": "ProfContent - Anything Else",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-15T18:15:10.333Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-10T15:26:26.087Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:23.813Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:23.813Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -18,12 +17,18 @@
       "elementType": "category",
       "categoryIds": [
         "efb4eb204170385dab6c56b4db060bc8"
+      ],
+      "categories": [
+        "dialog_nodes/anything_else"
       ]
     },
     "emotion": {
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0eadc62"
+      ],
+      "categories": [
+        "emotion/basic/surprised"
       ]
     },
     "attachmentquery": {
@@ -33,6 +38,9 @@
       "elementType": "category",
       "categoryIds": [
         "c88e2d8ea1537ef5b266774eea047616"
+      ],
+      "categories": [
+        "entities/persona/profcontent"
       ]
     },
     "text": {
@@ -49,5 +57,9 @@
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-4ec02665cffce025df722c1dea41cf72"
 }

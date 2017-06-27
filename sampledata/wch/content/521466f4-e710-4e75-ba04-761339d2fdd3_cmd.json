@@ -1,15 +1,14 @@
 {
   "id": "521466f4-e710-4e75-ba04-761339d2fdd3",
-  "rev": "7-35cd6509ba729fd2f5ac0ea268e75134",
   "name": "General - Continous Feature Updates",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-31T13:09:28.121Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-31T13:08:49.341Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:25.434Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:25.434Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [
     "user:Jan 2017"
   ],
@@ -23,6 +22,10 @@
       "categoryIds": [
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "e122ae67d0597f8a98838921ce3e35e6"
+      ],
+      "categories": [
+        "entities/product/Watson Content Hub",
+        "entities/feature/continous delivery"
       ]
     },
     "attachmentquery": {
@@ -32,6 +35,9 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ],
+      "categories": [
+        "dialog_nodes/Information/Give Featureinformation about Product"
       ]
     },
     "persona": {
@@ -52,5 +58,9 @@
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-685c2c3f43742019c0df93722f554eb2"
 }

@@ -1,9 +1,12 @@
 {
   "id": "efb4eb204170385dab6c56b4db05b958",
-  "rev": "1-01beac820c597b39cc246a7bdc677822",
+  "rev": "5-3e1741828c8f035d06741722fedd1dc9",
   "name": "dialog_nodes",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "taxonomy",
-  "firstClassFor": null,
+  "firstClassFor": [
+    ""
+  ],
   "namePath": [
     "dialog_nodes"
   ],
@@ -12,6 +15,6 @@
       "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
     }
   },
-  "created": "2017-05-15T18:01:45.898Z",
-  "lastModified": "2017-05-15T18:01:45.898Z"
+  "created": "2017-06-27T11:33:19.187Z",
+  "lastModified": "2017-06-27T11:33:19.187Z"
 }

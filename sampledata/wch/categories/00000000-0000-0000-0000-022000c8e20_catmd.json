@@ -1,6 +1,6 @@
 {
   "id": "00000000-0000-0000-0000-022000c8e20",
-  "rev": "1-f1029df73ba3e7514133aebf3386df2a",
+  "rev": "1-92cc503cbcf8d56a958896c13096c9c6",
   "name": "Promotional",
   "creatorId": "IBM",
   "permanent": true,
@@ -29,6 +29,6 @@
       "href": "/authoring/v1/categories/00000000-0000-0000-0000-020000c8e20"
     }
   },
-  "created": "2017-06-26T09:12:47.422Z",
-  "lastModified": "2017-06-26T09:12:47.422Z"
+  "created": "2017-06-26T12:01:58.850Z",
+  "lastModified": "2017-06-26T12:01:58.850Z"
 }

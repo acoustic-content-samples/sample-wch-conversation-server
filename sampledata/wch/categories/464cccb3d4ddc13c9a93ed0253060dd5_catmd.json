@@ -1,7 +1,8 @@
 {
   "id": "464cccb3d4ddc13c9a93ed0253060dd5",
-  "rev": "1-a63f08b0c5251b032ac5af23607774e2",
+  "rev": "5-15cabb1c19a4f60b8799b39e710bdb98",
   "name": "IBM Commerce",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "4c889914160a14eaf584c13cd80b178d",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd80b178d"
     }
   },
-  "created": "2017-05-31T11:18:51.196Z",
-  "lastModified": "2017-05-31T11:18:51.196Z"
+  "created": "2017-06-27T11:35:01.554Z",
+  "lastModified": "2017-06-27T11:35:01.554Z"
 }

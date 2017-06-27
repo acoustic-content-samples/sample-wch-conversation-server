@@ -1,7 +1,8 @@
 {
   "id": "b570a4c73c9609e9ec137f331dd30a97",
-  "rev": "1-45a95b1192c1e6498d263a8b31d23826",
+  "rev": "5-c4515159f33e3cf1cf2bea929a662d22",
   "name": "goodbye",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "6e4827e8e902ad7f810cb8c2a52b03e9",
   "parent": "6e4827e8e902ad7f810cb8c2a52b03e9",
@@ -23,6 +24,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
     }
   },
-  "created": "2017-05-12T12:05:33.781Z",
-  "lastModified": "2017-05-12T12:05:33.781Z"
+  "created": "2017-06-27T11:34:19.719Z",
+  "lastModified": "2017-06-27T11:34:19.719Z"
 }

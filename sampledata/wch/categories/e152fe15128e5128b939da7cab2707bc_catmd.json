@@ -1,7 +1,8 @@
 {
   "id": "e152fe15128e5128b939da7cab2707bc",
-  "rev": "1-d0dc24ac8990824514007426d26829d4",
+  "rev": "5-8bac4472a4784a0d46ba3e21ffcfd52b",
   "name": "content publishing",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "fad37b71f9f5935f82913edeb90f78b1",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb90f78b1"
     }
   },
-  "created": "2017-05-05T15:01:23.981Z",
-  "lastModified": "2017-05-05T15:01:23.981Z"
+  "created": "2017-06-27T11:35:58.518Z",
+  "lastModified": "2017-06-27T11:35:58.518Z"
 }

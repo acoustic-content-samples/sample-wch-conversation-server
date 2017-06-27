@@ -1,7 +1,8 @@
 {
   "id": "a7dcadf7013076d42640b5aa32348bb2",
-  "rev": "1-14217213402afb4a5b8b4931f8310e30",
+  "rev": "5-62e5baf4acac0c8b99a2c2f433e922fc",
   "name": "Kommunale Versorgungskasse",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
     }
   },
-  "created": "2017-05-17T09:24:02.672Z",
-  "lastModified": "2017-05-17T09:24:02.672Z"
+  "created": "2017-06-27T11:35:38.696Z",
+  "lastModified": "2017-06-27T11:35:38.696Z"
 }

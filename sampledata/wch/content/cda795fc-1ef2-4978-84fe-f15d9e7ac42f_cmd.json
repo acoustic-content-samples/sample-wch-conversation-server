@@ -1,15 +1,14 @@
 {
   "id": "cda795fc-1ef2-4978-84fe-f15d9e7ac42f",
-  "rev": "19-95767651b1b299bb84952297ee915d2e",
   "name": "General - How To Verify Too Many Products",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-05-16T09:11:10.731Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-16T09:05:06.610Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:28.290Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:28.290Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -23,6 +22,10 @@
       "categoryIds": [
         "b84c6bad3cad3ec6ffff23c78edfda24",
         "ce2d39d2e87c6de66277ee9d4aea46fa"
+      ],
+      "categories": [
+        "dialog_nodes/How to/Verify Howto",
+        "dialog_nodes/How to/Verify Howto/Response Howto Too Many Products"
       ]
     },
     "attachmentquery": {
@@ -45,5 +48,9 @@
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-75e256f53e0935008d8c4116f5785322"
 }

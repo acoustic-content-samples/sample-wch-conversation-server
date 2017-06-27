@@ -1,7 +1,8 @@
 {
   "id": "f08c09393f588be1e49ab20903092fa4",
-  "rev": "1-a22aacd3851d795adcd5af5c24852b5a",
+  "rev": "5-a8b8876757d0894b4931cf37d467049c",
   "name": "omnichanel",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "fad37b71f9f5935f82913edeb90f78b1",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb90f78b1"
     }
   },
-  "created": "2017-05-31T13:14:13.885Z",
-  "lastModified": "2017-05-31T13:14:13.885Z"
+  "created": "2017-06-27T11:34:58.738Z",
+  "lastModified": "2017-06-27T11:34:58.738Z"
 }

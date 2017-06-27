@@ -1,15 +1,14 @@
 {
   "id": "2a5ffd97-d283-4eaf-abf4-489016a7a495",
-  "rev": "11-a820ec719b92a9df33dfc9c5f57b091f",
   "name": "MrWatson - Set Name",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en-US",
-  "lastModified": "2017-06-08T13:36:58.673Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-06-08T13:34:08.688Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:24.708Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:24.708Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -24,6 +23,9 @@
       "elementType": "category",
       "categoryIds": [
         "d332127df4c37b2d4632699e7e16bccc"
+      ],
+      "categories": [
+        "entities/persona/mrwatson"
       ]
     },
     "text": {
@@ -47,7 +49,14 @@
       "elementType": "category",
       "categoryIds": [
         "d32ac974bbe1173f5a1b0fd5b64ebe3a"
+      ],
+      "categories": [
+        "dialog_nodes/Change Name/Set Name"
       ]
     }
-  }
+  },
+  "type": "OutputText",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "5-0cce9d67c487c360179ac33983beb36f"
 }

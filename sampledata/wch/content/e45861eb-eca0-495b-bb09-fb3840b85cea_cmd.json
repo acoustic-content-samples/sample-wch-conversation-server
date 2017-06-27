@@ -1,44 +1,29 @@
 {
   "id": "e45861eb-eca0-495b-bb09-fb3840b85cea",
-  "rev": "11-437a4840a0c6221f43eed0b18d87ccec",
   "name": "Attachment - Nice Day",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
   "locale": "en-US",
-  "lastModified": "2017-06-08T14:40:47.977Z",
-  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-05-12T12:53:49.176Z",
-  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-06-27T11:38:28.973Z",
+  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "created": "2017-06-27T11:38:28.973Z",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
-    "image_url": {
-      "elementType": "image",
-      "renditions": {
-        "default": {
-          "renditionId": "r=1bdd94512c4e329c56491614690feb94&a=dd45ea3d-9662-43df-b81e-22c8b6a024a2",
-          "source": "/authoring/v1/resources/1bdd94512c4e329c56491614690feb94"
-        }
-      },
-      "asset": {
-        "id": "dd45ea3d-9662-43df-b81e-22c8b6a024a2",
-        "resourceUri": "/authoring/v1/resources/1bdd94512c4e329c56491614690feb94",
-        "fileName": "giphy-tumblr.gif",
-        "fileSize": 1049311,
-        "mediaType": "image/gif"
-      }
+    "callback_id": {
+      "elementType": "text"
     },
     "color": {
       "elementType": "text"
     },
-    "footer": {
-      "elementType": "text",
-      "value": "via giphy"
-    },
     "author_icon": {
       "elementType": "image"
+    },
+    "action": {
+      "elementType": "text"
     },
     "title": {
       "elementType": "link"
@@ -46,27 +31,68 @@
     "ts": {
       "elementType": "datetime"
     },
-    "footer_icon": {
-      "elementType": "image"
-    },
     "fields": {
       "elementType": "text"
-    },
-    "text": {
-      "elementType": "text",
-      "value": "Have a good day"
     },
     "author": {
       "elementType": "link"
     },
+    "footer": {
+      "elementType": "text",
+      "value": "via Watson Content Hub"
+    },
     "fallback": {
       "elementType": "text"
+    },
+    "image_url": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=6883365c7364edd02b0c250abd081f64&a=7b95ca24-3a28-486e-a11c-9f1fb4ac3667",
+          "source": "/authoring/v1/resources/6883365c7364edd02b0c250abd081f64"
+        }
+      },
+      "asset": {
+        "id": "7b95ca24-3a28-486e-a11c-9f1fb4ac3667",
+        "resourceUri": "/authoring/v1/resources/6883365c7364edd02b0c250abd081f64",
+        "fileName": "GoodByeCat_Optimized.gif",
+        "fileSize": 1725261,
+        "mediaType": "image/gif"
+      }
     },
     "thumb_url": {
       "elementType": "image"
     },
+    "text": {
+      "elementType": "text",
+      "value": "Have a good day!"
+    },
     "pretext": {
       "elementType": "text"
+    },
+    "footer_icon": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=cf7d502a106a0de68cb1414df0ec4563&a=57388d0c-72eb-4b03-afa6-315fe79cbb78",
+          "source": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec4563"
+        },
+        "icon": {
+          "renditionId": "7db5df74-1ebe-4220-8d43-259fc50bfd89",
+          "source": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec4563?resize=17px:16px&crop=16:16;1,0"
+        }
+      },
+      "asset": {
+        "id": "57388d0c-72eb-4b03-afa6-315fe79cbb78",
+        "resourceUri": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec4563",
+        "fileName": "Watson_Avatar_Pos_BluePurple_RGB.png",
+        "fileSize": 28262,
+        "mediaType": "image/png"
+      }
     }
-  }
+  },
+  "type": "Attachment",
+  "creator": "Sven Sterbling",
+  "lastModifier": "Sven Sterbling",
+  "rev": "6-25fa3b9a66052b3899023a38c3a2fa30"
 }

@@ -1,7 +1,8 @@
 {
   "id": "ce2d39d2e87c6de66277ee9d4aea46fa",
-  "rev": "1-1169b9aa005b9653cbf6419535ae9785",
+  "rev": "5-1eba2aa84de15c452b49a99ff5a7033c",
   "name": "Response Howto Too Many Products",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "b84c6bad3cad3ec6ffff23c78edfda24",
@@ -27,6 +28,6 @@
       "href": "/authoring/v1/categories/b84c6bad3cad3ec6ffff23c78edfda24"
     }
   },
-  "created": "2017-05-16T09:02:10.093Z",
-  "lastModified": "2017-05-16T09:02:10.093Z"
+  "created": "2017-06-27T11:37:31.616Z",
+  "lastModified": "2017-06-27T11:37:31.616Z"
 }

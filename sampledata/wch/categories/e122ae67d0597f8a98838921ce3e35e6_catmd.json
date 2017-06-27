@@ -1,7 +1,8 @@
 {
   "id": "e122ae67d0597f8a98838921ce3e35e6",
-  "rev": "1-dc0564776911b7a7c87be219d96fd43d",
+  "rev": "5-0c98009d60de51bd4bd4c5724b4134ba",
   "name": "continous delivery",
+  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "fad37b71f9f5935f82913edeb90f78b1",
@@ -25,6 +26,6 @@
       "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb90f78b1"
     }
   },
-  "created": "2017-05-12T16:19:48.117Z",
-  "lastModified": "2017-05-12T16:19:48.117Z"
+  "created": "2017-06-27T11:35:59.962Z",
+  "lastModified": "2017-06-27T11:35:59.962Z"
 }
