@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+wchtools-cli.log.*
 npm-debug.log*
 
 # Runtime data
@@ -42,3 +43,6 @@ jspm_packages
 dch_vcap.json
 
 .wchtoolshashes
+
+scan_intergration_server.xml
+license_integration_server.csv
