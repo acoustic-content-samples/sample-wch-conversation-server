@@ -1,5 +1,6 @@
 {
   "id": "b4c6e946-2fcd-4d1b-8b7a-1cbd597f40fb",
+  "rev": "5-829df837d0d3b2b32eb3e62c6991ff62",
   "name": "General - Introduction Developer",
   "description": "",
   "classification": "content",
@@ -21,9 +22,6 @@
       "elementType": "category",
       "categoryIds": [
         "464cccb3d4ddc13c9a93ed0253061519"
-      ],
-      "categories": [
-        "entities/chitchat/developer"
       ]
     },
     "attachmentquery": {
@@ -33,9 +31,6 @@
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0ead390"
-      ],
-      "categories": [
-        "emotion/basic/joy"
       ]
     },
     "text": {
@@ -51,10 +46,6 @@
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18f25b",
         "b84c6bad3cad3ec6ffff23c78e0f1682"
-      ],
-      "categories": [
-        "dialog_nodes/Introduction/Response Introduction",
-        "dialog_nodes/Introduction"
       ]
     },
     "location": {
@@ -63,16 +54,8 @@
     "attachment": {
       "elementType": "reference",
       "value": {
-        "id": "acca0e6d-19c3-4743-876b-53f1c80e3a2b",
-        "name": "Attachment - WCH Expert",
-        "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-        "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-        "status": "ready"
+        "id": "acca0e6d-19c3-4743-876b-53f1c80e3a2b"
       }
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-829df837d0d3b2b32eb3e62c6991ff62"
+  }
 }

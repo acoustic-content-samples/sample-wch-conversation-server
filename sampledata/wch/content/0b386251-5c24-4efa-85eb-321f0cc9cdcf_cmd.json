@@ -1,5 +1,6 @@
 {
   "id": "0b386251-5c24-4efa-85eb-321f0cc9cdcf",
+  "rev": "5-4513fce8293a9c36cfc4072438ba9614",
   "name": "General - Information no product or feature",
   "description": "",
   "classification": "content",
@@ -28,10 +29,6 @@
       "categoryIds": [
         "574f55ebf39a12c6f50b96f04325f166",
         "8db75208957eb15dd42544d160fdbcc4"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Verify Information/Resp Info Missing ProdFeat",
-        "dialog_nodes/Information/Verify Information"
       ]
     },
     "filter": {
@@ -47,9 +44,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-4513fce8293a9c36cfc4072438ba9614"
+  }
 }

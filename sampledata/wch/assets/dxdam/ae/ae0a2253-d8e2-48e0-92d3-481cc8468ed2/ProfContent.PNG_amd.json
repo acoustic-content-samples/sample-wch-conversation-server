@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:12.660Z",
+  "lastModified": "2017-06-27T11:38:14.954Z",
   "description": "",
   "tags": {
     "values": [
@@ -32,15 +32,50 @@
       "classification:emerald color"
     ],
     "declined": [],
-    "analysis": "pending"
+    "analysis": "complete",
+    "suggested": [
+      "classification:webcam",
+      "classification:camera",
+      "classification:photographic equipment",
+      "classification:adhesive plaster",
+      "classification:target",
+      "classification:grinding wheel",
+      "classification:wheel",
+      "classification:machine",
+      "classification:mechanical device",
+      "classification:emerald color",
+      "classification:greenish blue color"
+    ]
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "ProfContent.PNG",
   "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "7-eaf7486a5a7c00c606f837127914b16f",
+  "rev": "8-219a5ac6b2335b8990cd7bb16bd4f69a",
   "cognitive": {
-    "status": "pending"
+    "classifications": [
+      "webcam",
+      "camera",
+      "photographic equipment",
+      "adhesive plaster",
+      "target",
+      "grinding wheel",
+      "wheel",
+      "machine",
+      "mechanical device",
+      "emerald color",
+      "greenish blue color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#ac34b8",
+      "muted": "#5ea698",
+      "darkVibrant": "#098470",
+      "darkMuted": "#35585f",
+      "lightVibrant": "#d4a4d8",
+      "lightMuted": "#9cccc4"
+    },
+    "status": "complete"
   },
   "id": "ae0a2253-d8e2-48e0-92d3-481cc8468ed2",
   "resource": "594de312a358103a58cfbc1631282177",
@@ -58,19 +93,5 @@
     "height": 397
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:12.660Z",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "categories": [],
-  "links": {
-    "self": {
-      "href": "/authoring/v1/assets/ae0a2253-d8e2-48e0-92d3-481cc8468ed2"
-    },
-    "media": {
-      "href": "/authoring/v1/resources/594de312a358103a58cfbc1631282177.PNG"
-    },
-    "thumbnail": {
-      "href": "/authoring/v1/resources/594de312a358103a58cfbc1631282177?fit=inside%7C220:145"
-    }
-  }
+  "created": "2017-06-27T11:38:12.660Z"
 }

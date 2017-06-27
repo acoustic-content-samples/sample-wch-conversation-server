@@ -7,20 +7,20 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:17.121Z",
+  "lastModified": "2017-06-27T11:38:17.499Z",
   "description": "",
   "tags": {
     "values": [],
     "declined": [],
-    "analysis": "pending"
+    "analysis": "failed"
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "NoneBusiness_Optimized.gif",
   "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "7-476442524b71e85ac15cd6dcb68d63d5",
+  "rev": "8-afbb21b16466b38e79655293c30fa4ac",
   "cognitive": {
-    "status": "pending"
+    "status": "failed"
   },
   "id": "b0693a2f-2046-4d2d-b72f-86c8c297dbba",
   "resource": "2417da654a78e706247033d519ff2370",
@@ -38,19 +38,5 @@
     "height": 180
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:17.121Z",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "categories": [],
-  "links": {
-    "self": {
-      "href": "/authoring/v1/assets/b0693a2f-2046-4d2d-b72f-86c8c297dbba"
-    },
-    "media": {
-      "href": "/authoring/v1/resources/2417da654a78e706247033d519ff2370.gif"
-    },
-    "thumbnail": {
-      "href": "/authoring/v1/resources/2417da654a78e706247033d519ff2370?fit=inside%7C220:145"
-    }
-  }
+  "created": "2017-06-27T11:38:17.121Z"
 }

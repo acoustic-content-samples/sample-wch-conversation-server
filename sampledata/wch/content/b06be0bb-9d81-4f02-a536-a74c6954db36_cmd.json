@@ -1,5 +1,6 @@
 {
   "id": "b06be0bb-9d81-4f02-a536-a74c6954db36",
+  "rev": "5-18f6ac3edf43719a7e0450a57d5e047e",
   "name": "General - How To Verify No Entities",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
@@ -40,16 +41,8 @@
       "categoryIds": [
         "b84c6bad3cad3ec6ffff23c78edfda24",
         "1a8292531759e8dfc15895bd23d23d8b"
-      ],
-      "categories": [
-        "dialog_nodes/How to/Verify Howto",
-        "dialog_nodes/How to/Verify Howto/Response Howto No Entities"
       ]
     }
   },
-  "description": "",
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-18f6ac3edf43719a7e0450a57d5e047e"
+  "description": ""
 }

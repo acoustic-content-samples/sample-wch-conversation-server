@@ -1,5 +1,6 @@
 {
   "id": "acca0e6d-19c3-4743-876b-53f1c80e3a2b",
+  "rev": "5-fc88764e9b5ec0b6d7d26c7bd02bcb40",
   "name": "Attachment - WCH Expert",
   "description": "",
   "classification": "content",
@@ -93,9 +94,5 @@
     "pretext": {
       "elementType": "text"
     }
-  },
-  "type": "Attachment",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-fc88764e9b5ec0b6d7d26c7bd02bcb40"
+  }
 }

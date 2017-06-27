@@ -1,5 +1,6 @@
 {
   "id": "e41fd7e2-3349-4eeb-92ca-7877689f362d",
+  "rev": "5-63a60ed11884d946c6a6d27fa55b9032",
   "name": "General - Web Application Hosting",
   "description": "",
   "classification": "content",
@@ -24,9 +25,6 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Give Featureinformation about Product"
       ]
     },
     "filter": {
@@ -35,11 +33,6 @@
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "3c21dad2434642ac4a48a285163a4c2c",
         "8db75208957eb15dd42544d1603bf243"
-      ],
-      "categories": [
-        "entities/product/Watson Content Hub",
-        "entities/feature/web app hosting",
-        "entities/feature/microsites"
       ]
     },
     "persona": {
@@ -60,9 +53,5 @@
       "elementType": "text",
       "value": "Manage web assets inside of content hub and publish them to our CDN without needing to configure a separate web server."
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-63a60ed11884d946c6a6d27fa55b9032"
+  }
 }

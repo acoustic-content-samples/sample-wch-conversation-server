@@ -61,7 +61,7 @@ app.use(function(req, res, next) {
 
 let errorHandler;
 if (app.get('appEnv').isLocal === true) {
-  // Error Handler: Development 
+  // Error Handler: Development
   errorHandler = function(err, req, res, next) {
     debug('Error handler %o', err);
     res.status(err.status || 500);

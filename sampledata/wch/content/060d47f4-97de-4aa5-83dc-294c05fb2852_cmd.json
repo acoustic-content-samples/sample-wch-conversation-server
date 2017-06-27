@@ -1,5 +1,6 @@
 {
   "id": "060d47f4-97de-4aa5-83dc-294c05fb2852",
+  "rev": "5-31aae9ffe408bb3e8096940af832bf67",
   "name": "Follow up Mr Watson - Username",
   "description": "",
   "classification": "content",
@@ -28,18 +29,12 @@
       "elementType": "category",
       "categoryIds": [
         "d32ac974bbe1173f5a1b0fd5b64efba4"
-      ],
-      "categories": [
-        "actions/followupusername"
       ]
     },
     "persona": {
       "elementType": "category",
       "categoryIds": [
         "d332127df4c37b2d4632699e7e16bccc"
-      ],
-      "categories": [
-        "entities/persona/mrwatson"
       ]
     },
     "emotion": {
@@ -51,16 +46,8 @@
     "attachment": {
       "elementType": "reference",
       "value": {
-        "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85",
-        "name": "Attachment - Yes No",
-        "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-        "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-        "status": "ready"
+        "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85"
       }
     }
-  },
-  "type": "Followup",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-31aae9ffe408bb3e8096940af832bf67"
+  }
 }

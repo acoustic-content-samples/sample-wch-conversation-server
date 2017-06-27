@@ -1,5 +1,6 @@
 {
   "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85",
+  "rev": "5-6e5c8c69512e2c393ba06266a00ce714",
   "name": "Attachment - Yes No",
   "description": "",
   "classification": "content",
@@ -63,9 +64,5 @@
     "pretext": {
       "elementType": "text"
     }
-  },
-  "type": "Attachment",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-6e5c8c69512e2c393ba06266a00ce714"
+  }
 }

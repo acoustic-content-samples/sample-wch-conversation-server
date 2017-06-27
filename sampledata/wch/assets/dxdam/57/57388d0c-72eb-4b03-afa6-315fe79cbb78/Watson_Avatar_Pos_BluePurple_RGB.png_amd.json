@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:10.994Z",
+  "lastModified": "2017-06-27T11:38:13.634Z",
   "description": "",
   "tags": {
     "values": [
@@ -25,15 +25,41 @@
       "classification:emerald color"
     ],
     "declined": [],
-    "analysis": "pending"
+    "analysis": "complete",
+    "suggested": [
+      "classification:sphere",
+      "classification:circle",
+      "classification:figure",
+      "classification:neon lamp",
+      "classification:lamp",
+      "classification:emerald color",
+      "classification:blue color"
+    ]
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "Watson_Avatar_Pos_BluePurple_RGB.png",
   "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "7-c1d021e1be058d42a433c68cec28143f",
+  "rev": "8-19fab5af253ea53665c7bf5fba9cb6b8",
   "cognitive": {
-    "status": "pending"
+    "classifications": [
+      "sphere",
+      "circle",
+      "figure",
+      "neon lamp",
+      "lamp",
+      "emerald color",
+      "blue color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#4174c1",
+      "muted": "#7558a1",
+      "darkVibrant": "#0c4c4c",
+      "darkMuted": "#383963",
+      "lightVibrant": "#9978e5"
+    },
+    "status": "complete"
   },
   "id": "57388d0c-72eb-4b03-afa6-315fe79cbb78",
   "resource": "cf7d502a106a0de68cb1414df0ec4563",
@@ -51,19 +77,5 @@
     "height": 186
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:10.994Z",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "categories": [],
-  "links": {
-    "self": {
-      "href": "/authoring/v1/assets/57388d0c-72eb-4b03-afa6-315fe79cbb78"
-    },
-    "media": {
-      "href": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec4563.png"
-    },
-    "thumbnail": {
-      "href": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec4563?fit=inside%7C220:145"
-    }
-  }
+  "created": "2017-06-27T11:38:10.994Z"
 }

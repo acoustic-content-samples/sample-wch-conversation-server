@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:12.328Z",
+  "lastModified": "2017-06-27T11:38:14.088Z",
   "description": "",
   "tags": {
     "values": [
@@ -29,15 +29,44 @@
       "classification:emerald color"
     ],
     "declined": [],
-    "analysis": "pending"
+    "analysis": "complete",
+    "suggested": [
+      "classification:electric battery",
+      "classification:electrical device",
+      "classification:web site",
+      "classification:computer",
+      "classification:machine",
+      "classification:calculator",
+      "classification:jade green color",
+      "classification:emerald color"
+    ]
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "dxwch.PNG",
   "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "7-4059ba0239a79ae4a4278590162d011c",
+  "rev": "8-a4c0a08fc5d50794fbfd30e921544855",
   "cognitive": {
-    "status": "pending"
+    "classifications": [
+      "electric battery",
+      "electrical device",
+      "web site",
+      "computer",
+      "machine",
+      "calculator",
+      "jade green color",
+      "emerald color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#1e94c9",
+      "muted": "#5c8cb4",
+      "darkVibrant": "#046cc1",
+      "darkMuted": "#3c4e39",
+      "lightVibrant": "#8cdcf4",
+      "lightMuted": "#a6c3ce"
+    },
+    "status": "complete"
   },
   "id": "a838ebe7-625f-49ac-ac42-88319ff076e1",
   "resource": "44ca9e606b6576694bdbea223a017a38",
@@ -55,19 +84,5 @@
     "height": 783
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:12.328Z",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "categories": [],
-  "links": {
-    "self": {
-      "href": "/authoring/v1/assets/a838ebe7-625f-49ac-ac42-88319ff076e1"
-    },
-    "media": {
-      "href": "/authoring/v1/resources/44ca9e606b6576694bdbea223a017a38.PNG"
-    },
-    "thumbnail": {
-      "href": "/authoring/v1/resources/44ca9e606b6576694bdbea223a017a38?fit=inside%7C220:145"
-    }
-  }
+  "created": "2017-06-27T11:38:12.328Z"
 }

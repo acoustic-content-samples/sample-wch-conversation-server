@@ -1,5 +1,6 @@
 {
   "id": "117863fd-9b83-4a76-96f6-e0f9bacaf8fc",
+  "rev": "5-dbb3ac48993e84f7e6a2159323190bda",
   "name": "General - Conversation Start",
   "description": "",
   "classification": "content",
@@ -26,9 +27,6 @@
       "elementType": "category",
       "categoryIds": [
         "b84c6bad3cad3ec6ffff23c78e0f3fe1"
-      ],
-      "categories": [
-        "dialog_nodes/Welcome"
       ]
     },
     "attachments": {
@@ -45,9 +43,5 @@
       "elementType": "text",
       "value": "Hi visitor of the great event Meet the Lab. What can I do you for you on this pleasant day? I'm currently trained to give you detailed information about Watson Content Hub. And if you don't like my persona you can switch it very easily."
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-dbb3ac48993e84f7e6a2159323190bda"
+  }
 }

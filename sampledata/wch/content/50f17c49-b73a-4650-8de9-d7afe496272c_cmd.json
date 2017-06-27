@@ -1,5 +1,6 @@
 {
   "id": "50f17c49-b73a-4650-8de9-d7afe496272c",
+  "rev": "5-25ffb7ee9fb8276a07fb322266c228de",
   "name": "General - Not my name",
   "description": "",
   "classification": "content",
@@ -44,14 +45,7 @@
       "elementType": "category",
       "categoryIds": [
         "4a7ac79e08058703984c194cdbf7cbdd"
-      ],
-      "categories": [
-        "dialog_nodes/Change Name/Set Name/Not my name"
       ]
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-25ffb7ee9fb8276a07fb322266c228de"
+  }
 }

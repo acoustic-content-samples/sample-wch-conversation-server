@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:13.903Z",
+  "lastModified": "2017-06-27T11:38:16.348Z",
   "description": "Abstract shot of crystal and glass",
   "tags": {
     "values": [
@@ -35,15 +35,38 @@
       "classification:Tyrian purple color"
     ],
     "declined": [],
-    "analysis": "pending"
+    "analysis": "complete",
+    "suggested": [
+      "classification:vein",
+      "classification:person",
+      "classification:Tyrian purple color",
+      "classification:purple color",
+      "classification:pink color"
+    ]
   },
   "altText": "Abstract shot of crystal and glass",
   "categoryIds": [],
   "fileName": "WhatsNew.jpg",
   "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "7-f17763eb81ad738eae87bc14165be6b6",
+  "rev": "8-4b43638ff5074851322019a12438e0c9",
   "cognitive": {
-    "status": "pending"
+    "classifications": [
+      "vein",
+      "person",
+      "Tyrian purple color",
+      "purple color",
+      "pink color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#d72971",
+      "muted": "#a54e6e",
+      "darkVibrant": "#6b0b20",
+      "darkMuted": "#4d4d4d",
+      "lightVibrant": "#fbbdcb",
+      "lightMuted": "#d6b3ba"
+    },
+    "status": "complete"
   },
   "id": "24537444-8354-4baf-b6a2-6c8d79c9ea4d",
   "resource": "8cf2dbe2bce72db71a3a4b96b4e86e30",
@@ -81,19 +104,5 @@
     "headline": "Abstract shot of crystal and glass"
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:13.903Z",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "categories": [],
-  "links": {
-    "self": {
-      "href": "/authoring/v1/assets/24537444-8354-4baf-b6a2-6c8d79c9ea4d"
-    },
-    "media": {
-      "href": "/authoring/v1/resources/8cf2dbe2bce72db71a3a4b96b4e86e30.jpg"
-    },
-    "thumbnail": {
-      "href": "/authoring/v1/resources/8cf2dbe2bce72db71a3a4b96b4e86e30?fit=inside%7C220:145"
-    }
-  }
+  "created": "2017-06-27T11:38:13.903Z"
 }

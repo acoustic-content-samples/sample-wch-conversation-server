@@ -1,5 +1,6 @@
 {
   "id": "d7e7b39d-a1f5-418a-ad95-fe860329c563",
+  "rev": "5-26636ebc66bf3b15dca1305bedc37675",
   "name": "General - Thank you",
   "description": "",
   "classification": "content",
@@ -20,9 +21,6 @@
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0ead390"
-      ],
-      "categories": [
-        "emotion/basic/joy"
       ]
     },
     "persona": {
@@ -44,17 +42,10 @@
       "elementType": "category",
       "categoryIds": [
         "8db75208957eb15dd42544d160fda028"
-      ],
-      "categories": [
-        "dialog_nodes/You are Welcome"
       ]
     },
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-26636ebc66bf3b15dca1305bedc37675"
+  }
 }

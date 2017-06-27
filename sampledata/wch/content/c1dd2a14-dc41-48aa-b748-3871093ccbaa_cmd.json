@@ -1,5 +1,6 @@
 {
   "id": "c1dd2a14-dc41-48aa-b748-3871093ccbaa",
+  "rev": "5-def62721d69532a4a562b75395901a8e",
   "name": "General - User Friendly, Intuitive UI",
   "description": "",
   "classification": "content",
@@ -22,10 +23,6 @@
       "categoryIds": [
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "1374e5d8b4dd44d8f257d88a73512e82"
-      ],
-      "categories": [
-        "entities/product/Watson Content Hub",
-        "entities/feature/ui"
       ]
     },
     "attachmentquery": {
@@ -39,9 +36,6 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Give Featureinformation about Product"
       ]
     },
     "persona": {
@@ -58,9 +52,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-def62721d69532a4a562b75395901a8e"
+  }
 }

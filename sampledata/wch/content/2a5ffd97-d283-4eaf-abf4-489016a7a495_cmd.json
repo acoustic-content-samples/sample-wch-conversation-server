@@ -1,5 +1,6 @@
 {
   "id": "2a5ffd97-d283-4eaf-abf4-489016a7a495",
+  "rev": "5-0cce9d67c487c360179ac33983beb36f",
   "name": "MrWatson - Set Name",
   "description": "",
   "classification": "content",
@@ -23,9 +24,6 @@
       "elementType": "category",
       "categoryIds": [
         "d332127df4c37b2d4632699e7e16bccc"
-      ],
-      "categories": [
-        "entities/persona/mrwatson"
       ]
     },
     "text": {
@@ -49,14 +47,7 @@
       "elementType": "category",
       "categoryIds": [
         "d32ac974bbe1173f5a1b0fd5b64ebe3a"
-      ],
-      "categories": [
-        "dialog_nodes/Change Name/Set Name"
       ]
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-0cce9d67c487c360179ac33983beb36f"
+  }
 }

@@ -1,5 +1,6 @@
 {
   "id": "07fe1c0f-7433-46c1-bf1b-8f51b00a65d5",
+  "rev": "8-7bc2ae4693189a3da030b55e2aa748c2",
   "name": "Attachment - None of my business",
   "description": "",
   "classification": "content",
@@ -91,9 +92,5 @@
       "linkText": "Sven Sterbling",
       "linkDescription": "Sven Sterbling"
     }
-  },
-  "type": "Attachment",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "8-7bc2ae4693189a3da030b55e2aa748c2"
+  }
 }

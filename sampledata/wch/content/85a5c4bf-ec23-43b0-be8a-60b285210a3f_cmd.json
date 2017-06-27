@@ -1,5 +1,6 @@
 {
   "id": "85a5c4bf-ec23-43b0-be8a-60b285210a3f",
+  "rev": "5-e78c5e118af36bee9582fa024d1cddfc",
   "name": "General - Enter geolocation",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
@@ -19,9 +20,6 @@
       "elementType": "category",
       "categoryIds": [
         "8beddf153d3ed094db767438ac753160"
-      ],
-      "categories": [
-        "dialog_nodes/Set geolocation/Enter Geolocation"
       ]
     },
     "text": {
@@ -45,9 +43,5 @@
       "elementType": "location"
     }
   },
-  "description": "",
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-e78c5e118af36bee9582fa024d1cddfc"
+  "description": ""
 }

@@ -1,5 +1,6 @@
 {
   "id": "d449646d-3441-43a8-b3a9-7e7213d697af",
+  "rev": "5-0474fd02dec9e9d1d9e69d8e94c8c5d7",
   "name": "General - Missunderstanding",
   "description": "",
   "classification": "content",
@@ -21,9 +22,6 @@
       "elementType": "category",
       "categoryIds": [
         "f6b4b4f2-67e2-45b2-afd3-336c99bcd663"
-      ],
-      "categories": [
-        "dialog_nodes/Negative Message/Missunderstading"
       ]
     },
     "attachments": {
@@ -48,16 +46,8 @@
     "attachment": {
       "elementType": "reference",
       "value": {
-        "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a",
-        "name": "Attachment - StartingPoints",
-        "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-        "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-        "status": "ready"
+        "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a"
       }
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-0474fd02dec9e9d1d9e69d8e94c8c5d7"
+  }
 }

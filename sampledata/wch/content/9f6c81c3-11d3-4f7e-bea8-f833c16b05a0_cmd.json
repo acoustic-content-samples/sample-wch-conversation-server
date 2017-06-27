@@ -1,5 +1,6 @@
 {
   "id": "9f6c81c3-11d3-4f7e-bea8-f833c16b05a0",
+  "rev": "5-233a8e6a8847830109f23037133d9671",
   "name": "MrWatson - ConversationStart",
   "description": "",
   "classification": "content",
@@ -16,9 +17,6 @@
       "elementType": "category",
       "categoryIds": [
         "b84c6bad3cad3ec6ffff23c78e0f3fe1"
-      ],
-      "categories": [
-        "dialog_nodes/Welcome"
       ]
     },
     "text": {
@@ -32,9 +30,6 @@
       "elementType": "category",
       "categoryIds": [
         "d332127df4c37b2d4632699e7e16bccc"
-      ],
-      "categories": [
-        "entities/persona/mrwatson"
       ]
     },
     "filter": {
@@ -50,9 +45,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-233a8e6a8847830109f23037133d9671"
+  }
 }

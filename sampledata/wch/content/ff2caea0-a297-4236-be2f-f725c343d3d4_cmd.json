@@ -1,5 +1,6 @@
 {
   "id": "ff2caea0-a297-4236-be2f-f725c343d3d4",
+  "rev": "5-1436904f840ed27544adc29d8c6aa695",
   "name": "General - Input Email",
   "description": "",
   "classification": "content",
@@ -20,18 +21,12 @@
       "elementType": "category",
       "categoryIds": [
         "efb4eb204170385dab6c56b4db0649bf"
-      ],
-      "categories": [
-        "dialog_nodes/Keep in touch/Enter Email"
       ]
     },
     "emotion": {
       "elementType": "category",
       "categoryIds": [
         "e0438410886acfa0a296a71c1ac41e7d"
-      ],
-      "categories": [
-        "emotion/basic/sadness"
       ]
     },
     "text": {
@@ -51,9 +46,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-1436904f840ed27544adc29d8c6aa695"
+  }
 }

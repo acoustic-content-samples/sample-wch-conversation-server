@@ -1,5 +1,6 @@
 {
   "id": "ad565a56-cdb2-4034-9b80-facb886b3b6a",
+  "rev": "5-a8a2984330d56f89846a55db05d40521",
   "name": "General - Info Feature \"Viewer Role\" for WCH",
   "description": "",
   "classification": "content",
@@ -18,9 +19,6 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Give Featureinformation about Product"
       ]
     },
     "attachmentquery": {
@@ -39,10 +37,6 @@
       "categoryIds": [
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "4c889914160a14eaf584c13cd80ba66d"
-      ],
-      "categories": [
-        "entities/product/Watson Content Hub",
-        "entities/feature/viewer role"
       ]
     },
     "attachments": {
@@ -55,9 +49,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-a8a2984330d56f89846a55db05d40521"
+  }
 }

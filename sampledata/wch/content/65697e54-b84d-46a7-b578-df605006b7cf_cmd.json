@@ -1,5 +1,6 @@
 {
   "id": "65697e54-b84d-46a7-b578-df605006b7cf",
+  "rev": "5-4a21f38e89b974ba27e079f19d74adb5",
   "name": "General - What can you do",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
@@ -23,10 +24,6 @@
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a193f34",
         "d81cb8b6923bb2f2ef3eb20a1f15c6a7"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Give Productinformation/Response Give Productinformation",
-        "dialog_nodes/Information/Give Productinformation"
       ]
     },
     "persona": {
@@ -36,9 +33,6 @@
       "elementType": "category",
       "categoryIds": [
         "efbe6fad-15c7-4a40-9098-9f108eb371fc"
-      ],
-      "categories": [
-        "entities/product/WCHChatbot"
       ]
     },
     "emotion": {
@@ -55,9 +49,5 @@
       "value": "I'm currently capable to talk about Watson Content Hub and it's key features. Plus I know a little about the integration of WCH with DX. Since this is a demo I'm not an expert in the other areas :cry:"
     }
   },
-  "description": "",
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-4a21f38e89b974ba27e079f19d74adb5"
+  "description": ""
 }

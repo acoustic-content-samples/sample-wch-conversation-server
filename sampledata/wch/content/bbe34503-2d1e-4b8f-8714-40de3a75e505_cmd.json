@@ -1,5 +1,6 @@
 {
   "id": "bbe34503-2d1e-4b8f-8714-40de3a75e505",
+  "rev": "5-58b19090c8a15ef65b297ed02d1eaaec",
   "name": "MTL - Introduction Professor Content",
   "description": "",
   "classification": "content",
@@ -27,18 +28,12 @@
       "elementType": "category",
       "categoryIds": [
         "040ea6e1-5ea4-40ef-b968-92e703a3c741"
-      ],
-      "categories": [
-        "entities/chitchat/you"
       ]
     },
     "persona": {
       "elementType": "category",
       "categoryIds": [
         "c88e2d8ea1537ef5b266774eea047616"
-      ],
-      "categories": [
-        "entities/persona/profcontent"
       ]
     },
     "node": {
@@ -46,10 +41,6 @@
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18f25b",
         "b84c6bad3cad3ec6ffff23c78e0f1682"
-      ],
-      "categories": [
-        "dialog_nodes/Introduction/Response Introduction",
-        "dialog_nodes/Introduction"
       ]
     },
     "emotion": {
@@ -65,9 +56,5 @@
       "latitude": 48.6662305,
       "longitude": 9.039273
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-58b19090c8a15ef65b297ed02d1eaaec"
+  }
 }

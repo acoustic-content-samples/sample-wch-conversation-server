@@ -1,5 +1,6 @@
 {
   "id": "f3ecd275-497f-475e-a549-1f232d4b9cbe",
+  "rev": "5-3dc46638c57daf79090693e6aa671ed1",
   "name": "General - WCH Key Features",
   "description": "",
   "classification": "content",
@@ -21,9 +22,6 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Give Featureinformation about Product"
       ]
     },
     "text": {
@@ -40,11 +38,6 @@
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "02f066c403ff7ee38a0e52b28ac7aad4",
         "6e4827e8e902ad7f810cb8c2a52c1b57"
-      ],
-      "categories": [
-        "entities/product/Watson Content Hub",
-        "entities/adjective/important",
-        "entities/feature/features"
       ]
     },
     "emotion": {
@@ -57,9 +50,5 @@
       "elementType": "text",
       "value": "name:(\"Attachment - Key Features Short\"^10 \"Attachment - WCH Marketplace\")"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-3dc46638c57daf79090693e6aa671ed1"
+  }
 }

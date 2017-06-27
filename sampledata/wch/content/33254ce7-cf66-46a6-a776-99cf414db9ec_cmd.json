@@ -1,5 +1,6 @@
 {
   "id": "33254ce7-cf66-46a6-a776-99cf414db9ec",
+  "rev": "5-e02db3960fc7f41179a08e9a0bf86279",
   "name": "Attachment - Key Features Short",
   "description": "",
   "classification": "content",
@@ -56,9 +57,5 @@
     "text": {
       "elementType": "text"
     }
-  },
-  "type": "Attachment",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-e02db3960fc7f41179a08e9a0bf86279"
+  }
 }

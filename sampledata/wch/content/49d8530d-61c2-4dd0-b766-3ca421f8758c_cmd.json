@@ -1,5 +1,6 @@
 {
   "id": "49d8530d-61c2-4dd0-b766-3ca421f8758c",
+  "rev": "5-f8e151384c7e2ddcad72dd0baf707113",
   "name": "Follow up keep in touch",
   "description": "",
   "classification": "content",
@@ -27,9 +28,6 @@
       "elementType": "category",
       "categoryIds": [
         "8cf2dbe2bce72db71a3a4b96b4527f95"
-      ],
-      "categories": [
-        "actions/followupkeepintouch"
       ]
     },
     "emotion": {
@@ -41,20 +39,12 @@
     "attachment": {
       "elementType": "reference",
       "value": {
-        "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85",
-        "name": "Attachment - Yes No",
-        "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-        "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-        "status": "ready"
+        "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85"
       }
     },
     "text": {
       "elementType": "text",
       "value": "You have a lot of questions about WCH. We should stay in touch.  I would love to keep you up to date around the topic of Watson Content Hub."
     }
-  },
-  "type": "Followup",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-f8e151384c7e2ddcad72dd0baf707113"
+  }
 }

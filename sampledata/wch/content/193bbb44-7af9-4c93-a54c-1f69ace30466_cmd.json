@@ -1,5 +1,6 @@
 {
   "id": "193bbb44-7af9-4c93-a54c-1f69ace30466",
+  "rev": "5-6f92a0238f0661b9588013ed895e171f",
   "name": "General - Feature information CORS",
   "description": "",
   "classification": "content",
@@ -16,9 +17,6 @@
       "elementType": "category",
       "categoryIds": [
         "fad37b71f9f5935f82913edeb90fff3e"
-      ],
-      "categories": [
-        "entities/feature/cors whitelisting"
       ]
     },
     "attachmentquery": {
@@ -28,9 +26,6 @@
       "elementType": "category",
       "categoryIds": [
         "b84c6bad3cad3ec6ffff23c78e0f833b"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Response Give Featureinformation"
       ]
     },
     "text": {
@@ -51,9 +46,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-6f92a0238f0661b9588013ed895e171f"
+  }
 }

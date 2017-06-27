@@ -1,5 +1,6 @@
 {
   "id": "d7c21c52-85e9-4846-8504-0beb493117e4",
+  "rev": "5-65790f06d5b6628f66bc10d026ec433f",
   "name": "MrWatson - Hi again",
   "description": "",
   "classification": "content",
@@ -23,9 +24,6 @@
       "elementType": "category",
       "categoryIds": [
         "d332127df4c37b2d4632699e7e16bccc"
-      ],
-      "categories": [
-        "entities/persona/mrwatson"
       ]
     },
     "text": {
@@ -37,10 +35,6 @@
       "categoryIds": [
         "b84c6bad3cad3ec6ffff23c78e0f3fe1",
         "574f55ebf39a12c6f50b96f04325d595"
-      ],
-      "categories": [
-        "dialog_nodes/Welcome",
-        "dialog_nodes/Welcome/Response Other Welcome"
       ]
     },
     "filter": {
@@ -56,16 +50,8 @@
     "attachment": {
       "elementType": "reference",
       "value": {
-        "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a",
-        "name": "Attachment - StartingPoints",
-        "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-        "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-        "status": "ready"
+        "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a"
       }
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-65790f06d5b6628f66bc10d026ec433f"
+  }
 }

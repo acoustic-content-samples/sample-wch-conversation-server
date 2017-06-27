@@ -1,5 +1,6 @@
 {
   "id": "8f23e2b8-f14a-47c6-a398-1eae842da27d",
+  "rev": "5-123d15d28301744f7fbfe2bb8661c9b9",
   "name": "General -  What is Content Hub",
   "description": "",
   "classification": "content",
@@ -28,18 +29,12 @@
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0ead390"
-      ],
-      "categories": [
-        "emotion/basic/joy"
       ]
     },
     "filter": {
       "elementType": "category",
       "categoryIds": [
         "6e4827e8e902ad7f810cb8c2a52c2438"
-      ],
-      "categories": [
-        "entities/product/Watson Content Hub"
       ]
     },
     "attachmentquery": {
@@ -55,18 +50,10 @@
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a190b5b",
         "574f55ebf39a12c6f50b96f04326171a"
-      ],
-      "categories": [
-        "dialog_nodes/Pitch/Do Pitch",
-        "dialog_nodes/Pitch/Do Pitch/Response Pitch Single Product"
       ]
     },
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-123d15d28301744f7fbfe2bb8661c9b9"
+  }
 }

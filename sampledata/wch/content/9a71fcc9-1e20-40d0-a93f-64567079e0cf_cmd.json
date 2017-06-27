@@ -1,5 +1,6 @@
 {
   "id": "9a71fcc9-1e20-40d0-a93f-64567079e0cf",
+  "rev": "5-bb1aae1b7370d14b84ec07b1430012ad",
   "name": "General - Pitch No Entitites",
   "description": "",
   "classification": "content",
@@ -24,9 +25,6 @@
       "elementType": "category",
       "categoryIds": [
         "8db75208957eb15dd42544d160fdbcc4"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Verify Information"
       ]
     },
     "persona": {
@@ -45,9 +43,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-bb1aae1b7370d14b84ec07b1430012ad"
+  }
 }

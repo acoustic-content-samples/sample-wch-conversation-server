@@ -1,5 +1,6 @@
 {
   "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a",
+  "rev": "5-b72e8dba713f8b1d459e5ad6c59aac65",
   "name": "Attachment - StartingPoints",
   "description": "",
   "classification": "content",
@@ -61,9 +62,5 @@
       "elementType": "text",
       "value": "[\n  {\n      \"name\": \"What is WCH\",\n      \"text\": \"What is WCH\",\n      \"type\": \"button\",\n      \"value\": \"What is WCH\"\n  },\n  {\n      \"name\": \"Integration with DX\",\n      \"text\": \"Integration with DX\",\n      \"type\": \"button\",\n      \"value\": \"How do I integrate DX with WCH?\"\n  }\n]"
     }
-  },
-  "type": "Attachment",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-b72e8dba713f8b1d459e5ad6c59aac65"
+  }
 }

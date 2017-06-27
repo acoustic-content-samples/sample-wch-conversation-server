@@ -1,5 +1,6 @@
 {
   "id": "f2198b71-e50a-41f3-af9e-7c3f598d9783",
+  "rev": "5-dc29fe2282c3bda84f9b0ff15b00874d",
   "name": "Mr Watson - Anything Else",
   "description": "",
   "classification": "content",
@@ -17,9 +18,6 @@
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0eadc62"
-      ],
-      "categories": [
-        "emotion/basic/surprised"
       ]
     },
     "text": {
@@ -33,11 +31,7 @@
     "attachment": {
       "elementType": "reference",
       "value": {
-        "id": "07fe1c0f-7433-46c1-bf1b-8f51b00a65d5",
-        "name": "Attachment - None of my business",
-        "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-        "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-        "status": "ready"
+        "id": "07fe1c0f-7433-46c1-bf1b-8f51b00a65d5"
       }
     },
     "attachmentquery": {
@@ -47,18 +41,12 @@
       "elementType": "category",
       "categoryIds": [
         "d332127df4c37b2d4632699e7e16bccc"
-      ],
-      "categories": [
-        "entities/persona/mrwatson"
       ]
     },
     "node": {
       "elementType": "category",
       "categoryIds": [
         "efb4eb204170385dab6c56b4db060bc8"
-      ],
-      "categories": [
-        "dialog_nodes/anything_else"
       ]
     },
     "filter": {
@@ -67,9 +55,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-dc29fe2282c3bda84f9b0ff15b00874d"
+  }
 }

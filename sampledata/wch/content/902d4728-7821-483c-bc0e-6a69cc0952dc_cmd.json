@@ -1,5 +1,6 @@
 {
   "id": "902d4728-7821-483c-bc0e-6a69cc0952dc",
+  "rev": "7-47bce54a54ae0ea1e01f28f92d59b2da",
   "name": "General - Goodbye",
   "description": "",
   "classification": "content",
@@ -24,19 +25,12 @@
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0ead390"
-      ],
-      "categories": [
-        "emotion/basic/joy"
       ]
     },
     "attachment": {
       "elementType": "reference",
       "value": {
-        "id": "e45861eb-eca0-495b-bb09-fb3840b85cea",
-        "name": "Attachment - Nice Day",
-        "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-        "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-        "status": "ready"
+        "id": "e45861eb-eca0-495b-bb09-fb3840b85cea"
       }
     },
     "persona": {
@@ -52,18 +46,11 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18e524"
-      ],
-      "categories": [
-        "dialog_nodes/Goodybe"
       ]
     },
     "text": {
       "elementType": "text",
       "value": "Have a good day{{#if watsonData.context.username}} {{watsonData.context.username}}{{/if}}! Hope to hear from you soon"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "7-47bce54a54ae0ea1e01f28f92d59b2da"
+  }
 }

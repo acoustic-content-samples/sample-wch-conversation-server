@@ -1,5 +1,6 @@
 {
   "id": "dcef22e7-119c-4206-b850-937f62611a63",
+  "rev": "5-cad371ca64f7860ae03314ba5f3eb576",
   "name": "General - Cognitive Tagging",
   "description": "",
   "classification": "content",
@@ -24,9 +25,6 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Give Featureinformation about Product"
       ]
     },
     "persona": {
@@ -52,15 +50,7 @@
       "categoryIds": [
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "6e4827e8e902ad7f810cb8c2a52c230e"
-      ],
-      "categories": [
-        "entities/product/Watson Content Hub",
-        "entities/feature/watson tagging"
       ]
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-cad371ca64f7860ae03314ba5f3eb576"
+  }
 }

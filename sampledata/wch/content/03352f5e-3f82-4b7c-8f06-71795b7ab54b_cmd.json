@@ -1,5 +1,6 @@
 {
   "id": "03352f5e-3f82-4b7c-8f06-71795b7ab54b",
+  "rev": "5-e1ea4d16ea3cf38a35de2933cbbbf634",
   "name": "General - No Follow Up",
   "description": "",
   "classification": "content",
@@ -17,9 +18,6 @@
       "elementType": "category",
       "categoryIds": [
         "574f55ebf39a12c6f50b96f043260e59"
-      ],
-      "categories": [
-        "dialog_nodes/Pitch/Do Pitch/Pitch No Follow up"
       ]
     },
     "attachmentquery": {
@@ -45,9 +43,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-e1ea4d16ea3cf38a35de2933cbbbf634"
+  }
 }

@@ -1,5 +1,6 @@
 {
   "id": "e45861eb-eca0-495b-bb09-fb3840b85cea",
+  "rev": "6-25fa3b9a66052b3899023a38c3a2fa30",
   "name": "Attachment - Nice Day",
   "description": "",
   "classification": "content",
@@ -90,9 +91,5 @@
         "mediaType": "image/png"
       }
     }
-  },
-  "type": "Attachment",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "6-25fa3b9a66052b3899023a38c3a2fa30"
+  }
 }

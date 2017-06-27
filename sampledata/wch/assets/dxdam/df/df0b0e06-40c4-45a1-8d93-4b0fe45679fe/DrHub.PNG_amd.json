@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:13.588Z",
+  "lastModified": "2017-06-27T11:38:15.464Z",
   "description": "",
   "tags": {
     "values": [
@@ -34,15 +34,53 @@
       "classification:eye mask"
     ],
     "declined": [],
-    "analysis": "pending"
+    "analysis": "complete",
+    "suggested": [
+      "classification:washer",
+      "classification:fastener",
+      "classification:restraint (chains)",
+      "classification:O ring",
+      "classification:snap fastener",
+      "classification:eye mask",
+      "classification:mask",
+      "classification:doorbell",
+      "classification:push button",
+      "classification:electric switch",
+      "classification:controller",
+      "classification:olive green color",
+      "classification:pale yellow color"
+    ]
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "DrHub.PNG",
   "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "7-5885c1cefefaf70b1c2fc723815de7d5",
+  "rev": "8-a7a0fcc0d14cc146131ddc4cb3b31bba",
   "cognitive": {
-    "status": "pending"
+    "classifications": [
+      "washer",
+      "fastener",
+      "restraint (chains)",
+      "O ring",
+      "snap fastener",
+      "eye mask",
+      "mask",
+      "doorbell",
+      "push button",
+      "electric switch",
+      "controller",
+      "olive green color",
+      "pale yellow color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#845a1f",
+      "muted": "#a5885e",
+      "darkVibrant": "#844c0c",
+      "darkMuted": "#4c345c",
+      "lightMuted": "#acacac"
+    },
+    "status": "complete"
   },
   "id": "df0b0e06-40c4-45a1-8d93-4b0fe45679fe",
   "resource": "9640eebbb53e5fca55c5d49a0e1f806a",
@@ -60,19 +98,5 @@
     "height": 563
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:13.588Z",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "categories": [],
-  "links": {
-    "self": {
-      "href": "/authoring/v1/assets/df0b0e06-40c4-45a1-8d93-4b0fe45679fe"
-    },
-    "media": {
-      "href": "/authoring/v1/resources/9640eebbb53e5fca55c5d49a0e1f806a.PNG"
-    },
-    "thumbnail": {
-      "href": "/authoring/v1/resources/9640eebbb53e5fca55c5d49a0e1f806a?fit=inside%7C220:145"
-    }
-  }
+  "created": "2017-06-27T11:38:13.588Z"
 }

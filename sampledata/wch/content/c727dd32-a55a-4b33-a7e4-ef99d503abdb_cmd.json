@@ -1,5 +1,6 @@
 {
   "id": "c727dd32-a55a-4b33-a7e4-ef99d503abdb",
+  "rev": "5-1c027e31a985c041d2d0910374b72e62",
   "name": "General - Info Feature CORS whitelisting for WCH",
   "description": "",
   "classification": "content",
@@ -18,9 +19,6 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Give Featureinformation about Product"
       ]
     },
     "attachmentquery": {
@@ -39,10 +37,6 @@
       "categoryIds": [
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "fad37b71f9f5935f82913edeb90fff3e"
-      ],
-      "categories": [
-        "entities/product/Watson Content Hub",
-        "entities/feature/cors whitelisting"
       ]
     },
     "attachments": {
@@ -55,9 +49,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-1c027e31a985c041d2d0910374b72e62"
+  }
 }

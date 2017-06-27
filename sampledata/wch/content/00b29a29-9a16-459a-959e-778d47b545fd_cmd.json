@@ -1,5 +1,6 @@
 {
   "id": "00b29a29-9a16-459a-959e-778d47b545fd",
+  "rev": "6-ec1e3968dea6209c4df864080f2fd6ae",
   "name": "MTL - Goodbye",
   "description": "",
   "classification": "content",
@@ -28,9 +29,6 @@
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0ead390"
-      ],
-      "categories": [
-        "emotion/basic/joy"
       ]
     },
     "text": {
@@ -52,14 +50,7 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18e524"
-      ],
-      "categories": [
-        "dialog_nodes/Goodybe"
       ]
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "6-ec1e3968dea6209c4df864080f2fd6ae"
+  }
 }

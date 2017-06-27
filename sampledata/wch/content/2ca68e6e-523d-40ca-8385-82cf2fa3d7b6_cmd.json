@@ -1,5 +1,6 @@
 {
   "id": "2ca68e6e-523d-40ca-8385-82cf2fa3d7b6",
+  "rev": "5-7053ca0251b7809942181e9ab75890c4",
   "name": "Attachment - What’s new in April 2017",
   "description": "",
   "classification": "content",
@@ -91,9 +92,5 @@
     "pretext": {
       "elementType": "text"
     }
-  },
-  "type": "Attachment",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-7053ca0251b7809942181e9ab75890c4"
+  }
 }

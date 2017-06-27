@@ -1,5 +1,6 @@
 {
   "id": "3474549a-0bb6-477d-9207-63a8465f0a43",
+  "rev": "5-da7f5a54f20d94831352abb891db7a80",
   "name": "Attachment - DXWCHIntegration",
   "description": "",
   "classification": "content",
@@ -66,9 +67,5 @@
     "text": {
       "elementType": "text"
     }
-  },
-  "type": "Attachment",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-da7f5a54f20d94831352abb891db7a80"
+  }
 }

@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:10.938Z",
+  "lastModified": "2017-06-27T11:38:12.725Z",
   "description": "",
   "tags": {
     "values": [
@@ -28,15 +28,50 @@
       "classification:loudspeaker"
     ],
     "declined": [],
-    "analysis": "pending"
+    "analysis": "complete",
+    "suggested": [
+      "classification:bell push (button)",
+      "classification:push button",
+      "classification:electric switch",
+      "classification:controller",
+      "classification:loudspeaker",
+      "classification:electrical device",
+      "classification:doorbell",
+      "classification:trackball",
+      "classification:electronic device",
+      "classification:blue color",
+      "classification:indigo color"
+    ]
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "MrWatson.PNG",
   "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "7-721c2a2ec4276d012a1723913658ea8d",
+  "rev": "8-028bee95270986edb490f07ab7f85440",
   "cognitive": {
-    "status": "pending"
+    "classifications": [
+      "bell push (button)",
+      "push button",
+      "electric switch",
+      "controller",
+      "loudspeaker",
+      "electrical device",
+      "doorbell",
+      "trackball",
+      "electronic device",
+      "blue color",
+      "indigo color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#62aaf2",
+      "muted": "#818182",
+      "darkVibrant": "#223c5a",
+      "darkMuted": "#343434",
+      "lightVibrant": "#8abcec",
+      "lightMuted": "#aab7c4"
+    },
+    "status": "complete"
   },
   "id": "8c290073-6365-4400-8dce-40e286667e50",
   "resource": "594de312a358103a58cfbc16312831d8",
@@ -54,19 +89,5 @@
     "height": 399
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:10.938Z",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "categories": [],
-  "links": {
-    "self": {
-      "href": "/authoring/v1/assets/8c290073-6365-4400-8dce-40e286667e50"
-    },
-    "media": {
-      "href": "/authoring/v1/resources/594de312a358103a58cfbc16312831d8.PNG"
-    },
-    "thumbnail": {
-      "href": "/authoring/v1/resources/594de312a358103a58cfbc16312831d8?fit=inside%7C220:145"
-    }
-  }
+  "created": "2017-06-27T11:38:10.938Z"
 }

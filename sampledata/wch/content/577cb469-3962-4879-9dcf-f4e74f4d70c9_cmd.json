@@ -1,5 +1,6 @@
 {
   "id": "577cb469-3962-4879-9dcf-f4e74f4d70c9",
+  "rev": "5-003b21dbb5f9a9b8728ee4211f2b9d77",
   "name": "General - Introduction",
   "description": "",
   "classification": "content",
@@ -23,18 +24,12 @@
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0ead390"
-      ],
-      "categories": [
-        "emotion/basic/joy"
       ]
     },
     "filter": {
       "elementType": "category",
       "categoryIds": [
         "040ea6e1-5ea4-40ef-b968-92e703a3c741"
-      ],
-      "categories": [
-        "entities/chitchat/you"
       ]
     },
     "persona": {
@@ -46,10 +41,6 @@
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18f25b",
         "b84c6bad3cad3ec6ffff23c78e0f1682"
-      ],
-      "categories": [
-        "dialog_nodes/Introduction/Response Introduction",
-        "dialog_nodes/Introduction"
       ]
     },
     "attachments": {
@@ -63,9 +54,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-003b21dbb5f9a9b8728ee4211f2b9d77"
+  }
 }

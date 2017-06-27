@@ -1,5 +1,6 @@
 {
   "id": "1ca8e6c3-a56a-43d4-a37d-9fd094887800",
+  "rev": "5-bdad4a1c29c75382000e8b26022b0601",
   "name": "General - Omni-Channel Delivery",
   "description": "",
   "classification": "content",
@@ -24,9 +25,6 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Give Featureinformation about Product"
       ]
     },
     "text": {
@@ -42,10 +40,6 @@
       "categoryIds": [
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "f08c09393f588be1e49ab20903092fa4"
-      ],
-      "categories": [
-        "entities/product/Watson Content Hub",
-        "entities/feature/omnichanel"
       ]
     },
     "attachments": {
@@ -58,9 +52,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-bdad4a1c29c75382000e8b26022b0601"
+  }
 }

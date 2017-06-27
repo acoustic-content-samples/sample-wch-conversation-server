@@ -1,5 +1,6 @@
 {
   "id": "5c0ae4f7-36ec-4bc5-91d9-f8b63b5b3dc4",
+  "rev": "5-bd1495a485356b48f96e215e4ef6546a",
   "name": "General - Positive Response",
   "description": "",
   "classification": "content",
@@ -42,14 +43,7 @@
       "elementType": "category",
       "categoryIds": [
         "18c30f2c-057d-4ce0-9b70-511281edaeea"
-      ],
-      "categories": [
-        "dialog_nodes/Positive Message"
       ]
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-bd1495a485356b48f96e215e4ef6546a"
+  }
 }

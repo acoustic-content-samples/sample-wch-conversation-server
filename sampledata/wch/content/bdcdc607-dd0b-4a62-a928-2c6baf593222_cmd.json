@@ -1,5 +1,6 @@
 {
   "id": "bdcdc607-dd0b-4a62-a928-2c6baf593222",
+  "rev": "5-c1a6bf9544c974b8c2fb2c6fcbaa5cde",
   "name": "General - Negative Response Name",
   "description": "",
   "classification": "content",
@@ -38,9 +39,6 @@
       "elementType": "category",
       "categoryIds": [
         "1ffc133e786e0d65f2834ae483637fee"
-      ],
-      "categories": [
-        "dialog_nodes/Welcome/Negative Response Name"
       ]
     },
     "emotion": {
@@ -49,9 +47,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-c1a6bf9544c974b8c2fb2c6fcbaa5cde"
+  }
 }

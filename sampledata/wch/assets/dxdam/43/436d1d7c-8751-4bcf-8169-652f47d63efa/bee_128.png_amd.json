@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:13.448Z",
+  "lastModified": "2017-06-27T11:38:17.218Z",
   "description": "",
   "tags": {
     "values": [
@@ -29,15 +29,51 @@
       "classification:animal"
     ],
     "declined": [],
-    "analysis": "pending"
+    "analysis": "complete",
+    "suggested": [
+      "classification:ring",
+      "classification:nematode worm",
+      "classification:worm",
+      "classification:invertebrate",
+      "classification:animal",
+      "classification:filament",
+      "classification:monocle",
+      "classification:person",
+      "classification:optical device",
+      "classification:whistle",
+      "classification:musical instrument",
+      "classification:black color",
+      "classification:coal black color"
+    ]
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "bee_128.png",
   "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "7-da1de8badef28bc34bfb32a416fdeb25",
+  "rev": "8-dbd5bfbab4075bcd8a7c3ac113b4c4b0",
   "cognitive": {
-    "status": "pending"
+    "classifications": [
+      "ring",
+      "nematode worm",
+      "worm",
+      "invertebrate",
+      "animal",
+      "filament",
+      "monocle",
+      "person",
+      "optical device",
+      "whistle",
+      "musical instrument",
+      "black color",
+      "coal black color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#42b1bc",
+      "darkVibrant": "#184044",
+      "darkMuted": "#464646"
+    },
+    "status": "complete"
   },
   "id": "436d1d7c-8751-4bcf-8169-652f47d63efa",
   "resource": "cf7d502a106a0de68cb1414df0ec2f56",
@@ -55,19 +91,5 @@
     "height": 128
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:13.448Z",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "categories": [],
-  "links": {
-    "self": {
-      "href": "/authoring/v1/assets/436d1d7c-8751-4bcf-8169-652f47d63efa"
-    },
-    "media": {
-      "href": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec2f56.png"
-    },
-    "thumbnail": {
-      "href": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec2f56"
-    }
-  }
+  "created": "2017-06-27T11:38:13.448Z"
 }

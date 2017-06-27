@@ -1,5 +1,6 @@
 {
   "id": "521466f4-e710-4e75-ba04-761339d2fdd3",
+  "rev": "5-685c2c3f43742019c0df93722f554eb2",
   "name": "General - Continous Feature Updates",
   "description": "",
   "classification": "content",
@@ -22,10 +23,6 @@
       "categoryIds": [
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "e122ae67d0597f8a98838921ce3e35e6"
-      ],
-      "categories": [
-        "entities/product/Watson Content Hub",
-        "entities/feature/continous delivery"
       ]
     },
     "attachmentquery": {
@@ -35,9 +32,6 @@
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Give Featureinformation about Product"
       ]
     },
     "persona": {
@@ -58,9 +52,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-685c2c3f43742019c0df93722f554eb2"
+  }
 }

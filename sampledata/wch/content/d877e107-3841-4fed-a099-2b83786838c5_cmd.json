@@ -1,5 +1,6 @@
 {
   "id": "d877e107-3841-4fed-a099-2b83786838c5",
+  "rev": "5-714023a8539baeeee133bd5d4be40572",
   "name": "Attachment - WCH Marketplace",
   "description": "",
   "classification": "content",
@@ -95,9 +96,5 @@
       "elementType": "text",
       "value": "If you want to have more information check out the IBM Marketplace:"
     }
-  },
-  "type": "Attachment",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-714023a8539baeeee133bd5d4be40572"
+  }
 }

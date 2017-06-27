@@ -1,5 +1,6 @@
 {
   "id": "9a97ccab-720d-42dd-b314-74df9ca3c246",
+  "rev": "5-f418c0b7fb9ca8a1c7b2d4d057694271",
   "name": "General - Set Name 2",
   "description": "",
   "classification": "content",
@@ -43,14 +44,7 @@
       "elementType": "category",
       "categoryIds": [
         "d32ac974bbe1173f5a1b0fd5b64ebe3a"
-      ],
-      "categories": [
-        "dialog_nodes/Change Name/Set Name"
       ]
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-f418c0b7fb9ca8a1c7b2d4d057694271"
+  }
 }

@@ -1,5 +1,6 @@
 {
   "id": "bbba9fb8-65ab-4e46-a08c-5ebf3f458d30",
+  "rev": "5-4b8ea05cd710b30792720b7a648f1b90",
   "name": "General - Information missing entites",
   "description": "",
   "classification": "content",
@@ -23,9 +24,6 @@
       "elementType": "category",
       "categoryIds": [
         "8db75208957eb15dd42544d160fdbcc4"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Verify Information"
       ]
     },
     "persona": {
@@ -45,9 +43,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-4b8ea05cd710b30792720b7a648f1b90"
+  }
 }

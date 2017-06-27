@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:11.026Z",
+  "lastModified": "2017-06-27T11:38:14.052Z",
   "description": "",
   "tags": {
     "values": [
@@ -23,15 +23,51 @@
       "classification:pompadour hairstyle"
     ],
     "declined": [],
-    "analysis": "pending"
+    "analysis": "complete",
+    "suggested": [
+      "classification:soul patch facial hair",
+      "classification:stubble",
+      "classification:pompadour hairstyle",
+      "classification:person",
+      "classification:people",
+      "classification:black color",
+      "classification:ash grey color",
+      "face:Male",
+      "face:18-24"
+    ]
   },
   "altText": "",
   "categoryIds": [],
   "fileName": "david.jpg",
   "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "7-0384551f401dfb9570a9c80a0a3a3870",
+  "rev": "8-d31255bcd8456cf1e1a964c618651dcc",
   "cognitive": {
-    "status": "pending"
+    "classifications": [
+      "soul patch facial hair",
+      "stubble",
+      "pompadour hairstyle",
+      "person",
+      "people",
+      "black color",
+      "ash grey color"
+    ],
+    "faces": [
+      {
+        "gender": "Male",
+        "age": {
+          "minimum": 18,
+          "maximum": 24
+        }
+      }
+    ],
+    "colors": {
+      "vibrant": "#984cc8",
+      "muted": "#7f7f7f",
+      "darkVibrant": "#485024",
+      "darkMuted": "#444444",
+      "lightMuted": "#bcbcbc"
+    },
+    "status": "complete"
   },
   "id": "68bc3b95-13d8-4b39-9a9e-68a692d2fbd8",
   "resource": "1374e5d8b4dd44d8f257d88a73f092fb",
@@ -49,19 +85,5 @@
     "height": 155
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:11.026Z",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "categories": [],
-  "links": {
-    "self": {
-      "href": "/authoring/v1/assets/68bc3b95-13d8-4b39-9a9e-68a692d2fbd8"
-    },
-    "media": {
-      "href": "/authoring/v1/resources/1374e5d8b4dd44d8f257d88a73f092fb.jpg"
-    },
-    "thumbnail": {
-      "href": "/authoring/v1/resources/1374e5d8b4dd44d8f257d88a73f092fb?fit=inside%7C220:145"
-    }
-  }
+  "created": "2017-06-27T11:38:11.026Z"
 }

@@ -1,5 +1,6 @@
 {
   "id": "4537899c-e365-482d-b150-2d762fdd3ba1",
+  "rev": "5-5ed5588e12b5630637fb39d834c0e6c6",
   "name": "General - Negative Message",
   "description": "",
   "classification": "content",
@@ -17,19 +18,12 @@
       "elementType": "category",
       "categoryIds": [
         "3da58ac3-ec04-4911-8ab6-60ccfbf5485a"
-      ],
-      "categories": [
-        "dialog_nodes/Negative Message"
       ]
     },
     "attachment": {
       "elementType": "reference",
       "value": {
-        "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85",
-        "name": "Attachment - Yes No",
-        "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-        "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-        "status": "ready"
+        "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85"
       }
     },
     "attachments": {
@@ -55,9 +49,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-5ed5588e12b5630637fb39d834c0e6c6"
+  }
 }

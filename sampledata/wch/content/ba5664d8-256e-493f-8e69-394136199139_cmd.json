@@ -1,5 +1,6 @@
 {
   "id": "ba5664d8-256e-493f-8e69-394136199139",
+  "rev": "5-07e5fbaabdf533ccd6c266948b0ac251",
   "name": "General - Change name",
   "description": "",
   "classification": "content",
@@ -20,9 +21,6 @@
       "elementType": "category",
       "categoryIds": [
         "d6c8a8fc916579191382d0e545543a92"
-      ],
-      "categories": [
-        "dialog_nodes/Change Name"
       ]
     },
     "text": {
@@ -48,9 +46,5 @@
     "attachment": {
       "elementType": "reference"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-07e5fbaabdf533ccd6c266948b0ac251"
+  }
 }

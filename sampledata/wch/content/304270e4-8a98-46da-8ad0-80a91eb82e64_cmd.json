@@ -1,5 +1,6 @@
 {
   "id": "304270e4-8a98-46da-8ad0-80a91eb82e64",
+  "rev": "5-40aa576854e92d2f12efd53da2687b75",
   "name": "Development - Push to WCH",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
@@ -22,9 +23,6 @@
       "elementType": "category",
       "categoryIds": [
         "ce9a3da6fd420f106a8d20fa67ec96f3"
-      ],
-      "categories": [
-        "dialog_nodes/Developer Sync WCH"
       ]
     },
     "text": {
@@ -48,9 +46,5 @@
       "elementType": "location"
     }
   },
-  "description": "",
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-40aa576854e92d2f12efd53da2687b75"
+  "description": ""
 }

@@ -1,5 +1,6 @@
 {
   "id": "8ef4d88a-fa9a-4c86-b51e-fcb5fb9a0b32",
+  "rev": "5-c2f6e1f2cd4088985ddca4a8c1c343fc",
   "name": "General - Info Feature Infrastructure enhancements for WCH",
   "description": "",
   "classification": "content",
@@ -25,9 +26,6 @@
       "elementType": "category",
       "categoryIds": [
         "8db75208957eb15dd42544d160fe038a"
-      ],
-      "categories": [
-        "dialog_nodes/Information/Give Featureinformation about Product/Response Give Single Featureinfo about Product"
       ]
     },
     "filter": {
@@ -35,10 +33,6 @@
       "categoryIds": [
         "6e4827e8e902ad7f810cb8c2a52c2438",
         "fad37b71f9f5935f82913edeb910079f"
-      ],
-      "categories": [
-        "entities/product/Watson Content Hub",
-        "entities/feature/infrastructure enhancements"
       ]
     },
     "text": {
@@ -55,9 +49,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-c2f6e1f2cd4088985ddca4a8c1c343fc"
+  }
 }

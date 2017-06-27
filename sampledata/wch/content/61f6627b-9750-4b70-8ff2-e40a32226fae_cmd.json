@@ -1,5 +1,6 @@
 {
   "id": "61f6627b-9750-4b70-8ff2-e40a32226fae",
+  "rev": "5-f7c7169d8d2819bac9112b3fec6a7d63",
   "name": "Mr Watson - Introduction",
   "description": "",
   "classification": "content",
@@ -27,18 +28,12 @@
       "elementType": "category",
       "categoryIds": [
         "040ea6e1-5ea4-40ef-b968-92e703a3c741"
-      ],
-      "categories": [
-        "entities/chitchat/you"
       ]
     },
     "persona": {
       "elementType": "category",
       "categoryIds": [
         "d332127df4c37b2d4632699e7e16bccc"
-      ],
-      "categories": [
-        "entities/persona/mrwatson"
       ]
     },
     "node": {
@@ -46,10 +41,6 @@
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18f25b",
         "b84c6bad3cad3ec6ffff23c78e0f1682"
-      ],
-      "categories": [
-        "dialog_nodes/Introduction/Response Introduction",
-        "dialog_nodes/Introduction"
       ]
     },
     "emotion": {
@@ -63,9 +54,5 @@
     "location": {
       "elementType": "location"
     }
-  },
-  "type": "OutputText",
-  "creator": "Sven Sterbling",
-  "lastModifier": "Sven Sterbling",
-  "rev": "5-f7c7169d8d2819bac9112b3fec6a7d63"
+  }
 }
