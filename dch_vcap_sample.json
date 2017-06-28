@@ -58,8 +58,8 @@
                 "clientid": "<Client ID of your Slack Application>",
                 "clientsecret": "<Client Secret of your Slack Application>",
                 "verificationtoken": "<Verification Token of your Slack Application>",
-                "redirectUri": "https://wch-conv-int-srv.mybluemix.net/oauth",
-                "profcontent": "xoxb-180164212433-QCFgEnyFMSBq0xvl98u2YpqL"
+                "redirectUri": "<Redirect URL for OAuth Flow>",
+                "profcontent": "<Simple Slack Bot Token>"
             },
             "syslog_drain_url": "",
             "label": "user-provided",
