@@ -1,4 +1,4 @@
-# WCH Conversation Integration Server
+# WCH Conversation Server
 
 This sample is a starter Kit to implement rich-featured, cross-channel cogntitive advisor bots for messengers, websites and bots. (This module is also used for our [WCH Robot](https://my.digitalexperience.ibm.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html) project) 
 
