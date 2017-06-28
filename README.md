@@ -52,9 +52,11 @@ If you are planning to push the server to bluemix make sure to name the services
 [geoapi]:https://developers.google.com/maps/documentation/geolocation/get-api-key
 
 ### Server Setup
-1. **[Required]** Clone the repository:
+1. **[Required]** Clone the repository & install dependencies:
 ```
-git clone https://github.com/ibm-wch/sample-wch-conversation-integration-server.git
+git clone https://github.com/ibm-wch/sample-wch-conversation-server.git
+cd ./sample-wch-conversation-server
+npm install
 ```
 
 2. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run setupSample`. This will ask for all possible credentials and afterwards initializes the Watson Conversation Service and Watson Content Hub with the sample dialog and the required content types.<br/><br/>If you just want to setup the credentials simply run `npm run setuplocal` or you can use `dch_vcap_sample.json` as a reference and fill in the parameters manually.<br/><br/>*NOTE:* If you are not interessted in the slack integration of this sample you can omit the bot_config completely.
