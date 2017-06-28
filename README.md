@@ -2,7 +2,9 @@
 
 Starter Kit for a server side implementation on how to create an cogntitive advisor based on the Watson Conversation Service and Watson Content Hub. This sample offers convenience features to sync intents & entities with Watson Content Hub and is based on the Botkit framework which makes it easy to extend to an cogntitive advisor solution running on Slack, Facebook Messenger, Cisco Spark, Twilio IP Messanging & Microsoft Bot Framework.
 
-Currently this sample is configured to be used either in an bot scenario based on an raspberry pi or with slack. For more information about the bot and how to build one on your own [check out the instructions page here.][https://my.digitalexperience.ibm.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html]
+Currently this sample is configured to be used either in an bot scenario based on an raspberry pi or with slack. For more information about the bot and how to build one on your own [check out the instructions page here.](https://my.digitalexperience.ibm.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html)
+
+![Slack Sample](/doc/SlackSampe_Min.gif)
 
 ## Core Idea
 The value of this solution is simple and powerful: We let the Watson Conversation Service define the flow & structure of the conversation. All content is created & managed in Watson Content Hub and retrieved dynamically for the right response node. Therefore we can easily enhance the conversation responses with images, videos, ... and switch the language of the conversation as needed.
