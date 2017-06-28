@@ -30,9 +30,6 @@ const bots = require('./lib/bots');
 // create a new express server
 const app = express();
 
-const logErr = (err) => {debug(err); throw err;}
-const logTrace = (value) => {debug(value); return value;}
-
 debug(
 `Starting Server...
 Environment: ${(appEnv.isLocal) ? "local" : "bluemix"}`

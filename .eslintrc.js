@@ -118,13 +118,13 @@ module.exports = {
 
     ////////// Node.js //////////
 
-    "handle-callback-err": OFF,   // enforces error handling in callbacks (off by default) (on by default in the node environment)
+    "handle-callback-err": ERROR,   // enforces error handling in callbacks (off by default) (on by default in the node environment)
     "no-mixed-requires": OFF,     // disallow mixing regular variable and require declarations (off by default) (on by default in the node environment)
     "no-new-require": OFF,        // disallow use of new operator with the require function (off by default) (on by default in the node environment)
-    "no-path-concat": OFF,        // disallow string concatenation with __dirname and __filename (off by default) (on by default in the node environment)
-    "no-process-exit": OFF,       // disallow process.exit() (on by default in the node environment)
+    "no-path-concat": ERROR,        // disallow string concatenation with __dirname and __filename (off by default) (on by default in the node environment)
+    "no-process-exit": ERROR,       // disallow process.exit() (on by default in the node environment)
     "no-restricted-modules": OFF, // restrict usage of specified node modules (off by default)
-    "no-sync": OFF,               // disallow use of synchronous methods (off by default)
+    "no-sync": ERROR,               // disallow use of synchronous methods (off by default)
 
 
     ////////// Stylistic Issues //////////
@@ -175,8 +175,8 @@ module.exports = {
 
     ////////// ECMAScript 6 //////////
 
-    "no-var": OFF,          // require let or const instead of var (off by default)
-    "generator-star": OFF,  // enforce the position of the * in generator functions (off by default)
+    "no-var": ERROR,          // require let or const instead of var (off by default)
+    "generator-star-spacing": ERROR,  // enforce the position of the * in generator functions (off by default)
 
 
     ////////// Legacy //////////
