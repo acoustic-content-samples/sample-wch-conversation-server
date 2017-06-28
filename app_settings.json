@@ -15,11 +15,11 @@
   }
  },
  "wch_config": {
-  "caching": true
+  "caching": false
  },
  "wch_conversation": {
   "workspace_id": {
-   "en": "d83559af-6684-4c87-9b1d-97aef0f4fab1"
+   "en": "9db75ce4-a059-4f53-988d-de239eed10a0"
   }
  },
  "wch_toneanalyzer": {
