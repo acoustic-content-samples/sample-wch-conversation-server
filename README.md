@@ -6,7 +6,7 @@ Therefore this sample integrates the Watson Conversation Service with our cloud 
 
 The sample currently supports two chat-interfaces:
 1. A REST based text only bot for usage in bots and other scenarios where you only are able to output text or audio. If you are interessted you can [check out the instructions page here](https://my.digitalexperience.ibm.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html) to create your own WCH Robot!
-2. A slack based bot levearing the full capability set of messenger (Action Buttons, Emojis, Gifs, formatted content and more)
+2. A slack based bot leveraging the full capability set of messenger (Action Buttons, Emojis, Gifs, formatted content and more)
 
 ![Slack Sample](/doc/SlackSampe_Min.gif)
 
