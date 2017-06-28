@@ -6,7 +6,7 @@ Therefore this sample integrates the Watson Conversation Service with our cloud 
 
 The sample currently supports two chat-interfaces:
 1. A REST based text only bot for usage in bots and other scenarios where you only are able to output text or audio. If you are interessted you can [check out the instructions page here](https://my.digitalexperience.ibm.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html) to create your own WCH Robot!
-2. A slack based bot levearing the full capability set of messenger (Action Buttons, Emojis, Gifs, formatted content and more)
+2. A slack based bot leveraging the full capability set of messenger (Action Buttons, Emojis, Gifs, formatted content and more)
 
 ![Slack Sample](/doc/SlackSampe_Min.gif)
 
@@ -60,6 +60,8 @@ git clone https://github.com/ibm-wch/sample-wch-conversation-integration-server.
 2. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run setupSample`. This will ask for all possible credentials and afterwards initializes the Watson Conversation Service and Watson Content Hub with the sample dialog and the required content types.<br/><br/>If you just want to setup the credentials simply run `npm run setuplocal` or you can use `dch_vcap_sample.json` as a reference and fill in the parameters manually.<br/><br/>*NOTE:* If you are not interessted in the slack integration of this sample you can omit the bot_config completely.
 
 3. **[Required]** To test if everything works as expected you should start the server by running `npm run devDebug`. This will start a nodemon server with tracing/logging enabled. If you don't want tracing enabled in the future simply run `npm run dev`. After startup you should be able to call the endpoint `POST http://localhost:6001/rasp/message Body: {"input":"What is WCH?","user":"Test" }` and get a JSON response containing a text field with content from Watson Content Hub.<br/>
+
+![Check Setup](/doc/Check.gif)
 
 4. **[Optional]** If you like you can push the sample server on bluemix by running `bx cf push`. But before please make sure to change the hostname of the application in the 'manifest.yml'. Also you have to configure the credentials on bluemix. Therefore sipmly run `npm run addGeoSrv`, `npm run addWchSrv`, `npm run addBotSrv` and `npm run addDBSrv`.
 
