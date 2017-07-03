@@ -119,7 +119,7 @@ program
       const postData = flows;
 
       const options = {
-        hostname: '172.24.1.1',
+        hostname: 'localhost',
         port: 1880,
         path: '/flows',
         method: 'POST',
@@ -141,7 +141,7 @@ program
       });
 
       req.on('error', (e) => {
-        console.error(`problem with request: ${e.message}`);
+        console.error(`problem with request: ${e.message}. Propably Node RED is not started on your system or has enabled authentication.`);
       });
 
       req.write(postData);
