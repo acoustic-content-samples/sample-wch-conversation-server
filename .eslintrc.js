@@ -49,9 +49,10 @@ module.exports = {
     "block-scoped-var": OFF,      // treat var statements as if they were block scoped (off by default)
     "complexity": ERROR,          // specify the maximum cyclomatic complexity allowed in a program (off by default)
     "consistent-return": OFF,     // require return statements to either always or never specify values
-    "curly": OFF,                 // specify curly brace conventions for all control statements
+    "curly": ERROR,                 // specify curly brace conventions for all control statements
     "default-case": OFF,          // require default case in switch statements (off by default)
-    "dot-notation": OFF,          // encourages use of dot notation whenever possible
+    "dot-notation": ERROR,          // encourages use of dot notation whenever possible
+    "dot-location": [ERROR, "property"],          // encourages use of dot notation whenever possible
     "eqeqeq": ERROR,              // require the use of === and !==
     "guard-for-in": OFF,          // make sure for-in loops have an if statement (off by default)
     "no-alert": OFF,              // disallow the use of alert, confirm, and prompt
@@ -66,7 +67,7 @@ module.exports = {
     "no-fallthrough": OFF,        // disallow fallthrough of case statements
     "no-floating-decimal": OFF,   // disallow the use of leading or trailing decimal points in numeric literals (off by default)
     "no-implied-eval": OFF,       // disallow use of eval()-like methods
-    "no-iterator": OFF,           // disallow usage of __iterator__ property
+    "no-iterator": ERROR,         // disallow usage of __iterator__ property
     "no-labels": OFF,             // disallow use of labeled statements
     "no-lone-blocks": OFF,        // disallow unnecessary nested blocks
     "no-loop-func": OFF,          // disallow creation of functions within loops
@@ -118,9 +119,11 @@ module.exports = {
 
     ////////// Node.js //////////
 
+    "global-require": ERROR,
+    "callback-return": ERROR,
     "handle-callback-err": ERROR,   // enforces error handling in callbacks (off by default) (on by default in the node environment)
-    "no-mixed-requires": OFF,     // disallow mixing regular variable and require declarations (off by default) (on by default in the node environment)
-    "no-new-require": OFF,        // disallow use of new operator with the require function (off by default) (on by default in the node environment)
+    "no-mixed-requires": ERROR,     // disallow mixing regular variable and require declarations (off by default) (on by default in the node environment)
+    "no-new-require": ERROR,        // disallow use of new operator with the require function (off by default) (on by default in the node environment)
     "no-path-concat": ERROR,        // disallow string concatenation with __dirname and __filename (off by default) (on by default in the node environment)
     "no-process-exit": ERROR,       // disallow process.exit() (on by default in the node environment)
     "no-restricted-modules": OFF, // restrict usage of specified node modules (off by default)
@@ -129,15 +132,16 @@ module.exports = {
 
     ////////// Stylistic Issues //////////
 
-    "brace-style": OFF,               // enforce one true brace style (off by default)
-    "camelcase": ERROR,               // require camel case names
+    "brace-style": [ERROR, 'stroustrup', {'allowSingleLine': true}],               // enforce one true brace style (off by default)
+    "camelcase": [ERROR, {'properties': 'always'}],               // require camel case names
     "comma-spacing": ERROR,           // enforce spacing before and after comma
     "comma-style": OFF,               // enforce one true comma style (off by default)
-    "consistent-this": OFF,           // enforces consistent naming when capturing the current execution context (off by default)
+    "consistent-this": [ERROR, '_this'],           // enforces consistent naming when capturing the current execution context (off by default)
     "eol-last": OFF,                  // enforce newline at the end of file, with no multiple empty lines
     "func-names": OFF,                // require function expressions to have a name (off by default)
-    "func-style": OFF,                // enforces use of function declarations or expressions (off by default)
+    "func-style": [ERROR, 'expression'],                // enforces use of function declarations or expressions (off by default)
     "key-spacing": ERROR,             // enforces spacing between keys and values in object literal properties
+    "indent": [ERROR, ERROR, {'VariableDeclarator': {'var': 2}, 'SwitchCase': 2}],
     "max-nested-callbacks": OFF,      // specify the maximum depth callbacks can be nested (off by default)
     "new-cap": OFF,                   // require a capital letter for constructors
     "new-parens": OFF,                // disallow the omission of parentheses when invoking a constructor with no arguments
@@ -154,34 +158,34 @@ module.exports = {
     "no-trailing-spaces": ERROR,      // disallow trailing whitespace at the end of lines
     "no-underscore-dangle": OFF,      // disallow dangling underscores in identifiers
     "no-wrap-func": OFF,              // disallow wrapping of non-IIFE statements in parens
-    "one-var": OFF,                   // allow just one var statement per function (off by default)
+    "one-var": [ERROR, {'var': 'always', 'let': 'never', 'const': 'never'}],                   // allow just one var statement per function (off by default)
     "operator-assignment": OFF,       // require assignment operator shorthand where possible or prohibit it entirely (off by default)
-    "padded-blocks": OFF,             // enforce padding within blocks (off by default)
-    "quote-props": OFF,               // require quotes around object literal property names (off by default)
+    "padded-blocks": [ERROR, 'never'],             // enforce padding within blocks (off by default)
+    "quote-props": [ERROR, 'consistent'],               // require quotes around object literal property names (off by default)
     "quotes": OFF,                    // specify whether double or single quotes should be used
     "semi": OFF,                      // require or disallow use of semicolons instead of ASI
     "sort-vars": OFF,                 // sort variables within the same declaration block (off by default)
     "space-after-function-name": OFF, // require a space after function names (off by default)
-    "space-after-keywords": OFF,      // require a space after certain keywords (off by default)
+    "space-after-keywords": [ERROR, 'always'],      // require a space after certain keywords (off by default)
     "space-before-blocks": OFF,       // require or disallow space before blocks (off by default)
     "space-in-brackets": OFF,         // require or disallow spaces inside brackets (off by default)
     "space-in-parens": OFF,           // require or disallow spaces inside parentheses (off by default)
     "space-infix-ops": OFF,           // require spaces around operators
     "space-return-throw-case": OFF,   // require a space after return, throw, and case
-    "space-unary-ops": OFF,           // Require or disallow spaces before/after unary operators (words on by default, nonwords off by default)
+    "space-unary-ops": [ERROR, {'words': true, 'nonwords': false}],           // Require or disallow spaces before/after unary operators (words on by default, nonwords off by default)
+    "spaced-comment": [ERROR, 'always', {'exceptions': ['-', '+', '/', '*'], 'markers': ['=', '!']}],
     "spaced-line-comment": OFF,       // require or disallow a space immediately following the // in a line comment (off by default)
     "wrap-regex": OFF,                // require regex literals to be wrapped in parentheses (off by default)
-
 
     ////////// ECMAScript 6 //////////
 
     "no-var": ERROR,          // require let or const instead of var (off by default)
     "generator-star-spacing": ERROR,  // enforce the position of the * in generator functions (off by default)
-
+    "no-invalid-this": ERROR,
 
     ////////// Legacy //////////
 
-    "max-depth": OFF,       // specify the maximum depth that blocks can be nested (off by default)
+    "max-depth": [WARNING, 4],       // specify the maximum depth that blocks can be nested (off by default)
     "max-len": OFF,         // specify the maximum length of a line in your program (off by default)
     "max-params": OFF,      // limits the number of parameters that can be used in the function declaration. (off by default)
     "max-statements": OFF,  // specify the maximum number of statement allowed in a function (off by default)

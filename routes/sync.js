@@ -46,9 +46,9 @@ router.post('/push', function(req, resp) {
 
 
 router.get('/ping', function(req, resp) {
-  resp.
-  status(201).
-  send('pong');
+  resp
+  .status(201)
+  .send('pong');
 });
 
 module.exports = router;

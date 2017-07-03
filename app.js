@@ -14,7 +14,6 @@
  * limitations under the License.
  */
 
-/* jslint node: true, esversion: 6 */
 'use strict';
 
 const debug = require('debug')('wchbotserver:app');
@@ -47,14 +46,14 @@ debug('Configured sync');
 app.use('/sync', syncRoutes);
 
 debug('Configured error handling');
-/// catch 404 and forward to error handler
+/* Catch 404 and forward to error handler */
 app.use(function(req, res, next) {
-    var err = new Error('Not Found');
-    err.status = 404;
-    next(err);
+  let err = new Error('Not Found');
+  err.status = 404;
+  next(err);
 });
 
-/** Error Handlers */
+/* Error Handlers */
 
 let errorHandler;
 if (app.get('appEnv').isLocal === true) {
@@ -63,18 +62,19 @@ if (app.get('appEnv').isLocal === true) {
     debug('Error handler %o', err);
     res.status(err.status || 500);
     res.send({
-        message: err.message,
-        error: err
+      message: err.message,
+      error: err
     });
   };
-} else {
+}
+else {
   // Error Handler: Production
   errorHandler = function(err, req, res, next) {
     debug('Error handler %o', err);
     res.status(err.status || 500);
     res.send({
-        message: err.message,
-        error: {}
+      message: err.message,
+      error: {}
     });
   };
 }

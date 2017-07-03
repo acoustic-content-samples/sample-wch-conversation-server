@@ -15,7 +15,7 @@
   }
  },
  "wch_config": {
-  "caching": false
+  "caching": true
  },
  "wch_conversation": {
   "workspace_id": {

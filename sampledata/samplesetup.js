@@ -23,7 +23,7 @@ const cfenv = require('cfenv');
 const dch_vcap_local = require('../dch_vcap');
 const app_settings = require('../app_settings');
 const wchpush = require('wchtools-cli/commands/push');
-const conversation = require('../lib/conversation');
+const conversation = require('../lib/services/conversation');
 const sync = require('../lib/sync');
 
 const fs = require('fs');
