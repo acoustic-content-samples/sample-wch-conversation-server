@@ -28,9 +28,10 @@ const sync = require('../lib/sync');
 
 const fs = require('fs');
 const path = require('path');
+const http = require('http');
 
 const program = require('commander');
- 
+
 program
   .version('0.1.0')
   .option('-A, --all', 'Setup sample data on all backends')
@@ -67,7 +68,7 @@ program
       process.exit(1);
     }
 
-    if(!program.all && !program.wch && !program.wcs && !program['node-red']) {
+    if(!program.all && !program.wch && !program.wcs && !program.nodeRed) {
       console.error('Missing options! Define which systems you want to setup. Use help for details.');
       process.exit(1);
     }
@@ -76,29 +77,29 @@ program
     if(program.all || program.wch) {
       let [ wch_config ] = creds['user-provided'];
       let { username, password, baseurl } = wch_config.credentials;
-      
+
       if(!username || !password || !baseurl) {
         throw new Error("Missing parameters to push to wch. Make sure to have all credentials in place!");
       }
 
       let pushArgs = [
-        process.argv[0], process.argv[1], 
-        "push", "-v", "-I", (program.wchNoSampleContent) ? "-tiCr" : "--all-authoring", 
-        "--user", username, 
-        "--password", password, 
-        "--url", baseurl, 
+        process.argv[0], process.argv[1],
+        "push", "-v", "-I", (program.wchNoSampleContent) ? "-tiCr" : "--all-authoring",
+        "--user", username,
+        "--password", password,
+        "--url", baseurl,
         "--dir", path.join(__dirname, "wch")
       ];
 
       let wchCommander = require('commander');
       wchpush(wchCommander);
       wchCommander.parse(pushArgs);
-    } 
+    }
 
     // Setup Watson Conversation Service
     if(program.all || program.wcs) {
       let workspace = JSON.parse(fs.readFileSync(path.join(__dirname, "wcs", "workspace.json")));
-      conversation.createWorkspace( workspace,  
+      conversation.createWorkspace( workspace,
         (err, resp) => {
           if(err) {
             console.log("An Error occured: ", err);
@@ -112,7 +113,39 @@ program
     }
 
     // Setup Node Red
-    if(program.all || program['node-red']) {
+    if(program.all || program.nodeRed) {
+      let flows = fs.readFileSync(path.join(__dirname, 'nodered', 'chatbotflows.json'));
+
+      const postData = flows;
+
+      const options = {
+        hostname: '172.24.1.1',
+        port: 1880,
+        path: '/flows',
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Content-Length': Buffer.byteLength(postData),
+          'Node-RED-Deployment-Type': 'full'
+        }
+      };
+
+      const req = http.request(options, (res) => {
+        console.log(`Node Red status: ${res.statusCode}`);
+        console.log(`Expected: 204`);
+        res.setEncoding('utf8');
+        res.on('data', (chunk) => {});
+        res.on('end', () => {
+          console.log('Done Node RED Setup!');
+        });
+      });
+
+      req.on('error', (e) => {
+        console.error(`problem with request: ${e.message}`);
+      });
+
+      req.write(postData);
+      req.end();
 
     }
 
