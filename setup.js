@@ -19,12 +19,24 @@
 
 /** Node Based Setup Script */
 
+// TODO:
+// REMOVE BLANKS
+// APP SETTINGS
+// Change APP Settings
+// FIX WCH ASSET UPLOAD
+
 const fs = require('fs');
 const path = require('path');
 const exec = require('child_process').exec;
 
 const cfenv = require('cfenv');
-const dch_vcap_local = require('./dch_vcap');
+
+let dch_vcap_local = {};
+
+if(fs.existsSync(path.join(__dirname, 'dch_vcap.json'))) {
+  let dch_vcap_local = require('./dch_vcap');
+}
+
 const dch_vcap_new = require('./dch_vcap_sample');
 const app_settings_new = require('./app_settings');
 
@@ -35,15 +47,13 @@ const env = cfenv.getAppEnv({
   }
 });
 
-console.log(`Environment: ${(env.isLocal) ? "local" : "bluemix"}`);
-
 const isSetExp = /^(?!<).*(?!>)$/;
 
-const errLogger = err => {console.log('Something fishy happened :('); console.log('Error: ', err)};
+const errLogger = err => {console.log('Something fishy happened :('); console.log('Error: ', err.stack)};
 
 const program = require('commander');
 const prompt = require('prompt');
- 
+
 program
   .version('0.1.0')
   .option('-S, --sample-setup', 'Trigger sample creation after credentials setup');
@@ -87,16 +97,15 @@ function checkPredefinedServices() {
       let [ wch_config, bot_config, geo_config ] = env.services['user-provided'];
 
       if(wch_config){
-        let { baseurl = '<>', hosturl = '<>', tenantid = '<>', username = '<>', password = '<>'} = wch_config.credentials;
+        let { baseurl = '<>', hostname = '<>', tenantid = '<>', username = '<>', password = '<>'} = wch_config.credentials;
         predefined.wch = Object.assign({}, {
-          baseurl: isSetExp.test(baseurl),
-          hosturl: isSetExp.test(hosturl),
-          tenatnid: isSetExp.test(tenantid),
+          apiurl: isSetExp.test(baseurl),
+          contenthubid: isSetExp.test(tenantid),
           username: isSetExp.test(username),
           password: isSetExp.test(password)
         });
       } else {
-        predefined.wch = { baseurl: false, hosturl: false, tenatnid: false, username: false, password: false };
+        predefined.wch = { apiurl: false, contenthubid: false, username: false, password: false };
       }
 
       if(bot_config){
@@ -118,7 +127,7 @@ function checkPredefinedServices() {
       }
 
     } else {
-      predefined.wch = { baseurl: false, hosturl: false, tenatnid: false, username: false, password: false };
+      predefined.wch = { apiurl: false, hostname: false, contenthubid: false, username: false, password: false };
       predefined.geo = false;
       predefined.bot = { clientid: false, clientsecret: false, verificationtoken: false };
     }
@@ -139,7 +148,7 @@ function initServices(predefined) {
 
   });
 }
- 
+
 function setupToneAnalyzer({predefined, vcap}) {
   return new Promise((resolve, reject) => {
     console.log(
@@ -222,7 +231,7 @@ console.log('Please provide the following parameters:');
         baseurl: {
           required: true
         },
-        hosturl: {
+        hostname: {
           required: true
         },
         tenantid: {
@@ -241,7 +250,7 @@ console.log('Please provide the following parameters:');
     prompt.message = 'WCH';
     prompt.get(schema, function (err, result) {
       vcap['user-provided'][0].credentials.baseurl = result.baseurl;
-      vcap['user-provided'][0].credentials.hosturl = result.hosturl;
+      vcap['user-provided'][0].credentials.hostname = result.hostname;
       vcap['user-provided'][0].credentials.tenantid = result.tenantid;
       vcap['user-provided'][0].credentials.username = result.username;
       vcap['user-provided'][0].credentials.password = result.password;
@@ -277,7 +286,7 @@ function setupBot({predefined, vcap}) {
         }
       }
     };
-    
+
     prompt.message = 'Bot';
     prompt.get(schema, function (err, result) {
       vcap['user-provided'][1].credentials.clientid = result.clientid;
