@@ -55,7 +55,7 @@ program
  .action(function(credsPath) {
     console.log('init "%s"', credsPath);
     let creds;
-    if(credsPath && fs.existsSync(credsPath)) {
+    if (credsPath && fs.existsSync(credsPath)) {
       // Read config file
       console.log('Reading credentials from path "%s" ', credsPath);
       let file = fs.readFileSync(credsPath);
@@ -68,18 +68,18 @@ program
       process.exit(1);
     }
 
-    if(!program.all && !program.wch && !program.wcs && !program.nodeRed) {
+    if (!program.all && !program.wch && !program.wcs && !program.nodeRed) {
       console.error('Missing options! Define which systems you want to setup. Use help for details.');
       process.exit(1);
     }
 
     // Setup Watson Content Hub
-    if(program.all || program.wch) {
+    if (program.all || program.wch) {
       let [ wch_config ] = creds['user-provided'];
-      let { username, password, baseurl } = wch_config.credentials;
+      let { username, password, apiurl } = wch_config.credentials;
 
-      if(!username || !password || !baseurl) {
-        throw new Error("Missing parameters to push to wch. Make sure to have all credentials in place!");
+      if (!username || !password || !apiurl) {
+        throw new Error('Missing parameters to push to wch. Make sure to have all credentials in place!');
       }
 
       let pushArgs = [
@@ -87,8 +87,8 @@ program
         "push", "-v", "-I", (program.wchNoSampleContent) ? "-tiCr" : "--all-authoring",
         "--user", username,
         "--password", password,
-        "--url", baseurl,
-        "--dir", path.join(__dirname, "wch")
+        "--url", apiurl,
+        "--dir", path.join(__dirname, 'wch')
       ];
 
       let wchCommander = require('commander');
@@ -97,15 +97,15 @@ program
     }
 
     // Setup Watson Conversation Service
-    if(program.all || program.wcs) {
+    if (program.all || program.wcs) {
       let workspace = JSON.parse(fs.readFileSync(path.join(__dirname, "wcs", "workspace.json")));
       conversation.createWorkspace( workspace,
         (err, resp) => {
-          if(err) {
-            console.log("An Error occured: ", err);
+          if (err) {
+            console.log('An Error occured: ', err);
             process.exit(1);
           }
-          console.log("Created Workspace with ID: ", resp.workspace_id);
+          console.log('Created Workspace with ID: ', resp.workspace_id);
           app_settings.wch_conversation.workspace_id.en = resp.workspace_id;
           fs.writeFileSync(path.join(__dirname, '..', 'app_settings.json'), JSON.stringify(app_settings, null, 1));
         }
@@ -113,12 +113,12 @@ program
     }
 
     // Setup Node Red
-    if(program.all || program.nodeRed) {
+    if (program.all || program.nodeRed) {
       let flows = fs.readFileSync(path.join(__dirname, 'nodered', 'chatbotflows.json'));
 
-      const postData = flows;
+      let postData = flows;
 
-      const options = {
+      let options = {
         hostname: 'localhost',
         port: 1880,
         path: '/flows',
@@ -130,7 +130,7 @@ program
         }
       };
 
-      const req = http.request(options, (res) => {
+      let req = http.request(options, res => {
         console.log(`Node Red status: ${res.statusCode}`);
         console.log(`Expected: 204`);
         res.setEncoding('utf8');
