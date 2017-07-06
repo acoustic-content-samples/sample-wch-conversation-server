@@ -40,7 +40,7 @@ program
   .option('-c, --wcs', 'Setup the sample dialog for Watson Conversation Service')
   .option('-r, --node-red', 'Setup the sample flow for NODE-RED');
 
-program.on('--help', function(){
+program.on('--help', function (){
   console.log('  Examples:');
   console.log('');
   console.log('    $ node ./sampledata/samplesetup.js -h');
@@ -52,7 +52,7 @@ program.on('--help', function(){
 program
  .command('init [credentialsFile]')
  .description('Initalize the specific service. Uses the credentials from the given file.')
- .action(function(credsPath) {
+ .action(function (credsPath) {
     console.log('init "%s"', credsPath);
     let creds;
     if (credsPath && fs.existsSync(credsPath)) {
@@ -150,5 +150,12 @@ program
     }
 
  });
+
+program
+  .command('cleanup [credentialsFile]')
+  .description('Cleanup the sampledata from Watson Content Hub and the Conversation Service')
+  .action(function() {
+
+  });
 
 program.parse(process.argv);
