@@ -12,7 +12,7 @@
     "setupLocal": "node setup init",
     "setupSample": "node setup init --sample-setup",
     "addGeoSrv": "bx cf cups geo_config -p \"key\"",
-    "addWchSrv": "bx cf cups wch_config -p \"tenantid\", \"username\", \"password\", \"baseurl\", \"hosturl\"",
+    "addWchSrv": "bx cf cups wch_config -p \"hubid, username, password, apiurl\"",
     "addBotSrv": "bx cf cups bot_config -p \"clientid, clientsecret, verificationtoken, redirectUri\"",
     "addDBSrv": "bx cf cups db_config -p \"mongoUri\""
   },

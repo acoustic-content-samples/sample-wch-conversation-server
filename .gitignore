@@ -40,7 +40,7 @@ jspm_packages
 .node_repl_history
 
 #creds
-dch_vcap.json
+*dch_vcap.json
 
 .wchtoolshashes
 

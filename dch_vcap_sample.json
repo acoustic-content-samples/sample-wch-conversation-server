@@ -42,10 +42,9 @@
     "user-provided": [
         {
             "credentials": {
-                "baseurl": "<Copy the baseUrl from the WCH Authoring UI>",
-                "hosturl": "<Copy the hosturl from the WCH Authoring UI>",
-                "tenantid": "<Copy the tenantid from the WCH Authoring UI>",
-                "username": "<A valid wch user>",
+                "apiurl": "<Copy the apiUrl from the WCH Authoring UI>",
+                "hubid": "<Copy the hubid from the WCH Authoring UI>",
+                "username": "<A valid wch user blueid>",
                 "password": "<The password>"
             },
             "syslog_drain_url": "",
