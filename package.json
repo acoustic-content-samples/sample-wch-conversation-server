@@ -9,7 +9,7 @@
     "devDebug": "set DEBUG_COLORS=true&&set DEBUG=wchbotserver:*,-wchbotserver:templating&& gulp dev",
     "test": "node mocha ",
     "eslint": "gulp eslint",
-    "setupLocal": "node setup init",
+    "setupCredentials": "node setup init",
     "setupSample": "node setup init --sample-setup",
     "addGeoSrv": "bx cf cups geo_config -p \"key\"",
     "addWchSrv": "bx cf cups wch_config -p \"hubid, username, password, apiurl\"",
