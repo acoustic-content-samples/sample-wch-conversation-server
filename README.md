@@ -27,11 +27,12 @@ This server can be hosted locally on your rasperry pi for the complete chatbot d
 - You need a valid Blue ID
 - You need an instance of the conversation service from Bluemix
 - You need a tenant for Watson Content Hub
-- You need an instance of the tone analyzer service from Bluemix
-- *[Optional]* You need an instance of the Google Geolocation Service
-- *[Optional]* You need an Slackbot token
-- *[Optional]* You need a Slack Application
-- *[Optional]* You need a MongoDB URL if you want to persist your chats
+### Optional Requirements
+- You can add an instance of the tone analyzer service from Bluemix
+- You can add an instance of the Google Geolocation Service
+- You can add a Slackbot token
+- You can add a Slack Application
+- You can add a MongoDB if you want to persist your chats
 
 ### Important Notes about the creation of Services
 If you are planning to push the server to bluemix make sure to name the services provided by bluemix as defined in the dch_vcap_sample.json. In detail:
