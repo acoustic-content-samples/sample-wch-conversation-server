@@ -7,10 +7,11 @@ applications:
   name: wch-conv-int-srv
   host: wch-conv-int-srv
   disk_quota: 1024M
-  services: 
+  services:
     - bot_config
     - wch_config
     - geo_config
+    - fb_config
     - db_config
     - wch-conversation
     - wch-toneanalyzer

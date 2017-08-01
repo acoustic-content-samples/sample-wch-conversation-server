@@ -14,12 +14,13 @@
     "addGeoSrv": "bx cf cups geo_config -p \"key\"",
     "addWchSrv": "bx cf cups wch_config -p \"hubid, username, password, apiurl\"",
     "addBotSrv": "bx cf cups bot_config -p \"clientid, clientsecret, verificationtoken, redirectUri\"",
+    "addFbSrv": "bx cf cups fb_config -p \"key, verificationtoken\"",
     "addDBSrv": "bx cf cups db_config -p \"mongoUri\""
   },
   "dependencies": {
     "@google/maps": "^0.3.1",
     "body-parser": "^1.17.1",
-    "botkit": "^0.5.4",
+    "botkit": "^0.5.6",
     "botkit-middleware-watson": "^1.3.1",
     "botkit-storage-mongo": "^1.0.6",
     "cfenv": "^1.0.4",

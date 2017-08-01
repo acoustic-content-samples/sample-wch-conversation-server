@@ -183,6 +183,7 @@ function initServices(predefined) {
     then(setupWCH).
     then(setupBot).
     then(setupGeo).
+    then(setupFB).
     then(({vcap, settings}) => resolve({vcap, settings}));
 
   });
@@ -399,6 +400,47 @@ function setupGeo({predefined, vcap, settings}) {
       settings.geolocationservice.enabled = (result.skip === 'y');
 
       vcap['user-provided'][2].credentials.key = result.key;
+      resolve({predefined, vcap, settings});
+    });
+
+  });
+
+}
+
+function setupFB({predefined, vcap, settings}) {
+  return new Promise((resolve, reject) => {
+    console.log(`
+############################
+  Setup Facebook
+############################
+`);
+    console.log('Please provide the following parameters:');
+
+    let schema = {
+      properties: {
+        skip: {
+          description: 'Do you want to use the Facebook Messenger Features? Otherwise you can skip it. (y/n)',
+          pattern: /^y|n$/,
+          required: true,
+          message: `Please answer with 'y' for yes and 'n' for no!`
+        },
+        key: {
+          required: true,
+          ask: () => prompt.history('skip').value === 'y'
+        },
+        verificationtoken: {
+          required: true,
+          ask: () => prompt.history('skip').value === 'y'
+        }
+      }
+    };
+
+    prompt.message = 'Facebook';
+    prompt.get(schema, function (err, result) {
+      settings.bot_config.enabled.facebook = (result.skip === 'y');
+
+      vcap['user-provided'][3].credentials.key = result.key;
+      vcap['user-provided'][3].credentials.verificationtoken = result.verificationtoken;
       resolve({predefined, vcap, settings});
     });
 

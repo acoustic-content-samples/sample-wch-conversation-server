@@ -73,6 +73,16 @@
             "label": "user-provided",
             "name": "geo_config",
             "tags": []
+        },
+        {
+          "credentials": {
+              "key": "<Your messenger security key>",
+              "verificationtoken": "<Your specific verification token>"
+          },
+          "syslog_drain_url": "",
+          "label": "user-provided",
+          "name": "fb_config",
+          "tags": []
         }
     ]
 }
