@@ -33,6 +33,8 @@ build/Release
 node_modules
 jspm_packages
 
+**/*_amd.json
+
 # Optional npm cache directory
 .npm
 
