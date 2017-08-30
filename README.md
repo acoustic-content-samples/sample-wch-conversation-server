@@ -11,7 +11,7 @@ The sample currently supports two chat-interfaces:
 ![Slack Sample](/doc/SlackSampe_Min.gif)
 
 ## Core Idea
-The value of this solution is simple and powerful: We let the Watson Conversation Service define the flow & structure of the conversation. All content is created & managed in Watson Content Hub and retrieved dynamically based on the current dialog state. Therefore we can easily enhance the conversation with images, videos, emojis and more. It's also possible to make changes to the content on the fly and have a central point to do so.
+The value of this solution is simple and powerful: We let the Watson Conversation Service define the flow & structure of the conversation. All content is created & managed in Watson Content Hub and retrieved dynamically based on the current dialog state. Therefore we can easily enhance the conversation with images, videos, emojis and more. It's also possible to make changes to the content on the fly and have a central point to do so. For more information check out this (video)[https://www.youtube.com/watch?v=bT1QgOV5jyY]
 
 | Watson Conversation Service | Watson Content Hub |
 |---|---|
