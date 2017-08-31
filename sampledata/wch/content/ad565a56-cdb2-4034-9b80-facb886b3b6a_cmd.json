@@ -1,28 +1,28 @@
 {
   "id": "ad565a56-cdb2-4034-9b80-facb886b3b6a",
-  "rev": "5-a8a2984330d56f89846a55db05d40521",
+  "rev": "14-ac48801b74f0f9572eb361291f44729e",
   "name": "General - Info Feature \"Viewer Role\" for WCH",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:27.282Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:27.282Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:49:30.557Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:36.983Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [
     "user:Jan 2017"
   ],
   "status": "ready",
   "elements": {
+    "attachmentquery": {
+      "elementType": "text"
+    },
     "node": {
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
       ]
-    },
-    "attachmentquery": {
-      "elementType": "text"
     },
     "persona": {
       "elementType": "category",
@@ -48,6 +48,10 @@
     },
     "location": {
       "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference"
     }
-  }
+  },
+  "kind": []
 }

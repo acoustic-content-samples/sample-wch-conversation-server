@@ -1,14 +1,15 @@
 {
   "id": "65697e54-b84d-46a7-b578-df605006b7cf",
-  "rev": "5-4a21f38e89b974ba27e079f19d74adb5",
+  "rev": "23-e60efcd0372e59cb9fb4c349343f988c",
   "name": "General - What can you do",
+  "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:25.855Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:25.855Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T14:29:46.834Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:35.697Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -19,21 +20,14 @@
     "attachmentquery": {
       "elementType": "text"
     },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "ce2d39d2e87c6de66277ee9d4a193f34",
-        "d81cb8b6923bb2f2ef3eb20a1f15c6a7"
-      ]
-    },
-    "persona": {
-      "elementType": "category"
-    },
     "filter": {
       "elementType": "category",
       "categoryIds": [
         "efbe6fad-15c7-4a40-9098-9f108eb371fc"
       ]
+    },
+    "persona": {
+      "elementType": "category"
     },
     "emotion": {
       "elementType": "category"
@@ -44,10 +38,17 @@
     "location": {
       "elementType": "location"
     },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a193f34",
+        "d81cb8b6923bb2f2ef3eb20a1f15c6a7"
+      ]
+    },
     "text": {
       "elementType": "text",
       "value": "I'm currently capable to talk about Watson Content Hub and it's key features. Plus I know a little about the integration of WCH with DX. Since this is a demo I'm not an expert in the other areas :cry:"
     }
   },
-  "description": ""
+  "kind": []
 }

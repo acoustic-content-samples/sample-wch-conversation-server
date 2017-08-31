@@ -1,8 +1,8 @@
 {
   "id": "b84c6bad3cad3ec6ffff23c78edfda24",
-  "rev": "5-eaecdd136458d34a21f1e992417514b5",
+  "rev": "3-9677f9b1f099fda106e74b5d1e2b2134",
   "name": "Verify Howto",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "d81cb8b6923bb2f2ef3eb20a1fe1ee7d",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/d81cb8b6923bb2f2ef3eb20a1fe1ee7d"
     }
   },
-  "created": "2017-06-27T11:36:01.371Z",
-  "lastModified": "2017-06-27T11:36:01.371Z"
+  "created": "2017-08-02T13:09:15.431Z",
+  "lastModified": "2017-08-02T13:09:15.431Z"
 }

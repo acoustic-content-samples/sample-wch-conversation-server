@@ -1,14 +1,15 @@
 {
   "id": "85a5c4bf-ec23-43b0-be8a-60b285210a3f",
-  "rev": "5-e78c5e118af36bee9582fa024d1cddfc",
+  "rev": "18-2761b21877a26956026b521a601af879",
   "name": "General - Enter geolocation",
+  "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:26.200Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:26.200Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T14:30:16.543Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:36.144Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -41,7 +42,10 @@
     },
     "location": {
       "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference"
     }
   },
-  "description": ""
+  "kind": []
 }

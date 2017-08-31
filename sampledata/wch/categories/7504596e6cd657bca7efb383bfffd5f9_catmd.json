@@ -1,8 +1,8 @@
 {
   "id": "7504596e6cd657bca7efb383bfffd5f9",
-  "rev": "5-6d4c5705fca73acb47212858500e55cc",
+  "rev": "3-e517ef21cf275341d53886df867383e2",
   "name": "disgust",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
   "parent": "c6aa112a19b1d19eac233bf583cb2cb9",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/c6aa112a19b1d19eac233bf583cb2cb9"
     }
   },
-  "created": "2017-06-27T11:35:11.534Z",
-  "lastModified": "2017-06-27T11:35:11.534Z"
+  "created": "2017-08-02T13:08:27.153Z",
+  "lastModified": "2017-08-02T13:08:27.153Z"
 }

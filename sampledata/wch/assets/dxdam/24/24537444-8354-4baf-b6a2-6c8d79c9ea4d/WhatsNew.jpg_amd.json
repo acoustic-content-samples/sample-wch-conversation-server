@@ -7,29 +7,22 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:16.348Z",
+  "lastModified": "2017-08-02T13:11:25.580Z",
   "description": "Abstract shot of crystal and glass",
   "tags": {
     "values": [
       "media:ice",
-      "classification:curtain",
       "media:glass",
       "media:footage still",
       "media:crystal",
-      "classification:screen",
       "media:light",
       "media:nobody",
-      "classification:voile fabric",
       "media:background",
-      "classification:fabric",
       "classification:pink color",
       "media:abstract",
       "classification:vein",
-      "classification:cornice (building)",
-      "classification:framework",
       "media:conceptual",
       "classification:person",
-      "classification:lambrequin (decorative hanginga of building)",
       "classification:purple color",
       "media:concept",
       "classification:Tyrian purple color"
@@ -44,11 +37,12 @@
       "classification:pink color"
     ]
   },
+  "isManaged": true,
   "altText": "Abstract shot of crystal and glass",
   "categoryIds": [],
   "fileName": "WhatsNew.jpg",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "8-4b43638ff5074851322019a12438e0c9",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "5-20d1824edb6b89558b8e7cd1a32343b8",
   "cognitive": {
     "classifications": [
       "vein",
@@ -72,7 +66,7 @@
   "resource": "8cf2dbe2bce72db71a3a4b96b4e86e30",
   "fileSize": 67759,
   "status": "ready",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "renditions": {
     "default": {
       "id": "r=8cf2dbe2bce72db71a3a4b96b4e86e30&a=24537444-8354-4baf-b6a2-6c8d79c9ea4d",
@@ -104,5 +98,5 @@
     "headline": "Abstract shot of crystal and glass"
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:13.903Z"
+  "created": "2017-08-02T13:11:23.617Z"
 }

@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:13.188Z",
+  "lastModified": "2017-08-02T13:11:31.663Z",
   "description": "",
   "tags": {
     "values": [
@@ -21,11 +21,12 @@
       "classification:black color"
     ]
   },
+  "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "avatar.png",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "8-e1e95f8bf8381c04588cef4510172ea1",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "5-47c099165bc7eedbfa1c9b0aaf87c078",
   "cognitive": {
     "classifications": [
       "coal black color",
@@ -41,7 +42,7 @@
   "resource": "747217a959fc4f3ecaf23241dfb52f47",
   "fileSize": 21252,
   "status": "ready",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "renditions": {
     "default": {
       "id": "r=747217a959fc4f3ecaf23241dfb52f47&a=4ab941ae-376c-484b-90c4-d7eadbda329c",
@@ -53,5 +54,5 @@
     "height": 660
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:11.068Z"
+  "created": "2017-08-02T13:11:28.081Z"
 }

@@ -1,0 +1,62 @@
+{
+  "id": "59a66eed-0561-4a71-b637-39e113b34928",
+  "rev": "26-7474d88a23a25b1e1f589c8766be96ef",
+  "name": "General - Integration WCH mit Portal",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-08-29T16:56:59.301Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-29T16:52:05.451Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4aea3935",
+        "ce2d39d2e87c6de66277ee9d4aea2a59"
+      ]
+    },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "b653c7cf-2638-459f-a75b-eb9c383e27ec"
+        }
+      ]
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Websphere Portal und Watson Content Hub sind bestens für einen Hybrid-Cloud Ansatz geeignet. Ein mögliches Szenario ist Portal als Webpräsenz und Content Management System zu nutzen. WCH ist in diesem Szenario ein DAM um Inhalte kanal übergreifend zu verteilen."
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "d955af43946626b22420e562ba1f3162",
+        "b84c6bad3cad3ec6ffff23c78ee5660c"
+      ]
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "kind": []
+}

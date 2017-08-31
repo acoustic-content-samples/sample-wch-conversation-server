@@ -1,15 +1,15 @@
 {
   "id": "7a78b903-83bf-487f-aa17-f3bf1120cd12",
-  "rev": "6-dba61d3b62156abe5f28dfc297922c19",
+  "rev": "16-8900efa675b1523c03205d334e74ae6d",
   "name": "Attachment - Introducing the IBM Watson Content Hub Conversion Tools",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T14:52:33.647Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:26.133Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:46:19.605Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:36.015Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [
     "user:whatsnewapril2017"
   ],
@@ -26,12 +26,18 @@
     "image_url": {
       "elementType": "image"
     },
+    "author_icon": {
+      "elementType": "image"
+    },
     "fallback": {
       "elementType": "text",
       "value": "We introduced the IBM Watson Content Hub Conversion Tools."
     },
     "action": {
       "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference"
     },
     "title": {
       "elementType": "link",
@@ -46,9 +52,6 @@
     },
     "fields": {
       "elementType": "text"
-    },
-    "author_icon": {
-      "elementType": "image"
     },
     "text": {
       "elementType": "text",
@@ -68,5 +71,6 @@
     "pretext": {
       "elementType": "text"
     }
-  }
+  },
+  "kind": []
 }

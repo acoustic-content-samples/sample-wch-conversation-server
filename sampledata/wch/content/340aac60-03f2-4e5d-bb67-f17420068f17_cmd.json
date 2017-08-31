@@ -1,29 +1,29 @@
 {
   "id": "340aac60-03f2-4e5d-bb67-f17420068f17",
-  "rev": "5-9346e1aa87b14a48979ca1f2f15071e6",
+  "rev": "30-4e6892b6f70d785b263ba249a359f3c3",
   "name": "General - How to integrate WCH Portal",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:24.726Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:24.726Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T14:24:00.947Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:34.568Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
-    "attachments": {
-      "elementType": "toggle",
-      "value": true
-    },
     "node": {
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4aea3935",
         "ce2d39d2e87c6de66277ee9d4aea2a59"
       ]
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
     },
     "text": {
       "elementType": "text",
@@ -49,6 +49,10 @@
     "attachmentquery": {
       "elementType": "text",
       "value": "name:\"Attachment - DXWCHIntegration\""
+    },
+    "attachment": {
+      "elementType": "reference"
     }
-  }
+  },
+  "kind": []
 }

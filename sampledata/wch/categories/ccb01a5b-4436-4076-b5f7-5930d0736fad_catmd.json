@@ -1,0 +1,33 @@
+{
+  "id": "ccb01a5b-4436-4076-b5f7-5930d0736fad",
+  "rev": "3-1e623176ed6b61084be65e40590b9f1f",
+  "name": "Response Product Changed",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "708e1e05-df84-4a33-acd8-75f365ea9004",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "ce2d39d2e87c6de66277ee9d4a18d0d2",
+    "708e1e05-df84-4a33-acd8-75f365ea9004"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "FAQ",
+    "Customer product interest level",
+    "Response Product Changed"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/ccb01a5b-4436-4076-b5f7-5930d0736fad"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/708e1e05-df84-4a33-acd8-75f365ea9004"
+    }
+  },
+  "created": "2017-08-03T12:28:35.137Z",
+  "lastModified": "2017-08-30T17:04:44.288Z"
+}

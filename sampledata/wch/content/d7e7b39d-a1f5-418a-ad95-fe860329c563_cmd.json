@@ -1,19 +1,36 @@
 {
   "id": "d7e7b39d-a1f5-418a-ad95-fe860329c563",
-  "rev": "5-26636ebc66bf3b15dca1305bedc37675",
-  "name": "General - Thank you",
+  "rev": "17-546d48bc15bc4e39d1b2ca0cae8fe07e",
+  "name": "General Response - You are Welcome",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:28.461Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:28.461Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-30T14:52:20.091Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:38.271Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "8db75208957eb15dd42544d160fda028"
+      ]
+    },
+    "attachment": {
+      "elementType": "reference"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "You’re welcome. Happy to help",
+        "No Problem!",
+        "That's my job"
+      ]
+    },
     "attachmentquery": {
       "elementType": "text"
     },
@@ -27,25 +44,22 @@
       "elementType": "category",
       "categoryIds": []
     },
-    "text": {
-      "elementType": "text",
-      "value": "You’re welcome. Happy to help"
-    },
     "filter": {
       "elementType": "category"
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
     },
     "attachments": {
       "elementType": "toggle",
       "value": false
     },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "8db75208957eb15dd42544d160fda028"
-      ]
+    "customerSegment": {
+      "elementType": "category"
     },
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "kind": []
 }

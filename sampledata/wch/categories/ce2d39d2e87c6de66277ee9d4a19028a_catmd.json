@@ -1,8 +1,8 @@
 {
   "id": "ce2d39d2e87c6de66277ee9d4a19028a",
-  "rev": "5-24f4be6357347e008d39b5a79911994d",
+  "rev": "4-2472687c27b94bc809d7ba61e8dc152b",
   "name": "Feature to context",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "ce2d39d2e87c6de66277ee9d4a18d0d2",
@@ -12,7 +12,7 @@
   ],
   "namePath": [
     "dialog_nodes",
-    "Information",
+    "FAQ",
     "Feature to context"
   ],
   "links": {
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18d0d2"
     }
   },
-  "created": "2017-06-27T11:36:26.323Z",
-  "lastModified": "2017-06-27T11:36:26.323Z"
+  "created": "2017-08-02T13:09:39.129Z",
+  "lastModified": "2017-08-02T13:09:39.129Z"
 }

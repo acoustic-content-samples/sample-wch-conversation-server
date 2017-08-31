@@ -1,8 +1,8 @@
 {
   "id": "574f55ebf39a12c6f50b96f043f73cba",
-  "rev": "5-00fde9481680e47c60b2d0bcb03def14",
+  "rev": "3-19ff91b273d1c0879829f4cfe9456213",
   "name": "Response Howto Feature Product",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "ce2d39d2e87c6de66277ee9d4aea2a59",
@@ -28,6 +28,6 @@
       "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4aea2a59"
     }
   },
-  "created": "2017-06-27T11:37:40.192Z",
-  "lastModified": "2017-06-27T11:37:40.192Z"
+  "created": "2017-08-02T13:10:52.152Z",
+  "lastModified": "2017-08-02T13:10:52.152Z"
 }

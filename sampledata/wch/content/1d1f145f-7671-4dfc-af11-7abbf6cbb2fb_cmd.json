@@ -1,15 +1,15 @@
 {
   "id": "1d1f145f-7671-4dfc-af11-7abbf6cbb2fb",
-  "rev": "5-cbe25d8e135183c54a9a46d1686e1307",
+  "rev": "16-1711e8d28d44d246f3cb64e790df2128",
   "name": "General - Email Thank you",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:24.523Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:24.523Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T14:22:46.053Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:34.075Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -39,9 +39,13 @@
     "location": {
       "elementType": "location"
     },
+    "attachment": {
+      "elementType": "reference"
+    },
     "text": {
       "elementType": "text",
       "value": "Thank you for your e-mail adress. You will hear from us soon."
     }
-  }
+  },
+  "kind": []
 }

@@ -7,11 +7,10 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:14.052Z",
+  "lastModified": "2017-08-02T13:11:27.157Z",
   "description": "",
   "tags": {
     "values": [
-      "classification:mustachio",
       "classification:black color",
       "classification:ash grey color",
       "classification:people",
@@ -36,11 +35,12 @@
       "face:18-24"
     ]
   },
+  "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "david.jpg",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "8-d31255bcd8456cf1e1a964c618651dcc",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "5-373aba361af1b5e03150defb42c4ce64",
   "cognitive": {
     "classifications": [
       "soul patch facial hair",
@@ -73,7 +73,7 @@
   "resource": "1374e5d8b4dd44d8f257d88a73f092fb",
   "fileSize": 20490,
   "status": "ready",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "renditions": {
     "default": {
       "id": "r=1374e5d8b4dd44d8f257d88a73f092fb&a=68bc3b95-13d8-4b39-9a9e-68a692d2fbd8",
@@ -85,5 +85,5 @@
     "height": 155
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:11.026Z"
+  "created": "2017-08-02T13:11:23.396Z"
 }

@@ -1,13 +1,17 @@
 {
   "id": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-  "rev": "5-2fded4bfc23f132e4bcca231547597cb",
-  "name": "Attachment",
+  "rev": "51-01f2cdd770a220b2b7fb4003cd83c87c",
+  "name": "ChatAttachment",
   "classification": "content-type",
+  "contentThumbnail": {
+    "imageElement": "author_icon",
+    "source": "imageElementOrType"
+  },
   "description": "",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-05-10T09:08:24.339Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "lastModified": "2017-06-27T11:38:22.765Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-08-30T14:45:48.755Z",
   "status": "ready",
   "tags": [],
   "elements": [
@@ -15,7 +19,9 @@
       "elementType": "text",
       "label": "fallback",
       "key": "fallback",
-      "helpText": "A plain-text summary of the attachment. This text will be used in clients that don't show formatted text (eg. IRC, mobile notifications) and should not contain any markup."
+      "helpText": "A plain-text summary of the attachment. This text will be used in clients that don't show formatted text (eg. IRC, mobile notifications) and should not contain any markup.",
+      "allowMultipleValues": true,
+      "minimumValues": 0
     },
     {
       "elementType": "text",
@@ -27,7 +33,9 @@
       "elementType": "text",
       "label": "pretext",
       "key": "pretext",
-      "helpText": "This is optional text that appears above the message attachment block."
+      "helpText": "This is optional text that appears above the message attachment block.",
+      "allowMultipleValues": true,
+      "minimumValues": 0
     },
     {
       "elementType": "link",
@@ -59,7 +67,9 @@
       "label": "text",
       "key": "text",
       "helpText": "This is the main text in a message attachment, and can contain standard message markup. The content will automatically collapse if it contains 700+ characters or 5+ linebreaks, and will display a \"Show more...\" link to expand the content. Links posted in the text field will not unfurl.",
-      "displayType": "multiLine"
+      "displayType": "multiLine",
+      "allowMultipleValues": true,
+      "minimumValues": 0
     },
     {
       "elementType": "image",
@@ -125,6 +135,21 @@
       "key": "action",
       "displayType": "multiLine",
       "displayHeight": 15
+    },
+    {
+      "elementType": "reference",
+      "fieldLabel": "Content item",
+      "restrictTypes": [
+        {
+          "id": "60c780ff-a408-4a07-a07f-8318f5a70c16"
+        }
+      ],
+      "label": "QuickReplies",
+      "key": "quickreplies",
+      "allowMultipleValues": true,
+      "minimumValues": 0,
+      "maximumValues": 3,
+      "required": false
     },
     {
       "elementType": "datetime",

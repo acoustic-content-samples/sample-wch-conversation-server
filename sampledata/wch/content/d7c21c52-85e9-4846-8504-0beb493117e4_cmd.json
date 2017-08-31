@@ -1,18 +1,22 @@
 {
   "id": "d7c21c52-85e9-4846-8504-0beb493117e4",
-  "rev": "5-65790f06d5b6628f66bc10d026ec433f",
+  "rev": "41-1a4ef456ff76409cac849f5d387bb6da",
   "name": "MrWatson - Hi again",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:28.462Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:28.462Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:43:38.569Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:38.252Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "status": "ready",
   "elements": {
+    "text": {
+      "elementType": "text",
+      "value": "Hi again. {{#if watsonData.context.username}}{{watsonData.context.username}} just tell me your business needs.{{else}}What's on the agenda today?{{/if}}"
+    },
     "attachments": {
       "elementType": "toggle",
       "value": true
@@ -20,15 +24,19 @@
     "attachmentquery": {
       "elementType": "text"
     },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a"
+        }
+      ]
+    },
     "persona": {
       "elementType": "category",
       "categoryIds": [
         "d332127df4c37b2d4632699e7e16bccc"
       ]
-    },
-    "text": {
-      "elementType": "text",
-      "value": "Hi again. {{#if watsonData.context.username}}{{watsonData.context.username}} just tell me your business needs.{{else}}What's on the agenda today?{{/if}}"
     },
     "node": {
       "elementType": "category",
@@ -46,12 +54,7 @@
     },
     "location": {
       "elementType": "location"
-    },
-    "attachment": {
-      "elementType": "reference",
-      "value": {
-        "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a"
-      }
     }
-  }
+  },
+  "kind": []
 }

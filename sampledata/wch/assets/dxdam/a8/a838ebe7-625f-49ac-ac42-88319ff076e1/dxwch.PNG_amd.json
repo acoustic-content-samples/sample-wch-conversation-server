@@ -7,24 +7,16 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:14.088Z",
+  "lastModified": "2017-08-02T13:11:28.600Z",
   "description": "",
   "tags": {
     "values": [
-      "classification:electronic device",
       "classification:electrical device",
       "classification:web site",
-      "classification:flash memory",
-      "classification:fastener",
       "classification:machine",
-      "classification:memory device",
       "classification:computer",
-      "classification:clip",
-      "classification:dongle (flash drive)",
       "classification:calculator",
       "classification:electric battery",
-      "classification:device",
-      "classification:magnifier",
       "classification:jade green color",
       "classification:emerald color"
     ],
@@ -41,11 +33,12 @@
       "classification:emerald color"
     ]
   },
+  "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "dxwch.PNG",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "8-a4c0a08fc5d50794fbfd30e921544855",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "5-5deeeabc8d35fecec8c85a73d6ede477",
   "cognitive": {
     "classifications": [
       "electric battery",
@@ -72,7 +65,7 @@
   "resource": "44ca9e606b6576694bdbea223a017a38",
   "fileSize": 138350,
   "status": "ready",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "renditions": {
     "default": {
       "id": "r=44ca9e606b6576694bdbea223a017a38&a=a838ebe7-625f-49ac-ac42-88319ff076e1",
@@ -84,5 +77,5 @@
     "height": 783
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:12.328Z"
+  "created": "2017-08-02T13:11:26.111Z"
 }

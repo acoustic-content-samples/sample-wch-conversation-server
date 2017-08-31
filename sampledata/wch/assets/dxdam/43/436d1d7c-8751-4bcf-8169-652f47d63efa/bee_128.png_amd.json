@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:17.218Z",
+  "lastModified": "2017-08-02T13:11:26.004Z",
   "description": "",
   "tags": {
     "values": [
@@ -21,11 +21,8 @@
       "classification:ring",
       "classification:invertebrate",
       "classification:coal black color",
-      "classification:crown",
       "classification:person",
-      "classification:headdress",
       "classification:monocle",
-      "classification:tiara",
       "classification:animal"
     ],
     "declined": [],
@@ -46,11 +43,12 @@
       "classification:coal black color"
     ]
   },
+  "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "bee_128.png",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "8-dbd5bfbab4075bcd8a7c3ac113b4c4b0",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "5-cfb9137837766262ecbcf05edcefa25a",
   "cognitive": {
     "classifications": [
       "ring",
@@ -79,7 +77,7 @@
   "resource": "cf7d502a106a0de68cb1414df0ec2f56",
   "fileSize": 1077,
   "status": "ready",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "renditions": {
     "default": {
       "id": "r=cf7d502a106a0de68cb1414df0ec2f56&a=436d1d7c-8751-4bcf-8169-652f47d63efa",
@@ -91,5 +89,5 @@
     "height": 128
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:13.448Z"
+  "created": "2017-08-02T13:11:23.606Z"
 }

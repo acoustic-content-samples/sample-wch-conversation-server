@@ -1,8 +1,8 @@
 {
   "id": "44ca9e606b6576694bdbea223a59530a",
-  "rev": "5-1b8bc128f8caa672d71512648517b702",
+  "rev": "3-e83cbbf1662aca222a9d557ed527df6d",
   "name": "sqm-ok",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
     }
   },
-  "created": "2017-06-27T11:35:22.957Z",
-  "lastModified": "2017-06-27T11:35:22.957Z"
+  "created": "2017-08-02T13:08:37.844Z",
+  "lastModified": "2017-08-02T13:08:37.844Z"
 }

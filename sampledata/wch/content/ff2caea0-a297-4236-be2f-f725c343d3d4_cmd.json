@@ -1,27 +1,24 @@
 {
   "id": "ff2caea0-a297-4236-be2f-f725c343d3d4",
-  "rev": "5-1436904f840ed27544adc29d8c6aa695",
+  "rev": "16-28ff922fbbf0ed03e63a78c84e08e477",
   "name": "General - Input Email",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:29.251Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:29.251Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:44:56.957Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:39.002Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
     "attachmentquery": {
       "elementType": "text"
-    },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "efb4eb204170385dab6c56b4db0649bf"
-      ]
     },
     "emotion": {
       "elementType": "category",
@@ -45,6 +42,13 @@
     },
     "location": {
       "elementType": "location"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "efb4eb204170385dab6c56b4db0649bf"
+      ]
     }
-  }
+  },
+  "kind": []
 }

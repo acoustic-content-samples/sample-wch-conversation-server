@@ -1,8 +1,8 @@
 {
   "id": "b84c6bad3cad3ec6ffff23c78e0f5c7a",
-  "rev": "5-edb8e5d4516fd970367983be6524e47d",
+  "rev": "3-cdc8bd97ee8b36576fb4cc1037539110",
   "name": "Conversation Start",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "efb4eb204170385dab6c56b4db05b958",
@@ -24,6 +24,6 @@
       "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
     }
   },
-  "created": "2017-06-27T11:33:28.225Z",
-  "lastModified": "2017-06-27T11:33:28.225Z"
+  "created": "2017-08-02T13:06:47.103Z",
+  "lastModified": "2017-08-02T13:06:47.103Z"
 }

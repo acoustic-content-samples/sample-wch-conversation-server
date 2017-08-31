@@ -1,0 +1,72 @@
+{
+  "id": "cb5de48a-479a-4712-bb34-d1516b614002",
+  "rev": "26-1202e844ce3e895dc56a3cc2ed5376bb",
+  "name": "Antwort -  Was ist Content Hub",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-08-30T18:13:57.681Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-29T16:36:48.175Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": [
+        "cf7d502a106a0de68cb1414df0ead390"
+      ]
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Watson Content Hub ist ein cloud-basiertes headless CMS das dir hilft Inhalte über alle Channel zu publizieren. \n{{#if (eq watsonData.context.clienttype 'slack')}}- _Übrigens, ich laufe auch auf Content Hub_{{else}}-\n Übrigens, ich laufe auch auf Content Hub{{/if}}"
+      ]
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "b8c00c58-0a6d-48fa-a332-d8480c9c7606"
+        }
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a193f34",
+        "d81cb8b6923bb2f2ef3eb20a1f15c6a7"
+      ]
+    }
+  },
+  "kind": []
+}

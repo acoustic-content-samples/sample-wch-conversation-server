@@ -1,15 +1,15 @@
 {
   "id": "9a71fcc9-1e20-40d0-a93f-64567079e0cf",
-  "rev": "5-bb1aae1b7370d14b84ec07b1430012ad",
+  "rev": "27-7f74d1bd8c356658b1a20ad42ca023b4",
   "name": "General - Pitch No Entitites",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:26.726Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:26.726Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T14:34:13.691Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:36.559Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -21,17 +21,17 @@
       "elementType": "text",
       "value": "I understand you are looking for information about something. But I didn't get the what of your question. Maybe try some short keywords. This helps me understand your question."
     },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "8db75208957eb15dd42544d160fdbcc4"
-      ]
-    },
     "persona": {
       "elementType": "category"
     },
     "filter": {
       "elementType": "category"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "8db75208957eb15dd42544d160fdbcc4"
+      ]
     },
     "attachments": {
       "elementType": "toggle",
@@ -42,6 +42,10 @@
     },
     "location": {
       "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference"
     }
-  }
+  },
+  "kind": []
 }

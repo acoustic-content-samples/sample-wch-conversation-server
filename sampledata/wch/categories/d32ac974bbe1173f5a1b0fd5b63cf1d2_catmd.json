@@ -1,8 +1,8 @@
 {
   "id": "d32ac974bbe1173f5a1b0fd5b63cf1d2",
-  "rev": "5-95fe3d527acd4a17bee26292b5479a7e",
+  "rev": "3-99e82a7517ac8ed5bb36245a296c0764",
   "name": "difference",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "3c21dad2434642ac4a48a28516393082",
@@ -24,6 +24,6 @@
       "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
     }
   },
-  "created": "2017-06-27T11:33:44.958Z",
-  "lastModified": "2017-06-27T11:33:44.958Z"
+  "created": "2017-08-02T13:07:04.239Z",
+  "lastModified": "2017-08-02T13:07:04.239Z"
 }

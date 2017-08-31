@@ -1,19 +1,22 @@
 {
   "id": "7a038de7-df3a-49d3-b7fa-89620fe4dda4",
-  "rev": "5-b0ec26f5c84e536d20ec9a67ec5678c4",
+  "rev": "53-16b121b5417aa031e4d8031be45ee114",
   "name": "General - Give Productinformation Watson Content Hub",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:25.990Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:25.990Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T14:18:46.086Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:35.796Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
     "attachments": {
       "elementType": "toggle",
       "value": true
@@ -49,8 +52,10 @@
     "node": {
       "elementType": "category",
       "categoryIds": [
-        "d81cb8b6923bb2f2ef3eb20a1f15c6a7"
+        "d81cb8b6923bb2f2ef3eb20a1f15c6a7",
+        "ce2d39d2e87c6de66277ee9d4a193f34"
       ]
     }
-  }
+  },
+  "kind": []
 }

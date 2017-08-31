@@ -1,24 +1,18 @@
 {
   "id": "9f6c81c3-11d3-4f7e-bea8-f833c16b05a0",
-  "rev": "5-233a8e6a8847830109f23037133d9671",
+  "rev": "24-1f4f79165f516ae72d65658252608b3e",
   "name": "MrWatson - ConversationStart",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:26.889Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:26.889Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:41:32.690Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:36.791Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "status": "ready",
   "elements": {
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "b84c6bad3cad3ec6ffff23c78e0f3fe1"
-      ]
-    },
     "text": {
       "elementType": "text",
       "value": "Hi there. How's the business going? I'm Mr Watson your personal advisor on all information related to Watson Content Hub."
@@ -42,8 +36,18 @@
     "emotion": {
       "elementType": "category"
     },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "b84c6bad3cad3ec6ffff23c78e0f3fe1"
+      ]
+    },
     "location": {
       "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference"
     }
-  }
+  },
+  "kind": []
 }

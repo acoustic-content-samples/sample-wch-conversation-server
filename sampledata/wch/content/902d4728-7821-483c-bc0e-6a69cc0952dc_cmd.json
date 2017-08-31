@@ -1,15 +1,15 @@
 {
   "id": "902d4728-7821-483c-bc0e-6a69cc0952dc",
-  "rev": "7-47bce54a54ae0ea1e01f28f92d59b2da",
+  "rev": "19-80817209cdfbcfdd89d9e860eccdedf8",
   "name": "General - Goodbye",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:30.279Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:30.279Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:45:34.102Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:39.988Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -27,12 +27,6 @@
         "cf7d502a106a0de68cb1414df0ead390"
       ]
     },
-    "attachment": {
-      "elementType": "reference",
-      "value": {
-        "id": "e45861eb-eca0-495b-bb09-fb3840b85cea"
-      }
-    },
     "persona": {
       "elementType": "category"
     },
@@ -41,6 +35,14 @@
     },
     "location": {
       "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "e45861eb-eca0-495b-bb09-fb3840b85cea"
+        }
+      ]
     },
     "node": {
       "elementType": "category",
@@ -52,5 +54,6 @@
       "elementType": "text",
       "value": "Have a good day{{#if watsonData.context.username}} {{watsonData.context.username}}{{/if}}! Hope to hear from you soon"
     }
-  }
+  },
+  "kind": []
 }

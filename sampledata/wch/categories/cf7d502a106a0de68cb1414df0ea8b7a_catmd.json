@@ -1,8 +1,8 @@
 {
   "id": "cf7d502a106a0de68cb1414df0ea8b7a",
-  "rev": "5-641a700b635e05be7837217f06efcd82",
+  "rev": "4-276cfedd7571f4204c7a622d08db69d8",
   "name": "emotion",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "taxonomy",
   "firstClassFor": [
     ""
@@ -15,6 +15,6 @@
       "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0ea8b7a"
     }
   },
-  "created": "2017-06-27T11:33:20.556Z",
-  "lastModified": "2017-06-27T11:33:20.556Z"
+  "created": "2017-08-02T13:06:39.832Z",
+  "lastModified": "2017-08-02T13:06:39.832Z"
 }

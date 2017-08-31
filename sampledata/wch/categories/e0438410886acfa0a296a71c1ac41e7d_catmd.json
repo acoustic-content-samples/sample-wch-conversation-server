@@ -1,8 +1,8 @@
 {
   "id": "e0438410886acfa0a296a71c1ac41e7d",
-  "rev": "5-4e8bb9446496ece2cd63aba088f69d91",
+  "rev": "4-7b8c24976fc43dba6992c2d31cbccbf7",
   "name": "sadness",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
   "parent": "c6aa112a19b1d19eac233bf583cb2cb9",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/c6aa112a19b1d19eac233bf583cb2cb9"
     }
   },
-  "created": "2017-06-27T11:36:09.174Z",
-  "lastModified": "2017-06-27T11:36:09.174Z"
+  "created": "2017-08-02T13:09:22.989Z",
+  "lastModified": "2017-08-02T13:09:22.989Z"
 }

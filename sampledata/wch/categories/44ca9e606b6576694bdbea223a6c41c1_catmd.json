@@ -1,8 +1,8 @@
 {
   "id": "44ca9e606b6576694bdbea223a6c41c1",
-  "rev": "5-69e884d4fdbd8435fd8d479d080b185c",
+  "rev": "3-0566caf63b54d2b190c0bdd005ce91a7",
   "name": "cool",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "4c889914160a14eaf584c13cd8f38d3a",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd8f38d3a"
     }
   },
-  "created": "2017-06-27T11:35:17.183Z",
-  "lastModified": "2017-06-27T11:35:17.183Z"
+  "created": "2017-08-02T13:08:32.487Z",
+  "lastModified": "2017-08-02T13:08:32.487Z"
 }

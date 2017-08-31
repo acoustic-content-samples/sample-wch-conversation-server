@@ -1,8 +1,8 @@
 {
   "id": "6e4827e8e902ad7f810cb8c2a52b03e9",
-  "rev": "5-e3e5049392750f367bbc8bc5f9548eff",
+  "rev": "3-02666fe1faecf12de7b7ba35ad5b44fa",
   "name": "intents",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "taxonomy",
   "firstClassFor": [
     ""
@@ -15,6 +15,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
     }
   },
-  "created": "2017-06-27T11:33:25.439Z",
-  "lastModified": "2017-06-27T11:33:25.439Z"
+  "created": "2017-08-02T13:06:44.216Z",
+  "lastModified": "2017-08-02T13:06:44.216Z"
 }

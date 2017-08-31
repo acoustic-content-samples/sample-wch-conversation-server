@@ -1,8 +1,8 @@
 {
   "id": "4c889914160a14eaf584c13cd80b178d",
-  "rev": "5-2d5ad688b6b9449a99c7b64cd77e50b7",
+  "rev": "3-5b836f8c43a74c288e2acb3d0884e585",
   "name": "product",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "3c21dad2434642ac4a48a28516393082",
@@ -24,6 +24,6 @@
       "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
     }
   },
-  "created": "2017-06-27T11:34:37.104Z",
-  "lastModified": "2017-06-27T11:34:37.104Z"
+  "created": "2017-08-02T13:07:53.405Z",
+  "lastModified": "2017-08-02T13:07:53.405Z"
 }

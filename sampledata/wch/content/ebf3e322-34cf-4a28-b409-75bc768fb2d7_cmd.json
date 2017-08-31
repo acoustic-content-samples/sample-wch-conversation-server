@@ -1,20 +1,32 @@
 {
   "id": "ebf3e322-34cf-4a28-b409-75bc768fb2d7",
-  "rev": "5-b8dd3201258cb327deffdfca0288fb09",
+  "rev": "29-6bc22caa1a6d710d683e7b72f64b4487",
   "name": "ProfContent - Hi again",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:29.073Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:29.073Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:45:46.584Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:38.634Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "status": "ready",
   "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
     "attachmentquery": {
       "elementType": "text"
+    },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a"
+        }
+      ]
     },
     "persona": {
       "elementType": "category",
@@ -40,15 +52,9 @@
       "elementType": "category",
       "categoryIds": []
     },
-    "attachments": {
-      "elementType": "toggle",
-      "value": false
-    },
     "location": {
       "elementType": "location"
-    },
-    "attachment": {
-      "elementType": "reference"
     }
-  }
+  },
+  "kind": []
 }

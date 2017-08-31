@@ -1,21 +1,27 @@
 {
   "id": "d305aa60-5d7d-4c16-9668-9c53b4eca366",
-  "rev": "5-361b9b8913beeb2fac27e93e27dcd2b5",
-  "name": "ProfContent - Conversation Start",
+  "rev": "42-306a86365fbf59f984eabec7f3741228",
+  "name": "Response ProfContent - First Welcome",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:28.405Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:28.405Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-30T18:03:50.263Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:37.947Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "status": "ready",
   "elements": {
     "text": {
       "elementType": "text",
-      "value": "Hello I’m Professor Content :profoak: How can I help you today? Do you want to do some research on how to better structure your content? Then you should ask me about Watson Content Hub. Or are you interessted in my persona?"
+      "values": [
+        "Hello I’m Professor Content{{#if (eq watsonData.context.clienttype 'slack')}} :brain:{{else}}.{{/if}} How can I help you today? Do you want to do some research on how to better structure your content? Then you should ask me about Watson Content Hub. Or are you interessted in my persona?",
+        "Hello I’m Professor Content. Today I’m your assistant. With the power of Watson Content Hub, I will assist you to keep order in your content{{#if (eq watsonData.context.clienttype 'slack')}} :brain:{{else}}.{{/if}}"
+      ]
+    },
+    "attachment": {
+      "elementType": "reference"
     },
     "attachmentquery": {
       "elementType": "text"
@@ -36,6 +42,9 @@
     "filter": {
       "elementType": "category"
     },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
     "emotion": {
       "elementType": "category",
       "categoryIds": []
@@ -44,11 +53,12 @@
       "elementType": "toggle",
       "value": false
     },
+    "customerSegment": {
+      "elementType": "category"
+    },
     "location": {
       "elementType": "location"
-    },
-    "attachment": {
-      "elementType": "reference"
     }
-  }
+  },
+  "kind": []
 }

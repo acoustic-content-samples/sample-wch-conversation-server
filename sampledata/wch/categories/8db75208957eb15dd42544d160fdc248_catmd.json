@@ -1,8 +1,8 @@
 {
   "id": "8db75208957eb15dd42544d160fdc248",
-  "rev": "5-d92eb594b742be23612fb8be3e822554",
+  "rev": "4-cb896110b266cd82d268b395321944b1",
   "name": "Loop until",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "ce2d39d2e87c6de66277ee9d4a18d0d2",
@@ -12,7 +12,7 @@
   ],
   "namePath": [
     "dialog_nodes",
-    "Information",
+    "FAQ",
     "Loop until"
   ],
   "links": {
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18d0d2"
     }
   },
-  "created": "2017-06-27T11:35:27.080Z",
-  "lastModified": "2017-06-27T11:35:27.080Z"
+  "created": "2017-08-02T13:08:41.902Z",
+  "lastModified": "2017-08-02T13:08:41.902Z"
 }

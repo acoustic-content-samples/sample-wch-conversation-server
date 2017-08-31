@@ -1,15 +1,15 @@
 {
   "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85",
-  "rev": "5-6e5c8c69512e2c393ba06266a00ce714",
+  "rev": "25-af1cdb658bfc58db08a564944a72fe73",
   "name": "Attachment - Yes No",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:28.176Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:28.176Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:43:11.917Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:37.701Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -18,19 +18,14 @@
       "elementType": "text",
       "value": "Please answer with yes or no. (Or ignore the request)"
     },
-    "action": {
-      "elementType": "text",
-      "value": "[\n  {\n      \"name\": \"yes\",\n      \"text\": \"Yes\",\n      \"style\":\"primary\",\n      \"type\": \"button\",\n      \"value\": \"Yes\"\n  },\n  {\n      \"name\": \"No\",\n      \"text\": \"No\",\n      \"style\": \"danger\",\n      \"type\": \"button\",\n      \"value\": \"No\"\n  }\n]"
-    },
     "image_url": {
       "elementType": "image"
     },
     "author_icon": {
       "elementType": "image"
     },
-    "title": {
-      "elementType": "link",
-      "linkText": "Your Answer"
+    "action": {
+      "elementType": "text"
     },
     "ts": {
       "elementType": "datetime"
@@ -41,12 +36,28 @@
     "fields": {
       "elementType": "text"
     },
+    "quickreplies": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "fed833f2-2172-45b0-bd24-187be240b5c5"
+        },
+        {
+          "id": "0a1ebf51-5507-4944-9f80-5218dc979a56"
+        }
+      ]
+    },
     "author": {
       "elementType": "link"
     },
     "color": {
       "elementType": "text",
       "value": "#36A64F"
+    },
+    "title": {
+      "elementType": "link",
+      "linkText": "Your Answer",
+      "linkDescription": "Your Answer"
     },
     "thumb_url": {
       "elementType": "image"
@@ -64,5 +75,6 @@
     "pretext": {
       "elementType": "text"
     }
-  }
+  },
+  "kind": []
 }

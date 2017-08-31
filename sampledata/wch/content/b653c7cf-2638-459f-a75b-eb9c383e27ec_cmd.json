@@ -1,0 +1,81 @@
+{
+  "id": "b653c7cf-2638-459f-a75b-eb9c383e27ec",
+  "rev": "6-f857e5c262671ecf20e157a7d7d4cf5c",
+  "name": "Attachment - Schaubild DXWCHIntegration",
+  "description": "",
+  "classification": "content",
+  "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+  "locale": "de",
+  "lastModified": "2017-08-29T16:55:59.996Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-29T16:55:35.233Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "callback_id": {
+      "elementType": "text"
+    },
+    "image_url": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=44ca9e606b6576694bdbea223a017a38&a=a838ebe7-625f-49ac-ac42-88319ff076e1",
+          "source": "/authoring/v1/resources/44ca9e606b6576694bdbea223a017a38"
+        }
+      },
+      "asset": {
+        "id": "a838ebe7-625f-49ac-ac42-88319ff076e1",
+        "resourceUri": "/authoring/v1/resources/44ca9e606b6576694bdbea223a017a38",
+        "fileName": "dxwch.PNG",
+        "fileSize": 138350,
+        "mediaType": "image/png"
+      }
+    },
+    "pretext": {
+      "elementType": "text",
+      "value": "Hier ist ein Schaubild das ich hierzu gefunden habe:"
+    },
+    "color": {
+      "elementType": "text"
+    },
+    "author_icon": {
+      "elementType": "image"
+    },
+    "action": {
+      "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference"
+    },
+    "title": {
+      "elementType": "link"
+    },
+    "ts": {
+      "elementType": "datetime"
+    },
+    "footer_icon": {
+      "elementType": "image"
+    },
+    "fields": {
+      "elementType": "text"
+    },
+    "author": {
+      "elementType": "link"
+    },
+    "fallback": {
+      "elementType": "text"
+    },
+    "thumb_url": {
+      "elementType": "image"
+    },
+    "footer": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text"
+    }
+  },
+  "kind": []
+}

@@ -1,8 +1,8 @@
 {
   "id": "c318f70605280fdefd04c4302e9b7ccf",
-  "rev": "5-dd3720afb8c87930e82b9bc43c8f4598",
+  "rev": "3-3c630a926b2c9c0fc8f97cd16a1bbda4",
   "name": "Set geolocation",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "efb4eb204170385dab6c56b4db05b958",
@@ -24,6 +24,6 @@
       "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
     }
   },
-  "created": "2017-06-27T11:34:02.340Z",
-  "lastModified": "2017-06-27T11:34:02.340Z"
+  "created": "2017-08-02T13:07:20.811Z",
+  "lastModified": "2017-08-02T13:07:20.811Z"
 }

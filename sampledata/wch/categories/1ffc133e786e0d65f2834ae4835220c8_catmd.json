@@ -1,8 +1,8 @@
 {
   "id": "1ffc133e786e0d65f2834ae4835220c8",
-  "rev": "5-35d1623d29448f5ed1d89f76819409a6",
+  "rev": "3-6aa675d435c13a476197718b3ae8d321",
   "name": "Baumann&Baltner",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
     }
   },
-  "created": "2017-06-27T11:36:13.477Z",
-  "lastModified": "2017-06-27T11:36:13.477Z"
+  "created": "2017-08-02T13:09:27.045Z",
+  "lastModified": "2017-08-02T13:09:27.045Z"
 }

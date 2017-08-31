@@ -1,18 +1,25 @@
 {
   "id": "0b386251-5c24-4efa-85eb-321f0cc9cdcf",
-  "rev": "5-4513fce8293a9c36cfc4072438ba9614",
+  "rev": "27-3be48bed13053336d7831aea818540e7",
   "name": "General - Information no product or feature",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:23.860Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:23.860Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T14:21:13.870Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:33.430Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "status": "ready",
   "elements": {
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "574f55ebf39a12c6f50b96f04325f166",
+        "8db75208957eb15dd42544d160fdbcc4"
+      ]
+    },
     "attachmentquery": {
       "elementType": "text"
     },
@@ -23,13 +30,6 @@
     "persona": {
       "elementType": "category",
       "categoryIds": []
-    },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "574f55ebf39a12c6f50b96f04325f166",
-        "8db75208957eb15dd42544d160fdbcc4"
-      ]
     },
     "filter": {
       "elementType": "category"
@@ -43,6 +43,10 @@
     },
     "location": {
       "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference"
     }
-  }
+  },
+  "kind": []
 }

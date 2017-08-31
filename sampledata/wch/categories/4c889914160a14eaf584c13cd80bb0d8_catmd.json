@@ -1,8 +1,8 @@
 {
   "id": "4c889914160a14eaf584c13cd80bb0d8",
-  "rev": "5-5e50bd03a2ced92feb5f25a98782279d",
+  "rev": "3-91a059b0afcdab7f8d34fc5b6c126506",
   "name": "Sennheiser HD 205",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "4c889914160a14eaf584c13cd80b178d",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd80b178d"
     }
   },
-  "created": "2017-06-27T11:34:44.938Z",
-  "lastModified": "2017-06-27T11:34:44.938Z"
+  "created": "2017-08-02T13:08:00.204Z",
+  "lastModified": "2017-08-02T13:08:00.204Z"
 }

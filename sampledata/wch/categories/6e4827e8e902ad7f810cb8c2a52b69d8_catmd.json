@@ -1,8 +1,8 @@
 {
   "id": "6e4827e8e902ad7f810cb8c2a52b69d8",
-  "rev": "5-2d578f81b983d666919cea9f3dd60563",
+  "rev": "3-6ba209ae566d5d3bfabae6e96ed8ed21",
   "name": "information",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "6e4827e8e902ad7f810cb8c2a52b03e9",
   "parent": "6e4827e8e902ad7f810cb8c2a52b03e9",
@@ -24,6 +24,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
     }
   },
-  "created": "2017-06-27T11:34:32.666Z",
-  "lastModified": "2017-06-27T11:34:32.666Z"
+  "created": "2017-08-02T13:07:49.228Z",
+  "lastModified": "2017-08-02T13:07:49.228Z"
 }

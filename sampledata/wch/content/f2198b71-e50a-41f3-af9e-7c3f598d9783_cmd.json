@@ -1,15 +1,15 @@
 {
   "id": "f2198b71-e50a-41f3-af9e-7c3f598d9783",
-  "rev": "5-dc29fe2282c3bda84f9b0ff15b00874d",
+  "rev": "17-c0b44a36c44108dc85a69bf4d8167222",
   "name": "Mr Watson - Anything Else",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:29.128Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:29.128Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:42:46.035Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:38.919Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -27,12 +27,6 @@
     "attachments": {
       "elementType": "toggle",
       "value": true
-    },
-    "attachment": {
-      "elementType": "reference",
-      "value": {
-        "id": "07fe1c0f-7433-46c1-bf1b-8f51b00a65d5"
-      }
     },
     "attachmentquery": {
       "elementType": "text"
@@ -52,8 +46,20 @@
     "filter": {
       "elementType": "category"
     },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "07fe1c0f-7433-46c1-bf1b-8f51b00a65d5"
+        },
+        {
+          "id": "31059319-d494-4e2f-8f66-ab9054e97b94"
+        }
+      ]
+    },
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "kind": []
 }

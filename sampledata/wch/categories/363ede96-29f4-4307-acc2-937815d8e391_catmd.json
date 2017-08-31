@@ -1,0 +1,34 @@
+{
+  "id": "363ede96-29f4-4307-acc2-937815d8e391",
+  "rev": "4-178ab924d74d9d700fb323de5bdb8c66",
+  "name": "Response Followup: User agrees to share his name",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "creator": "Watson Chatbot",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "64745e36-362f-4f15-8e54-b067b0ddf603",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "b84c6bad3cad3ec6ffff23c78e0f3fe1",
+    "64745e36-362f-4f15-8e54-b067b0ddf603"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Welcome",
+    "Followup User accepts to share his name",
+    "Response Followup: User agrees to share his name"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/363ede96-29f4-4307-acc2-937815d8e391"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/64745e36-362f-4f15-8e54-b067b0ddf603"
+    }
+  },
+  "created": "2017-08-30T16:30:07.257Z",
+  "lastModified": "2017-08-30T16:30:07.257Z"
+}

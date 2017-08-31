@@ -7,12 +7,10 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:14.053Z",
+  "lastModified": "2017-08-02T13:11:31.127Z",
   "description": "",
   "tags": {
     "values": [
-      "classification:people",
-      "classification:careerist",
       "classification:soul patch facial hair",
       "classification:adult person",
       "classification:person",
@@ -27,11 +25,12 @@
       "face:Male"
     ]
   },
+  "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "IMG-20170405-WA0000.jpg",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "8-f342410173c1b0a705d92e8e49c1528f",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "5-75a94363bda693a5800d860c54dd1957",
   "cognitive": {
     "classifications": [
       "person",
@@ -57,7 +56,7 @@
   "resource": "574f55ebf39a12c6f50b96f043fbea84",
   "fileSize": 45972,
   "status": "ready",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "renditions": {
     "default": {
       "id": "r=574f55ebf39a12c6f50b96f043fbea84&a=4a34ef63-af71-4ae4-bfe8-591d3a8b01a0",
@@ -69,5 +68,5 @@
     "height": 683
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:11.229Z"
+  "created": "2017-08-02T13:11:27.373Z"
 }

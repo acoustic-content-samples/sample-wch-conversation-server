@@ -1,0 +1,41 @@
+{
+  "id": "0a1ebf51-5507-4944-9f80-5218dc979a56",
+  "rev": "5-bd5bb59479a594de14759b4f74c43219",
+  "name": "ChatButton - No Danger",
+  "description": "",
+  "classification": "content",
+  "typeId": "60c780ff-a408-4a07-a07f-8318f5a70c16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:44:34.278Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T15:32:31.738Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "primarybutton": {
+      "elementType": "toggle"
+    },
+    "dangerbutton": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "name": {
+      "elementType": "text",
+      "value": "No"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "No"
+    },
+    "weburl": {
+      "elementType": "link"
+    },
+    "value": {
+      "elementType": "text",
+      "value": "No"
+    }
+  },
+  "kind": []
+}

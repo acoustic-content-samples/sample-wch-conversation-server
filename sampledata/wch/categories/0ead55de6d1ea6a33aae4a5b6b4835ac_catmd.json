@@ -1,8 +1,8 @@
 {
   "id": "0ead55de6d1ea6a33aae4a5b6b4835ac",
-  "rev": "5-79d94a49a59f70a3ba7f7d32b4fd2c3d",
+  "rev": "3-436b86fc8df52adf0f6f9cd0cedfbb6a",
   "name": "esciris",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
     }
   },
-  "created": "2017-06-27T11:36:41.599Z",
-  "lastModified": "2017-06-27T11:36:41.599Z"
+  "created": "2017-08-02T13:09:54.507Z",
+  "lastModified": "2017-08-02T13:09:54.507Z"
 }

@@ -1,22 +1,19 @@
 {
   "id": "8f23e2b8-f14a-47c6-a398-1eae842da27d",
-  "rev": "5-123d15d28301744f7fbfe2bb8661c9b9",
+  "rev": "56-c7844f72e422ad2e262fa42985631b26",
   "name": "General -  What is Content Hub",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:26.535Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:26.535Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T14:17:42.757Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:36.399Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
-    "attachment": {
-      "elementType": "reference"
-    },
     "attachments": {
       "elementType": "toggle",
       "value": true
@@ -24,6 +21,9 @@
     "text": {
       "elementType": "text",
       "value": "Watson Content Hub is a cloud-era, headless CMS that helps you publish great content to any channel from mobile apps to billboards.\n{{#if (eq watsonData.context.clienttype 'slack')}}- _By the way I'm also fueled on Content Hub_{{else}}- By the way I'm also fueled on Content Hub{{/if}}"
+    },
+    "attachmentquery": {
+      "elementType": "text"
     },
     "emotion": {
       "elementType": "category",
@@ -37,23 +37,28 @@
         "6e4827e8e902ad7f810cb8c2a52c2438"
       ]
     },
-    "attachmentquery": {
-      "elementType": "text",
-      "value": "name:\"Attachment - WCH Marketplace\""
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "d877e107-3841-4fed-a099-2b83786838c5"
+        }
+      ]
     },
     "persona": {
       "elementType": "category",
       "categoryIds": []
     },
+    "location": {
+      "elementType": "location"
+    },
     "node": {
       "elementType": "category",
       "categoryIds": [
-        "ce2d39d2e87c6de66277ee9d4a190b5b",
-        "574f55ebf39a12c6f50b96f04326171a"
+        "ce2d39d2e87c6de66277ee9d4a193f34",
+        "d81cb8b6923bb2f2ef3eb20a1f15c6a7"
       ]
-    },
-    "location": {
-      "elementType": "location"
     }
-  }
+  },
+  "kind": []
 }

@@ -1,8 +1,8 @@
 {
   "id": "574f55ebf39a12c6f50b96f04325d595",
-  "rev": "5-c526a8575d7d2fdf641842de01549c0d",
-  "name": "Response Other Welcome",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "4-a4f109ea30af71e88c279a266cf7da8c",
+  "name": "Response Welcome",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "b84c6bad3cad3ec6ffff23c78e0f3fe1",
@@ -13,7 +13,7 @@
   "namePath": [
     "dialog_nodes",
     "Welcome",
-    "Response Other Welcome"
+    "Response Welcome"
   ],
   "links": {
     "taxonomy": {
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/b84c6bad3cad3ec6ffff23c78e0f3fe1"
     }
   },
-  "created": "2017-06-27T11:34:49.005Z",
-  "lastModified": "2017-06-27T11:34:49.005Z"
+  "created": "2017-08-02T13:08:04.335Z",
+  "lastModified": "2017-08-30T15:09:40.251Z"
 }

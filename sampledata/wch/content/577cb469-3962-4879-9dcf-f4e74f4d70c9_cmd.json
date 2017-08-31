@@ -1,15 +1,15 @@
 {
   "id": "577cb469-3962-4879-9dcf-f4e74f4d70c9",
-  "rev": "5-003b21dbb5f9a9b8728ee4211f2b9d77",
+  "rev": "18-b4dcb1460073c0a938f35007c7a1bdfc",
   "name": "General - Introduction",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:25.463Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:25.463Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T14:28:38.417Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:35.431Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -24,12 +24,6 @@
       "elementType": "category",
       "categoryIds": [
         "cf7d502a106a0de68cb1414df0ead390"
-      ]
-    },
-    "filter": {
-      "elementType": "category",
-      "categoryIds": [
-        "040ea6e1-5ea4-40ef-b968-92e703a3c741"
       ]
     },
     "persona": {
@@ -53,6 +47,13 @@
     },
     "location": {
       "elementType": "location"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "040ea6e1-5ea4-40ef-b968-92e703a3c741"
+      ]
     }
-  }
+  },
+  "kind": []
 }

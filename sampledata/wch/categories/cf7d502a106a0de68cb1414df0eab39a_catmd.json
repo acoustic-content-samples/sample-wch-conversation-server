@@ -1,8 +1,8 @@
 {
   "id": "cf7d502a106a0de68cb1414df0eab39a",
-  "rev": "5-55b5585efb8c3e368e4ab490abe02734",
+  "rev": "4-e8dffce540f370f4876a4846444218f0",
   "name": "impolite",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
   "parent": "cf7d502a106a0de68cb1414df0eabbeb",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/cf7d502a106a0de68cb1414df0eabbeb"
     }
   },
-  "created": "2017-06-27T11:36:40.244Z",
-  "lastModified": "2017-06-27T11:36:40.244Z"
+  "created": "2017-08-02T13:09:52.897Z",
+  "lastModified": "2017-08-02T13:09:52.897Z"
 }

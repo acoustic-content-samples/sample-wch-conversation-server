@@ -1,15 +1,15 @@
 {
   "id": "b4c6e946-2fcd-4d1b-8b7a-1cbd597f40fb",
-  "rev": "5-829df837d0d3b2b32eb3e62c6991ff62",
+  "rev": "19-91562258a84a4bf1d98dc6e899ee419c",
   "name": "General - Introduction Developer",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:30.329Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:30.329Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-31T08:23:49.833Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:37.227Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -17,6 +17,14 @@
     "attachments": {
       "elementType": "toggle",
       "value": true
+    },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "acca0e6d-19c3-4743-876b-53f1c80e3a2b"
+        }
+      ]
     },
     "filter": {
       "elementType": "category",
@@ -33,10 +41,6 @@
         "cf7d502a106a0de68cb1414df0ead390"
       ]
     },
-    "text": {
-      "elementType": "text",
-      "value": "I was created by Sven Sterbling. He's a really nice guy. You should get in touch with him!"
-    },
     "persona": {
       "elementType": "category",
       "categoryIds": []
@@ -48,14 +52,22 @@
         "b84c6bad3cad3ec6ffff23c78e0f1682"
       ]
     },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
     "location": {
       "elementType": "location"
     },
-    "attachment": {
-      "elementType": "reference",
-      "value": {
-        "id": "acca0e6d-19c3-4743-876b-53f1c80e3a2b"
-      }
+    "text": {
+      "elementType": "text",
+      "values": [
+        "I was created by Sven Sterbling. He's a really nice guy. You should get in touch with him!",
+        "My developer and maintainer is Sven Sterbling. Reach out for him if you want to know more."
+      ]
     }
-  }
+  },
+  "kind": []
 }

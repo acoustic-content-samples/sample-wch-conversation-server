@@ -1,8 +1,8 @@
 {
   "id": "b84c6bad3cad3ec6ffff23c78e0f833b",
-  "rev": "5-d07a9605e57428e329f998426d46aaa1",
-  "name": "Response Give Featureinformation",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "rev": "5-d72d4a4eb6d6be8db1a92e6e21fbc129",
+  "name": "Give Featureinformation",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "ce2d39d2e87c6de66277ee9d4a18d0d2",
@@ -12,8 +12,8 @@
   ],
   "namePath": [
     "dialog_nodes",
-    "Information",
-    "Response Give Featureinformation"
+    "FAQ",
+    "Give Featureinformation"
   ],
   "links": {
     "taxonomy": {
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18d0d2"
     }
   },
-  "created": "2017-06-27T11:35:54.385Z",
-  "lastModified": "2017-06-27T11:35:54.385Z"
+  "created": "2017-08-02T13:09:08.560Z",
+  "lastModified": "2017-08-30T16:58:47.722Z"
 }

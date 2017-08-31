@@ -1,8 +1,8 @@
 {
   "id": "574f55ebf39a12c6f50b96f04325f166",
-  "rev": "5-eb8e21f9ac11b9b43dde3bbf3b66b67d",
+  "rev": "4-c21d6cf5e627e9f4e0056cdae3d31aeb",
   "name": "Resp Info Missing ProdFeat",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "8db75208957eb15dd42544d160fdbcc4",
@@ -13,7 +13,7 @@
   ],
   "namePath": [
     "dialog_nodes",
-    "Information",
+    "FAQ",
     "Verify Information",
     "Resp Info Missing ProdFeat"
   ],
@@ -28,6 +28,6 @@
       "href": "/authoring/v1/categories/8db75208957eb15dd42544d160fdbcc4"
     }
   },
-  "created": "2017-06-27T11:37:25.988Z",
-  "lastModified": "2017-06-27T11:37:25.988Z"
+  "created": "2017-08-02T13:10:38.422Z",
+  "lastModified": "2017-08-02T13:10:38.422Z"
 }

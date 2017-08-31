@@ -1,8 +1,8 @@
 {
   "id": "44ca9e606b6576694bdbea223a5937f9",
-  "rev": "5-1c128a279728367c74d1397b32365f36",
+  "rev": "3-f5828ddc8baa8ff88bb3262ae76b1992",
   "name": "Daimler AG",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
     }
   },
-  "created": "2017-06-27T11:35:44.774Z",
-  "lastModified": "2017-06-27T11:35:44.774Z"
+  "created": "2017-08-02T13:08:58.869Z",
+  "lastModified": "2017-08-02T13:08:58.869Z"
 }

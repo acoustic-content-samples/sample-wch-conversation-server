@@ -1,15 +1,15 @@
 {
   "id": "44c70ec9-1c6c-40c9-a916-b30537de7147",
-  "rev": "5-d44bd434491338b5c01277e2f8c3996c",
+  "rev": "16-fcb54de9b5bc026e618cf5acf8f7d6f8",
   "name": "General - Change name 2",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:25.225Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:25.225Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T14:26:14.021Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:35.100Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -26,15 +26,15 @@
         "d6c8a8fc916579191382d0e545543a92"
       ]
     },
-    "text": {
-      "elementType": "text",
-      "value": "Okay. Just tell me your name and only your name please."
-    },
     "persona": {
       "elementType": "category"
     },
     "filter": {
       "elementType": "category"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Okay. Just tell me your name and only your name please."
     },
     "attachments": {
       "elementType": "toggle",
@@ -46,5 +46,6 @@
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "kind": []
 }

@@ -1,8 +1,8 @@
 {
   "id": "f08c09393f588be1e49ab2090302026b",
-  "rev": "5-0bc23254111ccb126223e73fae98180a",
+  "rev": "3-f1c525f03629de93cb5ae0cb4f36abc0",
   "name": "chitchat",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "3c21dad2434642ac4a48a28516393082",
@@ -24,6 +24,6 @@
       "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
     }
   },
-  "created": "2017-06-27T11:34:05.206Z",
-  "lastModified": "2017-06-27T11:34:05.206Z"
+  "created": "2017-08-02T13:07:23.555Z",
+  "lastModified": "2017-08-02T13:07:23.555Z"
 }

@@ -1,8 +1,8 @@
 {
   "id": "8db75208957eb15dd42544d160fdbcc4",
-  "rev": "5-5c4ebd9036cf8c2e4549468ab03a55aa",
+  "rev": "4-df4509bcb515907565f818e21232a347",
   "name": "Verify Information",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "ce2d39d2e87c6de66277ee9d4a18d0d2",
@@ -12,7 +12,7 @@
   ],
   "namePath": [
     "dialog_nodes",
-    "Information",
+    "FAQ",
     "Verify Information"
   ],
   "links": {
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18d0d2"
     }
   },
-  "created": "2017-06-27T11:35:25.736Z",
-  "lastModified": "2017-06-27T11:35:25.736Z"
+  "created": "2017-08-02T13:08:40.626Z",
+  "lastModified": "2017-08-02T13:08:40.626Z"
 }

@@ -1,15 +1,15 @@
 {
   "id": "c1dd2a14-dc41-48aa-b748-3871093ccbaa",
-  "rev": "5-def62721d69532a4a562b75395901a8e",
+  "rev": "12-591f4a36491c72e7fae4602d1f67bebd",
   "name": "General - User Friendly, Intuitive UI",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:27.879Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:27.879Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:48:53.522Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:37.632Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [
     "user:Jan 2017"
   ],
@@ -17,13 +17,6 @@
   "elements": {
     "attachment": {
       "elementType": "reference"
-    },
-    "filter": {
-      "elementType": "category",
-      "categoryIds": [
-        "6e4827e8e902ad7f810cb8c2a52c2438",
-        "1374e5d8b4dd44d8f257d88a73512e82"
-      ]
     },
     "attachmentquery": {
       "elementType": "text"
@@ -51,6 +44,14 @@
     },
     "location": {
       "elementType": "location"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "1374e5d8b4dd44d8f257d88a73512e82"
+      ]
     }
-  }
+  },
+  "kind": []
 }

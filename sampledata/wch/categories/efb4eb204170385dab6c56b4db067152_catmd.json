@@ -1,8 +1,8 @@
 {
   "id": "efb4eb204170385dab6c56b4db067152",
-  "rev": "5-1fcccb09baeb34575a6d43e4e7d24e3f",
+  "rev": "4-65de058ec57a65e3a3db5bf66e6c37df",
   "name": "Response Give Multiple Featureinfo about Product",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "ce2d39d2e87c6de66277ee9d4a18fe1e",
@@ -13,7 +13,7 @@
   ],
   "namePath": [
     "dialog_nodes",
-    "Information",
+    "FAQ",
     "Give Featureinformation about Product",
     "Response Give Multiple Featureinfo about Product"
   ],
@@ -28,6 +28,6 @@
       "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4a18fe1e"
     }
   },
-  "created": "2017-06-27T11:37:59.149Z",
-  "lastModified": "2017-06-27T11:37:59.149Z"
+  "created": "2017-08-02T13:11:10.646Z",
+  "lastModified": "2017-08-02T13:11:10.646Z"
 }

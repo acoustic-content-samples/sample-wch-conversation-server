@@ -7,7 +7,7 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:15.464Z",
+  "lastModified": "2017-08-02T13:11:27.736Z",
   "description": "",
   "tags": {
     "values": [
@@ -15,22 +15,14 @@
       "classification:O ring",
       "classification:pale yellow color",
       "classification:fastener",
-      "classification:light brown color",
       "classification:push button",
-      "classification:memory device",
       "classification:mask",
       "classification:restraint (chains)",
-      "classification:CD-R",
       "classification:washer",
       "classification:snap fastener",
-      "classification:optical disk",
-      "classification:reddish orange color",
       "classification:electric switch",
-      "classification:device",
       "classification:doorbell",
-      "classification:audio CD",
       "classification:controller",
-      "classification:CD-ROM",
       "classification:eye mask"
     ],
     "declined": [],
@@ -51,11 +43,12 @@
       "classification:pale yellow color"
     ]
   },
+  "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "DrHub.PNG",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "8-a7a0fcc0d14cc146131ddc4cb3b31bba",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "5-c064d57e3776d8a8d143f761b447e206",
   "cognitive": {
     "classifications": [
       "washer",
@@ -86,7 +79,7 @@
   "resource": "9640eebbb53e5fca55c5d49a0e1f806a",
   "fileSize": 37952,
   "status": "ready",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "renditions": {
     "default": {
       "id": "r=9640eebbb53e5fca55c5d49a0e1f806a&a=df0b0e06-40c4-45a1-8d93-4b0fe45679fe",
@@ -98,5 +91,5 @@
     "height": 563
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:13.588Z"
+  "created": "2017-08-02T13:11:25.865Z"
 }

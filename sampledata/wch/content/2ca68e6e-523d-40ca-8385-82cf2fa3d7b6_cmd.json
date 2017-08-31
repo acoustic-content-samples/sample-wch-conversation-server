@@ -1,21 +1,24 @@
 {
   "id": "2ca68e6e-523d-40ca-8385-82cf2fa3d7b6",
-  "rev": "5-7053ca0251b7809942181e9ab75890c4",
+  "rev": "18-d45414c94ee1b5c7d392e505e304ef72",
   "name": "Attachment - What’s new in April 2017",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:24.725Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:24.725Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:46:11.129Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:34.695Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [
     "user:whatsnewapril2017"
   ],
   "keywords": [],
   "status": "ready",
   "elements": {
+    "callback_id": {
+      "elementType": "text"
+    },
     "author": {
       "elementType": "link",
       "linkURL": "https://developer.ibm.com/customer-engagement/author/david-strachan/",
@@ -40,6 +43,12 @@
         "fileSize": 20490,
         "mediaType": "image/jpeg"
       }
+    },
+    "action": {
+      "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference"
     },
     "text": {
       "elementType": "text",
@@ -92,5 +101,9 @@
     "pretext": {
       "elementType": "text"
     }
-  }
+  },
+  "thumbnail": {
+    "id": "68bc3b95-13d8-4b39-9a9e-68a692d2fbd8"
+  },
+  "kind": []
 }

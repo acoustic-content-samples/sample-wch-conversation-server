@@ -1,8 +1,8 @@
 {
   "id": "d955af43946626b22420e562ba1f3eae",
-  "rev": "5-eb1f9daba3348f029dff48240ab64a3e",
+  "rev": "3-7bc8099d9699b7f3907006c171bd088b",
   "name": "headless cms",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "e152fe15128e5128b939da7cab2689ac",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/e152fe15128e5128b939da7cab2689ac"
     }
   },
-  "created": "2017-06-27T11:36:30.538Z",
-  "lastModified": "2017-06-27T11:36:30.538Z"
+  "created": "2017-08-02T13:09:43.245Z",
+  "lastModified": "2017-08-02T13:09:43.245Z"
 }

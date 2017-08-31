@@ -1,20 +1,30 @@
 {
   "id": "c7445795-d072-4dfe-a2d4-a17b74b4d0b1",
-  "rev": "5-18657c6fbc78adcfbf0a1e76e9d2a8cf",
-  "name": "Dr Hub - Conversation Start",
+  "rev": "36-78c5a532790fed2308f74122449075d3",
+  "name": "Response Dr Hub - First Welcome",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:28.169Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:28.169Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-30T15:04:37.752Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:37.732Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "status": "ready",
   "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
     "attachmentquery": {
       "elementType": "text"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "b84c6bad3cad3ec6ffff23c78e0f3fe1",
+        "d81cb8b6923bb2f2ef3eb20a1f15fccc"
+      ]
     },
     "persona": {
       "elementType": "category",
@@ -24,20 +34,22 @@
     },
     "text": {
       "elementType": "text",
-      "value": "Greetings! I'm Dr Hub. How can I connect you with the right information? Just ask me things about features of Watson Content Hub. Or let me know if you are interessted into a deeper diskussion of what Content Hub actually is. By the way - if you don't like my persona you can always switch between me and my colleagues Mr Watson and Professor Content."
+      "values": [
+        "Greetings! I'm Dr Hub. How can I connect you with the right information? Just ask me things about features of Watson Content Hub. Or let me know if you are interessted into a deeper diskussion of what Content Hub actually is. By the way - if you don't like my persona you can always switch between me and my colleagues Mr Watson and Professor Content."
+      ]
     },
     "filter": {
       "elementType": "category"
     },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "b84c6bad3cad3ec6ffff23c78e0f3fe1"
-      ]
+    "maxDistanceFromUser": {
+      "elementType": "number"
     },
     "attachments": {
       "elementType": "toggle",
       "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
     },
     "emotion": {
       "elementType": "category"
@@ -45,5 +57,6 @@
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "kind": []
 }

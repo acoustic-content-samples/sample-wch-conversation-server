@@ -1,24 +1,18 @@
 {
   "id": "193bbb44-7af9-4c93-a54c-1f69ace30466",
-  "rev": "5-6f92a0238f0661b9588013ed895e171f",
+  "rev": "27-5706fe4b09176249d2100b42a65d518a",
   "name": "General - Feature information CORS",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:23.863Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:23.863Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T14:21:59.913Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:33.576Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "status": "ready",
   "elements": {
-    "filter": {
-      "elementType": "category",
-      "categoryIds": [
-        "fad37b71f9f5935f82913edeb90fff3e"
-      ]
-    },
     "attachmentquery": {
       "elementType": "text"
     },
@@ -45,6 +39,16 @@
     },
     "location": {
       "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "fad37b71f9f5935f82913edeb90fff3e"
+      ]
     }
-  }
+  },
+  "kind": []
 }

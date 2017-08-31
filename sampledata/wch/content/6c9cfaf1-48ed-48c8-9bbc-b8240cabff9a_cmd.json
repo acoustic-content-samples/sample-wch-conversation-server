@@ -1,15 +1,15 @@
 {
   "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a",
-  "rev": "5-b72e8dba713f8b1d459e5ad6c59aac65",
+  "rev": "29-26ef37ff87ace219bf479a1661b4350f",
   "name": "Attachment - StartingPoints",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:25.903Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:25.903Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:43:54.375Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:35.710Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -26,6 +26,9 @@
     "callback_id": {
       "elementType": "text",
       "value": "possible_startingpoints"
+    },
+    "action": {
+      "elementType": "text"
     },
     "ts": {
       "elementType": "datetime"
@@ -46,6 +49,17 @@
     "fallback": {
       "elementType": "text"
     },
+    "quickreplies": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "5221b5e9-6c64-46f7-be4e-418f12d2ce74"
+        },
+        {
+          "id": "549367ba-fa02-4d3c-8ee7-10bda08efbea"
+        }
+      ]
+    },
     "thumb_url": {
       "elementType": "image"
     },
@@ -57,10 +71,7 @@
     },
     "pretext": {
       "elementType": "text"
-    },
-    "action": {
-      "elementType": "text",
-      "value": "[\n  {\n      \"name\": \"What is WCH\",\n      \"text\": \"What is WCH\",\n      \"type\": \"button\",\n      \"value\": \"What is WCH\"\n  },\n  {\n      \"name\": \"Integration with DX\",\n      \"text\": \"Integration with DX\",\n      \"type\": \"button\",\n      \"value\": \"How do I integrate DX with WCH?\"\n  }\n]"
     }
-  }
+  },
+  "kind": []
 }

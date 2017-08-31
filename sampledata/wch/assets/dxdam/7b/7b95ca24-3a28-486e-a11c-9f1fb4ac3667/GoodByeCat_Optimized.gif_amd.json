@@ -7,18 +7,19 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:15.005Z",
+  "lastModified": "2017-08-02T13:11:25.614Z",
   "description": "",
   "tags": {
     "values": [],
     "declined": [],
     "analysis": "failed"
   },
+  "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "GoodByeCat_Optimized.gif",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "8-76675b5081fa3d0be6b30fcd348e43a1",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "2-eeed9fb1fb94e6d5d349070a7038f879",
   "cognitive": {
     "status": "failed"
   },
@@ -26,7 +27,7 @@
   "resource": "6883365c7364edd02b0c250abd081f64",
   "fileSize": 1725261,
   "status": "ready",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "renditions": {
     "default": {
       "id": "r=6883365c7364edd02b0c250abd081f64&a=7b95ca24-3a28-486e-a11c-9f1fb4ac3667",
@@ -38,5 +39,5 @@
     "height": 360
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:14.384Z"
+  "created": "2017-08-02T13:11:25.134Z"
 }

@@ -1,15 +1,15 @@
 {
   "id": "844f9245-abac-4e9b-ad8e-f1694dca796a",
-  "rev": "5-b5306bde625d290fe6509d4b4feedb2f",
+  "rev": "21-36d97d0e050ab2e49db809bf1a2c9bc9",
   "name": "General - WCH Key Features Details",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:30.260Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:30.260Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:44:49Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:40.184Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -31,9 +31,11 @@
     },
     "attachment": {
       "elementType": "reference",
-      "value": {
-        "id": "a4d0f567-3480-4a6b-a6f4-f7b6bc1176a7"
-      }
+      "values": [
+        {
+          "id": "a4d0f567-3480-4a6b-a6f4-f7b6bc1176a7"
+        }
+      ]
     },
     "node": {
       "elementType": "category",
@@ -56,5 +58,6 @@
         "1ffc133e786e0d65f2834ae48351f865"
       ]
     }
-  }
+  },
+  "kind": []
 }

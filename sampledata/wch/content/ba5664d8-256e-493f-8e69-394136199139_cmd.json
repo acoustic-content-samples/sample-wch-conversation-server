@@ -1,19 +1,22 @@
 {
   "id": "ba5664d8-256e-493f-8e69-394136199139",
-  "rev": "5-07e5fbaabdf533ccd6c266948b0ac251",
+  "rev": "16-3914834f01b87690dbdf364bb03c0de1",
   "name": "General - Change name",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:27.525Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:27.525Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:49:08.937Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:37.317Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
     "attachmentquery": {
       "elementType": "text"
     },
@@ -42,9 +45,7 @@
     },
     "location": {
       "elementType": "location"
-    },
-    "attachment": {
-      "elementType": "reference"
     }
-  }
+  },
+  "kind": []
 }

@@ -1,15 +1,15 @@
 {
   "id": "a4d0f567-3480-4a6b-a6f4-f7b6bc1176a7",
-  "rev": "5-6aad0a0004d11b14aad3826cefa1e1b1",
+  "rev": "30-047c0b73c17086172180aad653239e52",
   "name": "Attachment - Key Features Long",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:26.968Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:26.968Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:46:02.694Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:36.749Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -17,6 +17,9 @@
     "pretext": {
       "elementType": "text",
       "value": "The key features are:"
+    },
+    "callback_id": {
+      "elementType": "text"
     },
     "color": {
       "elementType": "text"
@@ -27,9 +30,11 @@
     "author_icon": {
       "elementType": "image"
     },
-    "fallback": {
-      "elementType": "text",
-      "value": "Yes I could give you some detailed information... however then I'm busy talking for the next 5 minutes. Better ask about details for each feature separately."
+    "action": {
+      "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference"
     },
     "title": {
       "elementType": "link"
@@ -47,6 +52,10 @@
       "elementType": "text",
       "value": "[ \t\t\t    {                     \"title\": \"Continous Feature Updates\", \t\t\t\t\t\"value\": \"With agile delivery via the cloud, new innovations in Watson Content Hub are never far away. Updates as often as daily ensure your platform is constantly improving.\",                     \"short\": true                 },                 {                     \"title\": \"Rich REST APIs\", \t\t\t\t\t\"value\": \"All of Watson Content Hub features are exposed via swagger-compliant REST APIs. Watson Content Hub get out of your way and lets you easily integrate both content and content management functions inside your applications.\",                     \"short\": true                 }, \t\t\t\t                {                     \"title\": \"Cogntitive Tagging\", \t\t\t\t    \"value\": \"Work with Watson to augment your content meta-data and make it much easier to find just what you need. When you upload content, Watson analyzes it and proposes tags from a library of thousands of concepts, objects, colors, ages, genders, etc.\",                     \"short\": true                 }, \t\t\t\t                {                     \"title\": \"Omni-Channel Delivery\", \t\t\t\t\t\"value\": \"Present the right display of images for a multi-channel brand experience that is consistent across customer touch points whether mobile, tablet, or wearable with automatically generated, right-sized image renditions.\",                     \"short\": true                 }, \t\t\t\t{                     \"title\": \"User Friendly, Intuitive UI\", \t\t\t\t\t\"value\": \"Easily locate and manage all of your content in one place with a user-friendly interface and inline help that gets you started with a minimum of fuss.\",                     \"short\": true                 }, \t\t\t\t                {                     \"title\": \"Web Application Hosting\", \t\t\t\t\t\"value\": \"Manage web assets inside of content hub and publish them to our CDN without needing to configure a separate web server.\",                     \"short\": true                 }             ]"
     },
+    "fallback": {
+      "elementType": "text",
+      "value": "Yes I could give you some detailed information... however then I'm busy talking for the next 5 minutes. Better ask about details for each feature separately."
+    },
     "thumb_url": {
       "elementType": "image"
     },
@@ -56,5 +65,6 @@
     "text": {
       "elementType": "text"
     }
-  }
+  },
+  "kind": []
 }

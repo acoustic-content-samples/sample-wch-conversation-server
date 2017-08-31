@@ -1,8 +1,8 @@
 {
   "id": "d32ac974bbe1173f5a1b0fd5b63d4aca",
-  "rev": "5-490af7069fb2fb5b08741e059b73b216",
+  "rev": "3-5ca8a489ef3c0a9758260e713941f61e",
   "name": "Mac Mode",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "6e4827e8e902ad7f810cb8c2a52b3f53",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b3f53"
     }
   },
-  "created": "2017-06-27T11:36:55.945Z",
-  "lastModified": "2017-06-27T11:36:55.945Z"
+  "created": "2017-08-02T13:10:09.123Z",
+  "lastModified": "2017-08-02T13:10:09.123Z"
 }

@@ -1,0 +1,41 @@
+{
+  "id": "2c02af81-91cd-4a0f-898f-72a67c7c48e8",
+  "rev": "6-abdb160e1a7314b7e77e08d8627ef6b0",
+  "name": "ChatButton - Nein Gefahr",
+  "description": "",
+  "classification": "content",
+  "typeId": "60c780ff-a408-4a07-a07f-8318f5a70c16",
+  "locale": "de",
+  "lastModified": "2017-08-29T16:10:59.342Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-29T16:10:36.128Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "primarybutton": {
+      "elementType": "toggle"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Nein"
+    },
+    "name": {
+      "elementType": "text",
+      "value": "Nein"
+    },
+    "dangerbutton": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "value": {
+      "elementType": "text",
+      "value": "Nein"
+    },
+    "weburl": {
+      "elementType": "link"
+    }
+  },
+  "kind": []
+}

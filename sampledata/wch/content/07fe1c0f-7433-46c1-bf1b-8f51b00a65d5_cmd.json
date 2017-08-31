@@ -1,20 +1,27 @@
 {
   "id": "07fe1c0f-7433-46c1-bf1b-8f51b00a65d5",
-  "rev": "8-7bc2ae4693189a3da030b55e2aa748c2",
+  "rev": "16-045003a14be3efb9497cc71e77c41a33",
   "name": "Attachment - None of my business",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:23.875Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:23.875Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:42:55.030Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:33.627Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
     "callback_id": {
+      "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference",
+      "values": []
+    },
+    "color": {
       "elementType": "text"
     },
     "image_url": {
@@ -32,9 +39,6 @@
         "fileSize": 2079804,
         "mediaType": "image/gif"
       }
-    },
-    "color": {
-      "elementType": "text"
     },
     "footer_icon": {
       "elementType": "image",
@@ -60,20 +64,24 @@
       "elementType": "text",
       "value": "via WCH"
     },
+    "title": {
+      "elementType": "link",
+      "linkText": "None of my business ¯\\_(ツ)_/¯"
+    },
     "author_icon": {
       "elementType": "image"
     },
     "action": {
       "elementType": "text"
     },
-    "title": {
-      "elementType": "link"
-    },
     "ts": {
       "elementType": "datetime"
     },
     "fields": {
       "elementType": "text"
+    },
+    "author": {
+      "elementType": "link"
     },
     "fallback": {
       "elementType": "text"
@@ -86,11 +94,7 @@
     },
     "pretext": {
       "elementType": "text"
-    },
-    "author": {
-      "elementType": "link",
-      "linkText": "Sven Sterbling",
-      "linkDescription": "Sven Sterbling"
     }
-  }
+  },
+  "kind": []
 }

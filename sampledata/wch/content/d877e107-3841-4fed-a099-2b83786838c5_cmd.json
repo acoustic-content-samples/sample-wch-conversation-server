@@ -1,19 +1,22 @@
 {
   "id": "d877e107-3841-4fed-a099-2b83786838c5",
-  "rev": "5-714023a8539baeeee133bd5d4be40572",
+  "rev": "30-8717ff116c6f8ae2433204ae4a84cdc0",
   "name": "Attachment - WCH Marketplace",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:28.877Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:28.877Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:47:05.488Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:38.291Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
+    "callback_id": {
+      "elementType": "text"
+    },
     "image_url": {
       "elementType": "image"
     },
@@ -30,6 +33,12 @@
       "linkURL": "https://www.ibm.com/us-en/marketplace/cloud-cms-solution",
       "linkText": "Watson Content Hub Marketplace",
       "linkDescription": "Linkout to Watson Content Hub Marketplace site. Visit for more information."
+    },
+    "action": {
+      "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference"
     },
     "author": {
       "elementType": "link",
@@ -96,5 +105,9 @@
       "elementType": "text",
       "value": "If you want to have more information check out the IBM Marketplace:"
     }
-  }
+  },
+  "thumbnail": {
+    "id": "436d1d7c-8751-4bcf-8169-652f47d63efa"
+  },
+  "kind": []
 }

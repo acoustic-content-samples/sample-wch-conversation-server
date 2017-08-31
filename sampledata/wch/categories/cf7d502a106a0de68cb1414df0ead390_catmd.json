@@ -1,8 +1,8 @@
 {
   "id": "cf7d502a106a0de68cb1414df0ead390",
-  "rev": "5-e2d92d40b653ec93486bbadf33b37a2c",
+  "rev": "4-f0496dd38aa59aeeb0d935a4d99f1484",
   "name": "joy",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "cf7d502a106a0de68cb1414df0ea8b7a",
   "parent": "c6aa112a19b1d19eac233bf583cb2cb9",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/c6aa112a19b1d19eac233bf583cb2cb9"
     }
   },
-  "created": "2017-06-27T11:36:43.203Z",
-  "lastModified": "2017-06-27T11:36:43.203Z"
+  "created": "2017-08-02T13:09:55.935Z",
+  "lastModified": "2017-08-02T13:09:55.935Z"
 }

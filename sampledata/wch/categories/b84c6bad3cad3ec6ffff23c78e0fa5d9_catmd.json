@@ -1,8 +1,8 @@
 {
   "id": "b84c6bad3cad3ec6ffff23c78e0fa5d9",
-  "rev": "5-96ade63647e5fc40cac2c218a3ff36cf",
+  "rev": "4-bdf9bac24292cf0c7427550cffc3b7bc",
   "name": "Resp Info No Entities",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "8db75208957eb15dd42544d160fdbcc4",
@@ -13,7 +13,7 @@
   ],
   "namePath": [
     "dialog_nodes",
-    "Information",
+    "FAQ",
     "Verify Information",
     "Resp Info No Entities"
   ],
@@ -28,6 +28,6 @@
       "href": "/authoring/v1/categories/8db75208957eb15dd42544d160fdbcc4"
     }
   },
-  "created": "2017-06-27T11:37:42.956Z",
-  "lastModified": "2017-06-27T11:37:42.956Z"
+  "created": "2017-08-02T13:10:55.060Z",
+  "lastModified": "2017-08-02T13:10:55.060Z"
 }

@@ -7,21 +7,16 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:13.634Z",
+  "lastModified": "2017-08-02T13:11:28.875Z",
   "description": "",
   "tags": {
     "values": [
-      "classification:indigo color",
       "classification:neon lamp",
       "classification:lamp",
-      "classification:microorganism",
       "classification:figure",
       "classification:blue color",
       "classification:sphere",
-      "classification:cell",
       "classification:circle",
-      "classification:device",
-      "classification:purplish blue color",
       "classification:emerald color"
     ],
     "declined": [],
@@ -36,11 +31,12 @@
       "classification:blue color"
     ]
   },
+  "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "Watson_Avatar_Pos_BluePurple_RGB.png",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "8-19fab5af253ea53665c7bf5fba9cb6b8",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "5-148b32949ae5438eb72b7ec033522215",
   "cognitive": {
     "classifications": [
       "sphere",
@@ -65,7 +61,7 @@
   "resource": "cf7d502a106a0de68cb1414df0ec4563",
   "fileSize": 28262,
   "status": "ready",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "renditions": {
     "default": {
       "id": "r=cf7d502a106a0de68cb1414df0ec4563&a=57388d0c-72eb-4b03-afa6-315fe79cbb78",
@@ -77,5 +73,5 @@
     "height": 186
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:10.994Z"
+  "created": "2017-08-02T13:11:25.860Z"
 }

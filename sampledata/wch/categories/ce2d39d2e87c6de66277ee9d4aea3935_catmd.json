@@ -1,8 +1,8 @@
 {
   "id": "ce2d39d2e87c6de66277ee9d4aea3935",
-  "rev": "5-8f9defd04983c29433ff3e014f06ce57",
+  "rev": "3-a65121feec890fe19e3937502c22022d",
   "name": "Response Howto Compare Two Products",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "efb4eb204170385dab6c56b4db05b958",
   "parent": "ce2d39d2e87c6de66277ee9d4aea2a59",
@@ -28,6 +28,6 @@
       "href": "/authoring/v1/categories/ce2d39d2e87c6de66277ee9d4aea2a59"
     }
   },
-  "created": "2017-06-27T11:37:33.016Z",
-  "lastModified": "2017-06-27T11:37:33.016Z"
+  "created": "2017-08-02T13:10:45.318Z",
+  "lastModified": "2017-08-02T13:10:45.318Z"
 }

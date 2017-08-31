@@ -1,15 +1,15 @@
 {
   "id": "d449646d-3441-43a8-b3a9-7e7213d697af",
-  "rev": "5-0474fd02dec9e9d1d9e69d8e94c8c5d7",
+  "rev": "14-488cd5554291721b1fdcfc59b93421e9",
   "name": "General - Missunderstanding",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:28.432Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:28.432Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:48:16.985Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:38.143Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -18,15 +18,17 @@
       "elementType": "text",
       "value": "Phew.... glad to hear it's just a missunderstanding. Then let's continue."
     },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "f6b4b4f2-67e2-45b2-afd3-336c99bcd663"
-      ]
-    },
     "attachments": {
       "elementType": "toggle",
       "value": true
+    },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a"
+        }
+      ]
     },
     "attachmentquery": {
       "elementType": "text"
@@ -43,11 +45,12 @@
     "location": {
       "elementType": "location"
     },
-    "attachment": {
-      "elementType": "reference",
-      "value": {
-        "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a"
-      }
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "f6b4b4f2-67e2-45b2-afd3-336c99bcd663"
+      ]
     }
-  }
+  },
+  "kind": []
 }

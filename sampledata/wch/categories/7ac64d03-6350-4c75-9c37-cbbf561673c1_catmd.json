@@ -1,0 +1,31 @@
+{
+  "id": "7ac64d03-6350-4c75-9c37-cbbf561673c1",
+  "rev": "1-1d788f30fe427005fb734c8bd218b899",
+  "name": "like",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "classification": "category",
+  "taxonomy": "3c21dad2434642ac4a48a28516393082",
+  "parent": "4c889914160a14eaf584c13cd8f38d3a",
+  "ancestorIds": [
+    "3c21dad2434642ac4a48a28516393082",
+    "4c889914160a14eaf584c13cd8f38d3a"
+  ],
+  "namePath": [
+    "entities",
+    "adjective",
+    "like"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/7ac64d03-6350-4c75-9c37-cbbf561673c1"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/4c889914160a14eaf584c13cd8f38d3a"
+    }
+  },
+  "created": "2017-08-02T13:13:43.320Z",
+  "lastModified": "2017-08-02T13:13:43.320Z"
+}

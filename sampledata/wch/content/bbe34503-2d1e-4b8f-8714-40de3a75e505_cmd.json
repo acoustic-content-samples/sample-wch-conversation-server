@@ -1,15 +1,15 @@
 {
   "id": "bbe34503-2d1e-4b8f-8714-40de3a75e505",
-  "rev": "5-58b19090c8a15ef65b297ed02d1eaaec",
+  "rev": "27-5ba26d60181b10479781580a4957c510",
   "name": "MTL - Introduction Professor Content",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:27.646Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:27.646Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:45:04.734Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:37.449Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -23,12 +23,6 @@
     },
     "attachmentquery": {
       "elementType": "text"
-    },
-    "filter": {
-      "elementType": "category",
-      "categoryIds": [
-        "040ea6e1-5ea4-40ef-b968-92e703a3c741"
-      ]
     },
     "persona": {
       "elementType": "category",
@@ -55,6 +49,13 @@
       "elementType": "location",
       "latitude": 48.6662305,
       "longitude": 9.039273
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "040ea6e1-5ea4-40ef-b968-92e703a3c741"
+      ]
     }
-  }
+  },
+  "kind": []
 }

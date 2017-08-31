@@ -1,50 +1,19 @@
 {
   "id": "e45861eb-eca0-495b-bb09-fb3840b85cea",
-  "rev": "6-25fa3b9a66052b3899023a38c3a2fa30",
+  "rev": "16-6c130fe386463d1372ee151ebc00d2db",
   "name": "Attachment - Nice Day",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:28.973Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:28.973Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:46:44.350Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:38.425Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
-    "callback_id": {
-      "elementType": "text"
-    },
-    "color": {
-      "elementType": "text"
-    },
-    "author_icon": {
-      "elementType": "image"
-    },
-    "action": {
-      "elementType": "text"
-    },
-    "title": {
-      "elementType": "link"
-    },
-    "ts": {
-      "elementType": "datetime"
-    },
-    "fields": {
-      "elementType": "text"
-    },
-    "author": {
-      "elementType": "link"
-    },
-    "footer": {
-      "elementType": "text",
-      "value": "via Watson Content Hub"
-    },
-    "fallback": {
-      "elementType": "text"
-    },
     "image_url": {
       "elementType": "image",
       "renditions": {
@@ -60,16 +29,6 @@
         "fileSize": 1725261,
         "mediaType": "image/gif"
       }
-    },
-    "thumb_url": {
-      "elementType": "image"
-    },
-    "text": {
-      "elementType": "text",
-      "value": "Have a good day!"
-    },
-    "pretext": {
-      "elementType": "text"
     },
     "footer_icon": {
       "elementType": "image",
@@ -90,6 +49,51 @@
         "fileSize": 28262,
         "mediaType": "image/png"
       }
+    },
+    "callback_id": {
+      "elementType": "text"
+    },
+    "color": {
+      "elementType": "text"
+    },
+    "author_icon": {
+      "elementType": "image"
+    },
+    "action": {
+      "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference"
+    },
+    "title": {
+      "elementType": "link"
+    },
+    "ts": {
+      "elementType": "datetime"
+    },
+    "fields": {
+      "elementType": "text"
+    },
+    "author": {
+      "elementType": "link"
+    },
+    "footer": {
+      "elementType": "text",
+      "value": "via Watson Content Hub"
+    },
+    "fallback": {
+      "elementType": "text"
+    },
+    "thumb_url": {
+      "elementType": "image"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Have a good day!"
+    },
+    "pretext": {
+      "elementType": "text"
     }
-  }
+  },
+  "kind": []
 }

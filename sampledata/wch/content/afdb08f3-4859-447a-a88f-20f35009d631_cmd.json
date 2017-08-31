@@ -1,15 +1,15 @@
 {
   "id": "afdb08f3-4859-447a-a88f-20f35009d631",
-  "rev": "5-fc3389a0139410536d8de2688b79c89f",
+  "rev": "23-82a4f8f968192cfcd94db9c749ea8068",
   "name": "Follow up - Username",
   "description": "",
   "classification": "content",
   "typeId": "f9147be3-09bd-47a1-94b9-22e5e4cac6c1",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:30.195Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:30.195Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T16:07:05.089Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:40.169Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -27,6 +27,14 @@
         "d32ac974bbe1173f5a1b0fd5b64efba4"
       ]
     },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85"
+        }
+      ]
+    },
     "persona": {
       "elementType": "category"
     },
@@ -36,15 +44,10 @@
     "location": {
       "elementType": "location"
     },
-    "attachment": {
-      "elementType": "reference",
-      "value": {
-        "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85"
-      }
-    },
     "text": {
       "elementType": "text",
       "value": "I think we are talking for the first time. Is it okay to ask for you name?"
     }
-  }
+  },
+  "kind": []
 }

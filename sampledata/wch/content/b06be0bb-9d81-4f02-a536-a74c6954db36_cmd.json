@@ -1,18 +1,26 @@
 {
   "id": "b06be0bb-9d81-4f02-a536-a74c6954db36",
-  "rev": "5-18f6ac3edf43719a7e0450a57d5e047e",
+  "rev": "23-f3e2af0a9fde20f46bbf112ffe4136ec",
   "name": "General - How To Verify No Entities",
+  "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:27.248Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:27.248Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:49:16.833Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:37.171Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "b84c6bad3cad3ec6ffff23c78edfda24",
+        "1a8292531759e8dfc15895bd23d23d8b"
+      ]
+    },
     "attachmentquery": {
       "elementType": "text"
     },
@@ -36,13 +44,9 @@
     "location": {
       "elementType": "location"
     },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "b84c6bad3cad3ec6ffff23c78edfda24",
-        "1a8292531759e8dfc15895bd23d23d8b"
-      ]
+    "attachment": {
+      "elementType": "reference"
     }
   },
-  "description": ""
+  "kind": []
 }

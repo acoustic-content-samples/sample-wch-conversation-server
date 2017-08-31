@@ -1,20 +1,23 @@
 {
   "id": "2614722b-a15c-4b45-9af0-4390e2b45f1a",
-  "rev": "5-0723286533c6a6f11a930b7ad5ee6c07",
+  "rev": "28-9d4b99f4d75ca446509070de79df794b",
   "name": "General - Info Feature UI Enhancements for WCH",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:24.546Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:24.546Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T14:24:25.312Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:34.573Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [
     "user:Jan 2017"
   ],
   "status": "ready",
   "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
     "attachmentquery": {
       "elementType": "text"
     },
@@ -38,9 +41,6 @@
     "location": {
       "elementType": "location"
     },
-    "attachment": {
-      "elementType": "reference"
-    },
     "filter": {
       "elementType": "category",
       "categoryIds": [
@@ -52,5 +52,6 @@
       "elementType": "text",
       "value": "We cleaned up a lot of things we'd carried over from go-live. The most visible addition is that we added search boxes to more screens so now you can search for content types and users inside of the WCH user interface."
     }
-  }
+  },
+  "kind": []
 }

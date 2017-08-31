@@ -1,8 +1,8 @@
 {
   "id": "e152fe15128e5128b939da7cab274baa",
-  "rev": "5-4f001882aa815d44eafca3f43e3ab693",
+  "rev": "3-a65c5bc0dce476dc5b69b254581734bd",
   "name": "sso with digital commerce",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "fad37b71f9f5935f82913edeb90f78b1",
@@ -26,6 +26,6 @@
       "href": "/authoring/v1/categories/fad37b71f9f5935f82913edeb90f78b1"
     }
   },
-  "created": "2017-06-27T11:35:29.944Z",
-  "lastModified": "2017-06-27T11:35:29.944Z"
+  "created": "2017-08-02T13:08:44.649Z",
+  "lastModified": "2017-08-02T13:08:44.649Z"
 }

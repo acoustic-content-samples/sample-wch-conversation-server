@@ -1,15 +1,15 @@
 {
   "id": "bdcdc607-dd0b-4a62-a928-2c6baf593222",
-  "rev": "5-c1a6bf9544c974b8c2fb2c6fcbaa5cde",
+  "rev": "36-e84dcc7b5a308dc4e192a931d626625f",
   "name": "General - Negative Response Name",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:27.707Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:27.707Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-30T18:02:17.090Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:37.518Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -24,28 +24,38 @@
       "elementType": "category",
       "categoryIds": []
     },
-    "text": {
-      "elementType": "text",
-      "value": "Too bad. But I understand that you are concerned about your privacy... then I probaply should not mention that I really like cookies{{#if (eq watsonData.context.clienttype 'slack')}}  :cookie::cookie::cookie:{{else}}.{{/if}}"
-    },
     "persona": {
       "elementType": "category"
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "665bb626-b675-4c18-b76a-8844a862e647",
+        "1e49b85e-fa1b-4d61-9217-2d0a38bb0e5a"
+      ]
     },
     "attachments": {
       "elementType": "toggle",
       "value": false
     },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "1ffc133e786e0d65f2834ae483637fee"
-      ]
+    "customerSegment": {
+      "elementType": "category"
     },
     "emotion": {
       "elementType": "category"
     },
     "location": {
       "elementType": "location"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Too bad. But I understand that you are concerned about your privacy... then I probaply should not mention that I really like cookies{{#if (or (eq watsonData.context.clienttype 'slack') (eq watsonData.context.clienttype 'fb'))}} 🍪🍪🍪{{else}}.{{/if}}"
+      ]
     }
-  }
+  },
+  "kind": []
 }

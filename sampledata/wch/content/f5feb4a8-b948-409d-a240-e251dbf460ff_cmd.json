@@ -1,23 +1,19 @@
 {
   "id": "f5feb4a8-b948-409d-a240-e251dbf460ff",
-  "rev": "5-b78b7e6626d5207bf57a962a07c0958b",
-  "name": "General - Set Name",
+  "rev": "22-2a8e6b7d2ebb4c6a023597eb7d07caf3",
+  "name": "General Response - Set Name",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:29.428Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:29.428Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-30T14:52:44.267Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:38.988Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
-    "text": {
-      "elementType": "text",
-      "value": "Welcome {{watsonData.context.username}}! Really like your name. But now let's get started!"
-    },
     "attachment": {
       "elementType": "reference"
     },
@@ -30,9 +26,15 @@
     "filter": {
       "elementType": "category"
     },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
     "attachments": {
       "elementType": "toggle",
       "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
     },
     "emotion": {
       "elementType": "category"
@@ -45,6 +47,14 @@
       "categoryIds": [
         "d32ac974bbe1173f5a1b0fd5b64ebe3a"
       ]
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Welcome {{watsonData.context.username}}! Really like your name. But now let's get started!",
+        "Welcome {{watsonData.context.username}}! If you want to change your name just let me know. But now let's get started!"
+      ]
     }
-  }
+  },
+  "kind": []
 }

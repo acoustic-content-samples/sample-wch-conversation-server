@@ -7,18 +7,19 @@
     "categories": []
   },
   "assetType": "image",
-  "lastModified": "2017-06-27T11:38:17.499Z",
+  "lastModified": "2017-08-02T13:11:30.919Z",
   "description": "",
   "tags": {
     "values": [],
     "declined": [],
     "analysis": "failed"
   },
+  "isManaged": true,
   "altText": "",
   "categoryIds": [],
   "fileName": "NoneBusiness_Optimized.gif",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "rev": "8-afbb21b16466b38e79655293c30fa4ac",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "rev": "2-65414a32b51756bb7bf490bbc8ea9ea8",
   "cognitive": {
     "status": "failed"
   },
@@ -26,7 +27,7 @@
   "resource": "2417da654a78e706247033d519ff2370",
   "fileSize": 2079804,
   "status": "ready",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "renditions": {
     "default": {
       "id": "r=2417da654a78e706247033d519ff2370&a=b0693a2f-2046-4d2d-b72f-86c8c297dbba",
@@ -38,5 +39,5 @@
     "height": 180
   },
   "classification": "asset",
-  "created": "2017-06-27T11:38:17.121Z"
+  "created": "2017-08-02T13:11:30.538Z"
 }

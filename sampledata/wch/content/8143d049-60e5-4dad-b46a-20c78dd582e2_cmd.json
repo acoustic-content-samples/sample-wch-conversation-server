@@ -1,15 +1,15 @@
 {
   "id": "8143d049-60e5-4dad-b46a-20c78dd582e2",
-  "rev": "5-0bd9dcadda6b9a7e97052f890cbef750",
+  "rev": "33-60fa8b2b29f9300cbaefe99671c91e22",
   "name": "MrWatson - Conversation Start",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:26.092Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:26.092Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:45:54.854Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:36.060Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "status": "ready",
   "elements": {
@@ -50,5 +50,6 @@
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "kind": []
 }

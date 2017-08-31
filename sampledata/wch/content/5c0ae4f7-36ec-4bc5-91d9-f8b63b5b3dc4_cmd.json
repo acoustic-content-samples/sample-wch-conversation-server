@@ -1,15 +1,15 @@
 {
   "id": "5c0ae4f7-36ec-4bc5-91d9-f8b63b5b3dc4",
-  "rev": "5-bd1495a485356b48f96e215e4ef6546a",
+  "rev": "13-7d039769e137b64ac30d0d63ea2d175e",
   "name": "General - Positive Response",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:25.471Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:25.471Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T14:27:53.967Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:35.418Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -45,5 +45,6 @@
         "18c30f2c-057d-4ce0-9b70-511281edaeea"
       ]
     }
-  }
+  },
+  "kind": []
 }

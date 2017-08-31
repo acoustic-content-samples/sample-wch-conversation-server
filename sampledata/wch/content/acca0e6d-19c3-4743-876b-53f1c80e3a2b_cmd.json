@@ -1,15 +1,15 @@
 {
   "id": "acca0e6d-19c3-4743-876b-53f1c80e3a2b",
-  "rev": "5-fc88764e9b5ec0b6d7d26c7bd02bcb40",
+  "rev": "23-a9b69cfc7f98d30da8d109c22556d871",
   "name": "Attachment - WCH Expert",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:27.372Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:27.372Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:46:36.237Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:37.002Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -17,6 +17,9 @@
     "text": {
       "elementType": "text",
       "value": "Phone: +49-7031-161697 \nMobile: +49-170-7695991 \nE-mail: sterbling@de.ibm.com"
+    },
+    "callback_id": {
+      "elementType": "text"
     },
     "title": {
       "elementType": "link",
@@ -30,6 +33,12 @@
       "elementType": "link",
       "linkURL": "mailto://sterbling@de.ibm.com",
       "linkText": "IBM Lab Services"
+    },
+    "action": {
+      "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference"
     },
     "thumb_url": {
       "elementType": "image",
@@ -94,5 +103,9 @@
     "pretext": {
       "elementType": "text"
     }
-  }
+  },
+  "thumbnail": {
+    "id": "57388d0c-72eb-4b03-afa6-315fe79cbb78"
+  },
+  "kind": []
 }

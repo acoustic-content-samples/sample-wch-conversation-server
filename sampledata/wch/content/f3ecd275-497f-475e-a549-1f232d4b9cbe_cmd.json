@@ -1,36 +1,41 @@
 {
   "id": "f3ecd275-497f-475e-a549-1f232d4b9cbe",
-  "rev": "5-3dc46638c57daf79090693e6aa671ed1",
-  "name": "General - WCH Key Features",
+  "rev": "27-8f69967a5c883df86db51c624c962053",
+  "name": "Response - WCH Key Features",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:29.105Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:29.105Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-30T18:16:20.638Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:38.971Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
   "elements": {
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Here's what I found."
+      ]
+    },
+    "attachment": {
+      "elementType": "reference"
+    },
     "attachments": {
       "elementType": "toggle",
       "value": true
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
     },
     "node": {
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
       ]
-    },
-    "text": {
-      "elementType": "text",
-      "value": "Here's what I found."
-    },
-    "persona": {
-      "elementType": "category",
-      "categoryIds": []
     },
     "filter": {
       "elementType": "category",
@@ -39,6 +44,12 @@
         "02f066c403ff7ee38a0e52b28ac7aad4",
         "6e4827e8e902ad7f810cb8c2a52c1b57"
       ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
+      "elementType": "category"
     },
     "emotion": {
       "elementType": "category"
@@ -50,5 +61,6 @@
       "elementType": "text",
       "value": "name:(\"Attachment - Key Features Short\"^10 \"Attachment - WCH Marketplace\")"
     }
-  }
+  },
+  "kind": []
 }

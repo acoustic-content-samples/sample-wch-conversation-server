@@ -1,32 +1,32 @@
 {
   "id": "c727dd32-a55a-4b33-a7e4-ef99d503abdb",
-  "rev": "5-1c027e31a985c041d2d0910374b72e62",
+  "rev": "13-1a82cce401eaa2076ca3272ff7f195db",
   "name": "General - Info Feature CORS whitelisting for WCH",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:27.971Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:27.971Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:48:44.118Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:37.675Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [
     "user:Jan 2017"
   ],
   "status": "ready",
   "elements": {
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "ce2d39d2e87c6de66277ee9d4a18fe1e"
-      ]
-    },
     "attachmentquery": {
       "elementType": "text"
     },
     "text": {
       "elementType": "text",
       "value": "In December we added the ability to control CORS trusted domains to whitelist which domains or hosts can access Content Hub. Admins can access this setting in Hub Settings."
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ]
     },
     "persona": {
       "elementType": "category",
@@ -48,6 +48,10 @@
     },
     "location": {
       "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference"
     }
-  }
+  },
+  "kind": []
 }

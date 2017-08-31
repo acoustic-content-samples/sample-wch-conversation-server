@@ -1,8 +1,8 @@
 {
   "id": "e0438410886acfa0a296a71c1acbef21",
-  "rev": "5-1d296d7c9ecd214d9a94a037d70ff1ad",
+  "rev": "3-13ce9f406eef4e04513359af6248bec9",
   "name": "adjectives",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
   "taxonomy": "3c21dad2434642ac4a48a28516393082",
   "parent": "3c21dad2434642ac4a48a28516393082",
@@ -24,6 +24,6 @@
       "href": "/authoring/v1/categories/3c21dad2434642ac4a48a28516393082"
     }
   },
-  "created": "2017-06-27T11:33:36.568Z",
-  "lastModified": "2017-06-27T11:33:36.568Z"
+  "created": "2017-08-02T13:06:55.712Z",
+  "lastModified": "2017-08-02T13:06:55.712Z"
 }

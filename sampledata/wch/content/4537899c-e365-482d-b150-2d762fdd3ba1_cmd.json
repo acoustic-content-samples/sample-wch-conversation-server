@@ -1,15 +1,15 @@
 {
   "id": "4537899c-e365-482d-b150-2d762fdd3ba1",
-  "rev": "5-5ed5588e12b5630637fb39d834c0e6c6",
+  "rev": "18-31f601ef7e2c6123dced65b999dc5cf3",
   "name": "General - Negative Message",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:30.294Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:30.294Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:43:22.397Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:39.955Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -20,12 +20,6 @@
         "3da58ac3-ec04-4911-8ab6-60ccfbf5485a"
       ]
     },
-    "attachment": {
-      "elementType": "reference",
-      "value": {
-        "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85"
-      }
-    },
     "attachments": {
       "elementType": "toggle",
       "value": true
@@ -33,15 +27,23 @@
     "attachmentquery": {
       "elementType": "text"
     },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85"
+        }
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "value": "You just gave a negative response. Did I do something wrong? 😢"
+    },
     "persona": {
       "elementType": "category"
     },
     "filter": {
       "elementType": "category"
-    },
-    "text": {
-      "elementType": "text",
-      "value": "Sorry I dont' understand. Did I do something wrong? :cry:"
     },
     "emotion": {
       "elementType": "category"
@@ -49,5 +51,6 @@
     "location": {
       "elementType": "location"
     }
-  }
+  },
+  "kind": []
 }

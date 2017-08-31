@@ -1,0 +1,73 @@
+{
+  "id": "56987479-95c8-4b5c-b9e8-7ccfcbea09af",
+  "rev": "32-64bcc6cb4aa2d52e9182fd9d22cd14d6",
+  "name": "Antwort - Wer hat dich entwickelt",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-08-31T08:36:13.032Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-31T08:24:24.527Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "464cccb3d4ddc13c9a93ed0253061519"
+      ]
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": [
+        "cf7d502a106a0de68cb1414df0ead390"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Ich wurde von Sven Sterbling entwickelt. Wenn du mehr wissen willst frag ihn doch einfach selber.",
+        "Ich wurde von Sven Sterbling kreiert. Er ist ein echt cooler Typ! Rede doch einfach mal mit ihm."
+      ]
+    },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "d0ec00ae-17f6-437a-ab19-b93a8ed27478"
+        }
+      ]
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18f25b",
+        "b84c6bad3cad3ec6ffff23c78e0f1682"
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "kind": []
+}

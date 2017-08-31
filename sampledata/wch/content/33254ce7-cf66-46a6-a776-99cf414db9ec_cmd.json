@@ -1,15 +1,15 @@
 {
   "id": "33254ce7-cf66-46a6-a776-99cf414db9ec",
-  "rev": "5-e02db3960fc7f41179a08e9a0bf86279",
+  "rev": "11-963129a4dc0b42d7fc110fe250b99b41",
   "name": "Attachment - Key Features Short",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-  "locale": "en-US",
-  "lastModified": "2017-06-27T11:38:24.672Z",
-  "lastModifierId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
-  "created": "2017-06-27T11:38:24.672Z",
-  "creatorId": "5cce7e2c-3227-4499-a8e3-e9a0725c0b16",
+  "locale": "en",
+  "lastModified": "2017-08-29T15:46:28Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-02T13:11:34.602Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
   "status": "ready",
@@ -26,6 +26,9 @@
       "elementType": "text",
       "value": "The key features are:"
     },
+    "callback_id": {
+      "elementType": "text"
+    },
     "image_url": {
       "elementType": "image"
     },
@@ -35,6 +38,12 @@
     "color": {
       "elementType": "text",
       "value": "#36a64f"
+    },
+    "action": {
+      "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference"
     },
     "title": {
       "elementType": "link"
@@ -57,5 +66,6 @@
     "text": {
       "elementType": "text"
     }
-  }
+  },
+  "kind": []
 }
