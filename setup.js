@@ -179,12 +179,63 @@ function initServices(predefined) {
     const vcap     = JSON.parse(fs.readFileSync(path.join(__dirname, 'dch_vcap_sample.json')).toString('utf-8'));
     const settings = JSON.parse(fs.readFileSync(path.join(__dirname, 'app_settings.json')).toString('utf-8'));
     setupToneAnalyzer({predefined, vcap, settings}).
+    then(setupLanguageTranslator).
     then(setupConversationService).
     then(setupWCH).
     then(setupBot).
     then(setupGeo).
     then(setupFB).
     then(({vcap, settings}) => resolve({vcap, settings}));
+
+  });
+}
+
+function setupLanguageTranslator({predefined, vcap, settings}) {
+  return new Promise((resolve, reject) => {
+    console.log(`
+############################
+  Setup Language Translator
+############################
+`   );
+    console.log('Note: You can find all parameters on Bluemix. Make sure to name the service wch-languagetranslator!');
+    console.log('Please provide the following parameters:');
+    let schema = {
+      properties: {
+        skip: {
+          description: 'Do you want to use the Language Translator capabilites? Otherwise we can skip it. (y/n)',
+          pattern: /^y|n$/,
+          required: true,
+          message: `Please answer with 'y' for yes and 'n' for no!`
+        },
+        url: {
+          required: true,
+          ask: () => prompt.history('skip').value === 'y'
+        },
+        username: {
+          required: true,
+          ask: () => prompt.history('skip').value === 'y'
+        },
+        password: {
+          required: true,
+          hidden: true,
+          replace: '*',
+          ask: () => prompt.history('skip').value === 'y'
+        }
+      }
+    };
+
+    prompt.start();
+    prompt.message = 'ToneAnalyzer';
+    prompt.get(schema, function (err, result) {
+      settings.language_translator.enabled = (result.skip === 'y');
+
+      vcap.language_translator[0].credentials = {
+        url: result.url.trim(),
+        username: result.username.trim(),
+        password: result.password.trim()
+      };
+      resolve({predefined, vcap, settings});
+    });
 
   });
 }
@@ -350,7 +401,8 @@ function setupBot({predefined, vcap, settings}) {
         redirectUri: {
           ask: () => prompt.history('skip').value === 'y'
         },
-        profcontent: {
+        testbottoken: {
+          description: 'Simple Slack bot for local tests. (Optional)'
           required: false,
           ask: () => prompt.history('skip').value === 'y'
         }
@@ -364,7 +416,7 @@ function setupBot({predefined, vcap, settings}) {
       vcap['user-provided'][1].credentials.clientid = result.clientid;
       vcap['user-provided'][1].credentials.clientsecret = result.clientsecret;
       vcap['user-provided'][1].credentials.verificationtoken = result.verificationtoken;
-      if(result.profcontent) vcap['user-provided'][1].credentials.profcontent = result.profcontent;
+      if(result.testbot) vcap['user-provided'][1].credentials.testbot = result.testbottoken;
       resolve({predefined, vcap, settings});
     });
 

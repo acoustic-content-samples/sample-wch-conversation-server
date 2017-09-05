@@ -15,4 +15,5 @@ applications:
     - db_config
     - wch-conversation
     - wch-toneanalyzer
+    - wch-languagetranslator
 

@@ -1,4 +1,24 @@
 {
+      "language_translator": [
+        {
+            "credentials": {
+              "url": "<Copy the credentials from bluemix>",
+              "username": "<Copy the credentials from bluemix>",
+              "password": "<Copy the credentials from bluemix>"
+            },
+            "syslog_drain_url": null,
+            "label": "language_translator",
+            "provider": null,
+            "plan": "lite",
+            "name": "wch-languagetranslator",
+            "tags": [
+                "watson",
+                "ibm_created",
+                "ibm_dedicated_public",
+                "lite"
+            ]
+        }
+    ],
     "tone_analyzer": [
         {
             "credentials": {
@@ -58,7 +78,7 @@
                 "clientsecret": "<Client Secret of your Slack Application>",
                 "verificationtoken": "<Verification Token of your Slack Application>",
                 "redirectUri": "<Redirect URL for OAuth Flow>",
-                "profcontent": "<Simple Slack Bot Token>"
+                "testbot": "<Simple Slack Bot Token>"
             },
             "syslog_drain_url": "",
             "label": "user-provided",

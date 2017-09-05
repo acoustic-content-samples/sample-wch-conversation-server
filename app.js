@@ -39,13 +39,15 @@ app.set('appEnv', appEnv);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 
-debug('Configured bots');
+debug('Configuring bots...');
 bots(app);
+debug('Configuring bots finished');
 
-debug('Configured sync');
+debug('Configuring sync...');
 app.use('/sync', syncRoutes);
+debug('Configuring sync finished');
 
-debug('Configured error handling');
+debug('Configuring error handling...');
 /* Catch 404 and forward to error handler */
 app.use(function(req, res, next) {
   let err = new Error('Not Found');
@@ -80,5 +82,6 @@ else {
 }
 
 app.use('/', errorHandler);
+debug('Configuring error handling finished');
 
 module.exports = app;
