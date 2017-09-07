@@ -3,6 +3,8 @@
   "enabled": true
  },
  "bot_config": {
+  "supportedLanguages": ["de", "en"],
+  "defaultLanguage": "en",
   "enabled": {
    "developermode": false,
    "raspberry": true,
