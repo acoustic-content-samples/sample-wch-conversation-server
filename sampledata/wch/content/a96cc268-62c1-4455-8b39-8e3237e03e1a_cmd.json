@@ -1,12 +1,12 @@
 {
   "id": "a96cc268-62c1-4455-8b39-8e3237e03e1a",
-  "rev": "15-f5c1b795d39858e7dbcdbe9369523a53",
+  "rev": "16-a4d60ad927f01d68bbfa3543e0557ac8",
   "name": "ProfContent - Anything Else",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-08-29T15:41:50.317Z",
+  "lastModified": "2017-09-06T15:33:56.097Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:36.945Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -38,6 +38,9 @@
         "efb4eb204170385dab6c56b4db060bc8"
       ]
     },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
     "filter": {
       "elementType": "category"
     },
@@ -45,12 +48,18 @@
       "elementType": "toggle",
       "value": false
     },
+    "customerSegment": {
+      "elementType": "category"
+    },
     "location": {
       "elementType": "location"
     },
     "text": {
       "elementType": "text",
-      "value": "I'm sorry. I haven't done any research in this area. Try to ask me about Watson Content Hub."
+      "values": [
+        "I'm sorry. I haven't done any research in this area. Try to ask me about Watson Content Hub.",
+        "I'm sorry. I don't understand! Sometimes I have an easier time with a few simple keywords."
+      ]
     }
   },
   "kind": []

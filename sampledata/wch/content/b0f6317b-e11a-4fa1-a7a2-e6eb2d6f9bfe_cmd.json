@@ -1,12 +1,12 @@
 {
   "id": "b0f6317b-e11a-4fa1-a7a2-e6eb2d6f9bfe",
-  "rev": "9-f5b15f040f23c0c984a7859fec18886d",
-  "name": "Attachment - Ja Nein",
+  "rev": "10-adbd4e587c47139eb7d8cf5c54a85f15",
+  "name": "Anhang - Ja Nein",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
   "locale": "de",
-  "lastModified": "2017-08-29T16:11:28.396Z",
+  "lastModified": "2017-09-04T16:33:47.069Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-29T16:08:19.637Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -14,10 +14,6 @@
   "keywords": [],
   "status": "ready",
   "elements": {
-    "fallback": {
-      "elementType": "text",
-      "value": "Bitte Antworte mit Ja oder Nein. (Oder ignoriere diese Frage)"
-    },
     "image_url": {
       "elementType": "image"
     },
@@ -36,6 +32,17 @@
     "fields": {
       "elementType": "text"
     },
+    "quickreplies": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "bfc1fa18-1ae2-41c3-a753-370c63898982"
+        },
+        {
+          "id": "2c02af81-91cd-4a0f-898f-72a67c7c48e8"
+        }
+      ]
+    },
     "author": {
       "elementType": "link"
     },
@@ -43,10 +50,11 @@
       "elementType": "text",
       "value": "#36A64F"
     },
-    "title": {
-      "elementType": "link",
-      "linkText": "Your Answer",
-      "linkDescription": "Your Answer"
+    "fallback": {
+      "elementType": "text",
+      "values": [
+        "Bitte Antworte mit Ja oder Nein. (Oder ignoriere diese Frage)"
+      ]
     },
     "thumb_url": {
       "elementType": "image"
@@ -61,19 +69,13 @@
       "elementType": "text",
       "value": "yes_no"
     },
+    "title": {
+      "elementType": "link",
+      "linkText": "Deine Antwort",
+      "linkDescription": "Deine Antwort"
+    },
     "pretext": {
       "elementType": "text"
-    },
-    "quickreplies": {
-      "elementType": "reference",
-      "values": [
-        {
-          "id": "bfc1fa18-1ae2-41c3-a753-370c63898982"
-        },
-        {
-          "id": "2c02af81-91cd-4a0f-898f-72a67c7c48e8"
-        }
-      ]
     }
   },
   "kind": []

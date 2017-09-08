@@ -1,0 +1,40 @@
+{
+  "id": "581fd641-b033-4d60-bbd3-c7365f7bf7de",
+  "rev": "8-61fec1bb710bcebc5a2918659bbb4805",
+  "name": "ChatButton - Integration mit DX",
+  "description": "",
+  "classification": "content",
+  "typeId": "60c780ff-a408-4a07-a07f-8318f5a70c16",
+  "locale": "de",
+  "lastModified": "2017-09-04T09:51:12.466Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-04T09:50:38.361Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "text": {
+      "elementType": "text",
+      "value": "Integration mit DX"
+    },
+    "primarybutton": {
+      "elementType": "toggle"
+    },
+    "dangerbutton": {
+      "elementType": "toggle"
+    },
+    "value": {
+      "elementType": "text",
+      "value": "Wie integriere ich DX mit WCH?"
+    },
+    "name": {
+      "elementType": "text",
+      "value": "integrationdx"
+    },
+    "weburl": {
+      "elementType": "link"
+    }
+  },
+  "kind": []
+}

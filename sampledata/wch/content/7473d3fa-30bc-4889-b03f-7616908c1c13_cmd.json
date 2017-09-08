@@ -1,0 +1,58 @@
+{
+  "id": "7473d3fa-30bc-4889-b03f-7616908c1c13",
+  "rev": "16-aaa583e0f3158c5c06cf6ff633765875",
+  "name": "Antwort - Anything else",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-07T07:52:34.422Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-06T15:19:54.534Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Leider bin ich kein Experte zu diesem Thema. Daher kann ich dir leider nicht weiterhelfen. Frag mich doch etwas zu Watson Content Hub!"
+      ]
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "efb4eb204170385dab6c56b4db060bc8"
+      ]
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "kind": []
+}

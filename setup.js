@@ -225,9 +225,9 @@ function setupLanguageTranslator({predefined, vcap, settings}) {
     };
 
     prompt.start();
-    prompt.message = 'ToneAnalyzer';
+    prompt.message = 'LanguageTranslator';
     prompt.get(schema, function (err, result) {
-      settings.language_translator.enabled = (result.skip === 'y');
+      settings.wch_languagetranslator.enabled = (result.skip === 'y');
 
       vcap.language_translator[0].credentials = {
         url: result.url.trim(),
@@ -402,7 +402,7 @@ function setupBot({predefined, vcap, settings}) {
           ask: () => prompt.history('skip').value === 'y'
         },
         testbottoken: {
-          description: 'Simple Slack bot for local tests. (Optional)'
+          description: 'Simple Slack bot for local tests. (Optional)',
           required: false,
           ask: () => prompt.history('skip').value === 'y'
         }

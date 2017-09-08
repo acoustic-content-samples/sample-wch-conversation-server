@@ -1,0 +1,55 @@
+{
+  "id": "0c55e81c-a9e9-4ddd-8127-7178867050a0",
+  "rev": "8-8a6d61329076279ab47e08edb111cc0f",
+  "name": "Followup - Tell me your name",
+  "classification": "content",
+  "typeId": "f9147be3-09bd-47a1-94b9-22e5e4cac6c1",
+  "locale": "en",
+  "lastModified": "2017-09-04T16:32:43.075Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-04T16:31:59.717Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Do you want to tell me your name?"
+      ]
+    },
+    "action": {
+      "elementType": "category",
+      "categoryIds": [
+        "774edaad-e046-44ff-b81d-d126adf3ea16"
+      ]
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "cadf2f2e-2681-4c4e-bc89-0cd961d27f85"
+        }
+      ]
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "kind": [],
+  "description": ""
+}

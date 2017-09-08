@@ -1,12 +1,12 @@
 {
   "id": "e41fd7e2-3349-4eeb-92ca-7877689f362d",
-  "rev": "10-3b24a2ccfacc10bddf4b35db36cc1c5c",
-  "name": "General - Web Application Hosting",
+  "rev": "11-fa8e88e395e404402eb812279301163d",
+  "name": "Response - Web Application Hosting",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-08-29T15:47:43.548Z",
+  "lastModified": "2017-09-01T09:16:40.131Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:38.468Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -21,29 +21,37 @@
     "attachmentquery": {
       "elementType": "text"
     },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "ce2d39d2e87c6de66277ee9d4a18fe1e"
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Manage web assets inside of content hub and publish them to our CDN without needing to configure a separate web server."
       ]
     },
     "persona": {
       "elementType": "category",
       "categoryIds": []
     },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
     "attachments": {
       "elementType": "toggle",
       "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
     },
     "emotion": {
       "elementType": "category"
     },
     "location": {
       "elementType": "location"
-    },
-    "text": {
-      "elementType": "text",
-      "value": "Manage web assets inside of content hub and publish them to our CDN without needing to configure a separate web server."
     },
     "filter": {
       "elementType": "category",

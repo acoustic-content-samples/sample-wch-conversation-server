@@ -1,12 +1,12 @@
 {
   "id": "bdcdc607-dd0b-4a62-a928-2c6baf593222",
-  "rev": "36-e84dcc7b5a308dc4e192a931d626625f",
-  "name": "General - Negative Response Name",
+  "rev": "38-c35da1b690ce05ddb6e2019109ef085d",
+  "name": "Response - User don't want to share his name",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-08-30T18:02:17.090Z",
+  "lastModified": "2017-08-31T14:30:04.161Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:37.518Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -16,6 +16,13 @@
   "elements": {
     "attachment": {
       "elementType": "reference"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "665bb626-b675-4c18-b76a-8844a862e647",
+        "1e49b85e-fa1b-4d61-9217-2d0a38bb0e5a"
+      ]
     },
     "attachmentquery": {
       "elementType": "text"
@@ -29,13 +36,6 @@
     },
     "maxDistanceFromUser": {
       "elementType": "number"
-    },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "665bb626-b675-4c18-b76a-8844a862e647",
-        "1e49b85e-fa1b-4d61-9217-2d0a38bb0e5a"
-      ]
     },
     "attachments": {
       "elementType": "toggle",

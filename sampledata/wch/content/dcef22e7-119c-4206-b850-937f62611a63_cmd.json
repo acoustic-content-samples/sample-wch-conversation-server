@@ -1,12 +1,12 @@
 {
   "id": "dcef22e7-119c-4206-b850-937f62611a63",
-  "rev": "12-60d03b5a9081400c122cdfb3cec3deeb",
-  "name": "General - Cognitive Tagging",
+  "rev": "13-fd0be59afa3c31498bdcc68b61b01290",
+  "name": "Response - Cognitive Tagging",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-08-29T15:47:59.219Z",
+  "lastModified": "2017-09-01T09:20:30.262Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:38.305Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -21,25 +21,33 @@
     "attachmentquery": {
       "elementType": "text"
     },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Work with Watson to augment your content meta-data and make it much easier to find just what you need. When you upload content, Watson analyzes it and proposes tags from a library of thousands of concepts, objects, colors, ages, genders, etc."
+      ]
+    },
     "node": {
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
       ]
     },
-    "persona": {
-      "elementType": "category",
-      "categoryIds": []
+    "maxDistanceFromUser": {
+      "elementType": "number"
     },
     "attachments": {
       "elementType": "toggle",
       "value": false
     },
-    "text": {
-      "elementType": "text",
-      "value": "Work with Watson to augment your content meta-data and make it much easier to find just what you need. When you upload content, Watson analyzes it and proposes tags from a library of thousands of concepts, objects, colors, ages, genders, etc."
-    },
     "emotion": {
+      "elementType": "category"
+    },
+    "customerSegment": {
       "elementType": "category"
     },
     "location": {

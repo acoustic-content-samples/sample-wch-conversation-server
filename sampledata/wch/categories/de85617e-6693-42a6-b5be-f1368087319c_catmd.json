@@ -1,0 +1,30 @@
+{
+  "id": "de85617e-6693-42a6-b5be-f1368087319c",
+  "rev": "1-fcfc065c8bbd50ee7676fe1d7d3afd0e",
+  "name": "whatsmyname",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "creator": "Watson Chatbot",
+  "classification": "category",
+  "taxonomy": "6e4827e8e902ad7f810cb8c2a52b03e9",
+  "parent": "6e4827e8e902ad7f810cb8c2a52b03e9",
+  "ancestorIds": [
+    "6e4827e8e902ad7f810cb8c2a52b03e9"
+  ],
+  "namePath": [
+    "intents",
+    "whatsmyname"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/de85617e-6693-42a6-b5be-f1368087319c"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/6e4827e8e902ad7f810cb8c2a52b03e9"
+    }
+  },
+  "created": "2017-09-04T15:52:15.353Z",
+  "lastModified": "2017-09-04T15:52:15.353Z"
+}

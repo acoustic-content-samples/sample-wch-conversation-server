@@ -1,0 +1,64 @@
+{
+  "id": "61052c89-eeee-4400-8982-fc04721253be",
+  "rev": "24-b3376e2d686c3918be30c9ce04d50de6",
+  "name": "Antwort - Frage nach Kundenfeedback",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-04T09:46:39.175Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-04T09:44:39.553Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "12e08736-c18a-44c8-8dcc-f22bd224355a"
+      ]
+    },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "d0ec00ae-17f6-437a-ab19-b93a8ed27478"
+        }
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Das tut mir wirklich leid. Ich versuche mich ständig zu verbessern. Daher wäre es toll wenn du dein Feedback an meinen Entwickler weiterreichen könntest. Das dies nur eine Demo ist besitze ich kein ausgefeiltes Feedbacksystem. Am besten schreibst du Sven einfach eine E-Mail. Danke!"
+      ]
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "kind": []
+}

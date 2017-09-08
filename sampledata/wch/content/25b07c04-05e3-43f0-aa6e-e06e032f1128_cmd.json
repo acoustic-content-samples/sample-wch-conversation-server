@@ -1,0 +1,65 @@
+{
+  "id": "25b07c04-05e3-43f0-aa6e-e06e032f1128",
+  "rev": "4-0008d33eca3dce26ba1c8efaf5fb11dc",
+  "name": "Antwort - Benutzerfreundliche, intuitive UI",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-01T09:21:33.302Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-01T09:21:16.907Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [
+    "user:Jan 2017"
+  ],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Positionieren und verwalten Sie all Ihre Inhalte ganz einfach an einem Ort – mit der benutzerfreundlichen Oberfläche und der Inline-Hilfe, die einen unkomplizierten Einstieg ermöglichen."
+      ]
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "1374e5d8b4dd44d8f257d88a73512e82"
+      ]
+    }
+  },
+  "kind": []
+}

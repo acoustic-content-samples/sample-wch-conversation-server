@@ -1,0 +1,65 @@
+{
+  "id": "1f03eddd-ba35-4e06-b3c7-8222e92b7a4e",
+  "rev": "5-182260f4bbdee99b8d2f63400b6e7d67",
+  "name": "Antwort - Cognitive Tagging",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-01T09:20:25.654Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-01T09:20:10.255Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [
+    "user:Jan 2017"
+  ],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Mit Watson können Sie die Metadaten Ihrer Inhalte erweitern und gesuchte Inhalte so deutlich leichter finden. Beim Hochladen von Inhalten werden diese von Watson analysiert und es werden Tags vorgeschlagen, die aus einer Bibliothek mit Tausenden von Angaben zu Konzepten, Objekten, Farben, Alter, Geschlecht usw. stammen."
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "6e4827e8e902ad7f810cb8c2a52c230e"
+      ]
+    }
+  },
+  "kind": []
+}

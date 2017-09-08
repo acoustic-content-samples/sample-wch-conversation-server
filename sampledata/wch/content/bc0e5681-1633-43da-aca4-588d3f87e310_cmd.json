@@ -1,0 +1,66 @@
+{
+  "id": "bc0e5681-1633-43da-aca4-588d3f87e310",
+  "rev": "11-9edec9b64e067ced46e9474385c4a493",
+  "name": "Antwort - Bereitstellung in vielen Vertriebskanälen",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-01T09:29:53.910Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-01T09:13:59.525Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [
+    "user:Jan 2017"
+  ],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "f08c09393f588be1e49ab20903092fa4"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Präsentieren Sie sich und Ihr Image in allen Vertriebskanälen und sorgen Sie für eine Markenerfahrung, die an allen Kontaktpunkten mit dem Kunden – ob Mobilgerät, Tablet oder Wearable – dank automatisch generierter Bildwiedergabe im richtigen Format stets konsistent ist.\n\nVideo Ansehen:\nhttps://www.youtube.com/watch?v=RAyPkMsxCOk"
+      ]
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18fe1e",
+        "8db75208957eb15dd42544d160fe038a"
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "kind": []
+}

@@ -1,0 +1,61 @@
+{
+  "id": "30235d8c-6163-4179-a4d1-a28246165624",
+  "rev": "22-9e82b301a59a4918d5b79aa8287371ed",
+  "name": "Antwort - Nutzer möchte Namen nicht nennen",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-08-31T14:28:52.459Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-08-31T14:26:59.632Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "665bb626-b675-4c18-b76a-8844a862e647",
+        "1e49b85e-fa1b-4d61-9217-2d0a38bb0e5a"
+      ]
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Echt Schade aber total Nachvollziehbar! Falls du dir sorgen um deine Privatsphäre machst sollte ich lieber nicht erwähnen, dass ich total auf Cookies stehe{{#if (or (eq watsonData.context.clienttype 'slack') (eq watsonData.context.clienttype 'fb'))}} 🍪🍪🍪{{else}}.{{/if}}"
+      ]
+    }
+  },
+  "kind": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "627e432f-d220-4864-8949-46c1d10bb73c",
+  "rev": "8-26ba89f8aef6739c25064d267efc11a8",
+  "name": "Dmexco - Auf Wiedersehen",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-07T12:58:13.546Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-07T12:57:43.161Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "25d757c8-8c2c-4c82-8b23-7744c5f9c2cc"
+        }
+      ]
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number",
+      "value": 5
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Auf Wiedersehen. Viel Spaß auf der DMexco in Köln!"
+      ]
+    },
+    "location": {
+      "elementType": "location",
+      "latitude": 50.9452712,
+      "longitude": 6.9793283
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18e524"
+      ]
+    }
+  },
+  "kind": []
+}

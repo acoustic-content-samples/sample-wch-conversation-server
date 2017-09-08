@@ -1,6 +1,6 @@
 {
   "id": "ce2d39d2e87c6de66277ee9d4a18fe1e",
-  "rev": "4-12d21b36b994c08b5527fb66f64f377f",
+  "rev": "6-f9ecb7f07e74cd75c8d90cfcc9c940a6",
   "name": "Give Featureinformation about Product",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "classification": "category",
@@ -27,5 +27,5 @@
     }
   },
   "created": "2017-08-02T13:09:37.810Z",
-  "lastModified": "2017-08-02T13:09:37.810Z"
+  "lastModified": "2017-09-04T08:30:07.011Z"
 }

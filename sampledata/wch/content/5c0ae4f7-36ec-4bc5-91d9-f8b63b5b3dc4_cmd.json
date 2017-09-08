@@ -1,12 +1,12 @@
 {
   "id": "5c0ae4f7-36ec-4bc5-91d9-f8b63b5b3dc4",
-  "rev": "13-7d039769e137b64ac30d0d63ea2d175e",
-  "name": "General - Positive Response",
+  "rev": "14-29f9a7d2fb0f81211c6b48de56082c34",
+  "name": "Reponse - To a positive message",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-08-29T14:27:53.967Z",
+  "lastModified": "2017-09-04T09:42:12.252Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:35.418Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -26,6 +26,12 @@
     "filter": {
       "elementType": "category"
     },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
     "emotion": {
       "elementType": "category"
     },
@@ -37,7 +43,9 @@
     },
     "text": {
       "elementType": "text",
-      "value": "{{watsonData.input.text}}!"
+      "values": [
+        "{{watsonData.input.text}}!"
+      ]
     },
     "node": {
       "elementType": "category",

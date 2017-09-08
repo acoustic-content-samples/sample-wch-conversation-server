@@ -1,12 +1,12 @@
 {
   "id": "c1dd2a14-dc41-48aa-b748-3871093ccbaa",
-  "rev": "12-591f4a36491c72e7fae4602d1f67bebd",
-  "name": "General - User Friendly, Intuitive UI",
+  "rev": "13-34c59535a865ac401d727e66502c1054",
+  "name": "Response - User Friendly, Intuitive UI",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-08-29T15:48:53.522Z",
+  "lastModified": "2017-09-01T09:21:14.718Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:37.632Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -21,9 +21,9 @@
     "attachmentquery": {
       "elementType": "text"
     },
-    "text": {
-      "elementType": "text",
-      "value": "Easily locate and manage all of your content in one place with a user-friendly interface and inline help that gets you started with a minimum of fuss."
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
     },
     "node": {
       "elementType": "category",
@@ -31,13 +31,21 @@
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
       ]
     },
-    "persona": {
-      "elementType": "category",
-      "categoryIds": []
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Easily locate and manage all of your content in one place with a user-friendly interface and inline help that gets you started with a minimum of fuss."
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
     },
     "attachments": {
       "elementType": "toggle",
       "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
     },
     "emotion": {
       "elementType": "category"

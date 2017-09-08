@@ -1,0 +1,67 @@
+{
+  "id": "e2575f43-4e40-4648-8283-9d2d6932c5a8",
+  "rev": "15-ab90ab208a28b4876c3f5a4e94d0fc99",
+  "name": "Antwort - Vorstellung Mr Watson",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-07T08:05:33.905Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-07T08:04:27.649Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Ich bin ein Bot. Ich habe gerade meinen MBA über Watson Content Hub erhalten. Wenn du also ein Summary zu WCH brauchst frag mich!"
+      ]
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": [
+        "d332127df4c37b2d4632699e7e16bccc"
+      ]
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18f25b",
+        "b84c6bad3cad3ec6ffff23c78e0f1682"
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "040ea6e1-5ea4-40ef-b968-92e703a3c741"
+      ]
+    }
+  },
+  "kind": []
+}

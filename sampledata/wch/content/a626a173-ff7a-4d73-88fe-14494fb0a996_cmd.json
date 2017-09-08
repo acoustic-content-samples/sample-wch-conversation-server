@@ -1,0 +1,65 @@
+{
+  "id": "a626a173-ff7a-4d73-88fe-14494fb0a996",
+  "rev": "8-715b5f5017cb3f47c205b4fa86ddb43d",
+  "name": "Antwort - Kein Problem",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-04T09:41:11.147Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-04T09:40:30.523Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "8db75208957eb15dd42544d160fda028"
+      ]
+    },
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "emotion": {
+      "elementType": "category",
+      "categoryIds": [
+        "cf7d502a106a0de68cb1414df0ead390"
+      ]
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Gern geschehen.",
+        "Bitte gerne!",
+        "Dafür bin ich doch da"
+      ]
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "kind": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "03469fb4-0c2f-4662-85ad-07dd34796d1e",
+  "rev": "26-ecc014176ac3a691da0bb61826c61bee",
+  "name": "Antwort - Keine Entities für FAQ",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-01T11:09:56.566Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-01T11:07:11.711Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Tut mir leid - dazu kann ich dir keine sinnvolle Antwort geben. In diesem Themengebiet kenne ich mich leider noch nicht aus :( Frage mich doch nach Funktionalitäten zu Watson Content Hub.",
+        "Ich habe verstanden dass du Informationen brauchst. Leider fehlen mir alle Informationen. Frag doch zum Beispiel nach Watson Content Hub."
+      ]
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "b84c6bad3cad3ec6ffff23c78e0fa5d9"
+      ]
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "kind": [],
+  "description": ""
+}

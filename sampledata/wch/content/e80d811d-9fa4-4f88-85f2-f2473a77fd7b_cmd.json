@@ -1,12 +1,12 @@
 {
   "id": "e80d811d-9fa4-4f88-85f2-f2473a77fd7b",
-  "rev": "12-4f869c5401968c84926f0d8880e99572",
-  "name": "General - Rich REST APIs",
+  "rev": "13-6d875dfec1fe62a3ca1052caf25811d6",
+  "name": "Response - Rich REST APIs",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-08-29T15:47:50.995Z",
+  "lastModified": "2017-09-01T09:17:43.052Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:38.386Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -21,15 +21,15 @@
     "attachmentquery": {
       "elementType": "text"
     },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
     "node": {
       "elementType": "category",
       "categoryIds": [
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
       ]
-    },
-    "persona": {
-      "elementType": "category",
-      "categoryIds": []
     },
     "filter": {
       "elementType": "category",
@@ -40,11 +40,19 @@
     },
     "text": {
       "elementType": "text",
-      "value": "All of Watson Content Hub features are exposed via swagger-compliant REST APIs. Watson Content Hub get out of your way and lets you easily integrate both content and content management functions inside your applications."
+      "values": [
+        "All of Watson Content Hub features are exposed via swagger-compliant REST APIs. Watson Content Hub get out of your way and lets you easily integrate both content and content management functions inside your applications."
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
     },
     "attachments": {
       "elementType": "toggle",
       "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
     },
     "emotion": {
       "elementType": "category"

@@ -1,0 +1,32 @@
+{
+  "id": "201b89d4-2a9b-4cac-94f4-670fee53665c",
+  "rev": "1-4e62c83f0689a9b2227550b656e32d65",
+  "name": "User doesnt want to give his username",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "creator": "Watson Chatbot",
+  "classification": "category",
+  "taxonomy": "efb4eb204170385dab6c56b4db05b958",
+  "parent": "cd89135d-190c-4961-b44d-2f226cf8906a",
+  "ancestorIds": [
+    "efb4eb204170385dab6c56b4db05b958",
+    "cd89135d-190c-4961-b44d-2f226cf8906a"
+  ],
+  "namePath": [
+    "dialog_nodes",
+    "Say username",
+    "User doesnt want to give his username"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/efb4eb204170385dab6c56b4db05b958"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/201b89d4-2a9b-4cac-94f4-670fee53665c"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/cd89135d-190c-4961-b44d-2f226cf8906a"
+    }
+  },
+  "created": "2017-09-04T15:55:29.841Z",
+  "lastModified": "2017-09-04T15:55:29.841Z"
+}

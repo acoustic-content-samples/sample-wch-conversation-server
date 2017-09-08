@@ -1,12 +1,12 @@
 {
   "id": "d449646d-3441-43a8-b3a9-7e7213d697af",
-  "rev": "14-488cd5554291721b1fdcfc59b93421e9",
-  "name": "General - Missunderstanding",
+  "rev": "15-df4bb7aaa496b7041c90204f3deb9b90",
+  "name": "Response - Missunderstanding",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-08-29T15:48:16.985Z",
+  "lastModified": "2017-09-04T09:47:16.165Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:38.143Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -16,11 +16,16 @@
   "elements": {
     "text": {
       "elementType": "text",
-      "value": "Phew.... glad to hear it's just a missunderstanding. Then let's continue."
+      "values": [
+        "Phew.... glad to hear it's just a missunderstanding. Then let's continue."
+      ]
     },
     "attachments": {
       "elementType": "toggle",
       "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
     },
     "attachment": {
       "elementType": "reference",
@@ -30,13 +35,16 @@
         }
       ]
     },
-    "attachmentquery": {
-      "elementType": "text"
-    },
     "persona": {
       "elementType": "category"
     },
     "filter": {
+      "elementType": "category"
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
       "elementType": "category"
     },
     "emotion": {

@@ -1,0 +1,64 @@
+{
+  "id": "f06e4625-68b9-4ad7-b231-05c508973d38",
+  "rev": "12-6cb738171ced5ce0bc7188bcaaef2b56",
+  "name": "Antwort - Missverständnis",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-04T11:36:43.392Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-04T09:47:18.224Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a"
+        }
+      ]
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Puh.... freut mich zu hören, dass es nur ein Missverständnis war."
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "f6b4b4f2-67e2-45b2-afd3-336c99bcd663"
+      ]
+    }
+  },
+  "kind": []
+}

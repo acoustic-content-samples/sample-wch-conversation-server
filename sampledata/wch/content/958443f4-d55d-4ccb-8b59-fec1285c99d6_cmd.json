@@ -1,0 +1,58 @@
+{
+  "id": "958443f4-d55d-4ccb-8b59-fec1285c99d6",
+  "rev": "5-065fad024b86df69312317bd07680f03",
+  "name": "Antwort - Positive Nachricht",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-04T09:42:33.856Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-04T09:42:14.840Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "{{watsonData.input.text}}!"
+      ]
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "18c30f2c-057d-4ce0-9b70-511281edaeea"
+      ]
+    }
+  },
+  "kind": []
+}

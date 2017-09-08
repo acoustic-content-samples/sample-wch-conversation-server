@@ -1,12 +1,12 @@
 {
   "id": "16732169-f413-47da-9927-760a06c65313",
-  "rev": "29-9ef3a04db71e1fde06a3cfca51aa6179",
-  "name": "General - Ask for feedback",
+  "rev": "30-d642bb1011cd5d2a9fd0e18d856e255c",
+  "name": "Response - Ask for feedback",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-08-29T15:43:03.601Z",
+  "lastModified": "2017-09-04T09:44:36.649Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:39.974Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -29,9 +29,11 @@
     "attachmentquery": {
       "elementType": "text"
     },
-    "text": {
-      "elementType": "text",
-      "value": "Okay. Sorry to hear. I try to improve based on your feedback. Since this is a demo there is currently no feedback system in place. However my creator would be happy for direct feedback!"
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "12e08736-c18a-44c8-8dcc-f22bd224355a"
+      ]
     },
     "persona": {
       "elementType": "category"
@@ -39,17 +41,23 @@
     "filter": {
       "elementType": "category"
     },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Okay. Sorry to hear. I try to improve based on your feedback. Since this is a demo there is currently no feedback system in place. However my creator would be happy for direct feedback!"
+      ]
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
     "emotion": {
       "elementType": "category"
     },
     "location": {
       "elementType": "location"
-    },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "12e08736-c18a-44c8-8dcc-f22bd224355a"
-      ]
     }
   },
   "kind": []

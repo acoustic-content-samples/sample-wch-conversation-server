@@ -1,0 +1,73 @@
+{
+  "id": "ca1c50ae-b07e-4ba6-9255-53cd7218ac9f",
+  "rev": "13-84131403bc0e0f2127bfb03163a5ceb4",
+  "name": "Anhang - API Dokumentation",
+  "description": "",
+  "classification": "content",
+  "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+  "locale": "de",
+  "lastModified": "2017-09-01T09:19:24.522Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-01T09:18:22.415Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "callback_id": {
+      "elementType": "text"
+    },
+    "color": {
+      "elementType": "text"
+    },
+    "image_url": {
+      "elementType": "image"
+    },
+    "author_icon": {
+      "elementType": "image"
+    },
+    "action": {
+      "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference"
+    },
+    "title": {
+      "elementType": "link"
+    },
+    "ts": {
+      "elementType": "datetime"
+    },
+    "footer_icon": {
+      "elementType": "image"
+    },
+    "fields": {
+      "elementType": "text"
+    },
+    "fallback": {
+      "elementType": "text",
+      "values": [
+        "API Dokumentation: https://developer.ibm.com/customer-engagement/docs/wch/"
+      ]
+    },
+    "author": {
+      "elementType": "link"
+    },
+    "thumb_url": {
+      "elementType": "image"
+    },
+    "footer": {
+      "elementType": "text"
+    },
+    "pretext": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "API Dokumentation: https://developer.ibm.com/customer-engagement/docs/wch/"
+      ]
+    }
+  },
+  "kind": []
+}

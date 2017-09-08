@@ -1,0 +1,64 @@
+{
+  "id": "5d5ee5b9-ec98-4c07-807d-95dec02b32b5",
+  "rev": "11-82e2f36c6f6a6f86e7981a21db2f82ab",
+  "name": "Antwort - Negative Nachricht",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-04T09:43:55.578Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-04T09:43:04.386Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "3da58ac3-ec04-4911-8ab6-60ccfbf5485a"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Du scheinst verärgert zu sein. Habe ich etwas falsch gemacht? 😢"
+      ]
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "b0f6317b-e11a-4fa1-a7a2-e6eb2d6f9bfe"
+        }
+      ]
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "kind": []
+}

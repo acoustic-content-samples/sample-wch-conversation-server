@@ -1,12 +1,12 @@
 {
   "id": "cb5de48a-479a-4712-bb34-d1516b614002",
-  "rev": "26-1202e844ce3e895dc56a3cc2ed5376bb",
+  "rev": "27-71cf5bd22d399d57609f994a3434ea41",
   "name": "Antwort -  Was ist Content Hub",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "de",
-  "lastModified": "2017-08-30T18:13:57.681Z",
+  "lastModified": "2017-09-04T15:32:11.620Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-29T16:36:48.175Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -14,6 +14,20 @@
   "keywords": [],
   "status": "ready",
   "elements": {
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "347e5fb1-0547-4afb-9b60-f62c2b9aaa77"
+      ]
+    },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "b8c00c58-0a6d-48fa-a332-d8480c9c7606"
+        }
+      ]
+    },
     "attachments": {
       "elementType": "toggle",
       "value": true
@@ -43,14 +57,6 @@
       "elementType": "category",
       "categoryIds": []
     },
-    "attachment": {
-      "elementType": "reference",
-      "values": [
-        {
-          "id": "b8c00c58-0a6d-48fa-a332-d8480c9c7606"
-        }
-      ]
-    },
     "maxDistanceFromUser": {
       "elementType": "number"
     },
@@ -59,13 +65,6 @@
     },
     "location": {
       "elementType": "location"
-    },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "ce2d39d2e87c6de66277ee9d4a193f34",
-        "d81cb8b6923bb2f2ef3eb20a1f15c6a7"
-      ]
     }
   },
   "kind": []

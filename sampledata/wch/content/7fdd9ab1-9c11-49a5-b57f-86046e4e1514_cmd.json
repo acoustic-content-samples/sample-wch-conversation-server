@@ -1,0 +1,67 @@
+{
+  "id": "7fdd9ab1-9c11-49a5-b57f-86046e4e1514",
+  "rev": "16-cb3b591ec2b5fe4d15699eb59d844c12",
+  "name": "DMexco - Goodbye",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en",
+  "lastModified": "2017-09-07T12:57:41.607Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-07T12:53:33.130Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "25d757c8-8c2c-4c82-8b23-7744c5f9c2cc"
+        }
+      ]
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Goodbye. Enjoy your time at the DMexco in Cologne!"
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number",
+      "value": 5
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location",
+      "latitude": 50.9452712,
+      "longitude": 6.9793283
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18e524"
+      ]
+    }
+  },
+  "kind": []
+}

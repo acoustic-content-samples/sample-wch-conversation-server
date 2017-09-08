@@ -1,0 +1,40 @@
+{
+  "id": "7ba4776c-a80a-485e-94e9-d7a7411a811e",
+  "rev": "7-33a68e4c1cc82a5a4faaa2aa4b51ad8d",
+  "name": "ChatButton - Was ist WCH",
+  "description": "",
+  "classification": "content",
+  "typeId": "60c780ff-a408-4a07-a07f-8318f5a70c16",
+  "locale": "de",
+  "lastModified": "2017-09-04T09:50:20.690Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-04T09:49:54.308Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "value": {
+      "elementType": "text",
+      "value": "Was ist WCH?"
+    },
+    "primarybutton": {
+      "elementType": "toggle"
+    },
+    "name": {
+      "elementType": "text",
+      "value": "whatiswchde"
+    },
+    "dangerbutton": {
+      "elementType": "toggle"
+    },
+    "weburl": {
+      "elementType": "link"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Was ist WCH?"
+    }
+  },
+  "kind": []
+}

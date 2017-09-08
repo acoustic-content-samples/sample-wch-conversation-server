@@ -1,0 +1,66 @@
+{
+  "id": "bc8636df-8c77-4244-880f-8f8cecdbdf55",
+  "rev": "7-b7b1531060486ecbcbe704ef4d092718",
+  "name": "Antwort - Hosting von Webanwendungen",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-01T09:17:11.041Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-01T09:16:42.310Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [
+    "user:Jan 2017"
+  ],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Verwalten Sie Web-Assets in Watson Content Hub und veröffentlichen Sie diese über unser CDN, ohne einen separaten Web-Server konfigurieren zu müssen.\n\nUse Case lesen:\nhttps://developer.ibm.com/customer-engagement/tutorials/use-watson-content-hub-image-assets-web-application/"
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "3c21dad2434642ac4a48a285163a4c2c",
+        "8db75208957eb15dd42544d1603bf243"
+      ]
+    }
+  },
+  "kind": []
+}

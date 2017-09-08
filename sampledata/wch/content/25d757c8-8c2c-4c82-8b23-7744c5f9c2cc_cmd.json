@@ -1,0 +1,80 @@
+{
+  "id": "25d757c8-8c2c-4c82-8b23-7744c5f9c2cc",
+  "rev": "7-78ad7b7a67a1b87ec64bb34e1fa07f79",
+  "name": "Attachment - Cologne",
+  "description": "",
+  "classification": "content",
+  "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+  "locale": "en",
+  "lastModified": "2017-09-07T13:40:29.101Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-07T12:55:13.409Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "callback_id": {
+      "elementType": "text"
+    },
+    "color": {
+      "elementType": "text"
+    },
+    "author_icon": {
+      "elementType": "image"
+    },
+    "action": {
+      "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference"
+    },
+    "image_url": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=5701409d7cf1626e7a0fab5d9a8ca335&a=6ae17aa4-0c21-42db-b204-37c40a862ec7",
+          "source": "/authoring/v1/resources/5701409d7cf1626e7a0fab5d9a8ca335"
+        }
+      },
+      "asset": {
+        "id": "6ae17aa4-0c21-42db-b204-37c40a862ec7",
+        "resourceUri": "/authoring/v1/resources/5701409d7cf1626e7a0fab5d9a8ca335",
+        "fileName": "Hohenzollernbrücke_Köln.jpg",
+        "fileSize": 98038,
+        "mediaType": "image/jpeg"
+      }
+    },
+    "title": {
+      "elementType": "link"
+    },
+    "ts": {
+      "elementType": "datetime"
+    },
+    "footer_icon": {
+      "elementType": "image"
+    },
+    "fields": {
+      "elementType": "text"
+    },
+    "author": {
+      "elementType": "link"
+    },
+    "fallback": {
+      "elementType": "text"
+    },
+    "thumb_url": {
+      "elementType": "image"
+    },
+    "footer": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text"
+    },
+    "pretext": {
+      "elementType": "text"
+    }
+  },
+  "kind": []
+}

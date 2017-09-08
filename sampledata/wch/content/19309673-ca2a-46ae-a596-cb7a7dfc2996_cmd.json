@@ -1,0 +1,59 @@
+{
+  "id": "19309673-ca2a-46ae-a596-cb7a7dfc2996",
+  "rev": "7-153a4fa75e06101c61187e1a9c50cf69",
+  "name": "Antwort - Kein Nutzername",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-04T16:31:18.548Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-04T16:30:43.967Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Du hast mir deinen Namen noch nicht genannt"
+      ]
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "cd89135d-190c-4961-b44d-2f226cf8906a",
+        "05a113a6-8b92-412a-80a5-643b4302993d"
+      ]
+    },
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "filter": {
+      "elementType": "category"
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "attachments": {
+      "elementType": "toggle"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "kind": [],
+  "description": ""
+}

@@ -1,12 +1,12 @@
 {
   "id": "521466f4-e710-4e75-ba04-761339d2fdd3",
-  "rev": "10-f5e3555e393fac9a2886bd18e1fd0987",
-  "name": "General - Continous Feature Updates",
+  "rev": "11-13cce88f6f994c32420ba21d8fc6b534",
+  "name": "Response - Continous Feature Updates",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-08-29T14:27:00.111Z",
+  "lastModified": "2017-09-01T09:15:32.836Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:35.344Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -15,11 +15,21 @@
   ],
   "status": "ready",
   "elements": {
+    "text": {
+      "elementType": "text",
+      "values": [
+        "With agile delivery via the cloud, new innovations in Watson Content Hub are never far away. Updates as often as daily ensure your platform is constantly improving."
+      ]
+    },
     "attachment": {
       "elementType": "reference"
     },
     "attachmentquery": {
       "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
     },
     "node": {
       "elementType": "category",
@@ -27,9 +37,8 @@
         "ce2d39d2e87c6de66277ee9d4a18fe1e"
       ]
     },
-    "persona": {
-      "elementType": "category",
-      "categoryIds": []
+    "maxDistanceFromUser": {
+      "elementType": "number"
     },
     "filter": {
       "elementType": "category",
@@ -45,9 +54,8 @@
     "emotion": {
       "elementType": "category"
     },
-    "text": {
-      "elementType": "text",
-      "value": "With agile delivery via the cloud, new innovations in Watson Content Hub are never far away. Updates as often as daily ensure your platform is constantly improving."
+    "customerSegment": {
+      "elementType": "category"
     },
     "location": {
       "elementType": "location"

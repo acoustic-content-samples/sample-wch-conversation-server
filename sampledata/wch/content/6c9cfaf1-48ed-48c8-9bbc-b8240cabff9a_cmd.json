@@ -1,12 +1,12 @@
 {
   "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a",
-  "rev": "29-26ef37ff87ace219bf479a1661b4350f",
-  "name": "Attachment - StartingPoints",
+  "rev": "30-a8818523650083d28ebd7df4636003bc",
+  "name": "Anhang - Startpunkte",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-  "locale": "en",
-  "lastModified": "2017-08-29T15:43:54.375Z",
+  "locale": "de",
+  "lastModified": "2017-09-04T09:51:26.758Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:35.710Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -14,6 +14,17 @@
   "keywords": [],
   "status": "ready",
   "elements": {
+    "quickreplies": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "7ba4776c-a80a-485e-94e9-d7a7411a811e"
+        },
+        {
+          "id": "581fd641-b033-4d60-bbd3-c7365f7bf7de"
+        }
+      ]
+    },
     "color": {
       "elementType": "text"
     },
@@ -48,17 +59,6 @@
     },
     "fallback": {
       "elementType": "text"
-    },
-    "quickreplies": {
-      "elementType": "reference",
-      "values": [
-        {
-          "id": "5221b5e9-6c64-46f7-be4e-418f12d2ce74"
-        },
-        {
-          "id": "549367ba-fa02-4d3c-8ee7-10bda08efbea"
-        }
-      ]
     },
     "thumb_url": {
       "elementType": "image"

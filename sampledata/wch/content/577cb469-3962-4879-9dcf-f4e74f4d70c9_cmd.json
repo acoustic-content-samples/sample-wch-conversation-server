@@ -1,12 +1,12 @@
 {
   "id": "577cb469-3962-4879-9dcf-f4e74f4d70c9",
-  "rev": "18-b4dcb1460073c0a938f35007c7a1bdfc",
-  "name": "General - Introduction",
+  "rev": "19-841c779b20f0a9090738d901bba9ba79",
+  "name": "Response - Introduction",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-08-29T14:28:38.417Z",
+  "lastModified": "2017-08-31T14:31:04.297Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:35.431Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -26,6 +26,12 @@
         "cf7d502a106a0de68cb1414df0ead390"
       ]
     },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "I’m just a humble bot. In my current state, I’m able to answer questions about Watson Content Hub. But I try to learn new things continuously."
+      ]
+    },
     "persona": {
       "elementType": "category",
       "categoryIds": []
@@ -37,13 +43,15 @@
         "b84c6bad3cad3ec6ffff23c78e0f1682"
       ]
     },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
     "attachments": {
       "elementType": "toggle",
       "value": false
     },
-    "text": {
-      "elementType": "text",
-      "value": "I’m just a humble bot. In my current state, I’m able to answer questions about Watson Content Hub. But I try to learn new things continuously."
+    "customerSegment": {
+      "elementType": "category"
     },
     "location": {
       "elementType": "location"

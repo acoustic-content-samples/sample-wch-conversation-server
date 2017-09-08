@@ -1,0 +1,65 @@
+{
+  "id": "3d5187e7-b12e-41b2-9095-cea92ffcf36b",
+  "rev": "8-04e0cbf955573884db521c9f1996aa0d",
+  "name": "Antwort - Kontinuierliche Aktualisierung von Funktionen",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-01T09:16:15.308Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-01T09:15:34.554Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [
+    "user:Jan 2017"
+  ],
+  "status": "ready",
+  "elements": {
+    "attachment": {
+      "elementType": "reference"
+    },
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ]
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Agile Bereitstellung über die Cloud macht neue Innovationen in Watson Content Hub stets greifbar. Mit beinahe täglichen Aktualisierungen wird sichergestellt, dass Ihre Plattform ständig verbessert wird.\n\nRessource anzeigen:\nhttps://developer.ibm.com/customer-engagement/category/product-management/new-features/"
+      ]
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "e122ae67d0597f8a98838921ce3e35e6"
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "kind": []
+}

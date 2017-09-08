@@ -1,0 +1,69 @@
+{
+  "id": "c884cb11-6455-442c-90ad-3349f0120f36",
+  "rev": "13-c07c9d75a1d0384c08e989fd4fad0832",
+  "name": "Respone - What is IBM Commerce",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "en",
+  "lastModified": "2017-09-07T12:14:08.584Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-07T12:10:26.925Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "464cccb3d4ddc13c9a93ed0253060dd5"
+      ]
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Welcome to Watson Commerce. Customers who buy your products or services are expecting more of everything. How can you keep up? Watson illuminates deeper insights to help you deliver personalized and intuitive omni-channel experiences. Give customers what they want, where and when they want it.",
+        "Customers who buy your products or services are expecting more of everything. How can you keep up? Watson illuminates deeper insights to help you deliver personalized and intuitive omni-channel experiences. Give customers what they want, where and when they want it. Welcome to Watson Commerce."
+      ]
+    },
+    "persona": {
+      "elementType": "category"
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "347e5fb1-0547-4afb-9b60-f62c2b9aaa77",
+        "e78fe831-48f0-4ba3-892b-b14738cc3b82"
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "94c25cef-86f6-4edb-bad2-96d03380e8b5"
+        }
+      ]
+    }
+  },
+  "kind": []
+}

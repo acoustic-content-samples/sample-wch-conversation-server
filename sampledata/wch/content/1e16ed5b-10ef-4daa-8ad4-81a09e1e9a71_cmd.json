@@ -1,0 +1,70 @@
+{
+  "id": "1e16ed5b-10ef-4daa-8ad4-81a09e1e9a71",
+  "rev": "10-812191dd08fd524b9bacad371391fefd",
+  "name": "Antwort - Umfassende REST-APIs",
+  "description": "",
+  "classification": "content",
+  "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
+  "locale": "de",
+  "lastModified": "2017-09-01T09:19:38.037Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-01T09:17:44.700Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [
+    "user:Jan 2017"
+  ],
+  "status": "ready",
+  "elements": {
+    "attachmentquery": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Alle Funktionen von Watson Content Hub sind über Swagger-konforme REST-APIs verfügbar. Watson Content Hub arbeitet im Hintergrund und ermöglicht Ihnen, sowohl Inhalte als auch Content-Management-Funktionen ganz einfach in Ihre Anwendungen zu integrieren."
+      ]
+    },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "ce2d39d2e87c6de66277ee9d4a18fe1e"
+      ]
+    },
+    "filter": {
+      "elementType": "category",
+      "categoryIds": [
+        "6e4827e8e902ad7f810cb8c2a52c2438",
+        "e6ef8b49bf960412d31d1d3bd2ab561b"
+      ]
+    },
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "ca1c50ae-b07e-4ba6-9255-53cd7218ac9f"
+        }
+      ]
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
+    "attachments": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "customerSegment": {
+      "elementType": "category"
+    },
+    "emotion": {
+      "elementType": "category"
+    },
+    "location": {
+      "elementType": "location"
+    }
+  },
+  "kind": []
+}
