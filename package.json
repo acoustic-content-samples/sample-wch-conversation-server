@@ -17,7 +17,7 @@
     "addFbSrv": "bx cf cups fb_config -p \"key, verificationtoken\"",
     "addDBSrv": "bx cf cups db_config -p \"mongoUri\"",
     "dockerbuild": "docker build -t wchconversation .",
-    "dockerun": "docker run -p 6001:6001 wchconversation",
+    "dockerun": "docker run -p 6001:6001 wchconversation"
   },
   "dependencies": {
     "@google/maps": "^0.3.1",
