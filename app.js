@@ -57,6 +57,11 @@ app.use(function(req, res, next) {
 
 /* Error Handlers */
 
+// Log unhandled Promise expections
+process.on('unhandledRejection', (reason, p) => {
+  debug('Unhandled Rejection at:', p, 'reason:', reason);
+});
+
 let errorHandler;
 if (app.get('appEnv').isLocal === true) {
   // Error Handler: Development
