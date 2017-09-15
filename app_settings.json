@@ -9,6 +9,7 @@
    "developermode": false,
    "raspberry": true,
    "slack": true,
+   "isslackapp": true,
    "facebook": true
   },
   "icons": {
