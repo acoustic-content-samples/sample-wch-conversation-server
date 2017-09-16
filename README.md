@@ -1,17 +1,19 @@
 # WCH Conversation Server
 
-This sample is a starter Kit to implement rich-featured, cross-channel cogntitive advisor bots for messengers, websites and bots. (This module is also used for our [WCH Robot](https://my.digitalexperience.ibm.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html) project) 
+This is a starter Kit to implement rich-featured, cross-channel & multi-language chat bots for messengers, websites and bots. This starter kit is also used for the [WCH Robot Maker Kit](https://my.digitalexperience.ibm.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html).
 
-Therefore this sample integrates the Watson Conversation Service with our cloud based content management system called Watson Content Hub. Besides that there are also other services included to enrich the capabilities of the starter kit. Most notably there is a sync service included that syncs all intents & entities to Watson Content Hub for dynamic linking of content to the dialog state.
+The conversational capabilites such as language understanding and dialog structure are implemented through the [Watson Conversation Service](https://www.ibm.com/watson/services/conversation/). Every content visible to the user of the chat is created and managed inside of [Watson Content Hub](https://www.ibm.com/de-de/marketplace/cloud-cms-solution). Hence these two cloud-based application are essential for this solution. There are also other (optional) services included to enrich the out-of-the-box experience such as the Tone Analyzer or Language Translator.
 
-The sample currently supports two chat-interfaces:
-1. A REST based text only bot for usage in bots and other scenarios where you only are able to output text or audio. If you are interessted you can [check out the instructions page here](https://my.digitalexperience.ibm.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html) to create your own WCH Robot!
+The sample currently supports three chat-interfaces:
+1. A REST based text only bot for usage in bots and other scenarios where you only are able to output text or audio. If you are interested you can [check out the instructions page here](https://my.digitalexperience.ibm.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html) to create your own WCH Robot!
 2. A slack based bot leveraging the full capability set of messenger (Action Buttons, Emojis, Gifs, formatted content and more)
+3. A facebook messenger bot leveraging text, action buttons and image capabilites.
 
+Currently the demo content shipped with the started Kit is:
 ![Slack Sample](/doc/SlackSampe_Min.gif)
 
 ## Core Idea
-The value of this solution is simple and powerful: We let the Watson Conversation Service define the flow & structure of the conversation. All content is created & managed in Watson Content Hub and retrieved dynamically based on the current dialog state. Therefore we can easily enhance the conversation with images, videos, emojis and more. It's also possible to make changes to the content on the fly and have a central point to do so. For more information check out this [video](https://www.youtube.com/watch?v=bT1QgOV5jyY)
+The value of this solution is simple and powerful: We let the Watson Conversation Service define the flow & structure of the conversation. All content is created & managed in Watson Content Hub and retrieved dynamically based on the current dialog state. For this we are using the rich search capabilites from WCH. Therefore we can easily enhance the conversation with images, videos, emojis and more. It's also possible to make changes to the content on the fly and have a central point to do so. For more information check out this [video](https://www.youtube.com/watch?v=bT1QgOV5jyY)
 
 | Watson Conversation Service | Watson Content Hub |
 |---|---|
@@ -45,8 +47,9 @@ If you are planning to push the server to bluemix make sure to name the services
 1. Watson Content Hub - Login into your tenant. Click on your name and open 'Hub Setup'. There you find your API URL and Tenant Id. 
 2. Watson Conversation Service - [Follow the instructions in the official documentation on how to get the service credentials][bluemixapi]
 3. Watson Tone Analyzer - [Follow the instructions in the official documentation on how to get the service credentials][bluemixapi]
-4. Slack Application - [Follow the instructions in the official documentation on how to setup an Slack Application and obtaining a bot key][slackapi]
-5. Google Geolocation API - [Follow the instructions in the official documentation to get an API Key][geoapi]
+4. Watson Language Translator - [Follow the instructions in the official documentation on how to get the service credentials][bluemixapi]
+5. Slack Application - [Follow the instructions in the official documentation on how to setup an Slack Application and obtaining a bot key][slackapi]
+6. Google Geolocation API - [Follow the instructions in the official documentation to get an API Key][geoapi]
 
 [bluemixapi]:https://www.ibm.com/watson/developercloud/doc/common/getting-started-credentials.html
 [slackapi]:https://api.slack.com/slack-apps
@@ -69,6 +72,9 @@ npm install
 4. **[Optional]** If you like you can push the sample server on bluemix by running `bx cf push`. But before please make sure to change the hostname of the application in the 'manifest.yml'. Also you have to configure the credentials on bluemix. Therefore sipmly run `npm run addGeoSrv`, `npm run addWchSrv`, `npm run addBotSrv` and `npm run addDBSrv`.
 
 5. **Done.** Enjoy the demo. Feel free to make changes and create your own chatbot!  
+
+#### Node Red
+Part of the sample is also a Node RED flow. Currently this flow is optimized for the Maker Kit to run on a Raspberry Pi. So if you want to run this part on Windows on Mac you might have to change a thing or two.
 
 ### Resources
 
