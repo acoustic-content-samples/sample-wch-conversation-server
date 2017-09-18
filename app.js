@@ -59,7 +59,7 @@ app.use(function(req, res, next) {
 
 // Log unhandled Promise expections
 process.on('unhandledRejection', (reason, p) => {
-  debug('Unhandled Rejection at:', p, 'reason:', reason);
+  debug('Unhandled Rejection at: %o reason: %s', p, reason);
 });
 
 let errorHandler;
