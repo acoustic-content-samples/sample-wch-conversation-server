@@ -1,0 +1,83 @@
+{
+  "id": "54b45aa0-28a4-4260-b422-528e6727ad18",
+  "rev": "6-8a865ecadf38a6cc0e9e3437dc7a78bc",
+  "name": "Attachment - Impression Dmexco IBM Booth 2",
+  "description": "",
+  "classification": "content",
+  "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+  "locale": "en",
+  "lastModified": "2017-09-13T07:30:53.179Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-13T07:21:01.199Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "text": {
+      "elementType": "text",
+      "values": []
+    },
+    "callback_id": {
+      "elementType": "text"
+    },
+    "color": {
+      "elementType": "text"
+    },
+    "image_url": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=95720b9cd1a0f86b02904e2c6d30e46e&a=dfd23402-df21-4ab0-a4bc-bb3549a4b80a",
+          "source": "/authoring/v1/resources/95720b9cd1a0f86b02904e2c6d30e46e"
+        }
+      },
+      "asset": {
+        "id": "dfd23402-df21-4ab0-a4bc-bb3549a4b80a",
+        "resourceUri": "/authoring/v1/resources/95720b9cd1a0f86b02904e2c6d30e46e",
+        "fileName": "IMG_20170912_174935105.jpg",
+        "fileSize": 3478588,
+        "mediaType": "image/jpeg"
+      }
+    },
+    "author_icon": {
+      "elementType": "image"
+    },
+    "action": {
+      "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference"
+    },
+    "ts": {
+      "elementType": "datetime"
+    },
+    "footer_icon": {
+      "elementType": "image"
+    },
+    "fields": {
+      "elementType": "text"
+    },
+    "pretext": {
+      "elementType": "text",
+      "values": []
+    },
+    "title": {
+      "elementType": "link",
+      "linkText": "IBM Booth"
+    },
+    "author": {
+      "elementType": "link"
+    },
+    "fallback": {
+      "elementType": "text"
+    },
+    "thumb_url": {
+      "elementType": "image"
+    },
+    "footer": {
+      "elementType": "text"
+    }
+  },
+  "kind": []
+}

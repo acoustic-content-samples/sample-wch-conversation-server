@@ -1,0 +1,87 @@
+{
+  "id": "f6da2e13-17de-40b3-bed6-d9c8e7e5a5d9",
+  "rev": "9-75d92f503aa6cfe4aa616c5576099e42",
+  "name": "Attachment - Impression Dmexco Excio",
+  "description": "",
+  "classification": "content",
+  "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+  "locale": "en",
+  "lastModified": "2017-09-18T15:20:00.547Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-18T15:17:28.957Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "callback_id": {
+      "elementType": "text"
+    },
+    "fallback": {
+      "elementType": "text",
+      "values": [
+        "The guys from ecx.io really liked me!"
+      ]
+    },
+    "color": {
+      "elementType": "text"
+    },
+    "author_icon": {
+      "elementType": "image"
+    },
+    "action": {
+      "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference"
+    },
+    "ts": {
+      "elementType": "datetime"
+    },
+    "title": {
+      "elementType": "link",
+      "linkText": "Ecx.io"
+    },
+    "footer_icon": {
+      "elementType": "image"
+    },
+    "fields": {
+      "elementType": "text"
+    },
+    "author": {
+      "elementType": "link"
+    },
+    "image_url": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=6c93f65c53d4353ed8d845ae522b3927&a=0822fe17-b184-4466-9852-8a31aa9714d8",
+          "source": "/authoring/v1/resources/6c93f65c53d4353ed8d845ae522b3927"
+        }
+      },
+      "asset": {
+        "id": "0822fe17-b184-4466-9852-8a31aa9714d8",
+        "resourceUri": "/authoring/v1/resources/6c93f65c53d4353ed8d845ae522b3927",
+        "fileName": "excio_robot.jpg",
+        "fileSize": 799221,
+        "mediaType": "image/jpeg"
+      }
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "The guys from ecx.io really liked me!"
+      ]
+    },
+    "thumb_url": {
+      "elementType": "image"
+    },
+    "footer": {
+      "elementType": "text"
+    },
+    "pretext": {
+      "elementType": "text"
+    }
+  },
+  "kind": []
+}

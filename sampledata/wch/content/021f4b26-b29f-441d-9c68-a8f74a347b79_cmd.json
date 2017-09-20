@@ -1,0 +1,87 @@
+{
+  "id": "021f4b26-b29f-441d-9c68-a8f74a347b79",
+  "rev": "13-985524d8d74a36d5adcb04af36d5e2a4",
+  "name": "Attachment - Impression Dmexco Robert Schwartz",
+  "description": "",
+  "classification": "content",
+  "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+  "locale": "en",
+  "lastModified": "2017-09-18T15:31:04.551Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-18T15:15:51.662Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "fallback": {
+      "elementType": "text",
+      "values": [
+        "Robert Schwarz used me in one of his interviews!"
+      ]
+    },
+    "callback_id": {
+      "elementType": "text"
+    },
+    "color": {
+      "elementType": "text"
+    },
+    "author_icon": {
+      "elementType": "image"
+    },
+    "action": {
+      "elementType": "text"
+    },
+    "image_url": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=6c93f65c53d4353ed8d845ae522e1714&a=c97d8313-63a6-494d-8784-84c6f013dcb1",
+          "source": "/authoring/v1/resources/6c93f65c53d4353ed8d845ae522e1714"
+        }
+      },
+      "asset": {
+        "id": "c97d8313-63a6-494d-8784-84c6f013dcb1",
+        "resourceUri": "/authoring/v1/resources/6c93f65c53d4353ed8d845ae522e1714",
+        "fileName": "robertschwartz_robot_2.jpg",
+        "fileSize": 740195,
+        "mediaType": "image/jpeg"
+      }
+    },
+    "quickreplies": {
+      "elementType": "reference"
+    },
+    "ts": {
+      "elementType": "datetime"
+    },
+    "footer_icon": {
+      "elementType": "image"
+    },
+    "fields": {
+      "elementType": "text"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "I even was part in an interview of Robert Schwartz (Global Leader iX)"
+      ]
+    },
+    "title": {
+      "elementType": "link",
+      "linkText": "IBM Booth"
+    },
+    "author": {
+      "elementType": "link"
+    },
+    "thumb_url": {
+      "elementType": "image"
+    },
+    "footer": {
+      "elementType": "text"
+    },
+    "pretext": {
+      "elementType": "text"
+    }
+  },
+  "kind": []
+}

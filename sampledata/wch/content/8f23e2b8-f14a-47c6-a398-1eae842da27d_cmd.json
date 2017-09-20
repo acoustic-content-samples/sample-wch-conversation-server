@@ -1,12 +1,12 @@
 {
   "id": "8f23e2b8-f14a-47c6-a398-1eae842da27d",
-  "rev": "57-aa56230f0e1562f4c078df71e974cb3f",
+  "rev": "60-37b43e13b3b1a20aae3fc5a496cbe46a",
   "name": "Response -  What is Content Hub",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-09-04T15:33:27.182Z",
+  "lastModified": "2017-09-14T08:51:07.210Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:36.399Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -33,11 +33,18 @@
         "6e4827e8e902ad7f810cb8c2a52c2438"
       ]
     },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": []
+    },
     "attachment": {
       "elementType": "reference",
       "values": [
         {
           "id": "d877e107-3841-4fed-a099-2b83786838c5"
+        },
+        {
+          "id": "25d757c8-8c2c-4c82-8b23-7744c5f9c2cc"
         }
       ]
     },
@@ -46,10 +53,6 @@
       "categoryIds": [
         "347e5fb1-0547-4afb-9b60-f62c2b9aaa77"
       ]
-    },
-    "persona": {
-      "elementType": "category",
-      "categoryIds": []
     },
     "maxDistanceFromUser": {
       "elementType": "number"

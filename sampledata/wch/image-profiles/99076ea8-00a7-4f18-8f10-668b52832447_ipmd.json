@@ -1,0 +1,18 @@
+{
+  "id": "99076ea8-00a7-4f18-8f10-668b52832447",
+  "rev": "2-35c73da0dc9683cc59c812425f146b57",
+  "name": "Dmexco Profile",
+  "classification": "image-profile",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-14T14:04:01.744Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "lastModified": "2017-09-14T14:04:32.824Z",
+  "dimensions": [
+    {
+      "label": "Smartphone",
+      "key": "smartphone",
+      "width": 300,
+      "height": 200
+    }
+  ]
+}

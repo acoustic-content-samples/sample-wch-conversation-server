@@ -1,31 +1,37 @@
 {
   "id": "c884cb11-6455-442c-90ad-3349f0120f36",
-  "rev": "13-c07c9d75a1d0384c08e989fd4fad0832",
+  "rev": "15-35a7475cda52e356d80278d058b6412f",
   "name": "Respone - What is IBM Commerce",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-09-07T12:14:08.584Z",
+  "lastModified": "2017-09-13T12:25:10.076Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-09-07T12:10:26.925Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "tags": [],
+  "tags": [
+    "concept:2002 albums",
+    "concept:Compilation albums",
+    "entity:Watson Commerce",
+    "entity:Watson"
+  ],
   "keywords": [],
   "status": "ready",
   "elements": {
-    "attachmentquery": {
-      "elementType": "text"
+    "attachments": {
+      "elementType": "toggle",
+      "value": true
     },
     "filter": {
       "elementType": "category",
       "categoryIds": [
-        "464cccb3d4ddc13c9a93ed0253060dd5"
+        "464cccb3d4ddc13c9a93ed0253060dd5",
+        "d32ac974bbe1173f5a1b0fd5b63d0b49"
       ]
     },
-    "attachments": {
-      "elementType": "toggle",
-      "value": true
+    "attachmentquery": {
+      "elementType": "text"
     },
     "text": {
       "elementType": "text",

@@ -1,21 +1,25 @@
 {
   "id": "d7c21c52-85e9-4846-8504-0beb493117e4",
-  "rev": "41-1a4ef456ff76409cac849f5d387bb6da",
+  "rev": "45-8331f7ffb9c87e68b099f0cd012d774a",
   "name": "MrWatson - Hi again",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-08-29T15:43:38.569Z",
+  "lastModified": "2017-09-18T15:45:00.237Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:38.252Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "status": "ready",
   "elements": {
-    "text": {
-      "elementType": "text",
-      "value": "Hi again. {{#if watsonData.context.username}}{{watsonData.context.username}} just tell me your business needs.{{else}}What's on the agenda today?{{/if}}"
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "8e5f4ef2-351b-4bef-93cf-933a63a066bf"
+        }
+      ]
     },
     "attachments": {
       "elementType": "toggle",
@@ -24,12 +28,11 @@
     "attachmentquery": {
       "elementType": "text"
     },
-    "attachment": {
-      "elementType": "reference",
-      "values": [
-        {
-          "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a"
-        }
+    "node": {
+      "elementType": "category",
+      "categoryIds": [
+        "b84c6bad3cad3ec6ffff23c78e0f3fe1",
+        "574f55ebf39a12c6f50b96f04325d595"
       ]
     },
     "persona": {
@@ -38,19 +41,24 @@
         "d332127df4c37b2d4632699e7e16bccc"
       ]
     },
-    "node": {
-      "elementType": "category",
-      "categoryIds": [
-        "b84c6bad3cad3ec6ffff23c78e0f3fe1",
-        "574f55ebf39a12c6f50b96f04325d595"
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Hi again. {{#if watsonData.context.username}}{{watsonData.context.username}} just tell me your business needs.{{else}}What's on the agenda today?{{/if}}"
       ]
     },
     "filter": {
       "elementType": "category"
     },
+    "maxDistanceFromUser": {
+      "elementType": "number"
+    },
     "emotion": {
       "elementType": "category",
       "categoryIds": []
+    },
+    "customerSegment": {
+      "elementType": "category"
     },
     "location": {
       "elementType": "location"

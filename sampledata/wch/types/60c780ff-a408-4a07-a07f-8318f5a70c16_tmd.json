@@ -3,6 +3,9 @@
   "rev": "19-26f8f8ef3d0cd5514b11ba7ffafdef44",
   "name": "ChatActionButton",
   "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
   "description": "",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:49:10.230Z",

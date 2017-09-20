@@ -1,0 +1,40 @@
+{
+  "id": "88bad343-2800-43ca-948b-e1925094ce7b",
+  "rev": "10-d217fd874d7ff7cb9fe1fd41325552a5",
+  "name": "Action Button - Impressions Dmexco",
+  "classification": "content",
+  "typeId": "60c780ff-a408-4a07-a07f-8318f5a70c16",
+  "locale": "en",
+  "lastModified": "2017-09-19T08:02:29.494Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-18T15:32:58.550Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "primarybutton": {
+      "elementType": "toggle"
+    },
+    "dangerbutton": {
+      "elementType": "toggle"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Impressions from Dmexco"
+    },
+    "value": {
+      "elementType": "text",
+      "value": "Show me some pictures from you on the ibm both at dmexco"
+    },
+    "name": {
+      "elementType": "text",
+      "value": "impressions_dmexco"
+    },
+    "weburl": {
+      "elementType": "link"
+    }
+  },
+  "kind": [],
+  "description": ""
+}

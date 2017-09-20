@@ -1,0 +1,87 @@
+{
+  "id": "6094b38f-616e-48ee-850e-980fbfdee919",
+  "rev": "11-90ecba693388a8dd3ce601c40b25eb05",
+  "name": "Attachment - WCH Robot at Dmexco",
+  "description": "",
+  "classification": "content",
+  "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
+  "locale": "en",
+  "lastModified": "2017-09-18T15:29:59.749Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-18T15:29:03.196Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "callback_id": {
+      "elementType": "text"
+    },
+    "image_url": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=2103e26306ae49c3e69e8424ac353d33&a=91ee4d7a-9c9c-4610-b862-0830c3d793b7",
+          "source": "/authoring/v1/resources/2103e26306ae49c3e69e8424ac353d33"
+        }
+      },
+      "asset": {
+        "id": "91ee4d7a-9c9c-4610-b862-0830c3d793b7",
+        "resourceUri": "/authoring/v1/resources/2103e26306ae49c3e69e8424ac353d33",
+        "fileName": "booth_robot.jpg",
+        "fileSize": 753308,
+        "mediaType": "image/jpeg"
+      }
+    },
+    "color": {
+      "elementType": "text"
+    },
+    "title": {
+      "elementType": "link",
+      "linkText": "WCH at Dmexco"
+    },
+    "author_icon": {
+      "elementType": "image"
+    },
+    "action": {
+      "elementType": "text"
+    },
+    "quickreplies": {
+      "elementType": "reference"
+    },
+    "ts": {
+      "elementType": "datetime"
+    },
+    "footer_icon": {
+      "elementType": "image"
+    },
+    "fields": {
+      "elementType": "text"
+    },
+    "author": {
+      "elementType": "link"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "This was my space at Dmexco!"
+      ]
+    },
+    "thumb_url": {
+      "elementType": "image"
+    },
+    "footer": {
+      "elementType": "text"
+    },
+    "fallback": {
+      "elementType": "text",
+      "values": [
+        "This was my space at Dmexco!"
+      ]
+    },
+    "pretext": {
+      "elementType": "text"
+    }
+  },
+  "kind": []
+}

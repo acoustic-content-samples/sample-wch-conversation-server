@@ -1,6 +1,6 @@
 {
   "id": "0bfaae88-7b94-4596-9f51-c27ec96bcc6c",
-  "rev": "1-2bdd30c806059e17b2d8793a61792a89",
+  "rev": "3-7410a801b77f92fa0a78e0dcabd57db1",
   "name": "Response Give Featureinformation",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "creator": "Watson Chatbot",
@@ -30,5 +30,5 @@
     }
   },
   "created": "2017-09-04T15:11:36.512Z",
-  "lastModified": "2017-09-04T15:11:36.512Z"
+  "lastModified": "2017-09-18T08:27:11.355Z"
 }

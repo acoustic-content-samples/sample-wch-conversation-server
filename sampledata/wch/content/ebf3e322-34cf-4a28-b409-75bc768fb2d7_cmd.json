@@ -1,42 +1,32 @@
 {
   "id": "ebf3e322-34cf-4a28-b409-75bc768fb2d7",
-  "rev": "29-6bc22caa1a6d710d683e7b72f64b4487",
+  "rev": "30-80567a2be3ac9ed00d34109d1192d6ba",
   "name": "ProfContent - Hi again",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "en",
-  "lastModified": "2017-08-29T15:45:46.584Z",
+  "lastModified": "2017-09-18T15:41:16.500Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:38.634Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "status": "ready",
   "elements": {
+    "attachment": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "8e5f4ef2-351b-4bef-93cf-933a63a066bf"
+        }
+      ]
+    },
     "attachments": {
       "elementType": "toggle",
       "value": true
     },
     "attachmentquery": {
       "elementType": "text"
-    },
-    "attachment": {
-      "elementType": "reference",
-      "values": [
-        {
-          "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a"
-        }
-      ]
-    },
-    "persona": {
-      "elementType": "category",
-      "categoryIds": [
-        "c88e2d8ea1537ef5b266774eea047616"
-      ]
-    },
-    "text": {
-      "elementType": "text",
-      "value": "Hi again.  {{#if watsonData.context.username}}So {{watsonData.context.username}} tell me... w{{else}}W{{/if}}hat's your research agenda today?"
     },
     "node": {
       "elementType": "category",
@@ -45,15 +35,33 @@
         "574f55ebf39a12c6f50b96f04325d595"
       ]
     },
+    "persona": {
+      "elementType": "category",
+      "categoryIds": [
+        "c88e2d8ea1537ef5b266774eea047616"
+      ]
+    },
     "filter": {
       "elementType": "category"
+    },
+    "maxDistanceFromUser": {
+      "elementType": "number"
     },
     "emotion": {
       "elementType": "category",
       "categoryIds": []
     },
+    "customerSegment": {
+      "elementType": "category"
+    },
     "location": {
       "elementType": "location"
+    },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Hi again.  {{#if watsonData.context.username}}So {{watsonData.context.username}} tell me... w{{else}}W{{/if}}hat's your research agenda today?"
+      ]
     }
   },
   "kind": []

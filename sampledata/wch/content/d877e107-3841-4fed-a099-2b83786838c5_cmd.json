@@ -1,12 +1,12 @@
 {
   "id": "d877e107-3841-4fed-a099-2b83786838c5",
-  "rev": "30-8717ff116c6f8ae2433204ae4a84cdc0",
+  "rev": "31-ebb41110d7fdc5f6036000d63086ed42",
   "name": "Attachment - WCH Marketplace",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
   "locale": "en",
-  "lastModified": "2017-08-29T15:47:05.488Z",
+  "lastModified": "2017-09-14T14:02:24.846Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-02T13:11:38.291Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -14,19 +14,47 @@
   "keywords": [],
   "status": "ready",
   "elements": {
+    "pretext": {
+      "elementType": "text",
+      "values": [
+        "If you want to have more information check out the IBM Marketplace:"
+      ]
+    },
     "callback_id": {
       "elementType": "text"
+    },
+    "author_icon": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=cf7d502a106a0de68cb1414df0ec2f56&a=436d1d7c-8751-4bcf-8169-652f47d63efa",
+          "source": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec2f56"
+        },
+        "icon": {
+          "renditionId": "fd8bb4cd-daa0-403d-8eba-798136ff3c30",
+          "source": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec2f56?resize=29px:29px&crop=16:16;13,2"
+        }
+      },
+      "asset": {
+        "id": "436d1d7c-8751-4bcf-8169-652f47d63efa",
+        "resourceUri": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec2f56",
+        "fileName": "bee_128.png",
+        "fileSize": 1077,
+        "mediaType": "image/png"
+      }
     },
     "image_url": {
       "elementType": "image"
     },
-    "text": {
-      "elementType": "text",
-      "value": "Create, manage, and deliver engaging and relevant customer experience with our cloud-based, cognitive-powered content management service."
-    },
     "color": {
       "elementType": "text",
       "value": "#36a64f"
+    },
+    "fallback": {
+      "elementType": "text",
+      "values": [
+        "{{#if (ne watsonData.context.clienttype 'slack')}} . For more information search for Watson Content Hub in your browser. {{else}} Find more information about Watson Content Hub here: https://www.ibm.com/us-en/marketplace/cloud-cms-solution{{/if}}"
+      ]
     },
     "title": {
       "elementType": "link",
@@ -48,35 +76,17 @@
     "ts": {
       "elementType": "datetime"
     },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Create, manage, and deliver engaging and relevant customer experience with our cloud-based, cognitive-powered content management service."
+      ]
+    },
     "footer_icon": {
       "elementType": "image"
     },
-    "fallback": {
-      "elementType": "text",
-      "value": "{{#if (ne watsonData.context.clienttype 'slack')}} . For more information search for Watson Content Hub in your browser. {{else}} Find more information about Watson Content Hub here: https://www.ibm.com/us-en/marketplace/cloud-cms-solution{{/if}}"
-    },
     "fields": {
       "elementType": "text"
-    },
-    "author_icon": {
-      "elementType": "image",
-      "renditions": {
-        "default": {
-          "renditionId": "r=cf7d502a106a0de68cb1414df0ec2f56&a=436d1d7c-8751-4bcf-8169-652f47d63efa",
-          "source": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec2f56"
-        },
-        "icon": {
-          "renditionId": "a6434ef6-4b5b-4683-bb61-b7466e59b6a7",
-          "source": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec2f56?resize=16px:16px&crop=16:16;0,0"
-        }
-      },
-      "asset": {
-        "id": "436d1d7c-8751-4bcf-8169-652f47d63efa",
-        "resourceUri": "/authoring/v1/resources/cf7d502a106a0de68cb1414df0ec2f56",
-        "fileName": "bee_128.png",
-        "fileSize": 1077,
-        "mediaType": "image/png"
-      }
     },
     "footer": {
       "elementType": "text"
@@ -100,10 +110,6 @@
         "fileSize": 28262,
         "mediaType": "image/png"
       }
-    },
-    "pretext": {
-      "elementType": "text",
-      "value": "If you want to have more information check out the IBM Marketplace:"
     }
   },
   "thumbnail": {

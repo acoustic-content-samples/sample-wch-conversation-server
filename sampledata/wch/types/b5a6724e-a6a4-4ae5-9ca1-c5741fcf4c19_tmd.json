@@ -3,6 +3,9 @@
   "rev": "51-01f2cdd770a220b2b7fb4003cd83c87c",
   "name": "ChatAttachment",
   "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
   "contentThumbnail": {
     "imageElement": "author_icon",
     "source": "imageElementOrType"

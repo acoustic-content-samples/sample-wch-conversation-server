@@ -1,14 +1,14 @@
 {
-  "id": "6c9cfaf1-48ed-48c8-9bbc-b8240cabff9a",
-  "rev": "31-80c3f423d751725168582abe9b4c5754",
-  "name": "Anhang - Startpunkte",
+  "id": "8e5f4ef2-351b-4bef-93cf-933a63a066bf",
+  "rev": "11-3d4f228fb3e8c8c1110d099ebd24f6de",
+  "name": "Attachment - Possible Starting Points",
   "description": "",
   "classification": "content",
   "typeId": "b5a6724e-a6a4-4ae5-9ca1-c5741fcf4c19",
-  "locale": "de",
-  "lastModified": "2017-09-18T15:35:15.895Z",
+  "locale": "en",
+  "lastModified": "2017-09-18T15:39:55.535Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
-  "created": "2017-08-02T13:11:35.710Z",
+  "created": "2017-09-18T15:38:18.799Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "tags": [],
   "keywords": [],
@@ -16,20 +16,6 @@
   "elements": {
     "color": {
       "elementType": "text"
-    },
-    "quickreplies": {
-      "elementType": "reference",
-      "values": [
-        {
-          "id": "7ba4776c-a80a-485e-94e9-d7a7411a811e"
-        },
-        {
-          "id": "581fd641-b033-4d60-bbd3-c7365f7bf7de"
-        },
-        {
-          "id": "d343809e-bcf0-481a-9f80-b704f7f7e19b"
-        }
-      ]
     },
     "image_url": {
       "elementType": "image"
@@ -44,6 +30,12 @@
     "action": {
       "elementType": "text"
     },
+    "fallback": {
+      "elementType": "text",
+      "values": [
+        "A good starting point to ask about Watson Content Hub."
+      ]
+    },
     "ts": {
       "elementType": "datetime"
     },
@@ -57,11 +49,22 @@
     "fields": {
       "elementType": "text"
     },
+    "quickreplies": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "5221b5e9-6c64-46f7-be4e-418f12d2ce74"
+        },
+        {
+          "id": "549367ba-fa02-4d3c-8ee7-10bda08efbea"
+        },
+        {
+          "id": "88bad343-2800-43ca-948b-e1925094ce7b"
+        }
+      ]
+    },
     "author": {
       "elementType": "link"
-    },
-    "fallback": {
-      "elementType": "text"
     },
     "thumb_url": {
       "elementType": "image"

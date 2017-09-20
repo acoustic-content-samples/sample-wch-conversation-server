@@ -1,0 +1,40 @@
+{
+  "id": "d343809e-bcf0-481a-9f80-b704f7f7e19b",
+  "rev": "9-ac417366b1ef5189841a1d2424602283",
+  "name": "Action Button - Eindrücke von der Dmexco",
+  "description": "",
+  "classification": "content",
+  "typeId": "60c780ff-a408-4a07-a07f-8318f5a70c16",
+  "locale": "de",
+  "lastModified": "2017-09-18T15:34:13.377Z",
+  "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "created": "2017-09-18T15:33:29.824Z",
+  "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
+  "tags": [],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "value": {
+      "elementType": "text",
+      "value": "Zeige mir eindrücke von dir auf der Dmexco!"
+    },
+    "primarybutton": {
+      "elementType": "toggle"
+    },
+    "dangerbutton": {
+      "elementType": "toggle"
+    },
+    "name": {
+      "elementType": "text",
+      "value": "impressions_dmexco"
+    },
+    "text": {
+      "elementType": "text",
+      "value": "Impressionen Dmexco"
+    },
+    "weburl": {
+      "elementType": "link"
+    }
+  },
+  "kind": []
+}

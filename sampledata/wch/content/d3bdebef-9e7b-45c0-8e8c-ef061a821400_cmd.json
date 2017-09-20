@@ -1,12 +1,12 @@
 {
   "id": "d3bdebef-9e7b-45c0-8e8c-ef061a821400",
-  "rev": "12-6c49328b25c6942290c7dd13aa7becae",
+  "rev": "13-1ecc598a5e0a71e71e2f6dcd7430e8aa",
   "name": "Antwort - Aufforderung Name zu nennen",
   "description": "",
   "classification": "content",
   "typeId": "1d6b7f65-511d-4395-bc5d-e1d2bcbe6f05",
   "locale": "de",
-  "lastModified": "2017-08-30T18:10:04.015Z",
+  "lastModified": "2017-09-11T11:42:09.029Z",
   "lastModifierId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-08-29T16:23:34.351Z",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
@@ -26,6 +26,14 @@
         "d6c8a8fc916579191382d0e545543a92"
       ]
     },
+    "text": {
+      "elementType": "text",
+      "values": [
+        "Danke! Bitte nenne mir nur deinen Namen.",
+        "Ok. Nenne uns doch bitte deinen Namen.",
+        "Okay. Bitte nenne mir nur deinen Namen. Mein Entwickler war zu faul mich besser zu trainieren{{#if (eq watsondata.context.clienttype 'slack')}}:cry:{{else}}.{{/if}}"
+      ]
+    },
     "persona": {
       "elementType": "category"
     },
@@ -34,14 +42,6 @@
     },
     "maxDistanceFromUser": {
       "elementType": "number"
-    },
-    "text": {
-      "elementType": "text",
-      "values": [
-        "Danke! Bitte nenne mir nur deinen Namen.",
-        "Ok. Nenne uns doch bitte deinen Namen.",
-        "Okay. Bitte nenne mir nur deinen Namen. Mein Entwickler war zu faul mich besser zu trainieren{{if (eq watsondata.context.clienttype 'slack')}}:cry:{{else}}.{{/if}}"
-      ]
     },
     "attachments": {
       "elementType": "toggle",

@@ -3,6 +3,9 @@
   "rev": "57-d66dc69d327307b70d74cc4556abae82",
   "name": "ChatOutputText",
   "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
   "description": "Type for general textoutput for the chatbot solution based on WCH. Use the node taxonomy to specify for which dialog nodes this text can be used.",
   "creatorId": "57ce3b2b-ae3c-493d-aef0-046951ac9086",
   "created": "2017-05-04T11:48:19.177Z",
