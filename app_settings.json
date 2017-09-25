@@ -7,6 +7,7 @@
   "defaultLanguage": "en",
   "enabled": {
    "developermode": false,
+   "alexa": true,
    "raspberry": true,
    "slack": true,
    "isslackapp": true,
@@ -27,7 +28,7 @@
   }
  },
  "wch_toneanalyzer": {
-  "enabled": true
+  "enabled": false
  },
  "wch_languagetranslator": {
   "enabled": true
