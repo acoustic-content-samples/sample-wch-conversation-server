@@ -4,10 +4,11 @@ This is a starter Kit to implement rich-featured, cross-channel & multi-language
 
 The conversational capabilites such as language understanding and dialog structure are implemented through the [Watson Conversation Service](https://www.ibm.com/watson/services/conversation/). Every content visible to the user of the chat is created and managed inside of [Watson Content Hub](https://www.ibm.com/de-de/marketplace/cloud-cms-solution). Hence these two cloud-based application are essential for this solution. There are also other (optional) services included to enrich the out-of-the-box experience such as the Tone Analyzer or Language Translator.
 
-The sample currently supports three chat-interfaces:
+The sample currently supports four chat-interfaces:
 1. A REST based text only bot for usage in bots and other scenarios where you only are able to output text or audio. If you are interested you can [check out the instructions page here](https://my.digitalexperience.ibm.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html) to create your own WCH Robot!
 2. A slack based bot leveraging the full capability set of messenger (Action Buttons, Emojis, Gifs, formatted content and more)
 3. A facebook messenger bot leveraging text, action buttons and image capabilites.
+4. Integrate your chat application in an alexa skill. (Instructions follow soon)
 
 Currently the demo content shipped with the started Kit is:
 ![Slack Sample](/doc/SlackSampe_Min.gif)
@@ -17,7 +18,7 @@ The value of this solution is simple and powerful: We let the Watson Conversatio
 
 | Watson Conversation Service | Watson Content Hub |
 |---|---|
-|  <ul><li>Defines the conversational structure</li><li>Manages the state of conversations</li><li>"State Machine"</li><li>Unaware of the actual response content</li><li>Possibility to add custom actions</li></ul> | <ul><li>Have rich content capablities</li><li>Reusable content in other applications</li><li>"Chross-Channel"</li><li>Adapt to various output mediums (e.g. Screen, Audio, Text)</li><li>Use the context information from the conversation service for dynamic content</li></ul> |
+|  <ul><li>Defines the conversational structure</li><li>Manages the state of conversations</li><li>"State Machine"</li><li>Unaware of the actual response content</li><li>Possibility to add custom actions</li></ul> | <ul><li>Have rich content capablities</li><li>Reusable content in other applications</li><li>"Cross-Channel"</li><li>Adapt to various output mediums (e.g. Screen, Audio, Text)</li><li>Use the context information from the conversation service for dynamic content</li></ul> |
 
 ## Setup
 
@@ -63,15 +64,30 @@ cd ./sample-wch-conversation-server
 npm install
 ```
 
-2. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run setupSample`. This will ask for all possible credentials and afterwards initializes the Watson Conversation Service and Watson Content Hub with the sample dialog and the required content types.<br/><br/>If you just want to setup the credentials simply run `npm run setupCredentials` or you can use `dch_vcap_sample.json` as a reference and fill in the parameters manually.<br/><br/>*NOTE:* If you are not interessted in the slack integration of this sample you can omit the bot_config completely.
+2. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run setupSample`. This will ask for all credentials needed. Afterwards the script initializes Watson Conversation Service and Watson Content Hub with the sample dialog and the sample content.<br/><br/>If you just want to setup the credentials simply run `npm run setupCredentials` or you can use `dch_vcap_sample.json` as a reference and create your own `dch_vcap.json` file .<br/><br/>*NOTE:* If you are not interessted in the slack integration of this sample you can omit the bot_config completely.
 
 3. **[Required]** To test if everything works as expected you should start the server by running `npm run devDebug`. This will start a nodemon server with tracing/logging enabled. If you don't want tracing enabled in the future simply run `npm run dev`. After startup you should be able to call the endpoint `POST http://localhost:6001/rasp/message Body: {"input":"What is WCH?","user":"Test" }` and get a JSON response containing a text field with content from Watson Content Hub.<br/>
 
 ![Check Setup](/doc/Check.gif)
 
-4. **[Optional]** If you like you can push the sample server on bluemix by running `bx cf push`. But before please make sure to change the hostname of the application in the 'manifest.yml'. Also you have to configure the credentials on bluemix. Therefore sipmly run `npm run addGeoSrv`, `npm run addWchSrv`, `npm run addBotSrv` and `npm run addDBSrv`.
+4. **[Optional]** If you like you can push the sample server on bluemix by running `bx cf push`. But before please make sure to change the hostname of the application in the `manifest.yml`. Also you have to configure the credentials on bluemix. Therefore sipmly run `npm run addGeoSrv`, `npm run addWchSrv`, `npm run addBotSrv`, `npm run addFbSrv`, `addAlexaSrv` and `npm run addDBSrv`. (Of course you can skip over those services you've disabled during the setup. Just make sure to remove them from the `manifest.yml`)
 
-5. **Done.** Enjoy the demo. Feel free to make changes and create your own chatbot!  
+5. **Done.** Enjoy the demo. Feel free to make changes and create your own chatbot!
+  
+#### Manage your content in Watson Content Hub
+This server is configured to fetch the content shown to users from WCH. This is based on the concept of syncing all intents, entities, dialog_nodes and actions from the conversation service to WCH. In order to trigger a sync start the application in the developermode. You can do this by changing the respective flag in the `app_settings.json` file to `true`. Afterwards you can tell your bot: `To push my changes to WCH`. This should do the job and afterwards you should see your changes in the taxonomy section of WCH.
+
+When using the sample you also have predefined content types to create your chatbot content. The types are: ChatOutputText, ChatAttachment, ChatFollowup and ChatActionButton.
+
+The content type `ChatOutputText` is at the core when creating an answer. Here you define the required text based answer to a user message. You can add answer variations in here. This is also the place to select the dialog states where this answer should be used.
+
+`ChatAttachments` contain all rich content variations your channels support. E.g. images, author information, videos & more. This is the place to define enrichments to your answer. Since those are then referenced to a ChatOutputText you can reuse your ChatAttachment in multiple answers.
+
+`ChatFollowups` are used to defined dialog triggered special actions. E.g. a ChatFollowup can be used when we want to ask the user for his name, but only the first time the user interacts with the bot. The contentstructure is the same as for a ChatOutputText.
+
+`ChatActionButton` define Quick Replies you can add to Slack and Facebook (and potentially your custom developed chatbot). They offer a convenient mechanism to offer your user common answers.
+
+**Note:** This is a potentially expensive operation - so disable developermode for production use cases!
 
 #### Node Red
 Part of the sample is also a Node RED flow. Currently this flow is optimized for the Maker Kit to run on a Raspberry Pi. So if you want to run this part on Windows on Mac you might have to change a thing or two.
