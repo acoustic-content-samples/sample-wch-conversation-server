@@ -28,7 +28,8 @@
   }
  },
  "wch_toneanalyzer": {
-  "enabled": false
+  "enabled": true,
+  "conf_lvl": 0.7
  },
  "wch_languagetranslator": {
   "enabled": true
