@@ -8,11 +8,12 @@ applications:
   host: wch-conv-int-srv
   disk_quota: 1024M
   services:
+    - alexa_config
     - bot_config
-    - wch_config
-    - geo_config
-    - fb_config
     - db_config
+    - fb_config
+    - geo_config
+    - wch_config
     - wch-conversation
     - wch-toneanalyzer
     - wch-languagetranslator

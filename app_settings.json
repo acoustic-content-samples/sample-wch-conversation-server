@@ -24,11 +24,12 @@
  },
  "wch_conversation": {
   "workspace_id": {
-   "en": "9db75ce4-a059-4f53-988d-de239eed10a0"
+   "en": "9db75ce4-a059-4f53-988d-de239eed10a0",
+   "de": "9db75ce4-a059-4f53-988d-de239eed10a0"
   }
  },
  "wch_toneanalyzer": {
-  "enabled": true,
+  "enabled": false,
   "conf_lvl": 0.7
  },
  "wch_languagetranslator": {

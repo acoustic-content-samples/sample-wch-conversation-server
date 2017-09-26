@@ -185,6 +185,7 @@ function initServices(predefined) {
     then(setupBot).
     then(setupGeo).
     then(setupFB).
+    then(setupAlexa).
     then(({vcap, settings}) => resolve({vcap, settings}));
 
   });
@@ -493,6 +494,42 @@ function setupFB({predefined, vcap, settings}) {
 
       vcap['user-provided'][3].credentials.key = result.key;
       vcap['user-provided'][3].credentials.verificationtoken = result.verificationtoken;
+      resolve({predefined, vcap, settings});
+    });
+
+  });
+
+}
+
+function setupAlexa({predefined, vcap, settings}) {
+  return new Promise((resolve, reject) => {
+    console.log(`
+############################
+  Setup Alexa
+############################
+`);
+    console.log('Please provide the following parameters:');
+
+    let schema = {
+      properties: {
+        skip: {
+          description: 'Do you want to use this bot in an Alexa Skill? Otherwise you can skip this section. (y/n)',
+          pattern: /^y|n$/,
+          required: true,
+          message: `Please answer with 'y' for yes and 'n' for no!`
+        },
+        appid: {
+          required: true,
+          ask: () => prompt.history('skip').value === 'y'
+        }
+      }
+    };
+
+    prompt.message = 'Alexa';
+    prompt.get(schema, function (err, result) {
+      settings.bot_config.alexa.enabled = (result.skip === 'y');
+
+      vcap['user-provided'][3].credentials.appid = result.appid;
       resolve({predefined, vcap, settings});
     });
 

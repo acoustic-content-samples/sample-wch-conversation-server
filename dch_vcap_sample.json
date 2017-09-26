@@ -103,6 +103,15 @@
           "label": "user-provided",
           "name": "fb_config",
           "tags": []
+        },
+        {
+          "credentials": {
+              "appid": "<Your appid>"
+          },
+          "syslog_drain_url": "",
+          "label": "user-provided",
+          "name": "alexa_config",
+          "tags": []
         }
     ]
 }
