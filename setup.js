@@ -527,7 +527,7 @@ function setupAlexa({predefined, vcap, settings}) {
 
     prompt.message = 'Alexa';
     prompt.get(schema, function (err, result) {
-      settings.bot_config.alexa.enabled = (result.skip === 'y');
+      settings.bot_config.enabled.alexa = (result.skip === 'y');
 
       vcap['user-provided'][3].credentials.appid = result.appid;
       resolve({predefined, vcap, settings});
