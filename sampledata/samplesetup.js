@@ -24,6 +24,7 @@ const dch_vcap_local = require('../dch_vcap');
 const app_settings = require('../app_settings');
 const wchpush = require('wchtools-cli/commands/push');
 const conversation = require('../lib/services/conversation');
+const WchConnector = require('sample-wch-node-connector');
 const sync = require('../lib/sync');
 
 const fs = require('fs');
@@ -154,7 +155,53 @@ program
 program
   .command('cleanup [credentialsFile]')
   .description('Cleanup the sampledata from Watson Content Hub and the Conversation Service')
-  .action(function() {
+  .action(function(credsPath) {
+    let creds;
+    if (credsPath && fs.existsSync(credsPath)) {
+      // Read config file
+      console.log('Reading credentials from path "%s" ', credsPath);
+      let file = fs.readFileSync(credsPath);
+      creds = JSON.parse(file);
+    } else if(dch_vcap_local) {
+      console.log('Reading credentials from default "../dch_vcap"');
+      creds = dch_vcap_local;
+    } else {
+      console.error('Missing credentials! Please run setup.js first.');
+      process.exit(1);
+    }
+
+    // Setup Watson Content Hub
+    if (program.all || program.wch) {
+      let [ wch_config ] = creds['user-provided'];
+      let { username, password, apiurl } = wch_config.credentials;
+
+      if (!username || !password || !apiurl) {
+        throw new Error('Missing parameters to push to wch. Make sure to have all credentials in place!');
+      }
+
+      let connector = new WchConnector({
+        endpoint: 'authoring',
+        baseUrl: apiurl,
+        credentials: {
+          usrname: username,
+          pwd: password
+        }
+      });
+
+      const maxDelAmount = 9999; // default
+      let deleteItemQuery = 'classification:content AND type:(outputtext chatoutputtext chatactionbutton attachment chatattachment followup chatfollowup)';
+      let deleteTypeQuery = 'classification:content-type AND name:(chatactionbutton attachment outputtext followup chatattachment chatoutputtext chatfollowup)';
+      let deleteTaxonomiesQuery = 'classification:taxonomy AND name:(intents entities actions dialog_nodes emotion)';
+      // First Cleanup All Content Items
+      connector.content.deleteContentItems(deleteItemQuery, maxDelAmount)
+      .then(result => console.log('RESULT CONTENT ', result))
+      .then(() => connector.content.deleteContentTypes(deleteTypeQuery, maxDelAmount))
+      .then(result => console.log('RESULT TYPES ', result))
+      // Not yet possible - there's currently no way to identify the assets...
+      // .then(() => connector.asset.deleteAssets('*:*', maxDelAmount))
+      .then(() => connector.taxonomy.deleteTaxonomies(deleteTaxonomiesQuery, maxDelAmount))
+      .then(() => console.log('Cleaned up!'));
+    }
 
   });
 
