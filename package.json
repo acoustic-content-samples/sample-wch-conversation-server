@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node bin/www",
     "dev": "gulp dev",
-    "devDebug": "set DEBUG_COLORS=true&&set DEBUG=wchbotserver:*,-wchbotserver:templating&& gulp dev",
+    "devDebug": "set DEBUG_COLORS=true&&set DEBUG=wchbotserver:*,conversation-core:*,-wchbotserver:templating&& gulp dev",
     "test": "node mocha ",
     "eslint": "gulp eslint",
     "setupCredentials": "node setup init",
@@ -15,8 +15,8 @@
     "updateGeoSrv": "bx cf uups geo_config -p \"key\"",
     "addWchSrv": "bx cf cups wch_config -p \"hubid, username, password, apiurl\"",
     "updateWchSrv": "bx cf uups wch_config -p \"hubid, username, password, apiurl\"",
-    "addBotSrv": "bx cf cups bot_config -p \"clientid, clientsecret, verificationtoken, redirectUri\"",
-    "updateBotSrv": "bx cf uups bot_config -p \"clientid, clientsecret, verificationtoken, redirectUri\"",
+    "addSlackSrv": "bx cf cups slack_config -p \"clientid, clientsecret, verificationtoken, redirectUri\"",
+    "updateSlackSrv": "bx cf uups slack_config -p \"clientid, clientsecret, verificationtoken, redirectUri\"",
     "addFbSrv": "bx cf cups fb_config -p \"key, verificationtoken\"",
     "updateFbSrv": "bx cf uups fb_config -p \"key, verificationtoken\"",
     "addAlexaSrv": "bx cf cups alexa_config -p \"appid\"",
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@google/maps": "^0.3.1",
+    "architect": "^0.1.13",
     "body-parser": "^1.17.1",
     "botkit": "^0.5.6",
     "botkit-middleware-watson": "^1.3.1",
@@ -38,7 +39,8 @@
     "handlebars": "^4.0.8",
     "node-cache": "^4.1.1",
     "sample-wch-node-connector": "^0.7.0",
-    "watson-developer-cloud": "^2.30.0"
+    "watson-developer-cloud": "^2.30.0",
+    "wch-conversation-core": "^0.1.5"
   },
   "devDependencies": {
     "commander": "^2.10.0",
@@ -55,6 +57,6 @@
     "git": "https://github.com/ibm-wch/sample-wch-conversation-server"
   },
   "engines": {
-    "node": "6.x"
+    "node": "8.x"
   }
 }

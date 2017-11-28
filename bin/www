@@ -19,9 +19,11 @@
 'use strict';
 
 const debug = require('debug')('wchbotserver:www');
-const app = require('../app');
-const creds = app.get('appEnv').credentials;
+const appPromise = require('../app');
 
-var server = app.listen(creds.port, creds.bind, function() {
-  debug(`Server started at ${creds.bind}:${creds.port}`);
+appPromise.then(app => {
+  const creds = app.get('appEnv');
+  const server = app.listen(creds.port, creds.bind, function() {
+    debug(`Server started at ${creds.bind}:${creds.port}`);
+  });
 });

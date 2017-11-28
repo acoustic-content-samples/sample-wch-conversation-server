@@ -1,38 +1,67 @@
 {
- "geolocationservice": {
-  "enabled": true
- },
- "bot_config": {
-  "supportedLanguages": ["de", "en"],
+ "title": "Default Application Settings for Conversation Core",
+ "description": "This file contains all configurable parts of the application. When you want to use plugins from the core service create this file in your own project or extend this one.",
+ "generalSettings": {
   "defaultLanguage": "en",
-  "enabled": {
-   "developermode": false,
-   "alexa": true,
-   "raspberry": true,
-   "slack": true,
-   "isslackapp": true,
-   "facebook": true
+  "supportedLanguages": [
+   "de",
+   "en"
+  ],
+  "developermode": true,
+  "confLvl": "0.7",
+  "credentialsStore": {
+   "path": "./dch_vcap.json",
+   "encrypted": true,
+   "pathPrivKey": "C:\\Users\\SvenSterbling\\.ssh\\id_rsa"
+  }
+ },
+ "channels": {
+  "alexa": {
+   "enabled": false
   },
-  "icons": {
-   "mrwatson": "https://my6.digitalexperience.ibm.com/8f032d79-a358-4825-af1b-d6cc169692c6/dxdam/8c/8c290073-6365-4400-8dce-40e286667e50/MrWatson.PNG",
-   "profcontent": "https://my6.digitalexperience.ibm.com/8f032d79-a358-4825-af1b-d6cc169692c6/dxdam/ae/ae0a2253-d8e2-48e0-92d3-481cc8468ed2/ProfContent.PNG",
-   "drhub": "https://my6.digitalexperience.ibm.com/8f032d79-a358-4825-af1b-d6cc169692c6/dxdam/df/df0b0e06-40c4-45a1-8d93-4b0fe45679fe/DrHub.PNG"
+  "fb": {
+   "enabled": true,
+   "debug": false,
+   "chatpersona": "mrwatson"
+  },
+  "slack": {
+   "enabled": true,
+   "startApp": true,
+   "startTestBot": true,
+   "debug": false,
+   "chatboticons": {
+    "mrwatson": "https://my6.digitalexperience.ibm.com/8f032d79-a358-4825-af1b-d6cc169692c6/dxdam/8c/8c290073-6365-4400-8dce-40e286667e50/MrWatson.PNG",
+    "profcontent": "https://my6.digitalexperience.ibm.com/8f032d79-a358-4825-af1b-d6cc169692c6/dxdam/ae/ae0a2253-d8e2-48e0-92d3-481cc8468ed2/ProfContent.PNG",
+    "drhub": "https://my6.digitalexperience.ibm.com/8f032d79-a358-4825-af1b-d6cc169692c6/dxdam/df/df0b0e06-40c4-45a1-8d93-4b0fe45679fe/DrHub.PNG"
+   }
   }
  },
- "wch_config": {
-  "caching": true
+ "toneAnalyzerService": {
+  "enabled": false
  },
- "wch_conversation": {
-  "workspace_id": {
-   "en": "9db75ce4-a059-4f53-988d-de239eed10a0",
-   "de": "9db75ce4-a059-4f53-988d-de239eed10a0"
-  }
- },
- "wch_toneanalyzer": {
-  "enabled": false,
-  "conf_lvl": 0.7
- },
- "wch_languagetranslator": {
+ "languageTranslationService": {
   "enabled": true
+ },
+ "geolocationService": {
+  "enabled": true
+ },
+ "dbService": {
+  "enabled": false
+ },
+ "conversationMiddleware": {
+  "config": [
+   {
+    "workspaceId": "9db75ce4-a059-4f53-988d-de239eed10a0",
+    "locale": "en"
+   },
+   {
+    "workspaceId": "9db75ce4-a059-4f53-988d-de239eed10a0",
+    "locale": "de"
+   }
+  ]
+ },
+ "wchService": {
+  "caching": false,
+  "ttl": 300
  }
 }
