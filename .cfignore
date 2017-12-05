@@ -3,3 +3,4 @@ bower_components
 src
 Dockerfile
 .dockerignore
+dch_vcap.json
