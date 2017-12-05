@@ -13,11 +13,13 @@
    "path": "./dch_vcap.json",
    "encrypted": true,
    "pathPrivKey": "C:\\Users\\SvenSterbling\\.ssh\\id_rsa"
-  }
+  },
+  "debugToFile": false
  },
  "channels": {
   "alexa": {
-   "enabled": false
+   "enabled": true,
+   "debug": false
   },
   "fb": {
    "enabled": true,

@@ -1,0 +1,117 @@
+{
+  "language_translator": [
+    {
+        "credentials": {
+          "url": "https://gateway.watsonplatform.net/language-translator/api",
+          "username": "9c24bbee-1f0e-49ef-a008-e0b662fffeea",
+          "password": "oUspRVqisLZD"
+        },
+        "syslog_drain_url": null,
+        "label": "language_translator",
+        "provider": null,
+        "plan": "lite",
+        "name": "wch-languagetranslator",
+        "tags": [
+            "watson",
+            "ibm_created",
+            "ibm_dedicated_public",
+            "lite"
+        ]
+    }
+ ],
+ "tone_analyzer": [
+  {
+   "credentials": {
+    "url": "https://gateway.watsonplatform.net/tone-analyzer/api",
+    "username": "7a931990-0ace-48b1-a880-7d1421dd7a22",
+    "password": "mQYrvUaACTv3"
+   },
+   "syslog_drain_url": null,
+   "label": "tone_analyzer",
+   "provider": null,
+   "plan": "standard",
+   "name": "wch-toneanalyzer",
+   "tags": [
+    "watson",
+    "ibm_created",
+    "ibm_dedicated_public",
+    "lite"
+   ]
+  }
+ ],
+ "conversation": [
+  {
+   "credentials": {
+    "url": "https://gateway.watsonplatform.net/conversation/api",
+    "username": "408d2a47-dac0-487e-8570-2bf82da5d887",
+    "password": "sIWcbF60d7gQ"
+   },
+   "syslog_drain_url": null,
+   "label": "conversation",
+   "provider": null,
+   "plan": "standard",
+   "name": "wch-conversation",
+   "tags": [
+    "watson",
+    "ibm_created",
+    "ibm_dedicated_public",
+    "lite"
+   ]
+  }
+ ],
+ "user-provided": [
+  {
+   "credentials": {
+    "apiurl": "https://my.digitalexperience.ibm.com/api/dac1e731-36a4-4ab8-a754-346b79e9bf32",
+    "hubid": "dac1e731-36a4-4ab8-a754-346b79e9bf32",
+    "username": "wchchatbot@gmail.com",
+    "password": "moWnSIhyzn0drHUvMAjE"
+   },
+   "syslog_drain_url": "",
+   "label": "user-provided",
+   "name": "wch_config",
+   "tags": []
+  },
+  {
+   "credentials": {
+    "clientid": "18506337170.194819806562",
+    "clientsecret": "ecc874272ba57b11bff69a79b9ab87b7",
+    "verificationtoken": "FqxMwFQwMLtUF06HjPaMC7kg",
+    "redirectUri": "https://wch-conv-int-srv.mybluemix.net/oauth",
+    "testbot": "xoxb-180164212433-6J7fH2zk3QIyfAixjQzf9xP5"
+   },
+   "syslog_drain_url": "",
+   "label": "user-provided",
+   "name": "bot_config",
+   "tags": []
+  },
+  {
+   "credentials": {
+    "key": "AIzaSyAgNJlYWhpWicc6_g4dRYDqGQWE4dzRz5c"
+   },
+   "syslog_drain_url": "",
+   "label": "user-provided",
+   "name": "geo_config",
+   "tags": []
+  },
+  {
+    "credentials": {
+        "key": "EAAPgptw8sFoBALT4S13E9LVjYlhljgegMgL2iR1ZBtZCDr4MCzfV6dnIWu76ZCkoAAa6OkHZCbbspj3x5W5NxFf1iJoWkfT0hyGEqleNGDtQEHTTHUwIrluN5bBfNUuVrs47hKa5hAzpAYrT4R1hv2ASaj78996k76zXPX5LDJO4DgPn5ic1gO0xorJQ334ZD",
+        "verificationtoken": "aq4DafXZOLgDnnqmYuk1"
+    },
+    "syslog_drain_url": "",
+    "label": "user-provided",
+    "name": "fb_config",
+    "tags": []
+  },
+  {
+    "credentials": {
+        "appid": "amzn1.ask.skill.24b20f38-6bbe-479d-857b-38ab45a67b2a"
+    },
+    "syslog_drain_url": "",
+    "label": "user-provided",
+    "name": "alexa_config",
+    "tags": []
+  }
+ ]
+}
