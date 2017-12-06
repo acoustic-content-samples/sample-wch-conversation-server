@@ -36,6 +36,10 @@
     "profcontent": "https://my6.digitalexperience.ibm.com/8f032d79-a358-4825-af1b-d6cc169692c6/dxdam/ae/ae0a2253-d8e2-48e0-92d3-481cc8468ed2/ProfContent.PNG",
     "drhub": "https://my6.digitalexperience.ibm.com/8f032d79-a358-4825-af1b-d6cc169692c6/dxdam/df/df0b0e06-40c4-45a1-8d93-4b0fe45679fe/DrHub.PNG"
    }
+  },
+  "rasp": {
+    "enabled": true,
+    "debug": false
   }
  },
  "toneAnalyzerService": {
