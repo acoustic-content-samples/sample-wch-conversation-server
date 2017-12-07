@@ -149,15 +149,20 @@ function initGeneralSettings (parameters) {
 
     // Default General Settings
     let generalSettings = {
-        defaultLanguage : "en",
-        supportedLanguages: ["de", "en"],
-        developermode: false,
-        confLvl: 0.7,
-        credentialsStore: {
-          path: './dch_vcap.json',
-          encrypted: true
-        }
-      };
+      "defaultLanguage": "en",
+      "supportedLanguages": [
+       "de",
+       "en"
+      ],
+      "developermode": true,
+      "confLvl": "0.7",
+      "credentialsStore": {
+       "path": "./dch_vcap.json",
+       "encrypted": true,
+       "pathPrivKey": "C:\\Users\\SvenSterbling\\.ssh\\id_rsa"
+      },
+      "debugToFile": false
+    };
 
     let schema = {
       properties: {
@@ -214,9 +219,16 @@ function initGeneralSettings (parameters) {
         pathPrivKey : {
           description: 'Provide the path to your private key you want to use for encryption.',
           required: false,
-          default: program.key,
+          default: generalSettings.credentialsStore.pathPrivKey,
           conform: (value) => fs.existsSync(path.resolve(value)),
           ask: () => prompt.history('skip').value === 'y' && prompt.history('encrypt').value
+        },
+        debugToFile : {
+          description: 'If tracing is enabled should the log be persisted into a file?',
+          pattern: /^[y|n]$/,
+          required: true,
+          default:  generalSettings.debugToFile ? 'y' : 'n',
+          message: `Please answer with 'y' for yes and 'n' for no!`
         }
       }
     };
@@ -242,6 +254,7 @@ function initGeneralSettings (parameters) {
             encrypted: result.encrypt,
             pathPrivKey: result.pathPrivKey
           },
+          debugToFile: result.debugToFile === 'y' ? true : false,
           channels: {}
         }
       }
@@ -263,9 +276,9 @@ function initCredentials (parameters) {
               privKPath: pathPrivKey,
               encrypted: encrypted,
               credsPath: credsPath,
-              modifiable: true
+              readOnly: false
             },
-            null,
+            { logging: () => ({methodEntry: (name, value) => value, methodExit: (name, value) => value, debug: (name, value) => value }) },
             (_this, credentialsService) => {
               let defaultCredsService = credentialsService.credentials;
               defaultCredsService
@@ -315,9 +328,9 @@ function initCredentials (parameters) {
               privKPath: pathPrivKey,
               encrypted: encrypted,
               credsPath: credsPath,
-              modifiable: true
+              readOnly: false
             },
-            null,
+            { logging: () => ({methodEntry: (name, value) => value, methodExit: (name, value) => value, debug: (name, value) => value }) },
             (_this, credentialsService) => {
               let defaultCredsService = credentialsService.credentials;
               resolve(Object.assign(parameters, {appCredentials: {}, defaultCredsService}));
@@ -350,6 +363,7 @@ function setupConversationService (parameters) {
          "name": "wch-conversation"
         };
     }
+
     let schema = {
       properties: {
         name: {
@@ -392,6 +406,8 @@ function setupConversationService (parameters) {
 
       appSettings.conversationMiddleware = Object.assign({}, appSettings.conversationMiddleware, {config: config});
 
+      console.log('NEWNAME ', result.name)
+
       let newConversation = [
         {
          "credentials": {
@@ -402,7 +418,7 @@ function setupConversationService (parameters) {
          "name": result.name
         }
       ]
-      appCredentials = Object.assign({}, appCredentials, {conversation:newConversation});
+      appCredentials.conversation = newConversation;
       Promise.all([
         storeFile(setPath, appSettings),
         defaultCredsService.store({credentials: appCredentials})

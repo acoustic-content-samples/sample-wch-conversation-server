@@ -38,6 +38,10 @@
    }
   },
   "rasp": {
+   "enabled": true,
+   "debug": false
+  },
+  "rest": {
     "enabled": true,
     "debug": false
   }
@@ -52,7 +56,7 @@
   "enabled": true
  },
  "dbService": {
-  "enabled": false
+  "enabled": true
  },
  "conversationMiddleware": {
   "config": [
@@ -61,7 +65,7 @@
     "locale": "en"
    },
    {
-    "workspaceId": "9db75ce4-a059-4f53-988d-de239eed10a0",
+    "workspaceId": "d361c2fc-cfb7-40a1-a46a-a218b4e62136",
     "locale": "de"
    }
   ]

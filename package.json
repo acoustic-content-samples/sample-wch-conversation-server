@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node bin/www",
     "dev": "gulp dev",
-    "devDebug": "set DEBUG_COLORS=true&&set DEBUG=wchbotserver:*,conversation-core:*,-wchbotserver:templating&& gulp dev",
+    "devDebug": "set DEBUG_COLORS=true&&set DEBUG=wchbotserver:*,-conversation-core:*,-wchbotserver:templating&& gulp dev",
     "test": "node mocha ",
     "eslint": "gulp eslint",
     "setupCredentials": "node setup init",
@@ -40,7 +40,7 @@
     "node-cache": "^4.1.1",
     "sample-wch-node-connector": "^0.7.0",
     "watson-developer-cloud": "^2.30.0",
-    "wch-conversation-core": "^0.2.0"
+    "wch-conversation-core": "^0.2.5"
   },
   "devDependencies": {
     "commander": "^2.10.0",
