@@ -12,6 +12,7 @@
     "setupCredentials": "node setup init",
     "setupSample": "node setup init --sample-setup",
     "addGeoSrv": "bx cf cups geo_config -p \"key\"",
+    "addCustomConvSrv": "bx cf cups custom_conv_nao -p \"url, username, password\"",
     "updateGeoSrv": "bx cf uups geo_config -p \"key\"",
     "addWchSrv": "bx cf cups wch_config -p \"hubid, username, password, apiurl\"",
     "updateWchSrv": "bx cf uups wch_config -p \"hubid, username, password, apiurl\"",
@@ -40,7 +41,7 @@
     "node-cache": "^4.1.1",
     "sample-wch-node-connector": "^0.7.0",
     "watson-developer-cloud": "^2.30.0",
-    "wch-conversation-core": "^0.2.5"
+    "wch-conversation-core": "^0.2.9"
   },
   "devDependencies": {
     "commander": "^2.10.0",
