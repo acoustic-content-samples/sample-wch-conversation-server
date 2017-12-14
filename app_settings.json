@@ -12,7 +12,7 @@
   "credentialsStore": {
    "path": "./dch_vcap.json",
    "encrypted": true,
-   "pathPrivKey": "C:\\Users\\SvenSterbling\\.ssh\\id_rsa"
+   "pathPrivKey": "/Users/sterbling@de.ibm.com/.ssh/id_rsa"
   },
   "debugToFile": false
  },
@@ -28,6 +28,7 @@
   },
   "slack": {
    "enabled": true,
+   "chatpersona": "mrwatson",
    "startApp": true,
    "startTestBot": true,
    "debug": false,
@@ -42,8 +43,8 @@
    "debug": false
   },
   "rest": {
-    "enabled": true,
-    "debug": false
+   "enabled": true,
+   "debug": false
   }
  },
  "toneAnalyzerService": {

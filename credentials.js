@@ -425,7 +425,8 @@ function setupConversationService (parameters) {
       ])
       .then(() => {
         resolve(Object.assign(parameters, appCredentials));
-      });
+      })
+      .catch(reject);
     });
   });
 }
