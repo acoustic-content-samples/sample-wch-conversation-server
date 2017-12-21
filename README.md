@@ -22,7 +22,7 @@ The value of this proposed solution is _simple and powerful_: The Watson Convers
 
 | Watson Conversation Service | Watson Content Hub |
 |---|---|
-| <ul><li>Defines the conversational structure</li><li>Manages the state of conversations</li><li>"State Machine"</li><li>Unaware of the actual response content</li><li>Possibility to add custom actions</li></ul> | <ul><li>Have rich content capablities</li><li>Reusable content in other applications</li><li>"Cross-Channel"</li><li>Adapt to various output mediums (e.g. Screen, Audio, Text)</li><li>Use the context information from the conversation service for dynamic content</li></ul> |
+| <ul><li>Defines the conversational structure</li><li>Manages the state of conversations</li><li>"State Machine"</li><li>No awarness of the actual content</li><li>Possibility to add custom actions</li></ul> | <ul><li>Have rich content capablities</li><li>Reusable content in other applications</li><li>Omni-Channel (Create once publish everywhere)</li><li>Adapt to various output mediums (e.g. Screen, Audio, Text)</li><li>Use the context information from the conversation service for dynamic content</li><li>No training needed - you manage your content the same way as before</li><li>Easy to use Authoring UI</li></ul> |
 
 ## How does it work
 This is also simple because WCS and WCH work well together through their rich REST APIs. First the utterances of the user are all going to the Watson Converation Services. It takes care of the natural language understanding and the context handling for each user. The results of WCS are then transformed dynamically into a search query against WCH. The result of the query then gives us the actual content we then map into the respective channel of the user.
