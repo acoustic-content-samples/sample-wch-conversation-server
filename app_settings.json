@@ -72,6 +72,7 @@
   ]
  },
  "wchService": {
+  "enabled": true,
   "caching": false,
   "ttl": 300
  }

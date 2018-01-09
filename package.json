@@ -14,6 +14,7 @@
     "manageServices": "chatcreds manage -S",
     "pushWCH": "chatcreds push --wch",
     "pushWCS": "chatcreds push --wcs",
+    "sync": "chatcreds sync",
     "addGeoSrv": "bx cf cups geo_config -p \"key\"",
     "addCustomConvSrv": "bx cf cups custom_conv_nao -p \"url, username, password\"",
     "updateGeoSrv": "bx cf uups geo_config -p \"key\"",
@@ -44,7 +45,7 @@
     "node-cache": "^4.1.1",
     "sample-wch-node-connector": "^0.7.0",
     "watson-developer-cloud": "^2.30.0",
-    "wch-conversation-core": "^0.3.0"
+    "wch-conversation-core": "^0.3.3"
   },
   "devDependencies": {
     "commander": "^2.10.0",
