@@ -166,7 +166,7 @@ module.exports = {
     "semi": OFF,                      // require or disallow use of semicolons instead of ASI
     "sort-vars": OFF,                 // sort variables within the same declaration block (off by default)
     "space-after-function-name": OFF, // require a space after function names (off by default)
-    "space-after-keywords": [ERROR, 'always'],      // require a space after certain keywords (off by default)
+    "keyword-spacing": [ERROR, {"before": true, "after": true}],      // require a space after certain keywords (off by default)
     "space-before-blocks": OFF,       // require or disallow space before blocks (off by default)
     "space-in-brackets": OFF,         // require or disallow spaces inside brackets (off by default)
     "space-in-parens": OFF,           // require or disallow spaces inside parentheses (off by default)

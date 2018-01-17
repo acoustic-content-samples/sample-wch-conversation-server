@@ -84,6 +84,7 @@ npm install
 5. **Done.** Enjoy the demo. Feel free to make changes and create your own chatbot!
   
 #### Manage your content in Watson Content Hub
+
 This server is configured to fetch the content shown to users from WCH. This is based on the concept of syncing all intents, entities, dialog_nodes and actions from the conversation service to WCH. In order to trigger a sync start the application in the developermode. You can do this by changing the respective flag in the `app_settings.json` file to `true`. Afterwards you can tell your bot: `To push my changes to WCH`. This should do the job and afterwards you should see your changes in the taxonomy section of WCH.
 
 When using the sample you also have predefined content types to create your chatbot content. The types are: ChatOutputText, ChatAttachment, ChatFollowup and ChatActionButton.
