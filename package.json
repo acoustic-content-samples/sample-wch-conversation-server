@@ -45,7 +45,7 @@
     "node-cache": "^4.1.1",
     "sample-wch-node-connector": "^0.7.0",
     "watson-developer-cloud": "^2.30.0",
-    "wch-conversation-core": "^0.3.4"
+    "wch-conversation-core": "^0.5.6"
   },
   "devDependencies": {
     "commander": "^2.10.0",
