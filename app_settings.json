@@ -57,7 +57,7 @@
   "enabled": true
  },
  "dbService": {
-  "enabled": true
+  "enabled": false
  },
  "conversationMiddleware": {
   "config": [
@@ -69,7 +69,8 @@
     "workspaceId": "d361c2fc-cfb7-40a1-a46a-a218b4e62136",
     "locale": "de"
    }
-  ]
+  ],
+  "serviceName": "wch-conversation"
  },
  "wchService": {
   "enabled": true,
