@@ -33,62 +33,62 @@ app.use(bodyParser.urlencoded());
 
 debug('Configuring bots...');
 let initPromise = bots(app)
-.then(config => {
-  debug('Configuring bots finished');
-  app.set('appEnv', config.appEnv);
+  .then(config => {
+    debug('Configuring bots finished');
+    app.set('appEnv', config.appEnv);
 
-  debug(
-  `Starting Server...
-  Environment: ${(app.get('appEnv').isLocal) ? "local" : "bluemix"}`
-  );
+    debug(
+      `Starting Server...
+      Environment: ${(app.get('appEnv').isLocal) ? "local" : "bluemix"}`
+    );
 
-  debug('Configuring sync...');
-  // app.use('/sync', syncRoutes);
-  debug('Configuring sync finished');
+    debug('Configuring sync...');
+    // app.use('/sync', syncRoutes);
+    debug('Configuring sync finished');
 
-  debug('Configuring error handling...');
-  /* Catch 404 and forward to error handler */
-  app.use(function(req, res, next) {
-    let err = new Error('Not Found');
-    err.status = 404;
-    next(err);
-  });
+    debug('Configuring error handling...');
+    /* Catch 404 and forward to error handler */
+    app.use(function(req, res, next) {
+      let err = new Error('Not Found');
+      err.status = 404;
+      next(err);
+    });
 
-  /* Error Handlers */
+    /* Error Handlers */
 
-  // Log unhandled Promise expections
-  process.on('unhandledRejection', (reason, p) => {
-    debug('Unhandled Rejection at: %o reason: %s', p, reason);
-  });
+    // Log unhandled Promise expections
+    process.on('unhandledRejection', (reason, p) => {
+      debug('Unhandled Rejection at: %o reason: %s', p, reason);
+    });
 
-  let errorHandler;
-  if (app.get('appEnv').isLocal === true) {
-    // Error Handler: Development
-    errorHandler = function(err, req, res, next) {
-      debug('Error handler %o', err);
-      res.status(err.status || 500);
-      res.send({
-        message: err.message,
-        error: err
-      });
-    };
-  }
-  else {
-    // Error Handler: Production
-    errorHandler = function(err, req, res, next) {
-      debug('Error handler %o', err);
-      res.status(err.status || 500);
-      res.send({
-        message: err.message,
-        error: {}
-      });
-    };
-  }
+    let errorHandler;
+    if (app.get('appEnv').isLocal === true) {
+      // Error Handler: Development
+      errorHandler = function(err, req, res, next) {
+        debug('Error handler %o', err);
+        res.status(err.status || 500);
+        res.send({
+          message: err.message,
+          error: err
+        });
+      };
+    }
+    else {
+      // Error Handler: Production
+      errorHandler = function(err, req, res, next) {
+        debug('Error handler %o', err);
+        res.status(err.status || 500);
+        res.send({
+          message: err.message,
+          error: {}
+        });
+      };
+    }
 
-  app.use('/', errorHandler);
-  debug('Configuring error handling finished');
+    app.use('/', errorHandler);
+    debug('Configuring error handling finished');
 
-})
-.catch(err => debug(err));
+  })
+  .catch(err => debug(err));
 
 module.exports = initPromise.then(() => app);

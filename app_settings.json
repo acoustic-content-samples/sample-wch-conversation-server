@@ -19,7 +19,8 @@
  "channels": {
   "alexa": {
    "enabled": true,
-   "debug": false
+   "debug": false,
+   "chatpersona": "mrwatson"
   },
   "fb": {
    "enabled": true,
@@ -57,7 +58,7 @@
   "enabled": true
  },
  "dbService": {
-  "enabled": false
+  "enabled": true
  },
  "conversationMiddleware": {
   "config": [
@@ -66,7 +67,7 @@
     "locale": "en"
    },
    {
-    "workspaceId": "d361c2fc-cfb7-40a1-a46a-a218b4e62136",
+    "workspaceId": "29c9296c-5c7f-43b7-bcbf-72f434c3dc06",
     "locale": "de"
    }
   ],
