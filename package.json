@@ -45,7 +45,7 @@
     "node-cache": "^4.2.0",
     "sample-wch-node-connector": "^0.7.5",
     "watson-developer-cloud": "^2.30.0",
-    "wch-conversation-core": "^0.6.1"
+    "wch-conversation-core": "^0.6.2"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
