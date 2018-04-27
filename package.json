@@ -45,10 +45,9 @@
     "node-cache": "^4.2.0",
     "sample-wch-node-connector": "^0.7.5",
     "watson-developer-cloud": "^2.30.0",
-    "wch-conversation-core": "^0.5.10"
+    "wch-conversation-core": "^0.5.11"
   },
   "devDependencies": {
-    "commander": "^2.15.1",
     "eslint": "^4.19.1",
     "gulp": "^3.9.0",
     "gulp-eslint": "^1.0.0",
@@ -56,8 +55,7 @@
     "gulp-nodemon": "^2.0.3",
     "mocha": "^3.1.2",
     "prompt": "^1.0.0",
-    "should": "^11.1.1",
-    "wchtools-cli": "^2.2.1"
+    "should": "^11.1.1"
   },
   "repository": {
     "git": "https://github.com/ibm-wch/sample-wch-conversation-server"
