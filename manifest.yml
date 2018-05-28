@@ -19,3 +19,4 @@ applications:
   - wch-languagetranslator
   env:
     BX_CREDS: true
+    APP_SETTINGS: 'app_settings_prod'

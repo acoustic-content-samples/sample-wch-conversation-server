@@ -7,7 +7,7 @@
    "de",
    "en"
   ],
-  "developermode": true,
+  "developermode": false,
   "confLvl": "0.7",
   "credentialsStore": {
    "path": "./dch_vcap.json",
@@ -58,24 +58,24 @@
   "enabled": true
  },
  "dbService": {
-  "enabled": false
+  "enabled": true
  },
  "conversationMiddleware": {
   "config": [
    {
-    "workspaceId": "29c9296c-5c7f-43b7-bcbf-72f434c3dc06",
-    "locale": "de"
-   },
-   {
     "workspaceId": "9db75ce4-a059-4f53-988d-de239eed10a0",
     "locale": "en"
+   },
+   {
+    "workspaceId": "29c9296c-5c7f-43b7-bcbf-72f434c3dc06",
+    "locale": "de"
    }
   ],
   "serviceName": "wch-conversation"
  },
  "wchService": {
   "enabled": true,
-  "caching": false,
+  "caching": true,
   "ttl": 300
  }
 }
