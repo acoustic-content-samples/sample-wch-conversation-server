@@ -48,25 +48,51 @@ You can basically host this server anywhere. Note that if you want to run the se
 
 ### Important Notes about the creation of Services
 If you are planning to push the server to bluemix make sure to name the services as defined during your setup. Make sure that the `manifest.yml` only has the services you use. This step is not automated yet. The default values should be:
-- Conversation Service `wch-conversation`
-- Tone Analyzer Service `wch-toneanalyzer`
+- for the Conversation Service `wch-conversation`
 
 ![Bluemix Services Image](/doc/4%20-%20Created%20Services.PNG)
 
+Based on the capabilites you want to use adjust the `manifest.yml` accordingly. See below the minimal setup required. Note: With the environment variable `APP_SETTINGS` you can change the name of the settings json file for multi-stage scenarios.
+
+#### Sample manifest.yml
+
+```yaml
+applications:
+- path: .
+  memory: 256M
+  buildpack: sdk-for-nodejs
+  instances: 1
+  domain: mybluemix.net
+  name: wch-conv-int-srv
+  host: wch-conv-int-srv
+  disk_quota: 1024M
+  services:
+  - wch_config
+  - wch-conversation
+  env:
+    BX_CREDS: true
+    APP_SETTINGS: 'app_settings_prod'
+```
+
 ### Gather all credentials
+
+Based on your selected setup see the instructions on how to get to the credentials. Note them down. You will need them once you are running the `npm run manageCreds` script.
+
 1. Watson Content Hub - Login into your tenant. Click on your name and open 'Hub Setup'. There you find your API URL and Tenant Id. 
 2. Watson Conversation Service - [Follow the instructions in the official documentation on how to get the service credentials][bluemixapi]
-3. Watson Tone Analyzer - [Follow the instructions in the official documentation on how to get the service credentials][bluemixapi]
-4. Watson Language Translator - [Follow the instructions in the official documentation on how to get the service credentials][bluemixapi]
-5. Slack Application - [Follow the instructions in the official documentation on how to setup an Slack Application and obtaining a bot key][slackapi]
-6. Google Geolocation API - [Follow the instructions in the official documentation to get an API Key][geoapi]
+3. **Optional:** Watson Tone Analyzer - [Follow the instructions in the official documentation on how to get the service credentials][bluemixapi]
+4. **Optional:** Watson Language Translator - [Follow the instructions in the official documentation on how to get the service credentials][bluemixapi]
+5. **Optional:** Slack Application - [Follow the instructions in the official documentation on how to setup an Slack Application and obtaining a bot key][slackapi]
+6. **Optional:** Google Geolocation API - [Follow the instructions in the official documentation to get an API Key][geoapi]
+7. **Optional:** Facebook Messenger - [Follow the instructions in the official documentation to setup a Webhook][fbwebhook]
 
+[fbwebhook]:https://developers.facebook.com/docs/messenger-platform/getting-started/webhook-setup
 [bluemixapi]:https://www.ibm.com/watson/developercloud/doc/common/getting-started-credentials.html
 [slackapi]:https://api.slack.com/slack-apps
 [geoapi]:https://developers.google.com/maps/documentation/geolocation/get-api-key
 
 ### Server Setup
-1. **[Required]** Clone the repository & install dependencies:
+1. **[Required]** Clone the repository & install the dependencies:
 ```
 git clone https://github.com/ibm-wch/sample-wch-conversation-server.git
 cd ./sample-wch-conversation-server
@@ -75,13 +101,17 @@ npm install
 
 2. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run manageCreds`. This will ask for all credentials needed.<br/><br/>If you also want to setup the content model for WCH run `npm run pushWCH`.<br/><br/>*NOTE:* If you encrypted your local credentials file you can always rerun the manageCreds command to make changes.
 
-3. **[Required]** To test if everything works as expected you should start the server by running `npm run devDebug`. This will start a nodemon server with tracing/logging enabled. If you don't want tracing enabled in the future simply run `npm run dev`. After startup you should be able to call the endpoint `POST http://localhost:6001/rest/message Body: {"input":"What is WCH?","user":"Test" }` and get a JSON response containing a text field with content from Watson Content Hub.<br/>
+3. **[Required]** In order to sync your conversation model with WCH execute the `npm run sync` command. This should create the corresponding taxonmies in your WCH tenant.
+
+4. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run manageCreds`. This will ask for all credentials needed.<br/><br/>If you also want to setup the content model for WCH run `npm run pushWCH`.<br/><br/>*NOTE:* If you encrypted your local credentials file you can always rerun the manageCreds command to make changes
+
+5. **[Required]** To test if everything works as expected you should start the server by running `npm run devDebug`. This will start a nodemon server with tracing/logging enabled. If you don't want tracing enabled in the future simply run `npm run dev`. After startup you should be able to call the endpoint `POST http://localhost:6001/rest/message Body: {"input":"What is WCH?","user":"Test" }` and get a JSON response containing a text field with content from Watson Content Hub.<br/>
 
 ![Check Setup](/doc/Check.gif)
 
-4. **[Optional]** If you like you can push the sample server on bluemix by running `bx cf push`. But before please make sure to change the hostname of the application in the `manifest.yml`. Also you have to configure the credentials on bluemix. Therefore sipmly run `npm run addGeoSrv`, `npm run addWchSrv`, `npm run addBotSrv`, `npm run addFbSrv`, `addAlexaSrv` and `npm run addDBSrv`. (Of course you can skip over those services you've disabled during the setup. Just make sure to remove them from the `manifest.yml`)
+6. **[Optional]** If you like you can push the sample server on bluemix by running `bx cf push`. But before please make sure to change the hostname of the application in the `manifest.yml`. Also you have to configure the credentials on bluemix. Therefore sipmly run `npm run addGeoSrv`, `npm run addWchSrv`, `npm run addBotSrv`, `npm run addFbSrv`, `addAlexaSrv` and `npm run addDBSrv`. (Of course you can skip over those services you've disabled during the setup. Just make sure to remove them from the `manifest.yml`)
 
-5. **Done.** Enjoy the demo. Feel free to make changes and create your own chatbot!
+7. **Done.** Enjoy your chatbot. Feel free to make changes and personalize your chatbot!
   
 #### Manage your content in Watson Content Hub
 
