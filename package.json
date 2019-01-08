@@ -31,11 +31,11 @@
     "dockerun": "docker run -p 6001:6001 wchconversation"
   },
   "dependencies": {
-    "@google/maps": "^0.3.1",
+    "@google/maps": "^0.5.5",
     "architect": "^0.1.13",
     "body-parser": "^1.18.3",
-    "botkit": "^0.6.14",
-    "botkit-middleware-watson": "^1.7.1",
+    "botkit": "^0.7.0",
+    "botkit-middleware-watson": "^1.8.1",
     "botkit-storage-mongo": "^1.0.6",
     "cfenv": "^1.1.0",
     "debug": "^2.6.8",
@@ -43,15 +43,15 @@
     "handlebars": "^4.0.8",
     "node-cache": "^4.2.0",
     "sample-wch-node-connector": "^0.7.8",
-    "watson-developer-cloud": "^2.30.0",
+    "watson-developer-cloud": "^4.0.0",
     "wch-conversation-core": "^0.7.11"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
-    "gulp": "^3.9.0",
-    "gulp-eslint": "^1.0.0",
-    "gulp-if": "^1.2.5",
-    "gulp-nodemon": "^2.0.3",
+    "gulp": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-nodemon": "^2.4.2",
     "mocha": "^5.2.0",
     "prompt": "^1.0.0",
     "should": "^11.1.1"
