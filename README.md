@@ -1,6 +1,6 @@
-# WCH Conversation Server
+# Acoustic Content Conversation Server
 
-Starter Kit to implement rich-featured, cross-channel & multi-language chat solutions with omni-channel content for messengers, websites and bots.
+Starter Kit to implement rich-featured, cross-channel & multi-language chat solutions with omni-channel content managed with Acoustic Content (formerly Watson Content Hub) for messengers, websites and bots.
 
 This starter kit is also used for the [WCH Robot Maker Kit](https://my.digitalexperience.ibm.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html).
 
