@@ -129,10 +129,10 @@ The content type `ChatOutputText` is at the core when creating an answer. Here y
 
 **Note:** This is a potentially expensive operation - so disable developermode for production use cases!
 
-### Resources
+## Resources
 
-API Explorer reference documentation: https://developer.ibm.com/api/view/id-618
+Acoustic Content developer documentation: https://developer.goacoustic.com/acoustic-content/docs
 
-Watson Content Hub developer center: https://developer.ibm.com/wch/
+Acoustic Content API reference documentation: https://developer.goacoustic.com/acoustic-content/reference
 
-Watson Content Hub forum: https://developer.ibm.com/answers/smartspace/wch/
+Acoustic Content Samples Gallery: https://content-samples.goacoustic.com/
