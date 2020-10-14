@@ -2,7 +2,7 @@
 
 Starter Kit to implement rich-featured, cross-channel & multi-language chat solutions with omni-channel content managed with Acoustic Content (formerly Watson Content Hub) for messengers, websites and bots.
 
-This starter kit is also used for the [WCH Robot Maker Kit](https://my.digitalexperience.ibm.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html).
+This starter kit is also used for the [WCH Robot Maker Kit](https://content-us-1.content-cms.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html).
 
 The conversational capabilites such as language understanding and dialog structure are implemented through the [Watson Conversation Service](https://www.ibm.com/watson/services/conversation/). Every content visible to the user of the chat is created and managed inside of [Watson Content Hub](https://www.ibm.com/de-de/marketplace/cloud-cms-solution). You can also use other cognitive services such as the Tone Analyzer to enrich the inital experience.
 
