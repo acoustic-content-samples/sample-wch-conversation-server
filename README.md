@@ -97,11 +97,11 @@ cd ./sample-wch-conversation-server
 npm install
 ```
 
-2. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run manageCreds`. This will ask for all credentials needed.<br/><br/>If you also want to setup the content model for WCH run `npm run pushWCH`.<br/><br/>*NOTE:* If you encrypted your local credentials file you can always rerun the manageCreds command to make changes.
+2. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run manageCreds`. This will ask for all credentials needed.<br/><br/>If you also want to setup the content model for Acoustic Content run `npm run pushWCH`.<br/><br/>*NOTE:* If you encrypted your local credentials file you can always rerun the manageCreds command to make changes.
 
-3. **[Required]** In order to sync your conversation model with WCH execute the `npm run sync` command. This should create the corresponding taxonmies in your WCH tenant.
+3. **[Required]** In order to sync your conversation model with Acoustic Content execute the `npm run sync` command. This should create the corresponding taxonmies in your Acoustic Content tenant.
 
-4. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run manageCreds`. This will ask for all credentials needed.<br/><br/>If you also want to setup the content model for WCH run `npm run pushWCH`.<br/><br/>*NOTE:* If you encrypted your local credentials file you can always rerun the manageCreds command to make changes
+4. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run manageCreds`. This will ask for all credentials needed.<br/><br/>If you also want to setup the content model for Acoustic Content run `npm run pushWCH`.<br/><br/>*NOTE:* If you encrypted your local credentials file you can always rerun the manageCreds command to make changes
 
 5. **[Required]** To test if everything works as expected you should start the server by running `npm run devDebug`. This will start a nodemon server with tracing/logging enabled. If you don't want tracing enabled in the future simply run `npm run dev`. After startup you should be able to call the endpoint `POST http://localhost:6001/rest/message Body: {"input":"What is WCH?","user":"Test" }` and get a JSON response containing a text field with content from Acoustic Content.<br/>
 
@@ -113,7 +113,7 @@ npm install
   
 #### Manage your content in Acoustic Content
 
-This server is configured to fetch the content shown to users from Acoustic Content. This is based on the concept of syncing all intents, entities, dialog_nodes and actions from the conversation service to WCH. In order to trigger a sync start the application in the developermode. You can do this by changing the respective flag in the `app_settings.json` file to `true`. Afterwards you can tell your bot: `To push my changes to WCH`. This should do the job and afterwards you should see your changes in the taxonomy section of WCH.
+This server is configured to fetch the content shown to users from Acoustic Content. This is based on the concept of syncing all intents, entities, dialog_nodes and actions from the conversation service to Acoustic Content. In order to trigger a sync start the application in the developermode. You can do this by changing the respective flag in the `app_settings.json` file to `true`. Afterwards you can tell your bot: `To push my changes to WCH`. This should do the job and afterwards you should see your changes in the taxonomy section of Acoustic Content.
 
 When using the sample you also have predefined content types to create your chatbot content. The types are: ChatOutputText, ChatAttachment, ChatFollowup and ChatActionButton.
 
