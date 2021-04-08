@@ -18,9 +18,9 @@ To give you an idea what can be achieved with this solution:
 ## Core Idea
 Most of the time the structure of your dialogs aren't changing. What frequently changes are the topics and things you talk about. So this means that you should implement a solution which allows content marketeers to make those changes.
 
-The value of this proposed solution is _simple and powerful_: The Watson Conversation Service defines the flow & structure of the conversation. It represents the "technical brain" and stores no actual content shown to the users of the chatbot solution. The actual content is managed in our headless CMS called Watson Content Hub. Through a well known authoring UI we enable business users to createe & manage the chatbot content without any additional complexity compared to managing content for their websites.
+The value of this proposed solution is _simple and powerful_: The Watson Conversation Service defines the flow & structure of the conversation. It represents the "technical brain" and stores no actual content shown to the users of the chatbot solution. The actual content is managed in our headless CMS called Acoustic Content. Through a well known authoring UI we enable business users to create & manage the chatbot content without any additional complexity compared to managing content for their websites.
 
-| Watson Conversation Service | Watson Content Hub |
+| Watson Conversation Service | Acoustic Content |
 |---|---|
 | <ul><li>Defines the conversational structure</li><li>Manages the state of conversations</li><li>"State Machine"</li><li>No awarness of the actual content</li><li>Possibility to add custom actions</li></ul> | <ul><li>Have rich content capablities</li><li>Reusable content in other applications</li><li>Omni-Channel (Create once publish everywhere)</li><li>Adapt to various output mediums (e.g. Screen, Audio, Text)</li><li>Use the context information from the conversation service for dynamic content</li><li>No training needed - you manage your content the same way as before</li><li>Easy to use Authoring UI</li></ul> |
 
@@ -38,7 +38,7 @@ You can basically host this server anywhere. Note that if you want to run the se
 - Node V8+
 - You need a valid Blue ID
 - You need an instance of the conversation service from Bluemix
-- You need a Watson Content Hub account
+- You need a Acoustic Content account
 ### Optional Requirements
 - You can add an instance of the tone analyzer service from Bluemix
 - You can add an instance of the Google Geolocation Service
@@ -78,7 +78,7 @@ applications:
 
 Based on your selected setup see the instructions on how to get to the credentials. Note them down. You will need them once you are running the `npm run manageCreds` script.
 
-1. Watson Content Hub - Login into your tenant. Click on your name and open 'Hub Setup'. There you find your API URL and Tenant Id. 
+1. Acoustic Content - Login into your tenant. Click on your name and open 'Hub Setup'. There you find your API URL and Tenant Id. 
 2. Watson Conversation Service - [Follow the instructions in the official documentation on how to get the service credentials][bluemixapi]
 3. **Optional:** Watson Tone Analyzer - [Follow the instructions in the official documentation on how to get the service credentials][bluemixapi]
 4. **Optional:** Watson Language Translator - [Follow the instructions in the official documentation on how to get the service credentials][bluemixapi]
@@ -105,7 +105,7 @@ npm install
 
 4. **[Required]** If you want to start the server locally you have to pass in the credentials to the dependent services. In order to setup the complete sample simply run `npm run manageCreds`. This will ask for all credentials needed.<br/><br/>If you also want to setup the content model for WCH run `npm run pushWCH`.<br/><br/>*NOTE:* If you encrypted your local credentials file you can always rerun the manageCreds command to make changes
 
-5. **[Required]** To test if everything works as expected you should start the server by running `npm run devDebug`. This will start a nodemon server with tracing/logging enabled. If you don't want tracing enabled in the future simply run `npm run dev`. After startup you should be able to call the endpoint `POST http://localhost:6001/rest/message Body: {"input":"What is WCH?","user":"Test" }` and get a JSON response containing a text field with content from Watson Content Hub.<br/>
+5. **[Required]** To test if everything works as expected you should start the server by running `npm run devDebug`. This will start a nodemon server with tracing/logging enabled. If you don't want tracing enabled in the future simply run `npm run dev`. After startup you should be able to call the endpoint `POST http://localhost:6001/rest/message Body: {"input":"What is WCH?","user":"Test" }` and get a JSON response containing a text field with content from Acoustic Content.<br/>
 
 ![Check Setup](/doc/Check.gif)
 
@@ -113,7 +113,7 @@ npm install
 
 7. **Done.** Enjoy your chatbot. Feel free to make changes and personalize your chatbot!
   
-#### Manage your content in Watson Content Hub
+#### Manage your content in Acoustic Content
 
 This server is configured to fetch the content shown to users from WCH. This is based on the concept of syncing all intents, entities, dialog_nodes and actions from the conversation service to WCH. In order to trigger a sync start the application in the developermode. You can do this by changing the respective flag in the `app_settings.json` file to `true`. Afterwards you can tell your bot: `To push my changes to WCH`. This should do the job and afterwards you should see your changes in the taxonomy section of WCH.
 
