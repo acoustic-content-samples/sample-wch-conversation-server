@@ -1,10 +1,8 @@
 # Acoustic Content Conversation Server
 
-Starter Kit to implement rich-featured, cross-channel & multi-language chat solutions with omni-channel content managed with Acoustic Content (formerly Watson Content Hub) for messengers, websites and bots.
+Starter Kit to implement rich-featured, cross-channel & multi-language chat solutions with omni-channel content managed with Acoustic Content for messengers, websites and bots.
 
-This starter kit is also used for the [WCH Robot Maker Kit](https://content-us-1.content-cms.com/58b9043c-6075-4fde-8090-ea22d9890922/mtl-website/index.html).
-
-The conversational capabilites such as language understanding and dialog structure are implemented through the [Watson Conversation Service](https://www.ibm.com/watson/services/conversation/). Every content visible to the user of the chat is created and managed inside of [Watson Content Hub](https://www.ibm.com/de-de/marketplace/cloud-cms-solution). You can also use other cognitive services such as the Tone Analyzer to enrich the inital experience.
+All content visible to the user of the chat is created and managed inside of [Acoustic Content](https://acoustic.com/products/content). The conversational capabilites such as language understanding and dialog structure are implemented through the [IBM Watson Conversation Service](https://www.ibm.com/watson/services/conversation/). A chatbot could also be built using Acoustic Content in combination with any AI system, such as AWS. 
 
 The sample currently supports multiple chat-interfaces:
 1. A **REST API** for easy integration into websites or audio bots.
@@ -20,12 +18,12 @@ Most of the time the structure of your dialogs aren't changing. What frequently 
 
 The value of this proposed solution is _simple and powerful_: The Watson Conversation Service defines the flow & structure of the conversation. It represents the "technical brain" and stores no actual content shown to the users of the chatbot solution. The actual content is managed in our headless CMS called Acoustic Content. Through a well known authoring UI we enable business users to create & manage the chatbot content without any additional complexity compared to managing content for their websites.
 
-| Watson Conversation Service | Acoustic Content |
+| Acoustic Content | Watson Conversation Service |
 |---|---|
 | <ul><li>Defines the conversational structure</li><li>Manages the state of conversations</li><li>"State Machine"</li><li>No awarness of the actual content</li><li>Possibility to add custom actions</li></ul> | <ul><li>Have rich content capablities</li><li>Reusable content in other applications</li><li>Omni-Channel (Create once publish everywhere)</li><li>Adapt to various output mediums (e.g. Screen, Audio, Text)</li><li>Use the context information from the conversation service for dynamic content</li><li>No training needed - you manage your content the same way as before</li><li>Easy to use Authoring UI</li></ul> |
 
 ## How does it work
-This is also simple because WCS and WCH work well together through their rich REST APIs. First the utterances of the user are all going to the Watson Converation Services. It takes care of the natural language understanding and the context handling for each user. The results of WCS are then transformed dynamically into a search query against WCH. The result of the query then gives us the actual content we then map into the respective channel of the user.
+This is also simple because IBM Watson Conversation Service and Acoustic Content work well together through their rich REST APIs. First the utterances of the user are all going to the Watson Converation Services. It takes care of the natural language understanding and the context handling for each user. The results of IBM Watson Conversation Service are then transformed dynamically into a search query against Acoustic Content. The result of the query then gives us the actual content we then map into the respective channel of the user.
 
 For more information check out this [video](https://www.youtube.com/watch?v=bT1QgOV5jyY)
 
@@ -115,7 +113,7 @@ npm install
   
 #### Manage your content in Acoustic Content
 
-This server is configured to fetch the content shown to users from WCH. This is based on the concept of syncing all intents, entities, dialog_nodes and actions from the conversation service to WCH. In order to trigger a sync start the application in the developermode. You can do this by changing the respective flag in the `app_settings.json` file to `true`. Afterwards you can tell your bot: `To push my changes to WCH`. This should do the job and afterwards you should see your changes in the taxonomy section of WCH.
+This server is configured to fetch the content shown to users from Acoustic Content. This is based on the concept of syncing all intents, entities, dialog_nodes and actions from the conversation service to WCH. In order to trigger a sync start the application in the developermode. You can do this by changing the respective flag in the `app_settings.json` file to `true`. Afterwards you can tell your bot: `To push my changes to WCH`. This should do the job and afterwards you should see your changes in the taxonomy section of WCH.
 
 When using the sample you also have predefined content types to create your chatbot content. The types are: ChatOutputText, ChatAttachment, ChatFollowup and ChatActionButton.
 
